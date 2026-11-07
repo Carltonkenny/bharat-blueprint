@@ -1,0 +1,167 @@
+1
+00:00:00.000 --> 00:00:07.775
+On the sixth of April, twenty twenty-six, a reactor at Kalpakkam started a controlled chain reaction.
+
+2
+00:00:07.775 --> 00:00:15.550
+It was built to do more than make electricity.
+
+3
+00:00:15.550 --> 00:00:23.325
+It is meant to be a bridge to the reactors of the next generation.
+
+4
+00:00:23.325 --> 00:00:31.100
+So what is a power station for, if its real job is to prepare the next one?
+
+5
+00:00:31.100 --> 00:00:58.900
+That is the unusual ambition behind India's three-stage nuclear power programme.
+
+6
+00:00:58.900 --> 00:01:03.350
+The engineering challenge was real.
+
+7
+00:01:03.350 --> 00:01:07.800
+Nuclear fuel is not a magic stone that produces unlimited power.
+
+8
+00:01:07.800 --> 00:01:12.000
+Start with a campfire.
+
+9
+00:01:12.000 --> 00:01:16.200
+A log releases stored chemical energy as it burns.
+
+10
+00:01:16.200 --> 00:01:20.400
+A nuclear reactor releases energy through controlled changes inside atomic nuclei.
+
+11
+00:01:20.400 --> 00:01:24.600
+That energy becomes heat.
+
+12
+00:01:24.600 --> 00:01:28.800
+The heat can produce steam, the steam drives a turbine, and the turbine generates electricity.
+
+13
+00:01:28.800 --> 00:01:33.000
+The turbine is familiar.
+
+14
+00:01:33.000 --> 00:01:37.200
+The source of heat is not.
+
+15
+00:01:37.200 --> 00:01:43.600
+Now picture a farm that does more than harvest crops.
+
+16
+00:01:43.600 --> 00:01:50.000
+It also produces seeds for the next season.
+
+17
+00:01:50.000 --> 00:01:56.400
+It is only an analogy, but it captures the idea behind a breeder reactor.
+
+18
+00:01:56.400 --> 00:02:02.800
+The system can convert some material into new usable nuclear fuel while it operates.
+
+19
+00:02:02.800 --> 00:02:10.933
+That does not mean a reactor creates energy from nothing.
+
+20
+00:02:10.933 --> 00:02:19.067
+It means the fuel cycle is designed to make better use of material that would otherwise remain underused.
+
+21
+00:02:19.067 --> 00:02:27.200
+The science, the materials and the safety systems are far more complex than the farming analogy.
+
+22
+00:02:27.200 --> 00:02:32.750
+India's long-term plan connects different reactor technologies in stages.
+
+23
+00:02:32.750 --> 00:02:38.300
+The early stage established experience with pressurised heavy-water reactors.
+
+24
+00:02:38.300 --> 00:02:43.850
+The next stage develops fast breeder technology.
+
+25
+00:02:43.850 --> 00:02:49.400
+The eventual ambition is broader thorium utilisation.
+
+26
+00:02:49.400 --> 00:02:56.400
+India's indigenously designed Prototype Fast Breeder Reactor is rated at five hundred megawatts electric.
+
+27
+00:02:56.400 --> 00:03:03.400
+In April twenty twenty-six it reached first criticality.
+
+28
+00:03:03.400 --> 00:03:10.400
+According to the Department of Atomic Energy, this marked entry into the programme's second stage.
+
+29
+00:03:10.400 --> 00:03:17.400
+First criticality means a controlled chain reaction has been established.
+
+30
+00:03:17.400 --> 00:03:24.400
+It does not mean the reactor has completed every step needed for sustained commercial electricity generation.
+
+31
+00:03:24.400 --> 00:03:29.300
+Here is a fictional scenario.
+
+32
+00:03:29.300 --> 00:03:34.200
+An energy planner imagines a future fleet of reactors.
+
+33
+00:03:34.200 --> 00:03:39.100
+Building the first plant is only the beginning.
+
+34
+00:03:39.100 --> 00:03:44.000
+The planner must also account for fuel preparation, maintenance, regulation, waste management and the next generation of facilities.
+
+35
+00:03:44.000 --> 00:03:48.900
+The challenge is not one machine.
+
+36
+00:03:48.900 --> 00:03:53.800
+It is an entire system across decades.
+
+37
+00:03:53.800 --> 00:04:03.800
+There is more work ahead.
+
+38
+00:04:03.800 --> 00:04:13.800
+The third stage is still a long-term objective, not a fully deployed national power system.
+
+39
+00:04:13.800 --> 00:04:23.800
+Safe operation, fuel-cycle infrastructure, cost and scale remain essential questions.
+
+40
+00:04:23.800 --> 00:04:30.100
+The achievement deserves respect precisely because the remaining work is difficult.
+
+41
+00:04:30.100 --> 00:04:36.400
+A milestone is not the end of the road.
+
+42
+00:04:36.400 --> 00:04:42.700
+It tells engineers where the next road begins.

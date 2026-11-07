@@ -1,0 +1,1937 @@
+{
+  "id": "E06",
+  "title": "The Machine That Digs Without Bringing a City Down",
+  "world": "strata",
+  "fps": 30,
+  "seed": "s02",
+  "passages": [
+    {
+      "id": "P01",
+      "text": "Above ground, a city keeps moving. Cars cross bridges. Trains arrive. People sleep in buildings that have stood for decades.",
+      "estSec": 32.8,
+      "flag": "",
+      "words": 59
+    },
+    {
+      "id": "P02",
+      "text": "A tunnel boring machine, or TBM, is one of the most demanding tools in modern construction. India is using these machines on major rail projects. Large, specialised machines and their parts can involve complicated international supply chains.",
+      "estSec": 20.6,
+      "flag": "",
+      "words": 37
+    },
+    {
+      "id": "P03",
+      "text": "This is not a story of one door slammed shut. It is a story of dependence on a few specialised machines, and the engineering needed to work underground.",
+      "estSec": 15.6,
+      "flag": "",
+      "words": 28
+    },
+    {
+      "id": "P04",
+      "text": "Start with a spoon pushed into a bowl of wet sand. The spoon removes material, but the sand can collapse into the gap. Now imagine doing that beneath roads and buildings. Excavation is only half the problem. The other half is keeping the surrounding ground stable.",
+      "estSec": 25.6,
+      "flag": "",
+      "words": 46
+    },
+    {
+      "id": "P05",
+      "text": "At the front of the machine is a rotating cutterhead. It breaks or scrapes away the material ahead. Behind it, systems carry the excavated material away. But a tunnel cannot be left as an unsupported hole. Depending on ground conditions and machine design, pressure at the excavation face must be carefully managed. On the Mumbai machines, pressurised slurry does that job.",
+      "estSec": 33.9,
+      "flag": "",
+      "words": 61
+    },
+    {
+      "id": "P06",
+      "text": "Think of holding a hand against a door while someone pushes from the other side. If the opposing forces are badly balanced, the door moves. In tunnelling, the equivalent imbalance can allow the ground to shift. Engineers monitor pressure, movement and the behaviour of the soil or rock continuously.",
+      "estSec": 27.2,
+      "flag": "",
+      "words": 49
+    },
+    {
+      "id": "P07",
+      "text": "Now look behind the cutterhead. As the machine advances, precast concrete segments can be assembled into rings. These rings become the tunnel lining. Imagine constructing the walls of a corridor immediately after carving out the space for it. The machine is not just digging a hole. It is helping create a supported passage.",
+      "estSec": 29.4,
+      "flag": "",
+      "words": 53
+    },
+    {
+      "id": "P08",
+      "text": "In July twenty twenty-six, the railway ministry reported a second tunnel boring machine starting work. It is on the Mumbai to Ahmedabad bullet train line. Seven kilometres of that ten kilometre stretch run under Thane Creek. The scale is impressive. The more interesting fact is the coordination. Geology, machine control, surveying, segments, transport and safety all have to work together.",
+      "estSec": 33.3,
+      "flag": "",
+      "words": 60
+    },
+    {
+      "id": "P09",
+      "text": "Here is a fictional scenario. A cutterhead encounters unexpectedly different ground. The machine cannot simply push harder without understanding the consequences. Operators adjust the excavation process, monitor movement and protect the ground above. Progress becomes a question of control, not brute force.",
+      "estSec": 23.3,
+      "flag": "FICTIONAL SCENARIO",
+      "words": 42
+    },
+    {
+      "id": "P10",
+      "text": "India's next challenge is deepening domestic capability in high-value machinery, specialised components, manufacturing, maintenance and engineering know-how.",
+      "estSec": 18.3,
+      "flag": "",
+      "words": 33
+    },
+    {
+      "id": "P11",
+      "text": "The machine makes a tunnel. The industry behind the machine determines how easily the next tunnel can be built, repaired, adapted and completed.",
+      "estSec": 16.7,
+      "flag": "",
+      "words": 30
+    }
+  ],
+  "beats": [
+    {
+      "id": "1.01",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hook",
+      "w": 2.4,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 380,
+              "y1": 720,
+              "x2": 1540,
+              "y2": 720,
+              "w": 3,
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "rect",
+              "x": 700,
+              "y": 600,
+              "w": 120,
+              "h": 90,
+              "w2": 2,
+              "col": "#ff9b3d",
+              "at": 0.15,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1000,
+              "y": 600,
+              "w": 120,
+              "h": 90,
+              "w2": 2,
+              "col": "#ff9b3d",
+              "at": 0.25,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1300,
+              "y": 620,
+              "w": 90,
+              "h": 70,
+              "w2": 2,
+              "col": "#ff9b3d",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 880,
+              "y": 500,
+              "w": 80,
+              "h": 70,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.45,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A CITY KEEPS MOVING",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "city street, cars, a bridge, a train, sleeping buildings, each drawn in one stroke",
+      "cam": "hold"
+    },
+    {
+      "id": "1.02",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 380,
+              "y1": 720,
+              "x2": 1540,
+              "y2": 720,
+              "w": 3,
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "poly",
+              "pts": [
+                [
+                  700,
+                  720
+                ],
+                [
+                  900,
+                  480
+                ],
+                [
+                  1100,
+                  720
+                ]
+              ],
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.15,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "the street folds open into a cutaway",
+      "cam": "hold"
+    },
+    {
+      "id": "1.03",
+      "p": "P01",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.2,
+          "pos": [
+            0,
+            -40,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "below: a steel cutterhead turning in the dark, push-in",
+      "cam": "push-in"
+    },
+    {
+      "id": "1.04",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.2,
+      "scene": [
+        {
+          "op": "text",
+          "text": "ABOVE: A CITY KEEPS MOVING.",
+          "x": 960,
+          "y": 440,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "BELOW: A MACHINE EATS THE EARTH.",
+          "x": 960,
+          "y": 530,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: ABOVE: A CITY KEEPS MOVING. BELOW: A MACHINE EATS THE EARTH.",
+      "cam": "hold"
+    },
+    {
+      "id": "1.05",
+      "p": "P01",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "city-slice",
+          "scale": 1.2
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "gauge",
+              "x": 1420,
+              "y": 300,
+              "r": 56,
+              "value": 0.72,
+              "at": 0.3,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "THE GROUND HOLDS",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "the ground above shown calm, a tiny gauge steady",
+      "cam": "hold"
+    },
+    {
+      "id": "1.06",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE GROUND MUST NOT MOVE",
+          "x": 960,
+          "y": 540,
+          "size": 54,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: THE GROUND MUST NOT MOVE",
+      "cam": "hold"
+    },
+    {
+      "id": "2.01",
+      "p": "P02",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.3,
+          "pos": [
+            0,
+            -20,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "full TBM silhouette, tagged CONCEPTUAL, slurry type",
+      "cam": "hold"
+    },
+    {
+      "id": "2.02",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.4,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.3,
+          "pos": [
+            0,
+            -20,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "RAIL LINKS",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "tags: METRO · RAIL LINKS · MAJOR PROJECTS (only if ledger F07 is sourced)",
+      "cam": "hold"
+    },
+    {
+      "id": "2.03a",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.45,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.3,
+          "pos": [
+            0,
+            -20,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 300,
+              "y1": 300,
+              "x2": 700,
+              "y2": 420,
+              "col": "#8fe4ff",
+              "at": 0.15,
+              "dur": 0.4
+            },
+            {
+              "k": "arrow",
+              "x1": 300,
+              "y1": 780,
+              "x2": 700,
+              "y2": 620,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "SPECIALISED MACHINES AND PARTS",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "supply-chain lines drawn as faint arrows converging on the machine: SPECIALISED MACHINES AND PARTS (only if F08 is sourced)",
+      "cam": "hold"
+    },
+    {
+      "id": "2.03b",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.45,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.3,
+          "pos": [
+            0,
+            -20,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 300,
+              "y1": 300,
+              "x2": 700,
+              "y2": 420,
+              "col": "#8fe4ff",
+              "at": 0.15,
+              "dur": 0.4
+            },
+            {
+              "k": "arrow",
+              "x1": 300,
+              "y1": 780,
+              "x2": 700,
+              "y2": 620,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "SPECIALISED MACHINES AND PARTS",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "supply-chain lines drawn as faint arrows converging on the machine: SPECIALISED MACHINES AND PARTS (only if F08 is sourced)",
+      "cam": "hold"
+    },
+    {
+      "id": "3.01",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.3,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT ONE DOOR SLAMMED SHUT",
+          "x": 960,
+          "y": 520,
+          "size": 54
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOT ONE DOOR SLAMMED SHUT (replaces the meta line, see revision E06-1)",
+      "cam": "hold"
+    },
+    {
+      "id": "3.02",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "text",
+          "text": "A STORY OF DEPENDENCE ON SPECIALISED MACHINES",
+          "x": 960,
+          "y": 520,
+          "size": 46
+        }
+      ],
+      "labels": [],
+      "notes": "text: A STORY OF DEPENDENCE ON SPECIALISED MACHINES",
+      "cam": "hold"
+    },
+    {
+      "id": "3.03",
+      "p": "P03",
+      "layer": "H",
+      "kind": "hold",
+      "w": 2.3,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "city-slice",
+          "scale": 1.1
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "CAPABILITY, DEPENDENCE, KNOW-HOW",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "machine pulls back into the city slice, label CAPABILITY · DEPENDENCE · KNOW-HOW",
+      "cam": "hold"
+    },
+    {
+      "id": "4.01",
+      "p": "P04",
+      "layer": "C",
+      "kind": "mech",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "push",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "amp": 8,
+              "prop": "spoonBowl",
+              "propX": 1080,
+              "propScale": 2.2,
+              "scoop": true,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "spoon pushed into wet sand, removes a scoop",
+      "cam": "hold"
+    },
+    {
+      "id": "4.02",
+      "p": "P04",
+      "layer": "C",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "push",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "amp": 8,
+              "prop": "spoonBowl",
+              "propX": 1080,
+              "propScale": 2.2,
+              "scoop": true,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "arc",
+              "x": 1080,
+              "y": 830,
+              "r": 70,
+              "a0": 0.4,
+              "a1": 2.2,
+              "w": 2,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "sand slumps into the gap",
+      "cam": "hold"
+    },
+    {
+      "id": "4.03",
+      "p": "P04",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "text",
+          "text": "EXCAVATION IS HALF THE PROBLEM",
+          "x": 960,
+          "y": 540,
+          "size": 50,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "arrow overlay: EXCAVATION IS HALF THE PROBLEM",
+      "cam": "hold"
+    },
+    {
+      "id": "4.04",
+      "p": "P04",
+      "layer": "H",
+      "kind": "hold",
+      "w": 2.3,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "city-slice",
+          "scale": 1.15
+        },
+        {
+          "op": "tag",
+          "text": "EXAGGERATED"
+        },
+        {
+          "op": "railLabel",
+          "text": "EXAGGERATED",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "city slice: a hole under a road, ground above sinks (exaggerated, tagged EXAGGERATED)",
+      "cam": "hold"
+    },
+    {
+      "id": "4.05",
+      "p": "P04",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE OTHER HALF: KEEP THE GROUND STABLE",
+          "x": 960,
+          "y": 540,
+          "size": 48
+        }
+      ],
+      "labels": [],
+      "notes": "text: THE OTHER HALF: KEEP THE GROUND STABLE",
+      "cam": "hold"
+    },
+    {
+      "id": "5.01a",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "cutterhead close-up, disc cutters rotate (4 rpm shown as a slow turn)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.01b",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "cutterhead close-up, disc cutters rotate (4 rpm shown as a slow turn)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.02",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  260,
+                  300
+                ],
+                [
+                  200,
+                  460
+                ],
+                [
+                  140,
+                  620
+                ]
+              ],
+              "r": 10,
+              "speed": 0.6,
+              "col": "#b98a4b",
+              "at": 0.2,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "material breaks away at the face",
+      "cam": "hold"
+    },
+    {
+      "id": "5.03a",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.05,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "FACE PRESSURE (SLURRY)",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "bulkhead/chamber behind: pressurised slurry fills the chamber, label FACE PRESSURE (SLURRY)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.03b",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.05,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "FACE PRESSURE (SLURRY)",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "bulkhead/chamber behind: pressurised slurry fills the chamber, label FACE PRESSURE (SLURRY)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.04",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  960,
+                  200
+                ],
+                [
+                  960,
+                  60
+                ],
+                [
+                  960,
+                  -60
+                ]
+              ],
+              "r": 10,
+              "speed": 0.8,
+              "col": "#b98a4b",
+              "at": 0.2,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "MATERIAL REMOVED",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "slurry line carries material out, label MATERIAL REMOVED",
+      "cam": "hold"
+    },
+    {
+      "id": "5.05",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "text",
+          "text": "PRESSURE AT THE FACE MUST BE MANAGED",
+          "x": 960,
+          "y": 540,
+          "size": 48,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: PRESSURE AT THE FACE MUST BE MANAGED",
+      "cam": "hold"
+    },
+    {
+      "id": "6.01",
+      "p": "P06",
+      "layer": "C",
+      "kind": "hold",
+      "w": 2.1,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "push",
+              "x": 760,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "amp": 8,
+              "prop": "door",
+              "propX": 1000,
+              "propScale": 2.2,
+              "push": 1,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "push",
+              "x": 1240,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armL",
+              "phase": 1,
+              "amp": 8,
+              "prop": "door",
+              "propX": 1180,
+              "propScale": 2.2,
+              "push": -1,
+              "at": 0.2,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "hand pushes a door from one side while another pushes back",
+      "cam": "hold"
+    },
+    {
+      "id": "6.02",
+      "p": "P06",
+      "layer": "C",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "push",
+              "x": 760,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "amp": 6,
+              "prop": "door",
+              "propX": 1000,
+              "propScale": 2.2,
+              "push": 0.4,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "push",
+              "x": 1240,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armL",
+              "phase": 1,
+              "amp": 6,
+              "prop": "door",
+              "propX": 1180,
+              "propScale": 2.2,
+              "push": -0.4,
+              "at": 0.2,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "BALANCED",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "balanced: the door holds; unbalanced: it moves",
+      "cam": "hold"
+    },
+    {
+      "id": "6.03",
+      "p": "P06",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.7
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 700,
+              "y1": 320,
+              "x2": 700,
+              "y2": 200,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.3
+            },
+            {
+              "k": "arrow",
+              "x1": 1220,
+              "y1": 320,
+              "x2": 1220,
+              "y2": 200,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "face pressure vs ground pressure arrows on the machine",
+      "cam": "hold"
+    },
+    {
+      "id": "6.04",
+      "p": "P06",
+      "layer": "H",
+      "kind": "hold",
+      "w": 2,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.7
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 560,
+              "x2": 1220,
+              "y2": 560,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.25,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "SENSORS WATCH",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "sensors pulse along the lining and ground, readouts stay flat",
+      "cam": "hold"
+    },
+    {
+      "id": "6.05",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "text",
+          "text": "MONITOR PRESSURE, MOVEMENT AND SOIL",
+          "x": 960,
+          "y": 540,
+          "size": 48
+        }
+      ],
+      "labels": [],
+      "notes": "text: MONITOR PRESSURE · MOVEMENT · SOIL",
+      "cam": "hold"
+    },
+    {
+      "id": "7.01",
+      "p": "P07",
+      "layer": "H",
+      "kind": "mech",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "camera behind the cutterhead",
+      "cam": "hold"
+    },
+    {
+      "id": "7.02",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  1200,
+                  300
+                ],
+                [
+                  1300,
+                  380
+                ],
+                [
+                  1400,
+                  420
+                ]
+              ],
+              "r": 9,
+              "speed": 0.5,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "erector arm lifts a curved segment",
+      "cam": "hold"
+    },
+    {
+      "id": "7.03",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  1200,
+                  300
+                ],
+                [
+                  1300,
+                  380
+                ],
+                [
+                  1400,
+                  420
+                ]
+              ],
+              "r": 9,
+              "speed": 0.5,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A RING CLOSES",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "segments close into a ring, key segment last",
+      "cam": "hold"
+    },
+    {
+      "id": "7.04",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 2.1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "THE TUNNEL GROWS",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "ring locks to the previous ring, tunnel grows behind the machine",
+      "cam": "hold"
+    },
+    {
+      "id": "7.05",
+      "p": "P07",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.1,
+      "scene": [
+        {
+          "op": "numberCard",
+          "value": "7,700 RINGS",
+          "sub": "ABOUT 100 TONNES EACH",
+          "source": "PIB"
+        }
+      ],
+      "labels": [],
+      "notes": "[number alt] 7,700 RINGS · ABOUT 100 TONNES EACH, chip \"PIB\"",
+      "cam": "hold"
+    },
+    {
+      "id": "7.06",
+      "p": "P07",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT JUST A HOLE.",
+          "x": 960,
+          "y": 460,
+          "size": 50
+        },
+        {
+          "op": "text",
+          "text": "A SUPPORTED PASSAGE.",
+          "x": 960,
+          "y": 550,
+          "size": 50,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOT JUST A HOLE. A SUPPORTED PASSAGE.",
+      "cam": "hold"
+    },
+    {
+      "id": "8.01",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "timeline",
+          "params": {
+            "y": 560,
+            "ticks": [
+              {
+                "label": "JULY 2026",
+                "note": "MUMBAI-AHMEDABAD HIGH-SPEED RAIL",
+                "accent": true
+              }
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "timeline: JULY 2026 · MUMBAI-AHMEDABAD HIGH-SPEED RAIL",
+      "cam": "hold"
+    },
+    {
+      "id": "8.02",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.1,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 500,
+              "y1": 560,
+              "x2": 1420,
+              "y2": 560,
+              "w": 6,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 500,
+              "y1": 560,
+              "x2": 1140,
+              "y2": 560,
+              "w": 6,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.35
+            },
+            {
+              "k": "circle",
+              "x": 1140,
+              "y": 560,
+              "r": 14,
+              "w2": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.55,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "THANE CREEK",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "map strip: 10 km stretch, 7 km under THANE CREEK highlighted",
+      "cam": "hold"
+    },
+    {
+      "id": "8.03a",
+      "p": "P08",
+      "layer": "B",
+      "kind": "number",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "numberCard",
+          "value": "7 KM OF 10 KM UNDER THE CREEK",
+          "sub": "UNDersea STRETCH OF THE LINE",
+          "source": "PIB, 18 JUL 2026"
+        }
+      ],
+      "labels": [],
+      "notes": "7 KM OF 10 KM UNDER THE CREEK, chip \"PIB, 18 JULY 2026\"",
+      "cam": "hold"
+    },
+    {
+      "id": "8.03b",
+      "p": "P08",
+      "layer": "B",
+      "kind": "number",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "numberCard",
+          "value": "7 KM OF 10 KM UNDER THE CREEK",
+          "sub": "UNDersea STRETCH OF THE LINE",
+          "source": "PIB, 18 JUL 2026"
+        }
+      ],
+      "labels": [],
+      "notes": "7 KM OF 10 KM UNDER THE CREEK, chip \"PIB, 18 JULY 2026\"",
+      "cam": "hold"
+    },
+    {
+      "id": "8.04a",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "wheel",
+          "params": {
+            "cx": 960,
+            "cy": 520,
+            "r": 180,
+            "items": [
+              "GEOLOGY",
+              "MACHINE CONTROL",
+              "SURVEYING",
+              "SEGMENTS",
+              "SAFETY"
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "five-part wheel: GEOLOGY · MACHINE CONTROL · SURVEYING · SEGMENTS · TRANSPORT + SAFETY",
+      "cam": "hold"
+    },
+    {
+      "id": "8.04b",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "wheel",
+          "params": {
+            "cx": 960,
+            "cy": 520,
+            "r": 180,
+            "items": [
+              "GEOLOGY",
+              "MACHINE CONTROL",
+              "SURVEYING",
+              "SEGMENTS",
+              "SAFETY"
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "five-part wheel: GEOLOGY · MACHINE CONTROL · SURVEYING · SEGMENTS · TRANSPORT + SAFETY",
+      "cam": "hold"
+    },
+    {
+      "id": "8.05",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "COORDINATION IS THE REAL FACT",
+          "x": 960,
+          "y": 800,
+          "size": 50,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: COORDINATION IS THE REAL FACT",
+      "cam": "hold"
+    },
+    {
+      "id": "9.01",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "A FICTIONAL SCENARIO",
+          "x": 960,
+          "y": 300,
+          "size": 40,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "FICTIONAL SCENARIO stamp for the passage",
+      "cam": "hold"
+    },
+    {
+      "id": "9.02",
+      "p": "P09",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 1180,
+              "y": 200,
+              "w": 260,
+              "h": 90,
+              "w2": 2,
+              "col": "#b98a4b",
+              "fill": "rgba(185,138,75,0.30)",
+              "at": 0.25,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "cutterhead meets a different ground colour band",
+      "cam": "hold"
+    },
+    {
+      "id": "9.03",
+      "p": "P09",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "gauge",
+              "x": 1420,
+              "y": 300,
+              "r": 56,
+              "value": 0.45,
+              "low": true,
+              "at": 0.2,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "DIFFERENT GROUND",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "operators' gauges react (anonymous control-room figure)",
+      "cam": "hold"
+    },
+    {
+      "id": "9.04",
+      "p": "P09",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tbm-slurry",
+          "scale": 1.9,
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "gauge",
+              "x": 1420,
+              "y": 300,
+              "r": 56,
+              "value": 0.66,
+              "at": 0.2,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "THE GROUND HOLDS",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "machine adjusts, ground above holds",
+      "cam": "hold"
+    },
+    {
+      "id": "9.05",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "CONTROL, NOT BRUTE FORCE",
+          "x": 960,
+          "y": 540,
+          "size": 54,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: CONTROL, NOT BRUTE FORCE",
+      "cam": "hold"
+    },
+    {
+      "id": "10.01",
+      "p": "P10",
+      "layer": "B",
+      "kind": "missing",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE NEXT CHALLENGE",
+          "x": 960,
+          "y": 300,
+          "size": 52,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "heading THE NEXT CHALLENGE",
+      "cam": "hold"
+    },
+    {
+      "id": "10.02",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.3,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "checklist",
+          "params": {
+            "x": 560,
+            "y": 380,
+            "items": [
+              "HIGH-VALUE MACHINERY",
+              "SPECIALISED COMPONENTS",
+              "MANUFACTURING",
+              "MAINTENANCE",
+              "ENGINEERING KNOW-HOW"
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "list: HIGH-VALUE MACHINERY · SPECIALISED COMPONENTS · MANUFACTURING · MAINTENANCE · ENGINEERING KNOW-HOW",
+      "cam": "hold"
+    },
+    {
+      "id": "10.03",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.3,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT MERELY OPERATING IMPORTED EQUIPMENT",
+          "x": 960,
+          "y": 540,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOT MERELY OPERATING IMPORTED EQUIPMENT (wording to be checked against the ledger)",
+      "cam": "hold"
+    },
+    {
+      "id": "10.04",
+      "p": "P10",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "city-slice",
+          "scale": 1.15
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "camera rises through strata to the street",
+      "cam": "hold"
+    },
+    {
+      "id": "11.01",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE INDUSTRY BEHIND THE MACHINE",
+          "x": 960,
+          "y": 470,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "DECIDES THE NEXT TUNNEL",
+          "x": 960,
+          "y": 560,
+          "size": 46
+        }
+      ],
+      "labels": [],
+      "notes": "text: THE INDUSTRY BEHIND THE MACHINE DECIDES THE NEXT TUNNEL",
+      "cam": "hold"
+    },
+    {
+      "id": "11.02",
+      "p": "P11",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "city-slice",
+          "scale": 1.15
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "gauge",
+              "x": 1420,
+              "y": 300,
+              "r": 56,
+              "value": 0.74,
+              "at": 0.25,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "street above, calm, one last gauge steady",
+      "cam": "hold"
+    },
+    {
+      "id": "11.03",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE GREATEST ACHIEVEMENT",
+          "x": 960,
+          "y": 470,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "IS WHAT NEVER MOVES.",
+          "x": 960,
+          "y": 560,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "final line: THE GREATEST ACHIEVEMENT IS WHAT NEVER MOVES.",
+      "cam": "hold"
+    },
+    {
+      "id": "11.04",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "titleCard",
+          "title": "INDIA BUILT IT ANYWAY",
+          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+        }
+      ],
+      "labels": [],
+      "notes": "series title ≤ 2.5 s",
+      "cam": "hold"
+    }
+  ]
+}

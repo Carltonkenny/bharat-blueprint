@@ -1,0 +1,11 @@
+{
+  "a": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S02\\E01\\E01-final.mp4",
+  "b": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S02\\E01\\E01-determinism.mp4",
+  "framesA": 9474,
+  "framesB": 9474,
+  "compared": 9474,
+  "meanSsim": 1,
+  "minSsim": 1,
+  "framesBelow0999": 0,
+  "pass": true
+}

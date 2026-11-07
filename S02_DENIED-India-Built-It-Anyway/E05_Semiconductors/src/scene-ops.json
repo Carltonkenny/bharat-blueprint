@@ -1,0 +1,1420 @@
+{
+  "1.01": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "poly",
+          "pts": [
+            [
+              520,
+              640
+            ],
+            [
+              700,
+              520
+            ],
+            [
+              1080,
+              520
+            ],
+            [
+              1240,
+              640
+            ],
+            [
+              1180,
+              700
+            ],
+            [
+              560,
+              700
+            ]
+          ],
+          "w2": 2.4,
+          "col": "#c39bff",
+          "close": true,
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 900,
+          "y": 470,
+          "r": 16,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.45,
+          "dur": 0.25
+        }
+      ]
+    }
+  ],
+  "1.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 820,
+          "y": 380,
+          "w": 280,
+          "h": 460,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 430,
+          "r": 12,
+          "w2": 2,
+          "col": "#c39bff",
+          "at": 0.35,
+          "dur": 0.25
+        }
+      ]
+    }
+  ],
+  "1.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 420,
+          "w": 520,
+          "h": 360,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 470,
+          "r": 12,
+          "w2": 2,
+          "col": "#c39bff",
+          "at": 0.35,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "A HOSPITAL SCANNER",
+      "side": "R"
+    }
+  ],
+  "1.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 520,
+          "y1": 620,
+          "x2": 1400,
+          "y2": 620,
+          "w": 3,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.35
+        },
+        {
+          "k": "line",
+          "x1": 700,
+          "y1": 620,
+          "x2": 700,
+          "y2": 480,
+          "w": 2.4,
+          "col": "#c39bff",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 1240,
+          "y1": 620,
+          "x2": 1240,
+          "y2": 480,
+          "w": 2.4,
+          "col": "#c39bff",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 620,
+          "r": 12,
+          "w2": 2,
+          "col": "#c39bff",
+          "at": 0.35,
+          "dur": 0.25
+        }
+      ]
+    }
+  ],
+  "1.05": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 600,
+          "y": 560,
+          "w": 720,
+          "h": 160,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 560,
+          "r": 12,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.4,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "A FACTORY LINE",
+      "side": "R"
+    }
+  ],
+  "2.01": [
+    {
+      "op": "text",
+      "text": "NOW IMAGINE NEEDING THEM...",
+      "x": 960,
+      "y": 520,
+      "size": 56,
+      "col": "#c39bff"
+    }
+  ],
+  "2.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 300,
+          "y": 300,
+          "w": 90,
+          "h": 90,
+          "w2": 2,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 520,
+          "y": 260,
+          "w": 90,
+          "h": 90,
+          "w2": 2,
+          "col": "#c39bff",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 780,
+          "y": 320,
+          "w": 90,
+          "h": 90,
+          "w2": 2,
+          "col": "#c39bff",
+          "at": 0.35,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 1050,
+          "y": 280,
+          "w": 90,
+          "h": 90,
+          "w2": 2,
+          "col": "#c39bff",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 1330,
+          "y": 330,
+          "w": 90,
+          "h": 90,
+          "w2": 2,
+          "col": "#c39bff",
+          "at": 0.65,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "FAR FROM HERE",
+      "side": "R"
+    }
+  ],
+  "2.03": [
+    {
+      "op": "text",
+      "text": "DEPENDENCE ON A COMPLEX SYSTEM",
+      "x": 960,
+      "y": 520,
+      "size": 50
+    }
+  ],
+  "2.04": [
+    {
+      "op": "text",
+      "text": "NOT ONE COUNTRY SAYING NO",
+      "x": 960,
+      "y": 520,
+      "size": 50,
+      "col": "#c39bff"
+    }
+  ],
+  "3.01": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "sort",
+          "x": 880,
+          "y": 850,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0,
+          "prop": "papers",
+          "propX": 1000,
+          "propScale": 2.4,
+          "n": 3,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    }
+  ],
+  "3.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 620,
+          "y": 500,
+          "w": 180,
+          "h": 120,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "rect",
+          "x": 840,
+          "y": 500,
+          "w": 90,
+          "h": 120,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.25,
+          "dur": 0.3
+        },
+        {
+          "k": "rect",
+          "x": 970,
+          "y": 500,
+          "w": 45,
+          "h": 120,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.45,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "ILLUSTRATIVE",
+      "side": "R"
+    }
+  ],
+  "3.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 420,
+          "x2": 1020,
+          "y2": 620,
+          "w": 4,
+          "col": "#ff9b3d",
+          "at": 0.1,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 1020,
+          "y1": 420,
+          "x2": 900,
+          "y2": 620,
+          "w": 4,
+          "col": "#ff9b3d",
+          "at": 0.1,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "A PENCIL CANNOT DO THIS",
+      "x": 960,
+      "y": 760,
+      "size": 44,
+      "col": "#ff9b3d"
+    }
+  ],
+  "3.04": [
+    {
+      "op": "x:hero",
+      "kind": "wafer-die",
+      "scale": 1.3
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "4.01": [
+    {
+      "op": "x:hero",
+      "kind": "litho-stack",
+      "scale": 1.4
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "4.02": [
+    {
+      "op": "x:hero",
+      "kind": "litho-stack",
+      "scale": 1.4
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              960,
+              380
+            ],
+            [
+              960,
+              200
+            ],
+            [
+              960,
+              60
+            ]
+          ],
+          "r": 8,
+          "speed": 0.7,
+          "col": "#c39bff",
+          "at": 0.2,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "4.03": [
+    {
+      "op": "x:hero",
+      "kind": "litho-stack",
+      "scale": 1.4
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "arrow",
+          "x1": 1160,
+          "y1": 380,
+          "x2": 1160,
+          "y2": 240,
+          "col": "#c39bff",
+          "at": 0.25,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "THE PATTERN GUIDES",
+      "side": "R"
+    }
+  ],
+  "4.04": [
+    {
+      "op": "x:hero",
+      "kind": "litho-stack",
+      "scale": 1.4
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "railLabel",
+      "text": "REPEATED WITH ALIGNMENT",
+      "side": "R"
+    }
+  ],
+  "5.01": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "reach",
+          "x": 860,
+          "y": 850,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0,
+          "prop": "palette",
+          "propX": 1080,
+          "propScale": 2.4,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "dot",
+          "x": 1300,
+          "y": 300,
+          "r": 6,
+          "w2": 0,
+          "col": "#ff9b3d",
+          "at": 0.25,
+          "dur": 0.2
+        },
+        {
+          "k": "dot",
+          "x": 1400,
+          "y": 420,
+          "r": 6,
+          "w2": 0,
+          "col": "#ff9b3d",
+          "at": 0.35,
+          "dur": 0.2
+        },
+        {
+          "k": "dot",
+          "x": 1240,
+          "y": 520,
+          "r": 6,
+          "w2": 0,
+          "col": "#ff9b3d",
+          "at": 0.45,
+          "dur": 0.2
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "FLOATING SAND",
+      "side": "R"
+    }
+  ],
+  "5.02": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "reach",
+          "x": 860,
+          "y": 850,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0,
+          "prop": "palette",
+          "propX": 1080,
+          "propScale": 2.4,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "dot",
+          "x": 1120,
+          "y": 640,
+          "r": 9,
+          "w2": 0,
+          "col": "#ff9b3d",
+          "at": 0.4,
+          "dur": 0.2
+        }
+      ]
+    }
+  ],
+  "5.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 700,
+          "y": 520,
+          "r": 44,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 1100,
+          "y": 520,
+          "r": 14,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.3,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "ILLUSTRATIVE",
+      "side": "R"
+    }
+  ],
+  "5.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 700,
+          "y1": 300,
+          "x2": 700,
+          "y2": 800,
+          "w": 1.8,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 1220,
+          "y1": 300,
+          "x2": 1220,
+          "y2": 800,
+          "w": 1.8,
+          "col": "#c39bff",
+          "at": 0.15,
+          "dur": 0.3
+        },
+        {
+          "k": "arrow",
+          "x1": 760,
+          "y1": 340,
+          "x2": 760,
+          "y2": 460,
+          "col": "#c39bff",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "k": "arrow",
+          "x1": 1160,
+          "y1": 340,
+          "x2": 1160,
+          "y2": 460,
+          "col": "#c39bff",
+          "at": 0.4,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "FILTERED AIR",
+      "side": "R"
+    }
+  ],
+  "5.05": [
+    {
+      "op": "text",
+      "text": "CONTAMINATION RUINS STRUCTURES",
+      "x": 960,
+      "y": 540,
+      "size": 50,
+      "col": "#ff9b3d"
+    }
+  ],
+  "6.01": [
+    {
+      "op": "x:hero",
+      "kind": "layer-city",
+      "scale": 1.3
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "6.02": [
+    {
+      "op": "x:hero",
+      "kind": "layer-city",
+      "scale": 1.3
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "6.03": [
+    {
+      "op": "x:hero",
+      "kind": "layer-city",
+      "scale": 1.3
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 200,
+          "x2": 900,
+          "y2": 400,
+          "w": 3,
+          "col": "#ff9b3d",
+          "at": 0.3,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "DEVICE FAILS",
+      "x": 1300,
+      "y": 300,
+      "size": 44,
+      "col": "#ff9b3d"
+    }
+  ],
+  "6.04": [
+    {
+      "op": "text",
+      "text": "ALIGNMENT ACROSS MANY LEVELS",
+      "x": 960,
+      "y": 540,
+      "size": 50,
+      "col": "#c39bff"
+    }
+  ],
+  "7.01": [
+    {
+      "op": "x:hero",
+      "kind": "wafer-die",
+      "scale": 1.3
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "7.02": [
+    {
+      "op": "x:hero",
+      "kind": "wafer-die",
+      "scale": 1.3
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 600,
+          "y1": 300,
+          "x2": 1320,
+          "y2": 300,
+          "w": 3,
+          "col": "#c39bff",
+          "at": 0.25,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 600,
+          "y1": 300,
+          "x2": 600,
+          "y2": 760,
+          "w": 3,
+          "col": "#c39bff",
+          "at": 0.35,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "SEPARATE",
+      "side": "R"
+    }
+  ],
+  "7.03": [
+    {
+      "op": "x:hero",
+      "kind": "package-chip",
+      "scale": 1.6
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "railLabel",
+      "text": "CONNECT",
+      "side": "R"
+    }
+  ],
+  "7.04": [
+    {
+      "op": "x:hero",
+      "kind": "package-chip",
+      "scale": 1.6
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "railLabel",
+      "text": "PROTECT",
+      "side": "R"
+    }
+  ],
+  "7.05": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 760,
+          "y": 560,
+          "w": 120,
+          "h": 60,
+          "w2": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 590,
+          "x2": 1020,
+          "y2": 590,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.3,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "TEST",
+      "side": "R"
+    }
+  ],
+  "7.06": [
+    {
+      "op": "text",
+      "text": "FABRICATION IS NOT ASSEMBLY,",
+      "x": 960,
+      "y": 460,
+      "size": 44
+    },
+    {
+      "op": "text",
+      "text": "TEST AND PACKAGING",
+      "x": 960,
+      "y": 540,
+      "size": 44,
+      "col": "#c39bff"
+    }
+  ],
+  "8.01": [
+    {
+      "op": "numberCard",
+      "value": "12 UNITS APPROVED",
+      "sub": "SEMICON INDIA PROGRAMME",
+      "source": "PIB PRESS NOTE, 2026"
+    }
+  ],
+  "8.02": [
+    {
+      "op": "panel",
+      "name": "slots",
+      "params": {
+        "cy": 580,
+        "cols": 6,
+        "bw": 250,
+        "bh": 100,
+        "items": [
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "FAB",
+            "lit": false
+          },
+          {
+            "label": "FAB",
+            "lit": false
+          },
+          {
+            "label": "FAB",
+            "lit": false
+          }
+        ],
+        "gapX": 34
+      }
+    }
+  ],
+  "8.03": [
+    {
+      "op": "panel",
+      "name": "chain",
+      "params": {
+        "items": [
+          "DESIGN",
+          "FABRICATION",
+          "ASSEMBLY",
+          "TESTING",
+          "PACKAGING"
+        ],
+        "x0": 500,
+        "x1": 1420,
+        "y": 640
+      }
+    }
+  ],
+  "8.04": [
+    {
+      "op": "panel",
+      "name": "slots",
+      "params": {
+        "cy": 580,
+        "cols": 6,
+        "bw": 250,
+        "bh": 100,
+        "items": [
+          {
+            "label": "PRODUCTION",
+            "lit": true
+          },
+          {
+            "label": "PRODUCTION",
+            "lit": true
+          },
+          {
+            "label": "PRODUCTION",
+            "lit": true
+          },
+          {
+            "label": "PRODUCTION",
+            "lit": true
+          },
+          {
+            "label": "PRODUCTION",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "ATMP",
+            "lit": true
+          },
+          {
+            "label": "FAB",
+            "lit": false
+          },
+          {
+            "label": "FAB",
+            "lit": false
+          },
+          {
+            "label": "FAB",
+            "lit": false
+          }
+        ],
+        "gapX": 34
+      }
+    }
+  ],
+  "8.05": [
+    {
+      "op": "text",
+      "text": "5 UNITS IN COMMERCIAL PRODUCTION",
+      "x": 960,
+      "y": 800,
+      "size": 42,
+      "col": "#ff9b3d"
+    }
+  ],
+  "9.01": [
+    {
+      "op": "text",
+      "text": "A FICTIONAL SCENARIO",
+      "x": 960,
+      "y": 300,
+      "size": 40,
+      "col": "#ff9b3d"
+    }
+  ],
+  "9.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 780,
+          "y": 400,
+          "w": 360,
+          "h": 240,
+          "w2": 2.2,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.35
+        },
+        {
+          "k": "line",
+          "x1": 820,
+          "y1": 460,
+          "x2": 1100,
+          "y2": 460,
+          "w": 1.8,
+          "col": "#c39bff",
+          "at": 0.3,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 820,
+          "y1": 520,
+          "x2": 1060,
+          "y2": 520,
+          "w": 1.8,
+          "col": "#c39bff",
+          "at": 0.35,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "A PERFECT DESIGN",
+      "side": "R"
+    }
+  ],
+  "9.03": [
+    {
+      "op": "x:hero",
+      "kind": "litho-stack",
+      "scale": 1.3
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 1180,
+          "y": 180,
+          "w": 120,
+          "h": 40,
+          "w2": 2,
+          "col": "#ff9b3d",
+          "dash": [
+            10,
+            8
+          ],
+          "march": 18,
+          "at": 0.25,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "A TOOL IS MISSING",
+      "side": "R"
+    }
+  ],
+  "9.04": [
+    {
+      "op": "x:hero",
+      "kind": "wafer-die",
+      "scale": 1.3
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "text",
+      "text": "THE DESIGN CANNOT BECOME A WAFER",
+      "x": 960,
+      "y": 820,
+      "size": 44,
+      "col": "#ff9b3d"
+    }
+  ],
+  "9.05": [
+    {
+      "op": "x:hero",
+      "kind": "package-chip",
+      "scale": 1.6
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "text",
+      "text": "PACKAGING CANNOT REPLACE THE MISSING STEP",
+      "x": 960,
+      "y": 820,
+      "size": 42,
+      "col": "#ff9b3d"
+    }
+  ],
+  "9.06": [
+    {
+      "op": "text",
+      "text": "THE CHAIN IS ONLY AS STRONG",
+      "x": 960,
+      "y": 460,
+      "size": 46
+    },
+    {
+      "op": "text",
+      "text": "AS THE CAPABILITY IT LACKS",
+      "x": 960,
+      "y": 550,
+      "size": 46,
+      "col": "#c39bff"
+    }
+  ],
+  "10.01": [
+    {
+      "op": "text",
+      "text": "THE REAL CHALLENGE",
+      "x": 960,
+      "y": 300,
+      "size": 52,
+      "col": "#c39bff"
+    }
+  ],
+  "10.02": [
+    {
+      "op": "panel",
+      "name": "checklist",
+      "params": {
+        "x": 560,
+        "y": 380,
+        "items": [
+          "ADVANCED EQUIPMENT",
+          "MATERIALS",
+          "PROCESS EXPERTISE",
+          "YIELDS",
+          "SUPPLIER ECOSYSTEM"
+        ]
+      }
+    }
+  ],
+  "10.03": [
+    {
+      "op": "text",
+      "text": "ANNOUNCING A PLANT IS NOT",
+      "x": 960,
+      "y": 460,
+      "size": 46
+    },
+    {
+      "op": "text",
+      "text": "MASTERING EVERY CHIP GENERATION",
+      "x": 960,
+      "y": 550,
+      "size": 46,
+      "col": "#ff9b3d"
+    }
+  ],
+  "11.01": [
+    {
+      "op": "text",
+      "text": "CAPABILITY CHANGES THE CHOICES AVAILABLE",
+      "x": 960,
+      "y": 520,
+      "size": 46
+    }
+  ],
+  "11.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 800,
+          "y": 480,
+          "w": 320,
+          "h": 100,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.35
+        },
+        {
+          "k": "line",
+          "x1": 880,
+          "y1": 530,
+          "x2": 1040,
+          "y2": 530,
+          "w": 4,
+          "col": "#ff9b3d",
+          "at": 0.3,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 950,
+          "y1": 490,
+          "x2": 950,
+          "y2": 570,
+          "w": 4,
+          "col": "#ff9b3d",
+          "at": 0.3,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "SELF-RELIANCE IS NOT A SWITCH",
+      "x": 960,
+      "y": 700,
+      "size": 46,
+      "col": "#ff9b3d"
+    }
+  ],
+  "11.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 700,
+          "y1": 800,
+          "x2": 1220,
+          "y2": 800,
+          "w": 3,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 760,
+          "y1": 800,
+          "x2": 760,
+          "y2": 700,
+          "w": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 800,
+          "x2": 900,
+          "y2": 640,
+          "w": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.3,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 1040,
+          "y1": 800,
+          "x2": 1040,
+          "y2": 580,
+          "w": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.4,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 1180,
+          "y1": 800,
+          "x2": 1180,
+          "y2": 520,
+          "w": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.5,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "EARNED",
+      "x": 960,
+      "y": 460,
+      "size": 50,
+      "col": "#c39bff"
+    }
+  ],
+  "11.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 900,
+          "y": 480,
+          "w": 120,
+          "h": 120,
+          "w2": 2.4,
+          "col": "#c39bff",
+          "at": 0.05,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "11.05": [
+    {
+      "op": "text",
+      "text": "THE SMALLEST PARTS CAN CARRY",
+      "x": 960,
+      "y": 460,
+      "size": 46
+    },
+    {
+      "op": "text",
+      "text": "THE BIGGEST DEPENDENCIES.",
+      "x": 960,
+      "y": 550,
+      "size": 46,
+      "col": "#c39bff"
+    }
+  ],
+  "11.06": [
+    {
+      "op": "titleCard",
+      "title": "INDIA BUILT IT ANYWAY",
+      "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+    }
+  ]
+}

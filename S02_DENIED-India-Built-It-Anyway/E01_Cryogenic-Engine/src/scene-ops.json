@@ -1,0 +1,2182 @@
+{
+  "1.01": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 420,
+          "y1": 560,
+          "x2": 1500,
+          "y2": 560,
+          "w": 3
+        },
+        {
+          "k": "line",
+          "x1": 420,
+          "y1": 700,
+          "x2": 1500,
+          "y2": 700,
+          "w": 1.4,
+          "dash": [
+            14,
+            12
+          ],
+          "march": 22
+        },
+        {
+          "k": "line",
+          "x1": 620,
+          "y1": 560,
+          "x2": 620,
+          "y2": 700,
+          "w": 1.4,
+          "dash": [
+            14,
+            12
+          ],
+          "march": 22
+        },
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 560,
+          "x2": 900,
+          "y2": 700,
+          "w": 1.4,
+          "dash": [
+            14,
+            12
+          ],
+          "march": 22
+        },
+        {
+          "k": "line",
+          "x1": 1180,
+          "y1": 560,
+          "x2": 1180,
+          "y2": 700,
+          "w": 1.4,
+          "dash": [
+            14,
+            12
+          ],
+          "march": 22
+        },
+        {
+          "k": "drop",
+          "x": 960,
+          "y0": 150,
+          "y": 548,
+          "r": 26,
+          "at": 0.05,
+          "dur": 0.75
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 560,
+          "r": 78,
+          "w": 1.6,
+          "col": "#8fe4ff",
+          "at": 0.8,
+          "dur": 0.2
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 560,
+          "r": 130,
+          "w": 1.2,
+          "col": "#8fe4ff",
+          "at": 0.85,
+          "dur": 0.2
+        }
+      ]
+    }
+  ],
+  "1.02": [
+    {
+      "op": "x:hero",
+      "kind": "turbopump",
+      "scale": 1.15,
+      "grow": true,
+      "growDur": 0.55,
+      "opts": {
+        "flame": 0
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "1.03": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.1,
+      "grow": true,
+      "growDur": 0.5,
+      "cut": true,
+      "cutStart": 0.15,
+      "cutDur": 0.5,
+      "opts": {
+        "flamePulse": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "1.04": [
+    {
+      "op": "x:hero",
+      "kind": "rocket-stack",
+      "scale": 1,
+      "pos": [
+        0,
+        -40,
+        0
+      ],
+      "opts": {
+        "flame": 0
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "1.05": [
+    {
+      "op": "x:hero",
+      "kind": "rocket-stack",
+      "scale": 1,
+      "pos": [
+        0,
+        -40,
+        0
+      ],
+      "opts": {
+        "upperLit": 1,
+        "flame": 0
+      }
+    },
+    {
+      "op": "railLabel",
+      "text": "FINAL PUSH",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "1.06": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 760,
+          "y": 330,
+          "w": 400,
+          "h": 400,
+          "w2": 2,
+          "dash": [
+            16,
+            12
+          ],
+          "march": 26,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "?",
+      "x": 960,
+      "y": 590,
+      "size": 80,
+      "col": "#8fe4ff",
+      "pulse": true,
+      "rate": 2.6
+    }
+  ],
+  "1.07": [
+    {
+      "op": "text",
+      "text": "NOT PHYSICS. TRANSFER.",
+      "x": 960,
+      "y": 560,
+      "size": 64
+    }
+  ],
+  "1.08": [
+    {
+      "op": "panel",
+      "name": "question",
+      "params": {
+        "lines": [
+          "SO WHAT DO YOU DO",
+          "WHEN THE ONE ENGINE YOU NEED",
+          "IS THE ONE YOU CANNOT GET?"
+        ],
+        "y": 420,
+        "size": 46
+      }
+    }
+  ],
+  "2.01": [
+    {
+      "op": "panel",
+      "name": "timeline",
+      "params": {
+        "y": 560,
+        "ticks": [
+          {
+            "note": "RESTRICTIONS ON ACCESS (NONPROLIFERATION REVIEW)",
+            "label": "EARLY 1990s"
+          }
+        ]
+      }
+    }
+  ],
+  "2.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 380,
+          "y1": 500,
+          "x2": 1540,
+          "y2": 500,
+          "w": 3
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 380,
+          "x2": 960,
+          "y2": 620,
+          "w": 5,
+          "col": "#ff9b3d",
+          "at": 0.25,
+          "dur": 0.35
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 400,
+          "x2": 920,
+          "y2": 380,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 400,
+          "x2": 1000,
+          "y2": 380,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 440,
+          "x2": 920,
+          "y2": 460,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 440,
+          "x2": 1000,
+          "y2": 460,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "RESTRICTED ACCESS",
+      "side": "R"
+    }
+  ],
+  "2.03": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 0.95,
+      "opts": {
+        "flame": 0.15
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 330,
+          "y": 400,
+          "w": 150,
+          "h": 220,
+          "w2": 1.4,
+          "dash": [
+            10,
+            10
+          ],
+          "march": 16,
+          "col": "#8fe4ff",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "k": "rect",
+          "x": 1440,
+          "y": 400,
+          "w": 150,
+          "h": 220,
+          "w2": 1.4,
+          "dash": [
+            10,
+            10
+          ],
+          "march": 16,
+          "col": "#8fe4ff",
+          "at": 0.4,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 300,
+          "x2": 960,
+          "y2": 700,
+          "w": 4,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "2.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 620,
+          "y1": 720,
+          "x2": 1300,
+          "y2": 720,
+          "w": 3,
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 660,
+          "y1": 720,
+          "x2": 660,
+          "y2": 790,
+          "w": 2,
+          "at": 0.1,
+          "dur": 0.2
+        },
+        {
+          "k": "line",
+          "x1": 1260,
+          "y1": 720,
+          "x2": 1260,
+          "y2": 790,
+          "w": 2,
+          "at": 0.1,
+          "dur": 0.2
+        },
+        {
+          "k": "rect",
+          "x": 900,
+          "y": 690,
+          "w": 120,
+          "h": 30,
+          "w2": 1.6,
+          "at": 0.2,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "point",
+          "x": 760,
+          "y": 720,
+          "scale": 2.4,
+          "accentPart": "armR",
+          "phase": 0,
+          "at": 0.25,
+          "dur": 0.3
+        },
+        {
+          "pose": "stand",
+          "x": 1160,
+          "y": 720,
+          "scale": 2.4,
+          "accentPart": "armL",
+          "phase": 1.1,
+          "at": 0.35,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "2.05": [
+    {
+      "op": "text",
+      "text": "A REFUSAL DOES NOT",
+      "x": 960,
+      "y": 480,
+      "size": 52
+    },
+    {
+      "op": "text",
+      "text": "CREATE AN ENGINE",
+      "x": 960,
+      "y": 570,
+      "size": 52
+    }
+  ],
+  "2.06": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 560,
+          "y1": 760,
+          "x2": 1360,
+          "y2": 760,
+          "w": 3,
+          "at": 0.05,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 700,
+          "y": 700,
+          "r": 34,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 830,
+          "y": 668,
+          "w": 54,
+          "h": 64,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.35,
+          "dur": 0.25
+        },
+        {
+          "k": "circle",
+          "x": 990,
+          "y": 700,
+          "r": 26,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "k": "poly",
+          "pts": [
+            [
+              1080,
+              740
+            ],
+            [
+              1080,
+              640
+            ],
+            [
+              1160,
+              640
+            ],
+            [
+              1160,
+              740
+            ]
+          ],
+          "w2": 2,
+          "col": "#8fe4ff",
+          "close": true,
+          "at": 0.65,
+          "dur": 0.25
+        },
+        {
+          "k": "poly",
+          "pts": [
+            [
+              1240,
+              740
+            ],
+            [
+              1300,
+              700
+            ],
+            [
+              1300,
+              740
+            ]
+          ],
+          "w2": 2,
+          "col": "#8fe4ff",
+          "close": true,
+          "at": 0.8,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "sort",
+          "x": 560,
+          "y": 760,
+          "scale": 2.4,
+          "accentPart": "armR",
+          "phase": 0.4,
+          "at": 0.15,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "2.07": [
+    {
+      "op": "text",
+      "text": "ONE PIECE AT A TIME",
+      "x": 960,
+      "y": 540,
+      "size": 60,
+      "col": "#8fe4ff"
+    }
+  ],
+  "2.08": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.05,
+      "explode": true,
+      "explodeAt": 0.1,
+      "explodeDur": 1.4,
+      "explodeAmount": 0.5,
+      "opts": {
+        "flamePulse": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "2.09": [
+    {
+      "op": "stack",
+      "words": [
+        "STUBBORN.",
+        "TESTED.",
+        "REPEATED."
+      ],
+      "x": 960,
+      "y": 430,
+      "size": 58,
+      "col": "#8fe4ff"
+    }
+  ],
+  "3.01": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "reach",
+          "x": 800,
+          "y": 830,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0,
+          "amp": 10,
+          "prop": "gasStove",
+          "propX": 1060,
+          "propScale": 2.2,
+          "flame": 0.8,
+          "at": 0.05,
+          "dur": 0.35
+        },
+        {
+          "op": "prop",
+          "prop": "pot",
+          "x": 1060,
+          "y": 690,
+          "scale": 2,
+          "p": 1
+        }
+      ]
+    }
+  ],
+  "3.02": [
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "arrow",
+          "x1": 620,
+          "y1": 300,
+          "x2": 880,
+          "y2": 430,
+          "at": 0.05,
+          "dur": 0.4,
+          "col": "#8fe4ff"
+        },
+        {
+          "k": "arrow",
+          "x1": 1300,
+          "y1": 300,
+          "x2": 1040,
+          "y2": 430,
+          "at": 0.2,
+          "dur": 0.4,
+          "col": "#8fe4ff"
+        },
+        {
+          "k": "dot",
+          "path": [
+            [
+              620,
+              300
+            ],
+            [
+              960,
+              470
+            ],
+            [
+              1300,
+              300
+            ]
+          ],
+          "r": 10,
+          "speed": 0.35,
+          "col": "#ff9b3d",
+          "at": 0.4,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "FUEL + OXYGEN = HEAT",
+      "side": "L"
+    }
+  ],
+  "3.03": [
+    {
+      "op": "x:hero",
+      "kind": "tank",
+      "scale": 1,
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "opts": {
+        "frostOn": false
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "railLabel",
+      "text": "OWN OXYGEN",
+      "side": "R"
+    }
+  ],
+  "3.04": [
+    {
+      "op": "x:hero",
+      "kind": "tank",
+      "scale": 1,
+      "opts": {
+        "frostOn": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 1420,
+          "y1": 330,
+          "x2": 1420,
+          "y2": 470,
+          "w": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 1420,
+          "y": 490,
+          "r": 42,
+          "w2": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.35,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 1420,
+          "y1": 490,
+          "x2": 1420,
+          "y2": 520,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "VERY COLD",
+      "side": "R"
+    }
+  ],
+  "3.05": [
+    {
+      "op": "x:hero",
+      "kind": "pipe-network",
+      "scale": 1.1,
+      "opts": {
+        "flow": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "arrow",
+          "x1": 520,
+          "y1": 320,
+          "x2": 640,
+          "y2": 320,
+          "col": "#ff9b3d",
+          "at": 0.35,
+          "dur": 0.3
+        },
+        {
+          "k": "arrow",
+          "x1": 1300,
+          "y1": 320,
+          "x2": 1180,
+          "y2": 320,
+          "col": "#ff9b3d",
+          "at": 0.45,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "PLUMBING UNFORGIVING",
+      "side": "L"
+    }
+  ],
+  "3.06": [
+    {
+      "op": "x:hero",
+      "kind": "tank",
+      "scale": 0.8,
+      "pos": [
+        -420,
+        0,
+        0
+      ],
+      "opts": {
+        "frostOn": true
+      }
+    },
+    {
+      "op": "x:hero",
+      "kind": "pipe-network",
+      "scale": 0.8,
+      "pos": [
+        380,
+        0,
+        0
+      ],
+      "opts": {
+        "flow": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "4.01": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "pump",
+          "x": 820,
+          "y": 850,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0,
+          "amp": 16,
+          "speed": 2.6,
+          "prop": "bicyclePump",
+          "propX": 1010,
+          "propScale": 2.6,
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "op": "prop",
+          "prop": "tyre",
+          "x": 1330,
+          "y": 850,
+          "r": 78,
+          "scale": 1,
+          "p": 1
+        }
+      ]
+    }
+  ],
+  "4.02": [
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "arrow",
+          "x1": 420,
+          "y1": 540,
+          "x2": 1500,
+          "y2": 540,
+          "at": 0.1,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 460,
+          "x2": 1020,
+          "y2": 460,
+          "w": 3.4
+        },
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 620,
+          "x2": 1020,
+          "y2": 620,
+          "w": 3.4
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "THROUGH A NARROW PASSAGE",
+      "side": "L"
+    }
+  ],
+  "4.03": [
+    {
+      "op": "x:hero",
+      "kind": "turbopump",
+      "scale": 1.2,
+      "grow": true,
+      "growDur": 0.5
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "4.04": [
+    {
+      "op": "x:hero",
+      "kind": "turbopump",
+      "scale": 1.1,
+      "pos": [
+        -300,
+        0,
+        0
+      ],
+      "opts": {
+        "rate": 5
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "arrow",
+          "x1": 420,
+          "y1": 380,
+          "x2": 720,
+          "y2": 380,
+          "col": "#8fe4ff",
+          "at": 0.1,
+          "dur": 0.4
+        },
+        {
+          "k": "arrow",
+          "x1": 900,
+          "y1": 380,
+          "x2": 1200,
+          "y2": 380,
+          "col": "#8fe4ff",
+          "at": 0.3,
+          "dur": 0.4
+        },
+        {
+          "k": "arrow",
+          "x1": 1300,
+          "y1": 380,
+          "x2": 1560,
+          "y2": 380,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "gauge",
+          "x": 1180,
+          "y": 640,
+          "r": 66,
+          "value": 0.85,
+          "at": 0.45,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "PRESSURE UP",
+      "side": "R"
+    }
+  ],
+  "4.05": [
+    {
+      "op": "panel",
+      "name": "compare",
+      "params": {
+        "y": 560,
+        "w": 400,
+        "h": 260,
+        "columns": [
+          {
+            "title": "TINY HAND PUMP",
+            "body": "ONE PUSH",
+            "ghost": true
+          },
+          {
+            "title": "TURBOPUMP",
+            "body": "CONTINUOUS FLOW",
+            "accent": true
+          }
+        ]
+      }
+    }
+  ],
+  "4.06": [
+    {
+      "op": "x:hero",
+      "kind": "turbopump",
+      "scale": 1.1,
+      "opts": {
+        "rate": 0.7
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "gauge",
+          "x": 1340,
+          "y": 620,
+          "r": 70,
+          "value": 0.18,
+          "low": true,
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "NO FLOW, NO ENGINE",
+      "side": "R"
+    }
+  ],
+  "4.07": [
+    {
+      "op": "text",
+      "text": "WITHOUT FLOW, NO ENGINE",
+      "x": 960,
+      "y": 540,
+      "size": 58,
+      "col": "#ff9b3d"
+    }
+  ],
+  "5.01": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "reach",
+          "x": 780,
+          "y": 840,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0.4,
+          "amp": 8,
+          "prop": "pressureCooker",
+          "propX": 1060,
+          "propScale": 2.4,
+          "steam": 0.8,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    }
+  ],
+  "5.02": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.15,
+      "cut": true,
+      "cutStart": 0.1,
+      "cutDur": 0.55,
+      "opts": {
+        "flame": 0
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "5.03": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.15,
+      "opts": {
+        "flamePulse": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              960,
+              780
+            ],
+            [
+              960,
+              640
+            ],
+            [
+              960,
+              470
+            ],
+            [
+              960,
+              300
+            ]
+          ],
+          "r": 8,
+          "speed": 0.9,
+          "col": "#ff9b3d",
+          "at": 0.1,
+          "dur": 0.4
+        }
+      ]
+    }
+  ],
+  "5.04": [
+    {
+      "op": "x:hero",
+      "kind": "rocket-stack",
+      "scale": 0.95,
+      "pos": [
+        0,
+        -60,
+        0
+      ],
+      "opts": {
+        "flame": 0
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              960,
+              700
+            ],
+            [
+              960,
+              800
+            ],
+            [
+              960,
+              940
+            ]
+          ],
+          "r": 7,
+          "speed": 1.4,
+          "col": "#ff9b3d",
+          "at": 0.15,
+          "dur": 0.4
+        },
+        {
+          "k": "dot",
+          "path": [
+            [
+              900,
+              700
+            ],
+            [
+              880,
+              810
+            ],
+            [
+              860,
+              950
+            ]
+          ],
+          "r": 6,
+          "speed": 1.2,
+          "col": "#ff9b3d",
+          "phase": 0.3,
+          "at": 0.25,
+          "dur": 0.4
+        }
+      ]
+    }
+  ],
+  "5.05": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.25,
+      "cut": true,
+      "cutStart": 0.1,
+      "cutDur": 0.5,
+      "opts": {
+        "flamePulse": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "railLabel",
+      "text": "HEAT INSIDE, COLD OUTSIDE",
+      "side": "L"
+    }
+  ],
+  "5.06": [
+    {
+      "op": "railLabel",
+      "text": "MATERIALS",
+      "side": "L",
+      "at": 0.05
+    },
+    {
+      "op": "railLabel",
+      "text": "SEALS",
+      "side": "L",
+      "at": 0.2
+    },
+    {
+      "op": "railLabel",
+      "text": "COOLING",
+      "side": "L",
+      "at": 0.35
+    },
+    {
+      "op": "railLabel",
+      "text": "VALVES",
+      "side": "L",
+      "at": 0.5
+    }
+  ],
+  "5.07": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.25,
+      "opts": {
+        "flamePulse": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "railLabel",
+      "text": "EVERYTHING COOPERATES",
+      "side": "R"
+    }
+  ],
+  "6.01": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "poly",
+          "pts": [
+            [
+              800,
+              700
+            ],
+            [
+              800,
+              400
+            ],
+            [
+              900,
+              330
+            ],
+            [
+              1020,
+              330
+            ],
+            [
+              1120,
+              400
+            ],
+            [
+              1120,
+              700
+            ]
+          ],
+          "w2": 2.4,
+          "close": true,
+          "at": 0.05,
+          "dur": 0.5
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 330,
+          "x2": 960,
+          "y2": 700,
+          "w": 1.2,
+          "dash": [
+            10,
+            10
+          ],
+          "march": 16,
+          "at": 0.4,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "COPY THE OUTLINE",
+      "x": 960,
+      "y": 790,
+      "size": 52,
+      "col": "#8fe4ff"
+    }
+  ],
+  "6.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "poly",
+          "pts": [
+            [
+              800,
+              700
+            ],
+            [
+              800,
+              400
+            ],
+            [
+              900,
+              330
+            ],
+            [
+              1020,
+              330
+            ],
+            [
+              1120,
+              400
+            ],
+            [
+              1120,
+              700
+            ]
+          ],
+          "w2": 2.4,
+          "close": true
+        },
+        {
+          "k": "line",
+          "x1": 840,
+          "y1": 560,
+          "x2": 1090,
+          "y2": 560,
+          "w": 2,
+          "col": "#8fe4ff",
+          "dash": [
+            12,
+            10
+          ],
+          "march": 24,
+          "at": 0.2,
+          "dur": 0.3
+        },
+        {
+          "k": "zigzag",
+          "pts": [
+            [
+              840,
+              480
+            ],
+            [
+              880,
+              450
+            ],
+            [
+              920,
+              490
+            ],
+            [
+              960,
+              450
+            ],
+            [
+              1000,
+              490
+            ],
+            [
+              1040,
+              450
+            ],
+            [
+              1090,
+              480
+            ]
+          ],
+          "w": 1.8,
+          "col": "#ff9b3d",
+          "dash": [
+            8,
+            8
+          ],
+          "march": 20,
+          "at": 0.4,
+          "dur": 0.35
+        },
+        {
+          "k": "arc",
+          "x": 960,
+          "y": 620,
+          "r": 90,
+          "a0": 3.4,
+          "a1": 6,
+          "w": 1.8,
+          "col": "#8fe4ff",
+          "dash": [
+            10,
+            10
+          ],
+          "march": 18,
+          "at": 0.6,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "6.03": [
+    {
+      "op": "panel",
+      "name": "loop",
+      "params": {
+        "cx": 960,
+        "cy": 540,
+        "r": 190,
+        "turns": 2
+      }
+    },
+    {
+      "op": "text",
+      "text": "TEST",
+      "x": 960,
+      "y": 300,
+      "size": 44
+    },
+    {
+      "op": "text",
+      "text": "FAIL",
+      "x": 960,
+      "y": 800,
+      "size": 44,
+      "col": "#ff9b3d"
+    },
+    {
+      "op": "text",
+      "text": "CHANGE",
+      "x": 1420,
+      "y": 560,
+      "size": 44
+    },
+    {
+      "op": "text",
+      "text": "TEST",
+      "x": 500,
+      "y": 560,
+      "size": 44
+    }
+  ],
+  "6.04": [
+    {
+      "op": "text",
+      "text": "THE PARTS YOU CANNOT SEE",
+      "x": 960,
+      "y": 540,
+      "size": 54,
+      "col": "#8fe4ff"
+    }
+  ],
+  "7.01": [
+    {
+      "op": "panel",
+      "name": "timeline",
+      "params": {
+        "y": 560,
+        "ticks": [
+          {
+            "label": "EARLY GSLV FLIGHTS",
+            "note": "CRYOGENIC STAGES SUPPLIED FROM ABROAD"
+          }
+        ]
+      }
+    }
+  ],
+  "7.02": [
+    {
+      "op": "panel",
+      "name": "timeline",
+      "params": {
+        "y": 560,
+        "ticks": [
+          {
+            "label": "EARLY GSLV FLIGHTS",
+            "note": "CRYOGENIC STAGES SUPPLIED FROM ABROAD"
+          },
+          {
+            "label": "JAN 2014",
+            "note": "FIRST INDIGENOUS CRYOGENIC STAGE FLIES (ISRO)",
+            "accent": true
+          }
+        ]
+      }
+    }
+  ],
+  "7.03": [
+    {
+      "op": "x:hero",
+      "kind": "rocket-stack",
+      "scale": 1,
+      "pos": [
+        0,
+        -40,
+        0
+      ],
+      "opts": {
+        "upperLit": 1,
+        "flame": 0
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "railLabel",
+      "text": "CE20 ON LVM3",
+      "side": "R"
+    }
+  ],
+  "7.04": [
+    {
+      "op": "chart",
+      "type": "counter",
+      "row": "missions",
+      "x": 700,
+      "y": 470,
+      "size": 120,
+      "dur": 1.3
+    },
+    {
+      "op": "text",
+      "text": "CHANDRAYAAN-3",
+      "x": 1150,
+      "y": 470,
+      "size": 44,
+      "col": "#8fe4ff"
+    }
+  ],
+  "7.05": [
+    {
+      "op": "numberCard",
+      "value": "22 TONNES OF THRUST",
+      "sub": "FLIGHT ACCEPTANCE TEST",
+      "source": "ISRO, 6 JUL 2026"
+    },
+    {
+      "op": "chart",
+      "type": "chain",
+      "value": "22 t",
+      "items": [
+        "TEST",
+        "THRUST",
+        "QUALIFIED"
+      ],
+      "x0": 1150,
+      "x1": 1700,
+      "y": 700
+    }
+  ],
+  "7.06": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.15,
+      "opts": {
+        "flamePulse": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 700,
+          "y1": 820,
+          "x2": 1220,
+          "y2": 820,
+          "w": 4,
+          "at": 0.15,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 760,
+          "y1": 820,
+          "x2": 760,
+          "y2": 880,
+          "w": 3,
+          "at": 0.2,
+          "dur": 0.2
+        },
+        {
+          "k": "line",
+          "x1": 1160,
+          "y1": 820,
+          "x2": 1160,
+          "y2": 880,
+          "w": 3,
+          "at": 0.2,
+          "dur": 0.2
+        }
+      ]
+    }
+  ],
+  "7.07": [
+    {
+      "op": "text",
+      "text": "NOT A SINGLE TEST.",
+      "x": 960,
+      "y": 480,
+      "size": 56
+    },
+    {
+      "op": "text",
+      "text": "A CAPABILITY THAT REPEATS.",
+      "x": 960,
+      "y": 580,
+      "size": 56,
+      "col": "#8fe4ff"
+    }
+  ],
+  "7.08": [
+    {
+      "pos": [
+        -420,
+        60,
+        0
+      ],
+      "scale": 0.28,
+      "op": "x:hero",
+      "opts": {
+        "flame": 0
+      },
+      "kind": "rocket-stack"
+    },
+    {
+      "pos": [
+        -300,
+        60,
+        0
+      ],
+      "scale": 0.28,
+      "op": "x:hero",
+      "opts": {
+        "flame": 0
+      },
+      "kind": "rocket-stack"
+    },
+    {
+      "pos": [
+        -180,
+        60,
+        0
+      ],
+      "scale": 0.28,
+      "op": "x:hero",
+      "opts": {
+        "flame": 0
+      },
+      "kind": "rocket-stack"
+    },
+    {
+      "pos": [
+        -60,
+        60,
+        0
+      ],
+      "scale": 0.28,
+      "op": "x:hero",
+      "opts": {
+        "flame": 0
+      },
+      "kind": "rocket-stack"
+    },
+    {
+      "pos": [
+        60,
+        60,
+        0
+      ],
+      "scale": 0.28,
+      "op": "x:hero",
+      "opts": {
+        "flame": 0
+      },
+      "kind": "rocket-stack"
+    },
+    {
+      "pos": [
+        180,
+        60,
+        0
+      ],
+      "scale": 0.28,
+      "op": "x:hero",
+      "opts": {
+        "flame": 0
+      },
+      "kind": "rocket-stack"
+    },
+    {
+      "pos": [
+        300,
+        60,
+        0
+      ],
+      "scale": 0.28,
+      "op": "x:hero",
+      "opts": {
+        "flame": 0
+      },
+      "kind": "rocket-stack"
+    },
+    {
+      "pos": [
+        420,
+        60,
+        0
+      ],
+      "scale": 0.28,
+      "op": "x:hero",
+      "opts": {
+        "flame": 0
+      },
+      "kind": "rocket-stack"
+    },
+    {
+      "op": "text",
+      "text": "EIGHT SUCCESSIVE FLIGHTS",
+      "col": "#8fe4ff",
+      "y": 880,
+      "x": 960,
+      "size": 44
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "8.01": [
+    {
+      "op": "text",
+      "text": "A FICTIONAL SCENARIO",
+      "x": 960,
+      "y": 300,
+      "size": 40,
+      "col": "#ff9b3d"
+    }
+  ],
+  "8.02": [
+    {
+      "op": "x:hero",
+      "kind": "rocket-stack",
+      "scale": 1,
+      "pos": [
+        0,
+        -40,
+        0
+      ],
+      "opts": {
+        "flame": 0
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "8.03": [
+    {
+      "op": "x:hero",
+      "kind": "turbopump",
+      "scale": 1.05,
+      "opts": {
+        "rate": 2
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "gauge",
+          "x": 1400,
+          "y": 620,
+          "r": 72,
+          "value": 0.42,
+          "low": true,
+          "at": 0.15,
+          "dur": 0.4
+        }
+      ]
+    }
+  ],
+  "8.04": [
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.15,
+      "opts": {
+        "flamePulse": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "railLabel",
+      "text": "CHAMBER STARVED",
+      "side": "R"
+    }
+  ],
+  "8.05": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "arc",
+          "x": 960,
+          "y": 880,
+          "r": 620,
+          "a0": -1.5,
+          "a1": -0.35,
+          "w": 3,
+          "col": "#8fe4ff",
+          "at": 0.1,
+          "dur": 0.55
+        },
+        {
+          "k": "circle",
+          "x": 1500,
+          "y": 250,
+          "r": 26,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.55,
+          "dur": 0.25
+        },
+        {
+          "k": "circle",
+          "x": 1560,
+          "y": 190,
+          "r": 18,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.6,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "FALLS SHORT",
+      "side": "R"
+    }
+  ],
+  "8.06": [
+    {
+      "op": "text",
+      "text": "RELIABILITY IN EVERY HIDDEN PART",
+      "x": 960,
+      "y": 540,
+      "size": 52
+    }
+  ],
+  "9.01": [
+    {
+      "op": "text",
+      "text": "THE STORY IS NOT FINISHED",
+      "x": 960,
+      "y": 300,
+      "size": 52,
+      "col": "#8fe4ff"
+    }
+  ],
+  "9.02": [
+    {
+      "op": "panel",
+      "name": "boxes",
+      "params": {
+        "cy": 580,
+        "items": [
+          "HIGHER PERFORMANCE",
+          "MORE CAPABLE STAGES",
+          "MANUFACTURING CONSISTENCY",
+          "FUTURE PROPULSION"
+        ],
+        "bw": 520,
+        "bh": 150,
+        "cols": 2
+      }
+    }
+  ],
+  "9.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 860,
+          "y1": 560,
+          "x2": 940,
+          "y2": 520,
+          "w": 2.6,
+          "at": 0.1,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 940,
+          "y1": 520,
+          "x2": 1000,
+          "y2": 560,
+          "w": 2.6,
+          "at": 0.2,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 1000,
+          "y1": 560,
+          "x2": 1060,
+          "y2": 520,
+          "w": 2.6,
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 1060,
+          "y1": 520,
+          "x2": 1100,
+          "y2": 545,
+          "w": 2.6,
+          "at": 0.4,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "INTERNATIONAL COOPERATION STILL VALUABLE",
+      "side": "L"
+    }
+  ],
+  "9.04": [
+    {
+      "op": "panel",
+      "name": "question",
+      "params": {
+        "lines": [
+          "CAN AN UNAVAILABLE ENGINE",
+          "STOP A PROGRAMME?"
+        ],
+        "y": 480,
+        "size": 50
+      }
+    }
+  ],
+  "9.05": [
+    {
+      "op": "text",
+      "text": "YEARS OF TESTING",
+      "x": 960,
+      "y": 640,
+      "size": 62,
+      "col": "#8fe4ff"
+    }
+  ],
+  "10.01": [
+    {
+      "op": "text",
+      "text": "CAPABLE ONLY WHEN IT WORKS",
+      "x": 960,
+      "y": 540,
+      "size": 54
+    }
+  ],
+  "10.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "drop",
+          "x": 960,
+          "y0": 150,
+          "y": 548,
+          "r": 26,
+          "at": 0.05,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "op": "x:hero",
+      "kind": "turbopump",
+      "scale": 1.15,
+      "grow": true,
+      "growDur": 0.5,
+      "opts": {
+        "flame": 0
+      }
+    },
+    {
+      "op": "x:hero",
+      "kind": "chamber-nozzle",
+      "scale": 1.1,
+      "grow": true,
+      "growDur": 0.5,
+      "opts": {
+        "flamePulse": true
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    }
+  ],
+  "10.03": [
+    {
+      "op": "x:hero",
+      "kind": "rocket-stack",
+      "scale": 1,
+      "pos": [
+        0,
+        -40,
+        0
+      ],
+      "opts": {
+        "flame": 0
+      }
+    },
+    {
+      "op": "tag",
+      "text": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              960,
+              720
+            ],
+            [
+              960,
+              900
+            ],
+            [
+              960,
+              1040
+            ]
+          ],
+          "r": 8,
+          "speed": 1.5,
+          "col": "#ff9b3d",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ]
+    }
+  ],
+  "10.04": [
+    {
+      "op": "text",
+      "text": "A CLOSED DOOR IS NOT",
+      "x": 960,
+      "y": 500,
+      "size": 56
+    },
+    {
+      "op": "text",
+      "text": "A FINISHED STORY.",
+      "x": 960,
+      "y": 600,
+      "size": 56,
+      "col": "#8fe4ff"
+    }
+  ],
+  "10.05": [
+    {
+      "op": "titleCard",
+      "title": "INDIA BUILT IT ANYWAY",
+      "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+    }
+  ]
+}

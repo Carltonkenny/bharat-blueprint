@@ -1,0 +1,135 @@
+1
+00:00:00.000 --> 00:00:03.883
+You need a computer powerful enough for your research.
+
+2
+00:00:03.883 --> 00:00:07.767
+You are told it is not available.
+
+3
+00:00:07.767 --> 00:00:11.650
+What do you do next?
+
+4
+00:00:11.650 --> 00:00:15.533
+Not a laptop.
+
+5
+00:00:15.533 --> 00:00:19.417
+Not a machine for typing reports.
+
+6
+00:00:19.417 --> 00:00:23.300
+A machine that could help model weather, materials, and enormous scientific problems.
+
+7
+00:00:23.300 --> 00:00:30.333
+In the nineteen eighties, access to advanced imported supercomputers became a serious obstacle for India.
+
+8
+00:00:30.333 --> 00:00:37.367
+The easy response would have been to wait for permission.
+
+9
+00:00:37.367 --> 00:00:44.400
+But a country that needs answers cannot always wait for somebody else's machine.
+
+10
+00:00:44.400 --> 00:01:06.600
+The Centre for Development of Advanced Computing, or C-DAC, was established in nineteen eighty-eight against the background of denied supercomputer imports.
+
+11
+00:01:06.600 --> 00:01:28.800
+Its answer would become the PARAM family.
+
+12
+00:01:28.800 --> 00:01:41.025
+That is parallel computing.
+
+13
+00:01:41.025 --> 00:01:53.250
+Instead of expecting one processor to perform every calculation, a supercomputer distributes work across many processors.
+
+14
+00:01:53.250 --> 00:02:05.475
+Each handles a portion.
+
+15
+00:02:05.475 --> 00:02:17.700
+Then the results are brought together.
+
+16
+00:02:17.700 --> 00:02:23.360
+And there is a third problem.
+
+17
+00:02:23.360 --> 00:02:29.020
+Think of a relay race.
+
+18
+00:02:29.020 --> 00:02:34.680
+A fast runner cannot finish the race if the baton is dropped.
+
+19
+00:02:34.680 --> 00:02:40.340
+In parallel computing, software decides how work is divided, how tasks communicate, and when partial answers are combined.
+
+20
+00:02:40.340 --> 00:02:46.000
+Poor coordination can erase the advantage of all that hardware.
+
+21
+00:02:46.000 --> 00:03:06.550
+This is why a supercomputer is not simply a room filled with computers.
+
+22
+00:03:06.550 --> 00:03:27.100
+It is an agreement between hardware, networks, memory, software, cooling and people who understand the problems being solved.
+
+23
+00:03:27.100 --> 00:03:31.817
+Here is a fictional scenario.
+
+24
+00:03:31.817 --> 00:03:36.533
+A weather model is divided among many processors.
+
+25
+00:03:36.533 --> 00:03:41.250
+One processor finishes early, but another is still calculating.
+
+26
+00:03:41.250 --> 00:03:45.967
+The whole system must manage that imbalance.
+
+27
+00:03:45.967 --> 00:03:50.683
+If communication and scheduling are poor, adding more processors may barely improve the result.
+
+28
+00:03:50.683 --> 00:03:55.400
+That is the hidden art behind the machine.
+
+29
+00:03:55.400 --> 00:04:03.450
+Today's frontier is different.
+
+30
+00:04:03.450 --> 00:04:11.500
+Supercomputing now depends on accelerators, high-speed networks, energy efficiency and software tuned to new architectures.
+
+31
+00:04:11.500 --> 00:04:19.550
+Global supply chains still matter.
+
+32
+00:04:19.550 --> 00:04:27.600
+Independence is a moving target.
+
+33
+00:04:27.600 --> 00:04:35.400
+The barrier was not defeated by pretending it did not exist.
+
+34
+00:04:35.400 --> 00:04:43.200
+It was answered by learning how the entire system worked.

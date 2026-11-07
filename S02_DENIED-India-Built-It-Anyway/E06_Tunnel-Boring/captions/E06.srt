@@ -1,0 +1,175 @@
+1
+00:00:00.000 --> 00:00:08.200
+Above ground, a city keeps moving.
+
+2
+00:00:08.200 --> 00:00:16.400
+Cars cross bridges.
+
+3
+00:00:16.400 --> 00:00:24.600
+Trains arrive.
+
+4
+00:00:24.600 --> 00:00:32.800
+People sleep in buildings that have stood for decades.
+
+5
+00:00:32.800 --> 00:00:39.667
+A tunnel boring machine, or TBM, is one of the most demanding tools in modern construction.
+
+6
+00:00:39.667 --> 00:00:46.533
+India is using these machines on major rail projects.
+
+7
+00:00:46.533 --> 00:00:53.400
+Large, specialised machines and their parts can involve complicated international supply chains.
+
+8
+00:00:53.400 --> 00:01:01.200
+This is not a story of one door slammed shut.
+
+9
+00:01:01.200 --> 00:01:09.000
+It is a story of dependence on a few specialised machines, and the engineering needed to work underground.
+
+10
+00:01:09.000 --> 00:01:14.120
+Start with a spoon pushed into a bowl of wet sand.
+
+11
+00:01:14.120 --> 00:01:19.240
+The spoon removes material, but the sand can collapse into the gap.
+
+12
+00:01:19.240 --> 00:01:24.360
+Now imagine doing that beneath roads and buildings.
+
+13
+00:01:24.360 --> 00:01:29.480
+Excavation is only half the problem.
+
+14
+00:01:29.480 --> 00:01:34.600
+The other half is keeping the surrounding ground stable.
+
+15
+00:01:34.600 --> 00:01:40.250
+At the front of the machine is a rotating cutterhead.
+
+16
+00:01:40.250 --> 00:01:45.900
+It breaks or scrapes away the material ahead.
+
+17
+00:01:45.900 --> 00:01:51.550
+Behind it, systems carry the excavated material away.
+
+18
+00:01:51.550 --> 00:01:57.200
+But a tunnel cannot be left as an unsupported hole.
+
+19
+00:01:57.200 --> 00:02:02.850
+Depending on ground conditions and machine design, pressure at the excavation face must be carefully managed.
+
+20
+00:02:02.850 --> 00:02:08.500
+On the Mumbai machines, pressurised slurry does that job.
+
+21
+00:02:08.500 --> 00:02:15.300
+Think of holding a hand against a door while someone pushes from the other side.
+
+22
+00:02:15.300 --> 00:02:22.100
+If the opposing forces are badly balanced, the door moves.
+
+23
+00:02:22.100 --> 00:02:28.900
+In tunnelling, the equivalent imbalance can allow the ground to shift.
+
+24
+00:02:28.900 --> 00:02:35.700
+Engineers monitor pressure, movement and the behaviour of the soil or rock continuously.
+
+25
+00:02:35.700 --> 00:02:40.600
+Now look behind the cutterhead.
+
+26
+00:02:40.600 --> 00:02:45.500
+As the machine advances, precast concrete segments can be assembled into rings.
+
+27
+00:02:45.500 --> 00:02:50.400
+These rings become the tunnel lining.
+
+28
+00:02:50.400 --> 00:02:55.300
+Imagine constructing the walls of a corridor immediately after carving out the space for it.
+
+29
+00:02:55.300 --> 00:03:00.200
+The machine is not just digging a hole.
+
+30
+00:03:00.200 --> 00:03:05.100
+It is helping create a supported passage.
+
+31
+00:03:05.100 --> 00:03:10.650
+In July twenty twenty-six, the railway ministry reported a second tunnel boring machine starting work.
+
+32
+00:03:10.650 --> 00:03:16.200
+It is on the Mumbai to Ahmedabad bullet train line.
+
+33
+00:03:16.200 --> 00:03:21.750
+Seven kilometres of that ten kilometre stretch run under Thane Creek.
+
+34
+00:03:21.750 --> 00:03:27.300
+The scale is impressive.
+
+35
+00:03:27.300 --> 00:03:32.850
+The more interesting fact is the coordination.
+
+36
+00:03:32.850 --> 00:03:38.400
+Geology, machine control, surveying, segments, transport and safety all have to work together.
+
+37
+00:03:38.400 --> 00:03:43.060
+Here is a fictional scenario.
+
+38
+00:03:43.060 --> 00:03:47.720
+A cutterhead encounters unexpectedly different ground.
+
+39
+00:03:47.720 --> 00:03:52.380
+The machine cannot simply push harder without understanding the consequences.
+
+40
+00:03:52.380 --> 00:03:57.040
+Operators adjust the excavation process, monitor movement and protect the ground above.
+
+41
+00:03:57.040 --> 00:04:01.700
+Progress becomes a question of control, not brute force.
+
+42
+00:04:01.700 --> 00:04:20.000
+India's next challenge is deepening domestic capability in high-value machinery, specialised components, manufacturing, maintenance and engineering know-how.
+
+43
+00:04:20.000 --> 00:04:28.350
+The machine makes a tunnel.
+
+44
+00:04:28.350 --> 00:04:36.700
+The industry behind the machine determines how easily the next tunnel can be built, repaired, adapted and completed.

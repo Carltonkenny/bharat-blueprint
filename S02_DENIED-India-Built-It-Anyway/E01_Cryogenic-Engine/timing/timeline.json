@@ -1,0 +1,4068 @@
+{
+  "duration": 315.8,
+  "beats": [
+    {
+      "id": "1.01",
+      "p": "P01",
+      "kind": "hook",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 420,
+              "y1": 560,
+              "x2": 1500,
+              "y2": 560,
+              "w": 3
+            },
+            {
+              "k": "line",
+              "x1": 420,
+              "y1": 700,
+              "x2": 1500,
+              "y2": 700,
+              "w": 1.4,
+              "dash": [
+                14,
+                12
+              ],
+              "march": 22
+            },
+            {
+              "k": "line",
+              "x1": 620,
+              "y1": 560,
+              "x2": 620,
+              "y2": 700,
+              "w": 1.4,
+              "dash": [
+                14,
+                12
+              ],
+              "march": 22
+            },
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 560,
+              "x2": 900,
+              "y2": 700,
+              "w": 1.4,
+              "dash": [
+                14,
+                12
+              ],
+              "march": 22
+            },
+            {
+              "k": "line",
+              "x1": 1180,
+              "y1": 560,
+              "x2": 1180,
+              "y2": 700,
+              "w": 1.4,
+              "dash": [
+                14,
+                12
+              ],
+              "march": 22
+            },
+            {
+              "k": "drop",
+              "x": 960,
+              "y0": 150,
+              "y": 548,
+              "r": 26,
+              "at": 0.05,
+              "dur": 0.75
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 560,
+              "r": 78,
+              "w": 1.6,
+              "col": "#8fe4ff",
+              "at": 0.8,
+              "dur": 0.2
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 560,
+              "r": 130,
+              "w": 1.2,
+              "col": "#8fe4ff",
+              "at": 0.85,
+              "dur": 0.2
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "frost drop falls on grid, push-in",
+      "cam": "push-in",
+      "camAmount": 0.1,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 0.8,
+      "t1": 3.549,
+      "dur": 2.749,
+      "passageStart": 0.8,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.02",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "turbopump",
+          "scale": 1.15,
+          "grow": true,
+          "growDur": 0.55,
+          "opts": {
+            "flame": 0
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "match-cut: drop becomes pump rotor, spins",
+      "cam": "hold",
+      "camAmount": 0.1,
+      "camDist": 0.62,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 3.549,
+      "t1": 6.298,
+      "dur": 2.749,
+      "passageStart": 3.549,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.03",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.1,
+          "grow": true,
+          "growDur": 0.5,
+          "cut": true,
+          "cutStart": 0.15,
+          "cutDur": 0.5,
+          "opts": {
+            "flamePulse": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "rotor opens into chamber, flame sketch draws on",
+      "cam": "hold",
+      "camAmount": 0.1,
+      "camDist": 1.1,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 6.298,
+      "t1": 9.3906,
+      "dur": 3.0926,
+      "passageStart": 6.298,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.04",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "rocket-stack",
+          "scale": 1,
+          "pos": [
+            0,
+            -40,
+            0
+          ],
+          "opts": {
+            "flame": 0
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "pull-back: full rocket stack outline",
+      "cam": "pull-back",
+      "camAmount": 0.1,
+      "camDist": 1.85,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 9.3906,
+      "t1": 11.9678,
+      "dur": 2.5772,
+      "passageStart": 9.3906,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.05",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "rocket-stack",
+          "scale": 1,
+          "pos": [
+            0,
+            -40,
+            0
+          ],
+          "opts": {
+            "upperLit": 1,
+            "flame": 0
+          }
+        },
+        {
+          "op": "railLabel",
+          "text": "FINAL PUSH",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "upper stage glows amber, rest dim, label FINAL PUSH",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.85,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 11.9678,
+      "t1": 15.2322,
+      "dur": 3.2644,
+      "passageStart": 11.9678,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.06",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 760,
+              "y": 330,
+              "w": 400,
+              "h": 400,
+              "w2": 2,
+              "dash": [
+                16,
+                12
+              ],
+              "march": 26,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "?",
+          "x": 960,
+          "y": 590,
+          "size": 80,
+          "col": "#8fe4ff",
+          "pulse": true,
+          "rate": 2.6
+        }
+      ],
+      "labels": [],
+      "notes": "empty box where the engine should be, \"?\" pulses once",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 15.2322,
+      "t1": 18.6685,
+      "dur": 3.4362,
+      "passageStart": 15.2322,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.07",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT PHYSICS. TRANSFER.",
+          "x": 960,
+          "y": 560,
+          "size": 64
+        }
+      ],
+      "labels": [],
+      "notes": "stamp-less text: \"NOT PHYSICS. TRANSFER.\"",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 18.6685,
+      "t1": 21.2456,
+      "dur": 2.5772,
+      "passageStart": 18.6685,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.08",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "question",
+          "params": {
+            "lines": [
+              "SO WHAT DO YOU DO",
+              "WHEN THE ONE ENGINE YOU NEED",
+              "IS THE ONE YOU CANNOT GET?"
+            ],
+            "y": 420,
+            "size": 46
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "question draws on: SO WHAT DO YOU DO WHEN THE ONE ENGINE YOU NEED IS THE ONE YOU CANNOT GET?",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 21.2456,
+      "t1": 26.4,
+      "dur": 5.1544,
+      "passageStart": 21.2456,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.01",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "timeline",
+          "params": {
+            "y": 560,
+            "ticks": [
+              {
+                "note": "RESTRICTIONS ON ACCESS (NONPROLIFERATION REVIEW)",
+                "label": "EARLY 1990s"
+              }
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "tick on a bare timeline: EARLY 1990s",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 26.4,
+      "t1": 30.3253,
+      "dur": 3.9253,
+      "passageStart": 26.4,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.02",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 380,
+              "y1": 500,
+              "x2": 1540,
+              "y2": 500,
+              "w": 3
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 380,
+              "x2": 960,
+              "y2": 620,
+              "w": 5,
+              "col": "#ff9b3d",
+              "at": 0.25,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 400,
+              "x2": 920,
+              "y2": 380,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.5,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 400,
+              "x2": 1000,
+              "y2": 380,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.5,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 440,
+              "x2": 920,
+              "y2": 460,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.5,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 440,
+              "x2": 1000,
+              "y2": 460,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.5,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "RESTRICTED ACCESS",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "gate drawn across a pipeline (concept: restrictions on access), label RESTRICTED ACCESS",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 30.3253,
+      "t1": 35.4051,
+      "dur": 5.0798,
+      "passageStart": 30.3253,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.03",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 0.95,
+          "opts": {
+            "flame": 0.15
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 330,
+              "y": 400,
+              "w": 150,
+              "h": 220,
+              "w2": 1.4,
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 1440,
+              "y": 400,
+              "w": 150,
+              "h": 220,
+              "w2": 1.4,
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "col": "#8fe4ff",
+              "at": 0.4,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 300,
+              "x2": 960,
+              "y2": 700,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.5,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "engine silhouette behind the gate, others' engines faint ghosts (no country marks)",
+      "cam": "hold",
+      "camAmount": 0.08,
+      "camDist": 1.25,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 35.4051,
+      "t1": 40.4848,
+      "dur": 5.0798,
+      "passageStart": 35.4051,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.04",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 620,
+              "y1": 720,
+              "x2": 1300,
+              "y2": 720,
+              "w": 3,
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 660,
+              "y1": 720,
+              "x2": 660,
+              "y2": 790,
+              "w": 2,
+              "at": 0.1,
+              "dur": 0.2
+            },
+            {
+              "k": "line",
+              "x1": 1260,
+              "y1": 720,
+              "x2": 1260,
+              "y2": 790,
+              "w": 2,
+              "at": 0.1,
+              "dur": 0.2
+            },
+            {
+              "k": "rect",
+              "x": 900,
+              "y": 690,
+              "w": 120,
+              "h": 30,
+              "w2": 1.6,
+              "at": 0.2,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "point",
+              "x": 760,
+              "y": 720,
+              "scale": 2.4,
+              "accentPart": "armR",
+              "phase": 0,
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "pose": "stand",
+              "x": 1160,
+              "y": 720,
+              "scale": 2.4,
+              "accentPart": "armL",
+              "phase": 1.1,
+              "at": 0.35,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "two engineers at a bench look at a drawing, point",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 40.4848,
+      "t1": 45.1028,
+      "dur": 4.618,
+      "passageStart": 40.4848,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.05",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "A REFUSAL DOES NOT",
+          "x": 960,
+          "y": 480,
+          "size": 52
+        },
+        {
+          "op": "text",
+          "text": "CREATE AN ENGINE",
+          "x": 960,
+          "y": 570,
+          "size": 52
+        }
+      ],
+      "labels": [],
+      "notes": "\"A refusal does not create an engine\" draws on as a stroke title",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 45.1028,
+      "t1": 50.4135,
+      "dur": 5.3107,
+      "passageStart": 45.1028,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.06",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 560,
+              "y1": 760,
+              "x2": 1360,
+              "y2": 760,
+              "w": 3,
+              "at": 0.05,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 700,
+              "r": 34,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 830,
+              "y": 668,
+              "w": 54,
+              "h": 64,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "circle",
+              "x": 990,
+              "y": 700,
+              "r": 26,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.5,
+              "dur": 0.25
+            },
+            {
+              "k": "poly",
+              "pts": [
+                [
+                  1080,
+                  740
+                ],
+                [
+                  1080,
+                  640
+                ],
+                [
+                  1160,
+                  640
+                ],
+                [
+                  1160,
+                  740
+                ]
+              ],
+              "w2": 2,
+              "col": "#8fe4ff",
+              "close": true,
+              "at": 0.65,
+              "dur": 0.25
+            },
+            {
+              "k": "poly",
+              "pts": [
+                [
+                  1240,
+                  740
+                ],
+                [
+                  1300,
+                  700
+                ],
+                [
+                  1300,
+                  740
+                ]
+              ],
+              "w2": 2,
+              "col": "#8fe4ff",
+              "close": true,
+              "at": 0.8,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "sort",
+              "x": 560,
+              "y": 760,
+              "scale": 2.4,
+              "accentPart": "armR",
+              "phase": 0.4,
+              "at": 0.15,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "puzzle: pieces assemble one by one on the bench (pump, valve, seal, chamber, nozzle)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 50.4135,
+      "t1": 55.9551,
+      "dur": 5.5416,
+      "passageStart": 50.4135,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.07",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "ONE PIECE AT A TIME",
+          "x": 960,
+          "y": 540,
+          "size": 60,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "counter ticks \"ONE PIECE AT A TIME\" (no number)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 55.9551,
+      "t1": 60.3421,
+      "dur": 4.3871,
+      "passageStart": 55.9551,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.08",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.05,
+          "explode": true,
+          "explodeAt": 0.1,
+          "explodeDur": 1.4,
+          "explodeAmount": 0.5,
+          "opts": {
+            "flamePulse": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "pieces slide into the engine",
+      "cam": "hold",
+      "camAmount": 0.08,
+      "camDist": 1.1,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 60.3421,
+      "t1": 63.8056,
+      "dur": 3.4635,
+      "passageStart": 60.3421,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.09",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "stack",
+          "words": [
+            "STUBBORN.",
+            "TESTED.",
+            "REPEATED."
+          ],
+          "x": 960,
+          "y": 430,
+          "size": 58,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "hold: three words, STUBBORN. TESTED. REPEATED.",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 63.8056,
+      "t1": 67.5,
+      "dur": 3.6944,
+      "passageStart": 63.8056,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.01",
+      "p": "P03",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "reach",
+              "x": 800,
+              "y": 830,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "amp": 10,
+              "prop": "gasStove",
+              "propX": 1060,
+              "propScale": 2.2,
+              "flame": 0.8,
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "op": "prop",
+              "prop": "pot",
+              "x": 1060,
+              "y": 690,
+              "scale": 2,
+              "p": 1
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "cook lights gas stove, flame blue-amber",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 67.5,
+      "t1": 71.9104,
+      "dur": 4.4104,
+      "passageStart": 67.5,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.02",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 620,
+              "y1": 300,
+              "x2": 880,
+              "y2": 430,
+              "at": 0.05,
+              "dur": 0.4,
+              "col": "#8fe4ff"
+            },
+            {
+              "k": "arrow",
+              "x1": 1300,
+              "y1": 300,
+              "x2": 1040,
+              "y2": 430,
+              "at": 0.2,
+              "dur": 0.4,
+              "col": "#8fe4ff"
+            },
+            {
+              "k": "dot",
+              "path": [
+                [
+                  620,
+                  300
+                ],
+                [
+                  960,
+                  470
+                ],
+                [
+                  1300,
+                  300
+                ]
+              ],
+              "r": 10,
+              "speed": 0.35,
+              "col": "#ff9b3d",
+              "at": 0.4,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FUEL + OXYGEN = HEAT",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "fuel + oxygen arrows merge at flame, label FUEL + OXYGEN = HEAT",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 71.9104,
+      "t1": 78.2504,
+      "dur": 6.34,
+      "passageStart": 71.9104,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.03",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tank",
+          "scale": 1,
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "opts": {
+            "frostOn": false
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "OWN OXYGEN",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "rocket tank cutaway: carries its own oxygen, label OWN OXYGEN",
+      "cam": "hold",
+      "camAmount": 0.08,
+      "camDist": 1.45,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 78.2504,
+      "t1": 83.7635,
+      "dur": 5.513,
+      "passageStart": 78.2504,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.04",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tank",
+          "scale": 1,
+          "opts": {
+            "frostOn": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 1420,
+              "y1": 330,
+              "x2": 1420,
+              "y2": 470,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1420,
+              "y": 490,
+              "r": 42,
+              "w2": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.35,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 1420,
+              "y1": 490,
+              "x2": 1420,
+              "y2": 520,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.5,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "VERY COLD",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "tank frosts, thermometer glyph dives, label VERY COLD (no number unless sourced)",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.45,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 83.7635,
+      "t1": 89.8278,
+      "dur": 6.0643,
+      "passageStart": 83.7635,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.05",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "pipe-network",
+          "scale": 1.1,
+          "opts": {
+            "flow": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "arrow",
+              "x1": 520,
+              "y1": 320,
+              "x2": 640,
+              "y2": 320,
+              "col": "#ff9b3d",
+              "at": 0.35,
+              "dur": 0.3
+            },
+            {
+              "k": "arrow",
+              "x1": 1300,
+              "y1": 320,
+              "x2": 1180,
+              "y2": 320,
+              "col": "#ff9b3d",
+              "at": 0.45,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "PLUMBING UNFORGIVING",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "pipe-network shrinks slightly (contraction arrows), label PLUMBING UNFORGIVING",
+      "cam": "hold",
+      "camAmount": 0.08,
+      "camDist": 1.3,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 89.8278,
+      "t1": 94.7896,
+      "dur": 4.9617,
+      "passageStart": 89.8278,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.06",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "tank",
+          "scale": 0.8,
+          "pos": [
+            -420,
+            0,
+            0
+          ],
+          "opts": {
+            "frostOn": true
+          }
+        },
+        {
+          "op": "x:hero",
+          "kind": "pipe-network",
+          "scale": 0.8,
+          "pos": [
+            380,
+            0,
+            0
+          ],
+          "opts": {
+            "flow": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "hold on tank + pipes together",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.6,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 94.7896,
+      "t1": 99.2,
+      "dur": 4.4104,
+      "passageStart": 94.7896,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.01",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "pump",
+              "x": 820,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "amp": 16,
+              "speed": 2.6,
+              "prop": "bicyclePump",
+              "propX": 1010,
+              "propScale": 2.6,
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "op": "prop",
+              "prop": "tyre",
+              "x": 1330,
+              "y": 850,
+              "r": 78,
+              "scale": 1,
+              "p": 1
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "cyclist pumps tyre, one push per beat",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 99.2,
+      "t1": 103.6869,
+      "dur": 4.4869,
+      "passageStart": 99.2,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.02",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 420,
+              "y1": 540,
+              "x2": 1500,
+              "y2": 540,
+              "at": 0.1,
+              "dur": 0.5
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 460,
+              "x2": 1020,
+              "y2": 460,
+              "w": 3.4
+            },
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 620,
+              "x2": 1020,
+              "y2": 620,
+              "w": 3.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "THROUGH A NARROW PASSAGE",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "air arrow through a narrow passage",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 103.6869,
+      "t1": 107.9098,
+      "dur": 4.223,
+      "passageStart": 103.6869,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.03",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "turbopump",
+          "scale": 1.2,
+          "grow": true,
+          "growDur": 0.5
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "turbopump appears in cutaway, impeller spins",
+      "cam": "hold",
+      "camAmount": 0.08,
+      "camDist": 0.62,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 107.9098,
+      "t1": 112.1328,
+      "dur": 4.223,
+      "passageStart": 107.9098,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.04",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "turbopump",
+          "scale": 1.1,
+          "pos": [
+            -300,
+            0,
+            0
+          ],
+          "opts": {
+            "rate": 5
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 420,
+              "y1": 380,
+              "x2": 720,
+              "y2": 380,
+              "col": "#8fe4ff",
+              "at": 0.1,
+              "dur": 0.4
+            },
+            {
+              "k": "arrow",
+              "x1": 900,
+              "y1": 380,
+              "x2": 1200,
+              "y2": 380,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.4
+            },
+            {
+              "k": "arrow",
+              "x1": 1300,
+              "y1": 380,
+              "x2": 1560,
+              "y2": 380,
+              "col": "#ff9b3d",
+              "at": 0.5,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "gauge",
+              "x": 1180,
+              "y": 640,
+              "r": 66,
+              "value": 0.85,
+              "at": 0.45,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "PRESSURE UP",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "flow arrows: fuel in, pressure up, out to chamber, gauge rises",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 0.75,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 112.1328,
+      "t1": 117.6754,
+      "dur": 5.5426,
+      "passageStart": 112.1328,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.05",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "compare",
+          "params": {
+            "y": 560,
+            "w": 400,
+            "h": 260,
+            "columns": [
+              {
+                "title": "TINY HAND PUMP",
+                "body": "ONE PUSH",
+                "ghost": true
+              },
+              {
+                "title": "TURBOPUMP",
+                "body": "CONTINUOUS FLOW",
+                "accent": true
+              }
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "two lines: TINY HAND PUMP vs TURBOPUMP, scale-ghost",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 117.6754,
+      "t1": 122.4262,
+      "dur": 4.7508,
+      "passageStart": 117.6754,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.06",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "turbopump",
+          "scale": 1.1,
+          "opts": {
+            "rate": 0.7
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "gauge",
+              "x": 1340,
+              "y": 620,
+              "r": 70,
+              "value": 0.18,
+              "low": true,
+              "at": 0.2,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "NO FLOW, NO ENGINE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "fail state: pump slows, gauge falls, chamber flame fades",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 0.75,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 122.4262,
+      "t1": 127.441,
+      "dur": 5.0148,
+      "passageStart": 122.4262,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.07",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "WITHOUT FLOW, NO ENGINE",
+          "x": 960,
+          "y": 540,
+          "size": 58,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "label WITHOUT FLOW, NO ENGINE",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 127.441,
+      "t1": 131.4,
+      "dur": 3.959,
+      "passageStart": 127.441,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.01",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "reach",
+              "x": 780,
+              "y": 840,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0.4,
+              "amp": 8,
+              "prop": "pressureCooker",
+              "propX": 1060,
+              "propScale": 2.4,
+              "steam": 0.8,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "pressure cooker, steam rattles",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 131.4,
+      "t1": 135.1921,
+      "dur": 3.7921,
+      "passageStart": 131.4,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.02",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.15,
+          "cut": true,
+          "cutStart": 0.1,
+          "cutDur": 0.55,
+          "opts": {
+            "flame": 0
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "chamber section appears (clipping plane sweeps)",
+      "cam": "hold",
+      "camAmount": 0.08,
+      "camDist": 1.1,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 135.1921,
+      "t1": 139.526,
+      "dur": 4.3339,
+      "passageStart": 135.1921,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.03",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.15,
+          "opts": {
+            "flamePulse": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  960,
+                  780
+                ],
+                [
+                  960,
+                  640
+                ],
+                [
+                  960,
+                  470
+                ],
+                [
+                  960,
+                  300
+                ]
+              ],
+              "r": 8,
+              "speed": 0.9,
+              "col": "#ff9b3d",
+              "at": 0.1,
+              "dur": 0.4
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "gas speeds through throat, particles accelerate (seeded)",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.1,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 139.526,
+      "t1": 144.1307,
+      "dur": 4.6047,
+      "passageStart": 139.526,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.04",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "rocket-stack",
+          "scale": 0.95,
+          "pos": [
+            0,
+            -60,
+            0
+          ],
+          "opts": {
+            "flame": 0
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  960,
+                  700
+                ],
+                [
+                  960,
+                  800
+                ],
+                [
+                  960,
+                  940
+                ]
+              ],
+              "r": 7,
+              "speed": 1.4,
+              "col": "#ff9b3d",
+              "at": 0.15,
+              "dur": 0.4
+            },
+            {
+              "k": "dot",
+              "path": [
+                [
+                  900,
+                  700
+                ],
+                [
+                  880,
+                  810
+                ],
+                [
+                  860,
+                  950
+                ]
+              ],
+              "r": 6,
+              "speed": 1.2,
+              "col": "#ff9b3d",
+              "phase": 0.3,
+              "at": 0.25,
+              "dur": 0.4
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "nozzle bell draws on, exhaust goes backward, rocket nudges forward",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.85,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 144.1307,
+      "t1": 149.548,
+      "dur": 5.4173,
+      "passageStart": 144.1307,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.05",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.25,
+          "cut": true,
+          "cutStart": 0.1,
+          "cutDur": 0.5,
+          "opts": {
+            "flamePulse": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "HEAT INSIDE, COLD OUTSIDE",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "heat/cold wall: amber inside, cyan cooling passages outside (concept)",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.25,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 149.548,
+      "t1": 154.6945,
+      "dur": 5.1465,
+      "passageStart": 149.548,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.06",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "railLabel",
+          "text": "MATERIALS",
+          "side": "L",
+          "at": 0.05
+        },
+        {
+          "op": "railLabel",
+          "text": "SEALS",
+          "side": "L",
+          "at": 0.2
+        },
+        {
+          "op": "railLabel",
+          "text": "COOLING",
+          "side": "L",
+          "at": 0.35
+        },
+        {
+          "op": "railLabel",
+          "text": "VALVES",
+          "side": "L",
+          "at": 0.5
+        }
+      ],
+      "labels": [],
+      "notes": "callouts pop one at a time: MATERIALS · SEALS · COOLING · VALVES",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 154.6945,
+      "t1": 160.9244,
+      "dur": 6.2299,
+      "passageStart": 154.6945,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.07",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.25,
+          "opts": {
+            "flamePulse": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "EVERYTHING COOPERATES",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "all four light up together, label EVERYTHING COOPERATES",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.25,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 160.9244,
+      "t1": 165.8,
+      "dur": 4.8756,
+      "passageStart": 160.9244,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.01",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "poly",
+              "pts": [
+                [
+                  800,
+                  700
+                ],
+                [
+                  800,
+                  400
+                ],
+                [
+                  900,
+                  330
+                ],
+                [
+                  1020,
+                  330
+                ],
+                [
+                  1120,
+                  400
+                ],
+                [
+                  1120,
+                  700
+                ]
+              ],
+              "w2": 2.4,
+              "close": true,
+              "at": 0.05,
+              "dur": 0.5
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 330,
+              "x2": 960,
+              "y2": 700,
+              "w": 1.2,
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "at": 0.4,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "COPY THE OUTLINE",
+          "x": 960,
+          "y": 790,
+          "size": 52,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "outline of an engine, empty; \"COPY THE OUTLINE\"",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 165.8,
+      "t1": 170.6,
+      "dur": 4.8,
+      "passageStart": 165.8,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.02",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "poly",
+              "pts": [
+                [
+                  800,
+                  700
+                ],
+                [
+                  800,
+                  400
+                ],
+                [
+                  900,
+                  330
+                ],
+                [
+                  1020,
+                  330
+                ],
+                [
+                  1120,
+                  400
+                ],
+                [
+                  1120,
+                  700
+                ]
+              ],
+              "w2": 2.4,
+              "close": true
+            },
+            {
+              "k": "line",
+              "x1": 840,
+              "y1": 560,
+              "x2": 1090,
+              "y2": 560,
+              "w": 2,
+              "col": "#8fe4ff",
+              "dash": [
+                12,
+                10
+              ],
+              "march": 24,
+              "at": 0.2,
+              "dur": 0.3
+            },
+            {
+              "k": "zigzag",
+              "pts": [
+                [
+                  840,
+                  480
+                ],
+                [
+                  880,
+                  450
+                ],
+                [
+                  920,
+                  490
+                ],
+                [
+                  960,
+                  450
+                ],
+                [
+                  1000,
+                  490
+                ],
+                [
+                  1040,
+                  450
+                ],
+                [
+                  1090,
+                  480
+                ]
+              ],
+              "w": 1.8,
+              "col": "#ff9b3d",
+              "dash": [
+                8,
+                8
+              ],
+              "march": 20,
+              "at": 0.4,
+              "dur": 0.35
+            },
+            {
+              "k": "arc",
+              "x": 960,
+              "y": 620,
+              "r": 90,
+              "a0": 3.4,
+              "a1": 6,
+              "w": 1.8,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 18,
+              "at": 0.6,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "ghost layers of invisible behaviour fill inside (flow, heat, vibration) as dashed lines",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 170.6,
+      "t1": 176.7333,
+      "dur": 6.1333,
+      "passageStart": 170.6,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.03",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "loop",
+          "params": {
+            "cx": 960,
+            "cy": 540,
+            "r": 190,
+            "turns": 2
+          }
+        },
+        {
+          "op": "text",
+          "text": "TEST",
+          "x": 960,
+          "y": 300,
+          "size": 44
+        },
+        {
+          "op": "text",
+          "text": "FAIL",
+          "x": 960,
+          "y": 800,
+          "size": 44,
+          "col": "#ff9b3d"
+        },
+        {
+          "op": "text",
+          "text": "CHANGE",
+          "x": 1420,
+          "y": 560,
+          "size": 44
+        },
+        {
+          "op": "text",
+          "text": "TEST",
+          "x": 500,
+          "y": 560,
+          "size": 44
+        }
+      ],
+      "labels": [],
+      "notes": "test loop draws: TEST - FAIL - CHANGE - TEST, arrow circulates twice",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 176.7333,
+      "t1": 182.8667,
+      "dur": 6.1333,
+      "passageStart": 176.7333,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.04",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE PARTS YOU CANNOT SEE",
+          "x": 960,
+          "y": 540,
+          "size": 54,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "hold",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 182.8667,
+      "t1": 185.8,
+      "dur": 2.9333,
+      "passageStart": 182.8667,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.01",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "timeline",
+          "params": {
+            "y": 560,
+            "ticks": [
+              {
+                "label": "EARLY GSLV FLIGHTS",
+                "note": "CRYOGENIC STAGES SUPPLIED FROM ABROAD"
+              }
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "timeline strip: EARLY GSLV FLIGHTS - CRYOGENIC STAGES SUPPLIED FROM ABROAD",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 185.8,
+      "t1": 193.3589,
+      "dur": 7.5589,
+      "passageStart": 185.8,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.02",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "timeline",
+          "params": {
+            "y": 560,
+            "ticks": [
+              {
+                "label": "EARLY GSLV FLIGHTS",
+                "note": "CRYOGENIC STAGES SUPPLIED FROM ABROAD"
+              },
+              {
+                "label": "JAN 2014",
+                "note": "FIRST INDIGENOUS CRYOGENIC STAGE FLIES (ISRO)",
+                "accent": true
+              }
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "tick JAN 2014 - FIRST INDIGENOUS CRYOGENIC STAGE FLIES (ISRO)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 193.3589,
+      "t1": 200.5636,
+      "dur": 7.2047,
+      "passageStart": 193.3589,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.03",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "rocket-stack",
+          "scale": 1,
+          "pos": [
+            0,
+            -40,
+            0
+          ],
+          "opts": {
+            "upperLit": 1,
+            "flame": 0
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "CE20 ON LVM3",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "rocket stack, upper stage highlighted, label CE20 ON LVM3",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.85,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 200.5636,
+      "t1": 207.4142,
+      "dur": 6.8506,
+      "passageStart": 200.5636,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.04",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "chart",
+          "type": "counter",
+          "row": "missions",
+          "x": 700,
+          "y": 470,
+          "size": 120,
+          "dur": 1.3
+        },
+        {
+          "op": "text",
+          "text": "CHANDRAYAAN-3",
+          "x": 1150,
+          "y": 470,
+          "size": 44,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "counter ticks to 8 SUCCESSIVE LVM3 MISSIONS (ISRO), Chandrayaan-3 tag",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 207.4142,
+      "t1": 214.6189,
+      "dur": 7.2047,
+      "passageStart": 207.4142,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.05",
+      "p": "P07",
+      "kind": "number",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "numberCard",
+          "value": "22 TONNES OF THRUST",
+          "sub": "FLIGHT ACCEPTANCE TEST",
+          "source": "ISRO, 6 JUL 2026"
+        },
+        {
+          "op": "chart",
+          "type": "chain",
+          "value": "22 t",
+          "items": [
+            "TEST",
+            "THRUST",
+            "QUALIFIED"
+          ],
+          "x0": 1150,
+          "x1": 1700,
+          "y": 700
+        }
+      ],
+      "labels": [],
+      "notes": "22 TONNES OF THRUST card on a dimension chain, source chip \"ISRO, 6 JUL 2026\"",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 214.6189,
+      "t1": 222.6189,
+      "dur": 8,
+      "passageStart": 214.6189,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.06",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.15,
+          "opts": {
+            "flamePulse": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 820,
+              "x2": 1220,
+              "y2": 820,
+              "w": 4,
+              "at": 0.15,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 760,
+              "y1": 820,
+              "x2": 760,
+              "y2": 880,
+              "w": 3,
+              "at": 0.2,
+              "dur": 0.2
+            },
+            {
+              "k": "line",
+              "x1": 1160,
+              "y1": 820,
+              "x2": 1160,
+              "y2": 880,
+              "w": 3,
+              "at": 0.2,
+              "dur": 0.2
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "engine in test-stand sketch, flame (concept)",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.1,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 222.6189,
+      "t1": 228.4071,
+      "dur": 5.7882,
+      "passageStart": 222.6189,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.07",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT A SINGLE TEST.",
+          "x": 960,
+          "y": 480,
+          "size": 56
+        },
+        {
+          "op": "text",
+          "text": "A CAPABILITY THAT REPEATS.",
+          "x": 960,
+          "y": 580,
+          "size": 56,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOT A SINGLE TEST. A CAPABILITY THAT REPEATS.",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 228.4071,
+      "t1": 235.2577,
+      "dur": 6.8506,
+      "passageStart": 228.4071,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.08",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "pos": [
+            -420,
+            60,
+            0
+          ],
+          "scale": 0.28,
+          "op": "x:hero",
+          "opts": {
+            "flame": 0
+          },
+          "kind": "rocket-stack"
+        },
+        {
+          "pos": [
+            -300,
+            60,
+            0
+          ],
+          "scale": 0.28,
+          "op": "x:hero",
+          "opts": {
+            "flame": 0
+          },
+          "kind": "rocket-stack"
+        },
+        {
+          "pos": [
+            -180,
+            60,
+            0
+          ],
+          "scale": 0.28,
+          "op": "x:hero",
+          "opts": {
+            "flame": 0
+          },
+          "kind": "rocket-stack"
+        },
+        {
+          "pos": [
+            -60,
+            60,
+            0
+          ],
+          "scale": 0.28,
+          "op": "x:hero",
+          "opts": {
+            "flame": 0
+          },
+          "kind": "rocket-stack"
+        },
+        {
+          "pos": [
+            60,
+            60,
+            0
+          ],
+          "scale": 0.28,
+          "op": "x:hero",
+          "opts": {
+            "flame": 0
+          },
+          "kind": "rocket-stack"
+        },
+        {
+          "pos": [
+            180,
+            60,
+            0
+          ],
+          "scale": 0.28,
+          "op": "x:hero",
+          "opts": {
+            "flame": 0
+          },
+          "kind": "rocket-stack"
+        },
+        {
+          "pos": [
+            300,
+            60,
+            0
+          ],
+          "scale": 0.28,
+          "op": "x:hero",
+          "opts": {
+            "flame": 0
+          },
+          "kind": "rocket-stack"
+        },
+        {
+          "pos": [
+            420,
+            60,
+            0
+          ],
+          "scale": 0.28,
+          "op": "x:hero",
+          "opts": {
+            "flame": 0
+          },
+          "kind": "rocket-stack"
+        },
+        {
+          "op": "text",
+          "text": "EIGHT SUCCESSIVE FLIGHTS",
+          "col": "#8fe4ff",
+          "y": 880,
+          "x": 960,
+          "size": 44
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "pull-back: 8 small rocket marks line up",
+      "cam": "pull-back",
+      "camAmount": 0.08,
+      "camDist": 2.9,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 235.2577,
+      "t1": 241.4,
+      "dur": 6.1423,
+      "passageStart": 235.2577,
+      "camStart": {
+        "scale": 0.9090909090909091,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.01",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "A FICTIONAL SCENARIO",
+          "x": 960,
+          "y": 300,
+          "size": 40,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "FICTIONAL SCENARIO stamp across the frame for the whole passage",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 241.4,
+      "t1": 246.8951,
+      "dur": 5.4951,
+      "passageStart": 241.4,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.02",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "rocket-stack",
+          "scale": 1,
+          "pos": [
+            0,
+            -40,
+            0
+          ],
+          "opts": {
+            "flame": 0
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "rocket ready on pad, assembled",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.85,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 246.8951,
+      "t1": 251.0165,
+      "dur": 4.1214,
+      "passageStart": 246.8951,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.03",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "turbopump",
+          "scale": 1.05,
+          "opts": {
+            "rate": 2
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "gauge",
+              "x": 1400,
+              "y": 620,
+              "r": 72,
+              "value": 0.42,
+              "low": true,
+              "at": 0.15,
+              "dur": 0.4
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "pump gauge a notch low",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 0.75,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 251.0165,
+      "t1": 255.1379,
+      "dur": 4.1214,
+      "passageStart": 251.0165,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.04",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.15,
+          "opts": {
+            "flamePulse": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "CHAMBER STARVED",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "chamber starved: flame thin and flickering (no flicker artefact; designed pulse)",
+      "cam": "hold",
+      "camAmount": 0.06,
+      "camDist": 1.1,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 255.1379,
+      "t1": 260.9078,
+      "dur": 5.7699,
+      "passageStart": 255.1379,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.05",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "arc",
+              "x": 960,
+              "y": 880,
+              "r": 620,
+              "a0": -1.5,
+              "a1": -0.35,
+              "w": 3,
+              "col": "#8fe4ff",
+              "at": 0.1,
+              "dur": 0.55
+            },
+            {
+              "k": "circle",
+              "x": 1500,
+              "y": 250,
+              "r": 26,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.55,
+              "dur": 0.25
+            },
+            {
+              "k": "circle",
+              "x": 1560,
+              "y": 190,
+              "r": 18,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.6,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FALLS SHORT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "mission arc fades short of orbit",
+      "cam": "orbit",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 260.9078,
+      "t1": 265.3039,
+      "dur": 4.3961,
+      "passageStart": 260.9078,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.06",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "RELIABILITY IN EVERY HIDDEN PART",
+          "x": 960,
+          "y": 540,
+          "size": 52
+        }
+      ],
+      "labels": [],
+      "notes": "text: RELIABILITY IN EVERY HIDDEN PART",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 265.3039,
+      "t1": 269.7,
+      "dur": 4.3961,
+      "passageStart": 265.3039,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.01",
+      "p": "P09",
+      "kind": "missing",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE STORY IS NOT FINISHED",
+          "x": 960,
+          "y": 300,
+          "size": 52,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "heading THE STORY IS NOT FINISHED",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 269.7,
+      "t1": 273.8077,
+      "dur": 4.1077,
+      "passageStart": 269.7,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.02",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "boxes",
+          "params": {
+            "cy": 580,
+            "items": [
+              "HIGHER PERFORMANCE",
+              "MORE CAPABLE STAGES",
+              "MANUFACTURING CONSISTENCY",
+              "FUTURE PROPULSION"
+            ],
+            "bw": 520,
+            "bh": 150,
+            "cols": 2
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "four empty boxes draw one by one: HIGHER PERFORMANCE · MORE CAPABLE STAGES · MANUFACTURING CONSISTENCY · FUTURE PROPULSION",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 273.8077,
+      "t1": 281.2529,
+      "dur": 7.4452,
+      "passageStart": 273.8077,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.03",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 860,
+              "y1": 560,
+              "x2": 940,
+              "y2": 520,
+              "w": 2.6,
+              "at": 0.1,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 940,
+              "y1": 520,
+              "x2": 1000,
+              "y2": 560,
+              "w": 2.6,
+              "at": 0.2,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 1000,
+              "y1": 560,
+              "x2": 1060,
+              "y2": 520,
+              "w": 2.6,
+              "at": 0.3,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 1060,
+              "y1": 520,
+              "x2": 1100,
+              "y2": 545,
+              "w": 2.6,
+              "at": 0.4,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "INTERNATIONAL COOPERATION STILL VALUABLE",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "two hands-joined glyph labelled INTERNATIONAL COOPERATION STILL VALUABLE",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 281.2529,
+      "t1": 285.874,
+      "dur": 4.6212,
+      "passageStart": 281.2529,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.04",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "question",
+          "params": {
+            "lines": [
+              "CAN AN UNAVAILABLE ENGINE",
+              "STOP A PROGRAMME?"
+            ],
+            "y": 480,
+            "size": 50
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "the opening question re-appears: CAN AN UNAVAILABLE ENGINE STOP A PROGRAMME?",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 285.874,
+      "t1": 291.2654,
+      "dur": 5.3913,
+      "passageStart": 285.874,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.05",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "YEARS OF TESTING",
+          "x": 960,
+          "y": 640,
+          "size": 62,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "answer draws as a stroke over it: YEARS OF TESTING",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 291.2654,
+      "t1": 296.4,
+      "dur": 5.1346,
+      "passageStart": 291.2654,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "10.01",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "CAPABLE ONLY WHEN IT WORKS",
+          "x": 960,
+          "y": 540,
+          "size": 54
+        }
+      ],
+      "labels": [],
+      "notes": "text: CAPABLE ONLY WHEN IT WORKS",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 296.4,
+      "t1": 299.2477,
+      "dur": 2.8477,
+      "passageStart": 296.4,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "10.02",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "drop",
+              "x": 960,
+              "y0": 150,
+              "y": 548,
+              "r": 26,
+              "at": 0.05,
+              "dur": 0.7
+            }
+          ]
+        },
+        {
+          "op": "x:hero",
+          "kind": "turbopump",
+          "scale": 1.15,
+          "grow": true,
+          "growDur": 0.5,
+          "opts": {
+            "flame": 0
+          }
+        },
+        {
+          "op": "x:hero",
+          "kind": "chamber-nozzle",
+          "scale": 1.1,
+          "grow": true,
+          "growDur": 0.5,
+          "opts": {
+            "flamePulse": true
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "frozen drop returns, rotor, chamber (reverse of P01)",
+      "cam": "hold",
+      "camAmount": 0.08,
+      "camDist": 0.95,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 299.2477,
+      "t1": 302.4514,
+      "dur": 3.2037,
+      "passageStart": 299.2477,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "10.03",
+      "p": "P10",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "rocket-stack",
+          "scale": 1,
+          "pos": [
+            0,
+            -40,
+            0
+          ],
+          "opts": {
+            "flame": 0
+          }
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  960,
+                  720
+                ],
+                [
+                  960,
+                  900
+                ],
+                [
+                  960,
+                  1040
+                ]
+              ],
+              "r": 8,
+              "speed": 1.5,
+              "col": "#ff9b3d",
+              "at": 0.2,
+              "dur": 0.4
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "camera pulls back to the full rocket rising, line-drawn",
+      "cam": "hold",
+      "camAmount": 0.1,
+      "camDist": 1.85,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 302.4514,
+      "t1": 309.2147,
+      "dur": 6.7633,
+      "passageStart": 302.4514,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "10.04",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "A CLOSED DOOR IS NOT",
+          "x": 960,
+          "y": 500,
+          "size": 56
+        },
+        {
+          "op": "text",
+          "text": "A FINISHED STORY.",
+          "x": 960,
+          "y": 600,
+          "size": 56,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "final line holds: A CLOSED DOOR IS NOT A FINISHED STORY.",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 309.2147,
+      "t1": 312.9523,
+      "dur": 3.7376,
+      "passageStart": 309.2147,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    },
+    {
+      "id": "10.05",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "titleCard",
+          "title": "INDIA BUILT IT ANYWAY",
+          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+        }
+      ],
+      "labels": [],
+      "notes": "series title card ≤ 2.5 s",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 312.9523,
+      "t1": 315.8,
+      "dur": 2.8477,
+      "passageStart": 312.9523,
+      "camStart": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 0.8417508417508416,
+        "az": 0.55,
+        "el": 0.13962634015954636,
+        "dist": 1
+      }
+    }
+  ],
+  "clampReport": [
+    {
+      "beat": "7.05",
+      "from": 8.854,
+      "to": 8,
+      "reason": "too long"
+    }
+  ],
+  "bpm": 12.35,
+  "leadIn": 0.8
+}

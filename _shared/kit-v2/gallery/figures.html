@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>kit-v2 gallery: line figures and props</title>
+<style>
+  @font-face { font-family: 'IBM Plex Mono'; font-weight: 400; src: url('../assets/fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2'); }
+  html, body { margin: 0; background: #0a2f5c; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script src="../src/prng.js"></script>
+<script src="../src/tokens.js"></script>
+<script src="../src/scenereport.js"></script>
+<script src="../src/draw.js"></script>
+<script src="../src/labels.js"></script>
+<script src="../src/fx.js"></script>
+<script src="../src/camera.js"></script>
+<script src="../src/props.js"></script>
+<script src="../src/figures.js"></script>
+<script>
+(function () {
+  const BB = window.BB;
+  BB.installSeed('gallery-figures');
+  const T = BB.tokens('ice', 1920, 1080);
+  const c = document.getElementById('c');
+  const ctx = c.getContext('2d');
+  BB.draw.paper(ctx, 1920, 1080, T);
+  BB.draw.grid(ctx, 1920, 1080, T);
+
+  const names = Object.keys(BB.figure.POSES);
+  const cols = 5, rows = Math.ceil(names.length / cols);
+  const cellW = 1920 / cols, cellH = 980 / rows;
+  BB.report.begin(0, 'gallery');
+  names.forEach((n, i) => {
+    const cx = (i % cols) * cellW + cellW / 2;
+    const cy = Math.floor(i / cols) * cellH + cellH - 40;
+    BB.figure.draw(ctx, T, { x: cx, y: cy, scale: 3.4, pose: BB.figure.pose(n, 0.4), t: 0.4, accentPart: 'armR', id: n });
+    BB.draw.text(ctx, n.toUpperCase(), cx, cy + 44, T.type.micro, { align: 'center', col: T.dim, id: 'P-' + n });
+  });
+
+  // the props, in a row at the bottom
+  const props = ['gasStove', 'pot', 'bicyclePump', 'tyre', 'pressureCooker', 'knife', 'baton', 'spoonBowl', 'door', 'bell', 'boat', 'phone', 'chip', 'palette', 'clock', 'lockedCabinet'];
+  props.forEach((p, i) => {
+    const x = 120 + i * 108;
+    const fn = BB.props[p];
+    if (!fn) return;
+    fn(ctx, T, { x, y: 1030, scale: 0.9, p: 1, t: 0.5, flame: 0.8, steam: 0.6, ring: 0.4, ping: 0.4, scoop: true, receiver: true, closed: true, locked: true, dot: true, fire: 0.8, n: 5 });
+    BB.draw.text(ctx, p, x, 1070, T.type.micro, { align: 'center', col: T.dim });
+  });
+
+  window.__gallery = { poses: names, props: props };
+  document.title = 'kit-v2 gallery ready';
+})();
+</script>
+</body>
+</html>
+

@@ -1,0 +1,3276 @@
+{
+  "duration": 293.6,
+  "beats": [
+    {
+      "id": "1.01",
+      "p": "P01",
+      "kind": "hook",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "poly",
+              "pts": [
+                [
+                  520,
+                  640
+                ],
+                [
+                  700,
+                  520
+                ],
+                [
+                  1080,
+                  520
+                ],
+                [
+                  1240,
+                  640
+                ],
+                [
+                  1180,
+                  700
+                ],
+                [
+                  560,
+                  700
+                ]
+              ],
+              "w2": 2.4,
+              "col": "#c39bff",
+              "close": true,
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 900,
+              "y": 470,
+              "r": 16,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.45,
+              "dur": 0.25
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "a chip the size of a fingernail on a car outline, car stops",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 0.8,
+      "t1": 6.4481,
+      "dur": 5.6481,
+      "passageStart": 0.8,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.02",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 820,
+              "y": 380,
+              "w": 280,
+              "h": 460,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 430,
+              "r": 12,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "same chip beside a phone",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 6.4481,
+      "t1": 10.1316,
+      "dur": 3.6835,
+      "passageStart": 6.4481,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.03",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 700,
+              "y": 420,
+              "w": 520,
+              "h": 360,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 470,
+              "r": 12,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A HOSPITAL SCANNER",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "hospital scanner",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 10.1316,
+      "t1": 13.0785,
+      "dur": 2.9468,
+      "passageStart": 10.1316,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.04",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 520,
+              "y1": 620,
+              "x2": 1400,
+              "y2": 620,
+              "w": 3,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 620,
+              "x2": 700,
+              "y2": 480,
+              "w": 2.4,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 1240,
+              "y1": 620,
+              "x2": 1240,
+              "y2": 480,
+              "w": 2.4,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 620,
+              "r": 12,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "power grid",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 13.0785,
+      "t1": 16.0253,
+      "dur": 2.9468,
+      "passageStart": 13.0785,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "1.05",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 600,
+              "y": 560,
+              "w": 720,
+              "h": 160,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 560,
+              "r": 12,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.4,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A FACTORY LINE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "factory line; one chip highlighted in each",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 16.0253,
+      "t1": 20.2,
+      "dur": 4.1747,
+      "passageStart": 16.0253,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.01",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOW IMAGINE NEEDING THEM...",
+          "x": 960,
+          "y": 520,
+          "size": 56,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOW IMAGINE NEEDING THEM...",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 20.2,
+      "t1": 26.3644,
+      "dur": 6.1644,
+      "passageStart": 20.2,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.02a",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 300,
+              "y": 300,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 520,
+              "y": 260,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 780,
+              "y": 320,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1050,
+              "y": 280,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.5,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1330,
+              "y": 330,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.65,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FAR FROM HERE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "a world map-less lattice of distant factory icons far from the frame edge (no country marks)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 26.3644,
+      "t1": 31.7068,
+      "dur": 5.3425,
+      "passageStart": 26.3644,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.02b",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 300,
+              "y": 300,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 520,
+              "y": 260,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 780,
+              "y": 320,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1050,
+              "y": 280,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.5,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1330,
+              "y": 330,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.65,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FAR FROM HERE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "a world map-less lattice of distant factory icons far from the frame edge (no country marks)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 31.7068,
+      "t1": 37.0493,
+      "dur": 5.3425,
+      "passageStart": 31.7068,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.03",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "DEPENDENCE ON A COMPLEX SYSTEM",
+          "x": 960,
+          "y": 520,
+          "size": 50
+        }
+      ],
+      "labels": [],
+      "notes": "text: DEPENDENCE ON A COMPLEX SYSTEM",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 37.0493,
+      "t1": 43.6247,
+      "dur": 6.5753,
+      "passageStart": 37.0493,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "2.04",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT ONE COUNTRY SAYING NO",
+          "x": 960,
+          "y": 520,
+          "size": 50,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "label: NOT ONE COUNTRY SAYING NO",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 43.6247,
+      "t1": 50.2,
+      "dur": 6.5753,
+      "passageStart": 43.6247,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.01a",
+      "p": "P03",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "sort",
+              "x": 880,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "papers",
+              "propX": 1000,
+              "propScale": 2.4,
+              "n": 3,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "person draws a circuit on a paper sheet",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 50.2,
+      "t1": 54.4972,
+      "dur": 4.2972,
+      "passageStart": 50.2,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.01b",
+      "p": "P03",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "sort",
+              "x": 880,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "papers",
+              "propX": 1000,
+              "propScale": 2.4,
+              "n": 3,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "person draws a circuit on a paper sheet",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 54.4972,
+      "t1": 58.7944,
+      "dur": 4.2972,
+      "passageStart": 54.4972,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.02a",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 620,
+              "y": 500,
+              "w": 180,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 840,
+              "y": 500,
+              "w": 90,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 970,
+              "y": 500,
+              "w": 45,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.45,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "drawing shrinks, ruler vs a hair vs the circuit (illustrative scale line, ILLUSTRATIVE)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 58.7944,
+      "t1": 64.2852,
+      "dur": 5.4908,
+      "passageStart": 58.7944,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.02b",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 620,
+              "y": 500,
+              "w": 180,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 840,
+              "y": 500,
+              "w": 90,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 970,
+              "y": 500,
+              "w": 45,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.45,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "drawing shrinks, ruler vs a hair vs the circuit (illustrative scale line, ILLUSTRATIVE)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 64.2852,
+      "t1": 69.7761,
+      "dur": 5.4908,
+      "passageStart": 64.2852,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.03",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 420,
+              "x2": 1020,
+              "y2": 620,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.1,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 1020,
+              "y1": 420,
+              "x2": 900,
+              "y2": 620,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.1,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "A PENCIL CANNOT DO THIS",
+          "x": 960,
+          "y": 760,
+          "size": 44,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "pencil crossed out",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 69.7761,
+      "t1": 75.9831,
+      "dur": 6.207,
+      "passageStart": 69.7761,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.04a",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "wafer appears, circuit pattern forms on it",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 75.9831,
+      "t1": 80.0415,
+      "dur": 4.0585,
+      "passageStart": 75.9831,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "3.04b",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "wafer appears, circuit pattern forms on it",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 80.0415,
+      "t1": 84.1,
+      "dur": 4.0585,
+      "passageStart": 80.0415,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.01",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.4
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "litho-stack: light source, stencil (mask), coated wafer",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 84.1,
+      "t1": 90.1642,
+      "dur": 6.0642,
+      "passageStart": 84.1,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.02",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.4
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  960,
+                  380
+                ],
+                [
+                  960,
+                  200
+                ],
+                [
+                  960,
+                  60
+                ]
+              ],
+              "r": 8,
+              "speed": 0.7,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "light passes through, pattern prints on the coating",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 90.1642,
+      "t1": 96.5851,
+      "dur": 6.4209,
+      "passageStart": 90.1642,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.03",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.4
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 1160,
+              "y1": 380,
+              "x2": 1160,
+              "y2": 240,
+              "col": "#c39bff",
+              "at": 0.25,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "THE PATTERN GUIDES",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "pattern guides the next step (etch arrow)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 96.5851,
+      "t1": 102.6493,
+      "dur": 6.0642,
+      "passageStart": 96.5851,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "4.04",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.4
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "REPEATED WITH ALIGNMENT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "repeat marker ×N (no number)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 102.6493,
+      "t1": 108,
+      "dur": 5.3507,
+      "passageStart": 102.6493,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.01",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "reach",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "palette",
+              "propX": 1080,
+              "propScale": 2.4,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "dot",
+              "x": 1300,
+              "y": 300,
+              "r": 6,
+              "w2": 0,
+              "col": "#ff9b3d",
+              "at": 0.25,
+              "dur": 0.2
+            },
+            {
+              "k": "dot",
+              "x": 1400,
+              "y": 420,
+              "r": 6,
+              "w2": 0,
+              "col": "#ff9b3d",
+              "at": 0.35,
+              "dur": 0.2
+            },
+            {
+              "k": "dot",
+              "x": 1240,
+              "y": 520,
+              "r": 6,
+              "w2": 0,
+              "col": "#ff9b3d",
+              "at": 0.45,
+              "dur": 0.2
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FLOATING SAND",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "painter in a room, floating sand",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 108,
+      "t1": 113.4698,
+      "dur": 5.4698,
+      "passageStart": 108,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.02",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "reach",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "palette",
+              "propX": 1080,
+              "propScale": 2.4,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "dot",
+              "x": 1120,
+              "y": 640,
+              "r": 9,
+              "w2": 0,
+              "col": "#ff9b3d",
+              "at": 0.4,
+              "dur": 0.2
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "a grain lands in wet paint, spoils the finish",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 113.4698,
+      "t1": 119.9651,
+      "dur": 6.4953,
+      "passageStart": 113.4698,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.03a",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 520,
+              "r": 44,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1100,
+              "y": 520,
+              "r": 14,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "scale-up: dust grain beside a die, then beside a feature (ILLUSTRATIVE)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 119.9651,
+      "t1": 123.5547,
+      "dur": 3.5895,
+      "passageStart": 119.9651,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.03b",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 520,
+              "r": 44,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1100,
+              "y": 520,
+              "r": 14,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "scale-up: dust grain beside a die, then beside a feature (ILLUSTRATIVE)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 123.5547,
+      "t1": 127.1442,
+      "dur": 3.5895,
+      "passageStart": 123.5547,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.04",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 300,
+              "x2": 700,
+              "y2": 800,
+              "w": 1.8,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 1220,
+              "y1": 300,
+              "x2": 1220,
+              "y2": 800,
+              "w": 1.8,
+              "col": "#c39bff",
+              "at": 0.15,
+              "dur": 0.3
+            },
+            {
+              "k": "arrow",
+              "x1": 760,
+              "y1": 340,
+              "x2": 760,
+              "y2": 460,
+              "col": "#c39bff",
+              "at": 0.3,
+              "dur": 0.3
+            },
+            {
+              "k": "arrow",
+              "x1": 1160,
+              "y1": 340,
+              "x2": 1160,
+              "y2": 460,
+              "col": "#c39bff",
+              "at": 0.4,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FILTERED AIR",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "cleanroom corridor, filtered air arrows downward",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 127.1442,
+      "t1": 132.614,
+      "dur": 5.4698,
+      "passageStart": 127.1442,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "5.05",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "CONTAMINATION RUINS STRUCTURES",
+          "x": 960,
+          "y": 540,
+          "size": 50,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "label CONTAMINATION RUINS STRUCTURES",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 132.614,
+      "t1": 137.4,
+      "dur": 4.786,
+      "passageStart": 132.614,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.01a",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "flat layer builds, then a second, then a third (layering)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 137.4,
+      "t1": 141.2611,
+      "dur": 3.8611,
+      "passageStart": 137.4,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.01b",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "flat layer builds, then a second, then a third (layering)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 141.2611,
+      "t1": 145.1222,
+      "dur": 3.8611,
+      "passageStart": 141.2611,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.02a",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "layers morph into a city of levels: roads, tunnels, wires, junctions",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 145.1222,
+      "t1": 149.1764,
+      "dur": 4.0542,
+      "passageStart": 145.1222,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.02b",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "layers morph into a city of levels: roads, tunnels, wires, junctions",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 149.1764,
+      "t1": 153.2306,
+      "dur": 4.0542,
+      "passageStart": 149.1764,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.03",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 200,
+              "x2": 900,
+              "y2": 400,
+              "w": 3,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "DEVICE FAILS",
+          "x": 1300,
+          "y": 300,
+          "size": 44,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "one broken connection flashes: DEVICE FAILS",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 153.2306,
+      "t1": 159.4083,
+      "dur": 6.1778,
+      "passageStart": 153.2306,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "6.04",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "ALIGNMENT ACROSS MANY LEVELS",
+          "x": 960,
+          "y": 540,
+          "size": 50,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "label ALIGNMENT ACROSS MANY LEVELS",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 159.4083,
+      "t1": 165.2,
+      "dur": 5.7917,
+      "passageStart": 159.4083,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.01",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "completed wafer, die grid",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 165.2,
+      "t1": 169.4667,
+      "dur": 4.2667,
+      "passageStart": 165.2,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.02",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 600,
+              "y1": 300,
+              "x2": 1320,
+              "y2": 300,
+              "w": 3,
+              "col": "#c39bff",
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 600,
+              "y1": 300,
+              "x2": 600,
+              "y2": 760,
+              "w": 3,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "SEPARATE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "cutting lines: SEPARATE",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 169.4667,
+      "t1": 173.4286,
+      "dur": 3.9619,
+      "passageStart": 169.4667,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.03",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "package-chip",
+          "scale": 1.6
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "CONNECT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "die onto package: CONNECT",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 173.4286,
+      "t1": 177.6952,
+      "dur": 4.2667,
+      "passageStart": 173.4286,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.04",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "package-chip",
+          "scale": 1.6
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "PROTECT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "package sealed: PROTECT",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 177.6952,
+      "t1": 181.6571,
+      "dur": 3.9619,
+      "passageStart": 177.6952,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.05",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 760,
+              "y": 560,
+              "w": 120,
+              "h": 60,
+              "w2": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 590,
+              "x2": 1020,
+              "y2": 590,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "TEST",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "TEST gate lights green/amber",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 181.6571,
+      "t1": 185.9238,
+      "dur": 4.2667,
+      "passageStart": 181.6571,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "7.06",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "FABRICATION IS NOT ASSEMBLY,",
+          "x": 960,
+          "y": 460,
+          "size": 44
+        },
+        {
+          "op": "text",
+          "text": "TEST AND PACKAGING",
+          "x": 960,
+          "y": 540,
+          "size": 44,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "bracket: FABRICATION ≠ ASSEMBLY, TEST, PACKAGING",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 185.9238,
+      "t1": 190.8,
+      "dur": 4.8762,
+      "passageStart": 185.9238,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.01",
+      "p": "P08",
+      "kind": "number",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "numberCard",
+          "value": "12 UNITS APPROVED",
+          "sub": "SEMICON INDIA PROGRAMME",
+          "source": "PIB PRESS NOTE, 2026"
+        }
+      ],
+      "labels": [],
+      "notes": "12 UNITS APPROVED, source chip \"PIB PRESS NOTE, 2026\"",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 190.8,
+      "t1": 195.9784,
+      "dur": 5.1784,
+      "passageStart": 190.8,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.02",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "slots",
+          "params": {
+            "cy": 580,
+            "cols": 6,
+            "bw": 250,
+            "bh": 100,
+            "items": [
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              }
+            ],
+            "gapX": 34
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "twelve slots draw: 9 fill as ASSEMBLY / TEST / PACKAGING, 3 as FABRICATION",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 195.9784,
+      "t1": 202.5196,
+      "dur": 6.5412,
+      "passageStart": 195.9784,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.03",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "chain",
+          "params": {
+            "items": [
+              "DESIGN",
+              "FABRICATION",
+              "ASSEMBLY",
+              "TESTING",
+              "PACKAGING"
+            ],
+            "x0": 500,
+            "x1": 1420,
+            "y": 640
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "chain draws: DESIGN · FABRICATION · ASSEMBLY · TESTING · PACKAGING",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 202.5196,
+      "t1": 208.2431,
+      "dur": 5.7235,
+      "passageStart": 202.5196,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.04",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "slots",
+          "params": {
+            "cy": 580,
+            "cols": 6,
+            "bw": 250,
+            "bh": 100,
+            "items": [
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              }
+            ],
+            "gapX": 34
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "five slots light: 5 UNITS IN COMMERCIAL PRODUCTION (do not say which)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 208.2431,
+      "t1": 214.2392,
+      "dur": 5.9961,
+      "passageStart": 208.2431,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "8.05",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "5 UNITS IN COMMERCIAL PRODUCTION",
+          "x": 960,
+          "y": 800,
+          "size": 42,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "remaining links faint: STILL UNDER DEVELOPMENT",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 214.2392,
+      "t1": 218.6,
+      "dur": 4.3608,
+      "passageStart": 214.2392,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.01",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "A FICTIONAL SCENARIO",
+          "x": 960,
+          "y": 300,
+          "size": 40,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "FICTIONAL SCENARIO stamp for the passage",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 218.6,
+      "t1": 222.9623,
+      "dur": 4.3623,
+      "passageStart": 218.6,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.02",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 780,
+              "y": 400,
+              "w": 360,
+              "h": 240,
+              "w2": 2.2,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 820,
+              "y1": 460,
+              "x2": 1100,
+              "y2": 460,
+              "w": 1.8,
+              "col": "#c39bff",
+              "at": 0.3,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 820,
+              "y1": 520,
+              "x2": 1060,
+              "y2": 520,
+              "w": 1.8,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A PERFECT DESIGN",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "perfect chip design file, glowing",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 222.9623,
+      "t1": 227.0519,
+      "dur": 4.0896,
+      "passageStart": 222.9623,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.03",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 1180,
+              "y": 180,
+              "w": 120,
+              "h": 40,
+              "w2": 2,
+              "col": "#ff9b3d",
+              "dash": [
+                10,
+                8
+              ],
+              "march": 18,
+              "at": 0.25,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A TOOL IS MISSING",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "the fabrication step is missing a tool (empty slot)",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 227.0519,
+      "t1": 232.2321,
+      "dur": 5.1802,
+      "passageStart": 227.0519,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.04",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "text",
+          "text": "THE DESIGN CANNOT BECOME A WAFER",
+          "x": 960,
+          "y": 820,
+          "size": 44,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "design cannot become a wafer",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 232.2321,
+      "t1": 236.3217,
+      "dur": 4.0896,
+      "passageStart": 232.2321,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.05",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "package-chip",
+          "scale": 1.6
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "text",
+          "text": "PACKAGING CANNOT REPLACE THE MISSING STEP",
+          "x": 960,
+          "y": 820,
+          "size": 42,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "packaging line runs but cannot replace the missing step",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 236.3217,
+      "t1": 241.5019,
+      "dur": 5.1802,
+      "passageStart": 236.3217,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "9.06",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE CHAIN IS ONLY AS STRONG",
+          "x": 960,
+          "y": 460,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "AS THE CAPABILITY IT LACKS",
+          "x": 960,
+          "y": 550,
+          "size": 46,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: THE CHAIN IS ONLY AS STRONG AS THE CAPABILITY IT LACKS",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 241.5019,
+      "t1": 247.5,
+      "dur": 5.9981,
+      "passageStart": 241.5019,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "10.01",
+      "p": "P10",
+      "kind": "missing",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE REAL CHALLENGE",
+          "x": 960,
+          "y": 300,
+          "size": 52,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "heading THE REAL CHALLENGE",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 247.5,
+      "t1": 251.4544,
+      "dur": 3.9544,
+      "passageStart": 247.5,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "10.02",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "panel",
+          "name": "checklist",
+          "params": {
+            "x": 560,
+            "y": 380,
+            "items": [
+              "ADVANCED EQUIPMENT",
+              "MATERIALS",
+              "PROCESS EXPERTISE",
+              "YIELDS",
+              "SUPPLIER ECOSYSTEM"
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "list draws: ADVANCED EQUIPMENT · MATERIALS · PROCESS EXPERTISE · YIELDS · SUPPLIER ECOSYSTEM",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 251.4544,
+      "t1": 258.2333,
+      "dur": 6.7789,
+      "passageStart": 251.4544,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "10.03",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "ANNOUNCING A PLANT IS NOT",
+          "x": 960,
+          "y": 460,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "MASTERING EVERY CHIP GENERATION",
+          "x": 960,
+          "y": 550,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: ANNOUNCING A PLANT ≠ MASTERING EVERY CHIP GENERATION",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 258.2333,
+      "t1": 263.6,
+      "dur": 5.3667,
+      "passageStart": 258.2333,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "11.01",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "CAPABILITY CHANGES THE CHOICES AVAILABLE",
+          "x": 960,
+          "y": 520,
+          "size": 46
+        }
+      ],
+      "labels": [],
+      "notes": "text: CAPABILITY CHANGES THE CHOICES AVAILABLE",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 263.6,
+      "t1": 268.0444,
+      "dur": 4.4444,
+      "passageStart": 263.6,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "11.02",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 800,
+              "y": 480,
+              "w": 320,
+              "h": 100,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 880,
+              "y1": 530,
+              "x2": 1040,
+              "y2": 530,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 950,
+              "y1": 490,
+              "x2": 950,
+              "y2": 570,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "SELF-RELIANCE IS NOT A SWITCH",
+          "x": 960,
+          "y": 700,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "word SELF-RELIANCE with a switch drawn, crossed: NOT A SWITCH",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 268.0444,
+      "t1": 273.6,
+      "dur": 5.5556,
+      "passageStart": 268.0444,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "11.03",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 800,
+              "x2": 1220,
+              "y2": 800,
+              "w": 3,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 760,
+              "y1": 800,
+              "x2": 760,
+              "y2": 700,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 800,
+              "x2": 900,
+              "y2": 640,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 1040,
+              "y1": 800,
+              "x2": 1040,
+              "y2": 580,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.4,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 1180,
+              "y1": 800,
+              "x2": 1180,
+              "y2": 520,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.5,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "EARNED",
+          "x": 960,
+          "y": 460,
+          "size": 50,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "a ladder of capabilities lights one rung at a time: EARNED",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 273.6,
+      "t1": 279.4333,
+      "dur": 5.8333,
+      "passageStart": 273.6,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "11.04",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 900,
+              "y": 480,
+              "w": 120,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "the single chip from P01 again",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 279.4333,
+      "t1": 283.8778,
+      "dur": 4.4444,
+      "passageStart": 279.4333,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "11.05",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE SMALLEST PARTS CAN CARRY",
+          "x": 960,
+          "y": 460,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "THE BIGGEST DEPENDENCIES.",
+          "x": 960,
+          "y": 550,
+          "size": 46,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "final line: THE SMALLEST PARTS CAN CARRY THE BIGGEST DEPENDENCIES.",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 283.8778,
+      "t1": 289.4333,
+      "dur": 5.5556,
+      "passageStart": 283.8778,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    },
+    {
+      "id": "11.06",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "titleCard",
+          "title": "INDIA BUILT IT ANYWAY",
+          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+        }
+      ],
+      "labels": [],
+      "notes": "series title ≤ 2.5 s",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": null,
+      "t0": 289.4333,
+      "t1": 293.6,
+      "dur": 4.1667,
+      "passageStart": 289.4333,
+      "camStart": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      },
+      "camEnd": {
+        "scale": 1,
+        "az": -0.55,
+        "el": 0,
+        "dist": 1
+      }
+    }
+  ],
+  "clampReport": [],
+  "bpm": 12.06,
+  "leadIn": 0.8
+}

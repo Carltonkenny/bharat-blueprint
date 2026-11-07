@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>kit-v2 gallery: labels and the scene report</title>
+<style>
+  @font-face { font-family: 'IBM Plex Mono'; font-weight: 400; src: url('../assets/fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2'); }
+  html, body { margin: 0; background: #0a2f5c; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script src="../src/prng.js"></script>
+<script src="../src/tokens.js"></script>
+<script src="../src/scenereport.js"></script>
+<script src="../src/draw.js"></script>
+<script src="../src/labels.js"></script>
+<script src="../src/fx.js"></script>
+<script src="../src/camera.js"></script>
+<script>
+(function () {
+  const BB = window.BB;
+  BB.installSeed('gallery-labels');
+  const T = BB.tokens('ice', 1920, 1080);
+  const c = document.getElementById('c');
+  const ctx = c.getContext('2d');
+  BB.draw.paper(ctx, 1920, 1080, T);
+  BB.draw.grid(ctx, 1920, 1080, T);
+
+  // five test labels, one in each rail and one in the middle
+  const labels = [
+    { text: 'FINAL PUSH', side: 'R', y: 260 },
+    { text: 'OWN OXYGEN', side: 'R', y: 420 },
+    { text: 'PLUMBING UNFORGIVING', side: 'L', y: 260 },
+    { text: 'VERY COLD', side: 'L', y: 420 },
+    { text: 'EVERYTHING COOPERATES', side: 'L', y: 580 },
+  ];
+  BB.report.begin(0, 'demo');
+  labels.forEach((l, i) => BB.labels.railLabel(ctx, T, { text: l.text, side: l.side, y: l.y, size: T.type.label, id: 'L' + (i + 1) }));
+
+  // a deliberate overlap, for the collision test
+  BB.draw.text(ctx, 'OVERLAP A', 900, 820, T.type.label, { id: 'OV-A', align: 'center' });
+  BB.draw.text(ctx, 'OVERLAP B', 910, 830, T.type.label, { id: 'OV-B', align: 'center' });
+
+  window.__gallery = {
+    labels: BB.report.items().filter((i) => i.kind === 'text'),
+    deliberateOverlap: { a: { x0: 830, x1: 970, y0: 793, y1: 834 }, b: { x0: 840, x1: 980, y0: 803, y1: 844 } },
+  };
+  window.__sceneReport(0);
+  document.title = 'kit-v2 gallery ready';
+})();
+</script>
+</body>
+</html>

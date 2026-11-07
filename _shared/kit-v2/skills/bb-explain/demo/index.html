@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>bb-explain demo</title>
+<style>
+  @font-face { font-family: 'IBM Plex Mono'; font-weight: 400; src: url('../../assets/fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2'); }
+  html, body { margin: 0; background: #0a2f5c; color: #eef6ff; font: 16px 'IBM Plex Mono', monospace; }
+  pre { padding: 20px; }
+</style>
+</head>
+<body>
+<pre id="out">bb-explain demo</pre>
+<script>
+const out = document.getElementById('out');
+out.textContent = [
+  'bb-explain: from-script mode',
+  '',
+  'reads EPISODE_BRIEF.md + passages.md + sources/LEDGER.md',
+  'writes episode.s2.json, glossary.json, captions/<ep>.srt, captions/<ep>.vtt, timing/splits.md',
+  '',
+  'run it from Node:',
+  '  node _shared/kit-v2/skills/bb-explain/bb-explain.mjs --episode <episodeDir> --write',
+  '',
+  'mode from-message: not implemented in the S02 run (the interface and a clear exit stub exist).',
+].join('\n');
+window.__gallery = { skill: 'bb-explain', mode: 'from-script', implemented: ['from-script'], stub: ['from-message'] };
+document.title = 'bb-explain demo ready';
+</script>
+</body>
+</html>
+

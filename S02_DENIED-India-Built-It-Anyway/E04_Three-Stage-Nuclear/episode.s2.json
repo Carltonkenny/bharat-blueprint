@@ -1,0 +1,1891 @@
+{
+  "id": "E04",
+  "title": "The Reactor Built for the Next Generation",
+  "world": "graphite",
+  "fps": 30,
+  "seed": "s02",
+  "passages": [
+    {
+      "id": "P01",
+      "text": "On the sixth of April, twenty twenty-six, a reactor at Kalpakkam started a controlled chain reaction. It was built to do more than make electricity. It is meant to be a bridge to the reactors of the next generation. So what is a power station for, if its real job is to prepare the next one?",
+      "estSec": 31.1,
+      "flag": "",
+      "words": 56
+    },
+    {
+      "id": "P02",
+      "text": "That is the unusual ambition behind India's three-stage nuclear power programme.",
+      "estSec": 27.8,
+      "flag": "",
+      "words": 50
+    },
+    {
+      "id": "P03",
+      "text": "The engineering challenge was real. Nuclear fuel is not a magic stone that produces unlimited power.",
+      "estSec": 8.9,
+      "flag": "",
+      "words": 16
+    },
+    {
+      "id": "P04",
+      "text": "Start with a campfire. A log releases stored chemical energy as it burns. A nuclear reactor releases energy through controlled changes inside atomic nuclei. That energy becomes heat. The heat can produce steam, the steam drives a turbine, and the turbine generates electricity. The turbine is familiar. The source of heat is not.",
+      "estSec": 29.4,
+      "flag": "",
+      "words": 53
+    },
+    {
+      "id": "P05",
+      "text": "Now picture a farm that does more than harvest crops. It also produces seeds for the next season. It is only an analogy, but it captures the idea behind a breeder reactor. The system can convert some material into new usable nuclear fuel while it operates.",
+      "estSec": 25.6,
+      "flag": "",
+      "words": 46
+    },
+    {
+      "id": "P06",
+      "text": "That does not mean a reactor creates energy from nothing. It means the fuel cycle is designed to make better use of material that would otherwise remain underused. The science, the materials and the safety systems are far more complex than the farming analogy.",
+      "estSec": 24.4,
+      "flag": "",
+      "words": 44
+    },
+    {
+      "id": "P07",
+      "text": "India's long-term plan connects different reactor technologies in stages. The early stage established experience with pressurised heavy-water reactors. The next stage develops fast breeder technology. The eventual ambition is broader thorium utilisation.",
+      "estSec": 22.2,
+      "flag": "",
+      "words": 40
+    },
+    {
+      "id": "P08",
+      "text": "India's indigenously designed Prototype Fast Breeder Reactor is rated at five hundred megawatts electric. In April twenty twenty-six it reached first criticality. According to the Department of Atomic Energy, this marked entry into the programme's second stage. First criticality means a controlled chain reaction has been established. It does not mean the reactor has completed every step needed for sustained commercial electricity generation.",
+      "estSec": 35,
+      "flag": "",
+      "words": 63
+    },
+    {
+      "id": "P09",
+      "text": "Here is a fictional scenario. An energy planner imagines a future fleet of reactors. Building the first plant is only the beginning. The planner must also account for fuel preparation, maintenance, regulation, waste management and the next generation of facilities. The challenge is not one machine. It is an entire system across decades.",
+      "estSec": 29.4,
+      "flag": "FICTIONAL SCENARIO",
+      "words": 53
+    },
+    {
+      "id": "P10",
+      "text": "There is more work ahead. The third stage is still a long-term objective, not a fully deployed national power system. Safe operation, fuel-cycle infrastructure, cost and scale remain essential questions.",
+      "estSec": 30,
+      "flag": "",
+      "words": 54
+    },
+    {
+      "id": "P11",
+      "text": "The achievement deserves respect precisely because the remaining work is difficult. A milestone is not the end of the road. It tells engineers where the next road begins.",
+      "estSec": 18.9,
+      "flag": "",
+      "words": 34
+    }
+  ],
+  "beats": [
+    {
+      "id": "1.01a",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hook",
+      "w": 1.65,
+      "scene": [
+        {
+          "op": "text",
+          "text": "6 APRIL 2026",
+          "x": 960,
+          "y": 300,
+          "size": 56,
+          "col": "#ff9b3d"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 420,
+              "y1": 620,
+              "x2": 1500,
+              "y2": 620,
+              "w": 2.2,
+              "col": "#8fe4ff",
+              "at": 0.15,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1100,
+              "y": 600,
+              "r": 16,
+              "w2": 2.6,
+              "col": "#ff9b3d",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "circle",
+              "x": 1100,
+              "y": 600,
+              "r": 34,
+              "w2": 1.6,
+              "col": "#ff9b3d",
+              "at": 0.45,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "KALPAKKAM",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "date card 6 APRIL 2026 (no clock time) and a pin labelled KALPAKKAM on a plain coastal grid (no state or country borders)",
+      "cam": "hold"
+    },
+    {
+      "id": "1.01b",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hook",
+      "w": 1.65,
+      "scene": [
+        {
+          "op": "text",
+          "text": "6 APRIL 2026",
+          "x": 960,
+          "y": 300,
+          "size": 56,
+          "col": "#ff9b3d"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 420,
+              "y1": 620,
+              "x2": 1500,
+              "y2": 620,
+              "w": 2.2,
+              "col": "#8fe4ff",
+              "at": 0.15,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1100,
+              "y": 600,
+              "r": 16,
+              "w2": 2.6,
+              "col": "#ff9b3d",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "circle",
+              "x": 1100,
+              "y": 600,
+              "r": 34,
+              "w2": 1.6,
+              "col": "#ff9b3d",
+              "at": 0.45,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "KALPAKKAM",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "date card 6 APRIL 2026 (no clock time) and a pin labelled KALPAKKAM on a plain coastal grid (no state or country borders)",
+      "cam": "hold"
+    },
+    {
+      "id": "1.02",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.3,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 520,
+              "r": 40,
+              "w2": 2.6,
+              "col": "#ff9b3d",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 860,
+              "y": 460,
+              "w": 220,
+              "h": 120,
+              "w2": 2.2,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 740,
+              "y1": 520,
+              "x2": 860,
+              "y2": 520,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.5,
+              "dur": 0.25
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "a single glowing fuel symbol feeds a small power-plant outline, lights come on",
+      "cam": "hold"
+    },
+    {
+      "id": "1.03",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.2,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 1120,
+              "y1": 620,
+              "x2": 1400,
+              "y2": 620,
+              "w": 3.4,
+              "col": "#8fe4ff",
+              "at": 0.1,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 1300,
+              "y1": 620,
+              "x2": 1300,
+              "y2": 480,
+              "w": 3,
+              "col": "#8fe4ff",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1440,
+              "y": 560,
+              "w": 120,
+              "h": 60,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 18,
+              "at": 0.5,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 1600,
+              "y": 560,
+              "w": 120,
+              "h": 60,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 18,
+              "at": 0.6,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "THE NEXT GENERATION",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "a bridge outline draws to the right, next-generation reactors faint beyond it",
+      "cam": "hold"
+    },
+    {
+      "id": "1.04a",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.45,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "question",
+          "params": {
+            "lines": [
+              "WHAT IS A POWER STATION FOR,",
+              "IF ITS REAL JOB IS TO",
+              "PREPARE THE NEXT ONE?"
+            ],
+            "y": 400,
+            "size": 44
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "question draws on: WHAT IS A POWER STATION FOR, IF ITS REAL JOB IS TO PREPARE THE NEXT ONE?",
+      "cam": "hold"
+    },
+    {
+      "id": "1.04b",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.45,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "question",
+          "params": {
+            "lines": [
+              "WHAT IS A POWER STATION FOR,",
+              "IF ITS REAL JOB IS TO",
+              "PREPARE THE NEXT ONE?"
+            ],
+            "y": 400,
+            "size": 44
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "question draws on: WHAT IS A POWER STATION FOR, IF ITS REAL JOB IS TO PREPARE THE NEXT ONE?",
+      "cam": "hold"
+    },
+    {
+      "id": "2.01",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THREE-STAGE NUCLEAR POWER PROGRAMME",
+          "x": 960,
+          "y": 300,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "title: THREE-STAGE NUCLEAR POWER PROGRAMME",
+      "cam": "hold"
+    },
+    {
+      "id": "2.02",
+      "p": "P02",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        }
+      ],
+      "labels": [],
+      "notes": "staged platform rises, three empty steps",
+      "cam": "hold"
+    },
+    {
+      "id": "2.03a",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "boxes",
+          "params": {
+            "cy": 600,
+            "items": [
+              "BETTER USE OF RESOURCES",
+              "HOME-GROWN TECHNOLOGY",
+              "FUTURE OPTIONS"
+            ],
+            "bw": 520,
+            "bh": 150,
+            "cols": 3
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "three goals draw: BETTER USE OF RESOURCES · HOME-GROWN TECHNOLOGY · FUTURE OPTIONS",
+      "cam": "hold"
+    },
+    {
+      "id": "2.03b",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "boxes",
+          "params": {
+            "cy": 600,
+            "items": [
+              "BETTER USE OF RESOURCES",
+              "HOME-GROWN TECHNOLOGY",
+              "FUTURE OPTIONS"
+            ],
+            "bw": 520,
+            "bh": 150,
+            "cols": 3
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "three goals draw: BETTER USE OF RESOURCES · HOME-GROWN TECHNOLOGY · FUTURE OPTIONS",
+      "cam": "hold"
+    },
+    {
+      "id": "2.04",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        }
+      ],
+      "labels": [],
+      "notes": "hold",
+      "cam": "hold"
+    },
+    {
+      "id": "3.01",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE ENGINEERING CHALLENGE WAS REAL",
+          "x": 960,
+          "y": 520,
+          "size": 50
+        }
+      ],
+      "labels": [],
+      "notes": "text: THE ENGINEERING CHALLENGE WAS REAL",
+      "cam": "hold"
+    },
+    {
+      "id": "3.02",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 70,
+              "w2": 2.6,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 890,
+              "y1": 450,
+              "x2": 1030,
+              "y2": 590,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.4,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 1030,
+              "y1": 450,
+              "x2": 890,
+              "y2": 590,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.4,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "NO UNLIMITED POWER",
+          "x": 960,
+          "y": 700,
+          "size": 50,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "glyph of a magic stone crosses out: NO UNLIMITED POWER",
+      "cam": "hold"
+    },
+    {
+      "id": "4.01",
+      "p": "P04",
+      "layer": "C",
+      "kind": "mech",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "reach",
+              "x": 820,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "log",
+              "propX": 1080,
+              "propScale": 2.4,
+              "fire": 0.85,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "CHEMICAL ENERGY",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "campfire, log burns, chemical energy arrow",
+      "cam": "hold"
+    },
+    {
+      "id": "4.02a",
+      "p": "P04",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 54,
+              "w2": 2.6,
+              "col": "#ff9b3d",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 466,
+              "x2": 960,
+              "y2": 420,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "NUCLEAR HEAT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "swap to nucleus symbol releasing heat (generic, no atoms count)",
+      "cam": "hold"
+    },
+    {
+      "id": "4.02b",
+      "p": "P04",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 54,
+              "w2": 2.6,
+              "col": "#ff9b3d",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 466,
+              "x2": 960,
+              "y2": 420,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "NUCLEAR HEAT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "swap to nucleus symbol releasing heat (generic, no atoms count)",
+      "cam": "hold"
+    },
+    {
+      "id": "4.03",
+      "p": "P04",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "loop-heat-to-power",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        }
+      ],
+      "labels": [],
+      "notes": "loop: heat → steam → turbine → generator",
+      "cam": "hold"
+    },
+    {
+      "id": "4.04",
+      "p": "P04",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE TURBINE IS FAMILIAR",
+          "x": 960,
+          "y": 500,
+          "size": 50
+        }
+      ],
+      "labels": [],
+      "notes": "label THE TURBINE IS FAMILIAR",
+      "cam": "hold"
+    },
+    {
+      "id": "4.05",
+      "p": "P04",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE HEAT SOURCE IS NOT",
+          "x": 960,
+          "y": 500,
+          "size": 50,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "label THE HEAT SOURCE IS NOT",
+      "cam": "hold"
+    },
+    {
+      "id": "5.01",
+      "p": "P05",
+      "layer": "C",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "sort",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "fieldRows",
+              "propX": 1080,
+              "propScale": 2,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "carry",
+              "x": 1240,
+              "y": 850,
+              "scale": 2.8,
+              "phase": 1.2,
+              "prop": "seedBag",
+              "propX": 1340,
+              "propScale": 2.2,
+              "at": 0.25,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ANALOGY ONLY",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "farmer harvests, saves seed",
+      "cam": "hold"
+    },
+    {
+      "id": "5.02",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.3,
+      "scene": [
+        {
+          "op": "railLabel",
+          "text": "ANALOGY ONLY",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "label ANALOGY ONLY",
+      "cam": "hold"
+    },
+    {
+      "id": "5.03a",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 46,
+              "w2": 2.6,
+              "col": "#ff9b3d",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "arc",
+              "x": 960,
+              "y": 520,
+              "r": 110,
+              "a0": -0.6,
+              "a1": 2.2,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.35
+            },
+            {
+              "k": "circle",
+              "x": 1058,
+              "y": 452,
+              "r": 20,
+              "w2": 2.2,
+              "col": "#8fe4ff",
+              "at": 0.55,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "BREEDER IDEA",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "fuel symbol → also produces new fuel while running (arrow loop, no isotopes)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.03b",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 46,
+              "w2": 2.6,
+              "col": "#ff9b3d",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "arc",
+              "x": 960,
+              "y": 520,
+              "r": 110,
+              "a0": -0.6,
+              "a1": 2.2,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.35
+            },
+            {
+              "k": "circle",
+              "x": 1058,
+              "y": 452,
+              "r": 20,
+              "w2": 2.2,
+              "col": "#8fe4ff",
+              "at": 0.55,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "BREEDER IDEA",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "fuel symbol → also produces new fuel while running (arrow loop, no isotopes)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.04",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.3,
+      "scene": [
+        {
+          "op": "text",
+          "text": "ALSO PRODUCES NEW FUEL",
+          "x": 960,
+          "y": 700,
+          "size": 44,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "label BREEDER IDEA",
+      "cam": "hold"
+    },
+    {
+      "id": "6.01",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT ENERGY FROM NOTHING",
+          "x": 960,
+          "y": 520,
+          "size": 54
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOT ENERGY FROM NOTHING",
+      "cam": "hold"
+    },
+    {
+      "id": "6.02",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 120,
+              "w2": 2.6,
+              "col": "#8fe4ff",
+              "at": 0.1,
+              "dur": 0.4
+            },
+            {
+              "k": "arc",
+              "x": 960,
+              "y": 520,
+              "r": 120,
+              "a0": 0.6,
+              "a1": 4.4,
+              "w": 3,
+              "col": "#ff9b3d",
+              "at": 0.45,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FUEL CYCLE",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "closed-loop arrows: FUEL CYCLE, better use of material",
+      "cam": "hold"
+    },
+    {
+      "id": "6.03a",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 0.95,
+      "scene": [
+        {
+          "op": "text",
+          "text": "MORE COMPLEX THAN THE ANALOGY",
+          "x": 960,
+          "y": 520,
+          "size": 46,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "farm analogy fades; label MORE COMPLEX THAN THE ANALOGY",
+      "cam": "hold"
+    },
+    {
+      "id": "6.03b",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 0.95,
+      "scene": [
+        {
+          "op": "text",
+          "text": "MORE COMPLEX THAN THE ANALOGY",
+          "x": 960,
+          "y": 520,
+          "size": 46,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "farm analogy fades; label MORE COMPLEX THAN THE ANALOGY",
+      "cam": "hold"
+    },
+    {
+      "id": "6.04",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "railLabel",
+          "text": "SAFETY SYSTEMS",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "SAFETY SYSTEMS tag (text only)",
+      "cam": "hold"
+    },
+    {
+      "id": "7.01",
+      "p": "P07",
+      "layer": "H",
+      "kind": "mech",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        },
+        {
+          "op": "railLabel",
+          "text": "PHWR - EXPERIENCE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "staged platform: step 1 lights, label PHWR - EXPERIENCE",
+      "cam": "hold"
+    },
+    {
+      "id": "7.02",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        },
+        {
+          "op": "railLabel",
+          "text": "FAST BREEDER",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "step 2 outlines, label FAST BREEDER",
+      "cam": "hold"
+    },
+    {
+      "id": "7.03",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        },
+        {
+          "op": "railLabel",
+          "text": "THORIUM - LONG-TERM",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "step 3 faint, label THORIUM - LONG-TERM",
+      "cam": "hold"
+    },
+    {
+      "id": "7.04",
+      "p": "P07",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "AND NOW IT BECOMES TANGIBLE",
+          "x": 960,
+          "y": 540,
+          "size": 52,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: AND NOW IT BECOMES TANGIBLE",
+      "cam": "hold"
+    },
+    {
+      "id": "8.01",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "PROTOTYPE FAST BREEDER REACTOR",
+          "x": 960,
+          "y": 300,
+          "size": 46,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "label: PROTOTYPE FAST BREEDER REACTOR",
+      "cam": "hold"
+    },
+    {
+      "id": "8.02",
+      "p": "P08",
+      "layer": "B",
+      "kind": "number",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "numberCard",
+          "value": "500 MEGAWATTS ELECTRIC",
+          "sub": "PROTOTYPE FAST BREEDER REACTOR",
+          "source": "PIB, 7 APR 2026"
+        }
+      ],
+      "labels": [],
+      "notes": "500 MWe card, source chip \"PIB, 7 APR 2026\"",
+      "cam": "hold"
+    },
+    {
+      "id": "8.03",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "text",
+          "text": "FIRST CRITICALITY",
+          "x": 960,
+          "y": 460,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "6 APRIL 2026",
+          "x": 960,
+          "y": 540,
+          "size": 54,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "date card: FIRST CRITICALITY, 6 APRIL 2026 (no time)",
+      "cam": "hold"
+    },
+    {
+      "id": "8.04",
+      "p": "P08",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        }
+      ],
+      "labels": [],
+      "notes": "step 2 of the platform fills",
+      "cam": "hold"
+    },
+    {
+      "id": "8.05",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "text",
+          "text": "FIRST CRITICALITY =",
+          "x": 960,
+          "y": 460,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "A CONTROLLED CHAIN REACTION",
+          "x": 960,
+          "y": 540,
+          "size": 46,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "definition: FIRST CRITICALITY = A CONTROLLED CHAIN REACTION",
+      "cam": "hold"
+    },
+    {
+      "id": "8.06",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT YET SUSTAINED COMMERCIAL ELECTRICITY",
+          "x": 960,
+          "y": 540,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOT YET SUSTAINED COMMERCIAL ELECTRICITY",
+      "cam": "hold"
+    },
+    {
+      "id": "9.01",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "A FICTIONAL SCENARIO",
+          "x": 960,
+          "y": 300,
+          "size": 40,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "FICTIONAL SCENARIO stamp for the passage",
+      "cam": "hold"
+    },
+    {
+      "id": "9.02a",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "sort",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "desk",
+              "propX": 1080,
+              "propScale": 2.4,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 1300,
+              "y": 420,
+              "w": 110,
+              "h": 70,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1440,
+              "y": 420,
+              "w": 110,
+              "h": 70,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "at": 0.3,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1580,
+              "y": 420,
+              "w": 110,
+              "h": 70,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "at": 0.4,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A FUTURE FLEET",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "planner at a desk (anonymous figure), fleet map of faint plant outlines",
+      "cam": "hold"
+    },
+    {
+      "id": "9.02b",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "sort",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "desk",
+              "propX": 1080,
+              "propScale": 2.4,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 1300,
+              "y": 420,
+              "w": 110,
+              "h": 70,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1440,
+              "y": 420,
+              "w": 110,
+              "h": 70,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "at": 0.3,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1580,
+              "y": 420,
+              "w": 110,
+              "h": 70,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 16,
+              "at": 0.4,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A FUTURE FLEET",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "planner at a desk (anonymous figure), fleet map of faint plant outlines",
+      "cam": "hold"
+    },
+    {
+      "id": "9.03a",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "checklist",
+          "params": {
+            "x": 560,
+            "y": 380,
+            "items": [
+              "FUEL PREPARATION",
+              "MAINTENANCE",
+              "REGULATION",
+              "WASTE MANAGEMENT",
+              "NEXT FACILITIES"
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "checklist draws: FUEL PREPARATION · MAINTENANCE · REGULATION · WASTE MANAGEMENT · NEXT FACILITIES",
+      "cam": "hold"
+    },
+    {
+      "id": "9.03b",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "checklist",
+          "params": {
+            "x": 560,
+            "y": 380,
+            "items": [
+              "FUEL PREPARATION",
+              "MAINTENANCE",
+              "REGULATION",
+              "WASTE MANAGEMENT",
+              "NEXT FACILITIES"
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "checklist draws: FUEL PREPARATION · MAINTENANCE · REGULATION · WASTE MANAGEMENT · NEXT FACILITIES",
+      "cam": "hold"
+    },
+    {
+      "id": "9.04a",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 0.95,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT ONE MACHINE.",
+          "x": 960,
+          "y": 460,
+          "size": 50
+        },
+        {
+          "op": "text",
+          "text": "AN ENTIRE SYSTEM ACROSS DECADES.",
+          "x": 960,
+          "y": 550,
+          "size": 50,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOT ONE MACHINE. AN ENTIRE SYSTEM ACROSS DECADES.",
+      "cam": "hold"
+    },
+    {
+      "id": "9.04b",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 0.95,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT ONE MACHINE.",
+          "x": 960,
+          "y": 460,
+          "size": 50
+        },
+        {
+          "op": "text",
+          "text": "AN ENTIRE SYSTEM ACROSS DECADES.",
+          "x": 960,
+          "y": 550,
+          "size": 50,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOT ONE MACHINE. AN ENTIRE SYSTEM ACROSS DECADES.",
+      "cam": "hold"
+    },
+    {
+      "id": "10.01",
+      "p": "P10",
+      "layer": "B",
+      "kind": "missing",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "text",
+          "text": "MORE WORK AHEAD",
+          "x": 960,
+          "y": 300,
+          "size": 52,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "heading MORE WORK AHEAD",
+      "cam": "hold"
+    },
+    {
+      "id": "10.02a",
+      "p": "P10",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        },
+        {
+          "op": "railLabel",
+          "text": "THIRD STAGE IS A LONG-TERM OBJECTIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "step 3 stays faint: THIRD STAGE IS A LONG-TERM OBJECTIVE",
+      "cam": "hold"
+    },
+    {
+      "id": "10.02b",
+      "p": "P10",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        },
+        {
+          "op": "railLabel",
+          "text": "THIRD STAGE IS A LONG-TERM OBJECTIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "step 3 stays faint: THIRD STAGE IS A LONG-TERM OBJECTIVE",
+      "cam": "hold"
+    },
+    {
+      "id": "10.03a",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "boxes",
+          "params": {
+            "cy": 600,
+            "items": [
+              "SAFE OPERATION",
+              "FUEL-CYCLE INFRASTRUCTURE",
+              "COST",
+              "SCALE"
+            ],
+            "bw": 520,
+            "bh": 150,
+            "cols": 2
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "four open items: SAFE OPERATION · FUEL-CYCLE INFRASTRUCTURE · COST · SCALE",
+      "cam": "hold"
+    },
+    {
+      "id": "10.03b",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "boxes",
+          "params": {
+            "cy": 600,
+            "items": [
+              "SAFE OPERATION",
+              "FUEL-CYCLE INFRASTRUCTURE",
+              "COST",
+              "SCALE"
+            ],
+            "bw": 520,
+            "bh": 150,
+            "cols": 2
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "four open items: SAFE OPERATION · FUEL-CYCLE INFRASTRUCTURE · COST · SCALE",
+      "cam": "hold"
+    },
+    {
+      "id": "10.04a",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1,
+      "scene": [
+        {
+          "op": "text",
+          "text": "JUDGED BY WHAT WORKS,",
+          "x": 960,
+          "y": 460,
+          "size": 48
+        },
+        {
+          "op": "text",
+          "text": "WHAT IS SAFE, WHAT REPEATS",
+          "x": 960,
+          "y": 550,
+          "size": 48,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: JUDGED BY WHAT WORKS, WHAT IS SAFE, WHAT REPEATS",
+      "cam": "hold"
+    },
+    {
+      "id": "10.04b",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1,
+      "scene": [
+        {
+          "op": "text",
+          "text": "JUDGED BY WHAT WORKS,",
+          "x": 960,
+          "y": 460,
+          "size": 48
+        },
+        {
+          "op": "text",
+          "text": "WHAT IS SAFE, WHAT REPEATS",
+          "x": 960,
+          "y": 550,
+          "size": 48,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: JUDGED BY WHAT WORKS, WHAT IS SAFE, WHAT REPEATS",
+      "cam": "hold"
+    },
+    {
+      "id": "11.01",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "text",
+          "text": "A MILESTONE IS WHERE THE NEXT ROAD BEGINS",
+          "x": 960,
+          "y": 520,
+          "size": 46
+        }
+      ],
+      "labels": [],
+      "notes": "text: A MILESTONE IS WHERE THE NEXT ROAD BEGINS",
+      "cam": "hold"
+    },
+    {
+      "id": "11.02",
+      "p": "P11",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "staged-platform",
+          "scale": 1.5
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT A REACTOR DESIGN"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 700,
+              "x2": 1600,
+              "y2": 700,
+              "w": 3,
+              "col": "#8fe4ff",
+              "dash": [
+                14,
+                12
+              ],
+              "march": 24,
+              "at": 0.3,
+              "dur": 0.4
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "platform pulls back, three steps and a road ahead",
+      "cam": "hold"
+    },
+    {
+      "id": "11.03",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "text",
+          "text": "SOME VICTORIES TAKE GENERATIONS TO PROVE.",
+          "x": 960,
+          "y": 540,
+          "size": 48,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "final line: SOME VICTORIES TAKE GENERATIONS TO PROVE.",
+      "cam": "hold"
+    },
+    {
+      "id": "11.04",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "titleCard",
+          "title": "INDIA BUILT IT ANYWAY",
+          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+        }
+      ],
+      "labels": [],
+      "notes": "series title ≤ 2.5 s",
+      "cam": "hold"
+    }
+  ]
+}

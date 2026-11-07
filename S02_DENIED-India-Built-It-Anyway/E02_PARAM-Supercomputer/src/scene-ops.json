@@ -1,0 +1,1450 @@
+{
+  "1.01": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.6,
+      "nodes": 12
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "1.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 300,
+          "w": 520,
+          "h": 460,
+          "w2": 2.4,
+          "col": "#5ce1e6",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 470,
+          "r": 34,
+          "w2": 2.6,
+          "col": "#5ce1e6",
+          "at": 0.35,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 470,
+          "x2": 960,
+          "y2": 396,
+          "w": 2.6,
+          "col": "#5ce1e6",
+          "at": 0.45,
+          "dur": 0.2
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "LOCKED",
+      "side": "R"
+    }
+  ],
+  "1.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 620,
+          "y": 380,
+          "w": 680,
+          "h": 300,
+          "w2": 1.6,
+          "col": "#5ce1e6",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "line",
+          "x1": 700,
+          "y1": 470,
+          "x2": 860,
+          "y2": 470,
+          "w": 2.4,
+          "col": "#5ce1e6",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 1060,
+          "y1": 470,
+          "x2": 1220,
+          "y2": 470,
+          "w": 2.4,
+          "col": "#5ce1e6",
+          "at": 0.4,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "NOT A LAPTOP",
+      "side": "L"
+    }
+  ],
+  "1.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 300,
+          "w": 520,
+          "h": 460,
+          "w2": 2.4,
+          "col": "#5ce1e6",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 470,
+          "r": 34,
+          "w2": 2.6,
+          "col": "#5ce1e6",
+          "at": 0.35,
+          "dur": 0.25
+        }
+      ]
+    }
+  ],
+  "1.05": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 300,
+          "w": 520,
+          "h": 460,
+          "w2": 2.4,
+          "col": "#5ce1e6",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 470,
+          "r": 34,
+          "w2": 2.6,
+          "col": "#5ce1e6",
+          "at": 0.35,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "?",
+      "x": 960,
+      "y": 490,
+      "size": 90,
+      "col": "#5ce1e6",
+      "pulse": true,
+      "rate": 2.6
+    }
+  ],
+  "1.06": [
+    {
+      "op": "panel",
+      "name": "question",
+      "params": {
+        "lines": [
+          "WHAT DO YOU DO NEXT?"
+        ],
+        "y": 540,
+        "size": 58
+      }
+    }
+  ],
+  "2.01": [
+    {
+      "op": "panel",
+      "name": "timeline",
+      "params": {
+        "y": 560,
+        "ticks": [
+          {
+            "label": "THE 1980s",
+            "note": "SUPERCOMPUTER IMPORTS WERE DENIED (C-DAC)"
+          }
+        ]
+      }
+    }
+  ],
+  "2.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 380,
+          "y1": 500,
+          "x2": 1540,
+          "y2": 500,
+          "w": 3,
+          "at": 0.05,
+          "dur": 0.35
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 380,
+          "x2": 960,
+          "y2": 620,
+          "w": 5,
+          "col": "#ff9b3d",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 400,
+          "x2": 918,
+          "y2": 378,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 400,
+          "x2": 1002,
+          "y2": 378,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.5,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "ACCESS DENIED",
+      "side": "R"
+    }
+  ],
+  "2.03": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "stand",
+          "x": 960,
+          "y": 840,
+          "scale": 3,
+          "phase": 0,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "WAITING FOR PERMISSION",
+      "side": "L"
+    }
+  ],
+  "2.04": [
+    {
+      "op": "text",
+      "text": "WAIT FOR PERMISSION?",
+      "x": 960,
+      "y": 520,
+      "size": 54
+    }
+  ],
+  "2.05": [
+    {
+      "op": "text",
+      "text": "A COUNTRY THAT NEEDS ANSWERS",
+      "x": 960,
+      "y": 480,
+      "size": 50
+    },
+    {
+      "op": "text",
+      "text": "CANNOT ALWAYS WAIT",
+      "x": 960,
+      "y": 570,
+      "size": 50,
+      "col": "#5ce1e6"
+    }
+  ],
+  "3.01": [
+    {
+      "op": "numberCard",
+      "value": "1988",
+      "sub": "C-DAC SET UP",
+      "source": "C-DAC"
+    }
+  ],
+  "3.02": [
+    {
+      "op": "text",
+      "text": "THE PARAM FAMILY",
+      "x": 960,
+      "y": 520,
+      "size": 58,
+      "col": "#5ce1e6"
+    }
+  ],
+  "3.03": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "sort",
+          "x": 760,
+          "y": 850,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0,
+          "prop": "desk",
+          "propX": 1060,
+          "propScale": 2.4,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    }
+  ],
+  "3.04": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "sort",
+          "x": 620,
+          "y": 850,
+          "scale": 2.8,
+          "accentPart": "armR",
+          "phase": 0,
+          "prop": "papers",
+          "propX": 700,
+          "propScale": 2.2,
+          "n": 9,
+          "at": 0.05,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "stand",
+          "x": 1320,
+          "y": 850,
+          "scale": 2.8,
+          "phase": 1.4,
+          "at": 0.25,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "3.05": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "sort",
+          "x": 700,
+          "y": 850,
+          "scale": 2.8,
+          "accentPart": "armR",
+          "phase": 0,
+          "prop": "papers",
+          "propX": 780,
+          "propScale": 2.2,
+          "n": 4,
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "pose": "sort",
+          "x": 1000,
+          "y": 850,
+          "scale": 2.8,
+          "accentPart": "armR",
+          "phase": 0.8,
+          "prop": "papers",
+          "propX": 1080,
+          "propScale": 2.2,
+          "n": 4,
+          "at": 0.25,
+          "dur": 0.3
+        },
+        {
+          "pose": "sort",
+          "x": 1300,
+          "y": 850,
+          "scale": 2.8,
+          "accentPart": "armR",
+          "phase": 1.6,
+          "prop": "papers",
+          "propX": 1380,
+          "propScale": 2.2,
+          "n": 4,
+          "at": 0.45,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "KNOW YOUR PILE",
+      "side": "R"
+    }
+  ],
+  "3.06": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.6,
+      "nodes": 12
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "3.07": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.7,
+      "nodes": 16
+    },
+    {
+      "op": "railLabel",
+      "text": "THE MACHINE",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "4.01": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.8,
+      "nodes": 12
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 520,
+          "w": 520,
+          "h": 26,
+          "w2": 2.4,
+          "col": "#5ce1e6",
+          "at": 0.35,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "4.02": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.8,
+      "nodes": 12
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 520,
+          "w": 520,
+          "h": 26,
+          "w2": 2.4,
+          "col": "#5ce1e6",
+          "at": 0.35,
+          "dur": 0.3
+        },
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 500,
+          "w": 240,
+          "h": 26,
+          "w2": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.55,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "4.03": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.8,
+      "nodes": 12
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              820,
+              520
+            ],
+            [
+              960,
+              470
+            ],
+            [
+              1100,
+              520
+            ]
+          ],
+          "r": 9,
+          "speed": 0.6,
+          "col": "#5ce1e6",
+          "at": 0.3,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "COMBINE",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "4.04": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "reach",
+          "x": 700,
+          "y": 850,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0,
+          "prop": "knife",
+          "propX": 880,
+          "propScale": 2.4,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "stand",
+          "x": 1180,
+          "y": 850,
+          "scale": 3,
+          "phase": 1,
+          "at": 0.2,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "ONE SHARED KNIFE",
+      "side": "L"
+    }
+  ],
+  "4.05": [
+    {
+      "op": "text",
+      "text": "SHARED RESOURCE = WAITING",
+      "x": 960,
+      "y": 540,
+      "size": 52,
+      "col": "#ff9b3d"
+    }
+  ],
+  "4.06": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.8,
+      "nodes": 12,
+      "slowLink": 3
+    },
+    {
+      "op": "railLabel",
+      "text": "THE SLOW LINK",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "4.07": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.8,
+      "nodes": 12
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 520,
+          "w": 520,
+          "h": 26,
+          "w2": 2.4,
+          "col": "#5ce1e6",
+          "at": 0.35,
+          "dur": 0.3
+        },
+        {
+          "k": "rect",
+          "x": 700,
+          "y": 500,
+          "w": 240,
+          "h": 26,
+          "w2": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.55,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "NODES STAY BUSY",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "4.08": [
+    {
+      "op": "text",
+      "text": "THE NETWORK MATTERS ALMOST",
+      "x": 960,
+      "y": 480,
+      "size": 50
+    },
+    {
+      "op": "text",
+      "text": "AS MUCH AS THE PROCESSORS",
+      "x": 960,
+      "y": 570,
+      "size": 50,
+      "col": "#5ce1e6"
+    }
+  ],
+  "5.01": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "run",
+          "x": 700,
+          "y": 850,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 0,
+          "amp": 20,
+          "speed": 3,
+          "prop": "baton",
+          "propX": 800,
+          "propScale": 2,
+          "at": 0.05,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "pass",
+          "x": 1180,
+          "y": 850,
+          "scale": 3,
+          "accentPart": "armR",
+          "phase": 1.2,
+          "prop": "baton",
+          "propX": 1090,
+          "propScale": 2,
+          "at": 0.25,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "5.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 760,
+          "y1": 800,
+          "x2": 1160,
+          "y2": 800,
+          "w": 3.4,
+          "at": 0.05,
+          "dur": 0.35
+        },
+        {
+          "k": "line",
+          "x1": 940,
+          "y1": 790,
+          "x2": 990,
+          "y2": 810,
+          "w": 2.6,
+          "col": "#ff9b3d",
+          "at": 0.4,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "DROPPED BATON",
+      "side": "R"
+    }
+  ],
+  "5.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 700,
+          "y": 620,
+          "r": 54,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 1220,
+          "y": 620,
+          "r": 54,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.2,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 754,
+          "y1": 620,
+          "x2": 1166,
+          "y2": 620,
+          "w": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.35,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 700,
+          "y1": 620,
+          "x2": 900,
+          "y2": 420,
+          "w": 2,
+          "col": "#5ce1e6",
+          "dash": [
+            10,
+            10
+          ],
+          "march": 20,
+          "at": 0.5,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 1220,
+          "y1": 620,
+          "x2": 1020,
+          "y2": 420,
+          "w": 2,
+          "col": "#5ce1e6",
+          "dash": [
+            10,
+            10
+          ],
+          "march": 20,
+          "at": 0.5,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "TASKS AND MESSAGES",
+      "side": "L"
+    }
+  ],
+  "5.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 640,
+          "y": 380,
+          "w": 640,
+          "h": 260,
+          "w2": 1.8,
+          "col": "#5ce1e6",
+          "dash": [
+            12,
+            10
+          ],
+          "march": 18,
+          "at": 0.05,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "THE SCHEDULER",
+      "side": "R"
+    }
+  ],
+  "5.05": [
+    {
+      "op": "text",
+      "text": "POOR COORDINATION ERASES HARDWARE",
+      "x": 960,
+      "y": 540,
+      "size": 52,
+      "col": "#ff9b3d"
+    }
+  ],
+  "6.01": [
+    {
+      "op": "panel",
+      "name": "spokes",
+      "params": {
+        "cy": 540,
+        "r": 190,
+        "items": [
+          "HARDWARE",
+          "NETWORK",
+          "MEMORY",
+          "SOFTWARE",
+          "COOLING",
+          "PEOPLE"
+        ]
+      }
+    }
+  ],
+  "6.02": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.7,
+      "nodes": 16
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              900,
+              300
+            ],
+            [
+              960,
+              520
+            ],
+            [
+              1020,
+              700
+            ]
+          ],
+          "r": 8,
+          "speed": 0.7,
+          "col": "#5ce1e6",
+          "at": 0.2,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "6.03": [
+    {
+      "op": "text",
+      "text": "A SYSTEM, NOT A ROOM OF COMPUTERS",
+      "x": 960,
+      "y": 540,
+      "size": 48,
+      "col": "#5ce1e6"
+    }
+  ],
+  "6.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 520,
+          "r": 110,
+          "w2": 2.6,
+          "col": "#5ce1e6",
+          "at": 0.05,
+          "dur": 0.35
+        },
+        {
+          "k": "text",
+          "x": 960,
+          "y": 540,
+          "s": "C-DAC",
+          "size": 44,
+          "align": "center",
+          "at": 0.4,
+          "dur": 0.2
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "BUILD AND INTEGRATE",
+      "side": "R"
+    }
+  ],
+  "6.05": [
+    {
+      "op": "text",
+      "text": "NOT EVERY PART MADE AT HOME",
+      "x": 960,
+      "y": 520,
+      "size": 50
+    }
+  ],
+  "6.06": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.7,
+      "nodes": 16
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              900,
+              300
+            ],
+            [
+              960,
+              520
+            ],
+            [
+              1020,
+              700
+            ]
+          ],
+          "r": 9,
+          "speed": 0.9,
+          "col": "#5ce1e6",
+          "at": 0.15,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "7.01": [
+    {
+      "op": "text",
+      "text": "A FICTIONAL SCENARIO",
+      "x": 960,
+      "y": 300,
+      "size": 40,
+      "col": "#ff9b3d"
+    }
+  ],
+  "7.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 620,
+          "y": 320,
+          "w": 680,
+          "h": 420,
+          "w2": 1.6,
+          "col": "#5ce1e6",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "line",
+          "x1": 640,
+          "y1": 360,
+          "x2": 900,
+          "y2": 360,
+          "w": 1.6,
+          "col": "#5ce1e6",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 640,
+          "y1": 420,
+          "x2": 980,
+          "y2": 420,
+          "w": 1.6,
+          "col": "#5ce1e6",
+          "at": 0.25,
+          "dur": 0.25
+        },
+        {
+          "k": "line",
+          "x1": 640,
+          "y1": 480,
+          "x2": 860,
+          "y2": 480,
+          "w": 1.6,
+          "col": "#5ce1e6",
+          "at": 0.3,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "WEATHER GRID",
+      "side": "R"
+    }
+  ],
+  "7.03": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.7,
+      "nodes": 16
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 700,
+          "y": 620,
+          "r": 26,
+          "w2": 2.4,
+          "col": "#ff9b3d",
+          "at": 0.3,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "ONE NODE IDLE",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "7.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 760,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.1,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 880,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 1000,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#ff9b3d",
+          "at": 0.3,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 1120,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.4,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "UNBALANCED",
+      "side": "R"
+    }
+  ],
+  "7.05": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 760,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.1,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 880,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 1000,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.3,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 1120,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.4,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 1240,
+          "y": 560,
+          "w": 90,
+          "h": 120,
+          "w2": 2.2,
+          "col": "#5ce1e6",
+          "at": 0.5,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "MORE NODES, SAME WAIT",
+      "x": 960,
+      "y": 790,
+      "size": 46,
+      "col": "#ff9b3d"
+    }
+  ],
+  "7.06": [
+    {
+      "op": "text",
+      "text": "THE HIDDEN ART",
+      "x": 960,
+      "y": 540,
+      "size": 56,
+      "col": "#5ce1e6"
+    }
+  ],
+  "8.01": [
+    {
+      "op": "text",
+      "text": "TODAY'S FRONTIER",
+      "x": 960,
+      "y": 300,
+      "size": 52,
+      "col": "#5ce1e6"
+    }
+  ],
+  "8.02": [
+    {
+      "op": "panel",
+      "name": "boxes",
+      "params": {
+        "cy": 580,
+        "items": [
+          "ACCELERATORS",
+          "HIGH-SPEED NETWORKS",
+          "ENERGY EFFICIENCY",
+          "TUNED SOFTWARE"
+        ],
+        "bw": 520,
+        "bh": 150,
+        "cols": 2
+      }
+    }
+  ],
+  "8.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "arrow",
+          "x1": 300,
+          "y1": 400,
+          "x2": 700,
+          "y2": 480,
+          "col": "#5ce1e6",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "arrow",
+          "x1": 300,
+          "y1": 700,
+          "x2": 700,
+          "y2": 560,
+          "col": "#5ce1e6",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "GLOBAL SUPPLY CHAINS STILL MATTER",
+      "side": "L"
+    }
+  ],
+  "8.04": [
+    {
+      "op": "text",
+      "text": "INDEPENDENCE IS A MOVING TARGET",
+      "x": 960,
+      "y": 540,
+      "size": 52
+    }
+  ],
+  "8.05": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.7,
+      "nodes": 16
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              900,
+              300
+            ],
+            [
+              960,
+              520
+            ],
+            [
+              1020,
+              700
+            ]
+          ],
+          "r": 9,
+          "speed": 1.1,
+          "col": "#5ce1e6",
+          "at": 0.15,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "9.01": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.7,
+      "nodes": 16
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              900,
+              300
+            ],
+            [
+              960,
+              520
+            ],
+            [
+              1020,
+              700
+            ]
+          ],
+          "r": 9,
+          "speed": 1.1,
+          "col": "#5ce1e6",
+          "at": 0.15,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "9.02": [
+    {
+      "op": "x:hero",
+      "kind": "rack-node-mesh",
+      "scale": 1.7,
+      "nodes": 16,
+      "opts": {}
+    }
+  ],
+  "9.03": [
+    {
+      "op": "text",
+      "text": "MANY MACHINES. ONE MIND.",
+      "x": 960,
+      "y": 520,
+      "size": 56,
+      "col": "#5ce1e6"
+    }
+  ],
+  "9.04": [
+    {
+      "op": "text",
+      "text": "THE ANSWER WAS NEVER",
+      "x": 960,
+      "y": 480,
+      "size": 50
+    },
+    {
+      "op": "text",
+      "text": "ONE GIANT COMPUTER.",
+      "x": 960,
+      "y": 570,
+      "size": 50
+    }
+  ],
+  "9.05": [
+    {
+      "op": "titleCard",
+      "title": "INDIA BUILT IT ANYWAY",
+      "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+    }
+  ]
+}

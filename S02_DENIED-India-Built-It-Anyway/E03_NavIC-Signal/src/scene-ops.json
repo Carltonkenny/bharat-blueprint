@@ -1,0 +1,1353 @@
+{
+  "1.01": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 560,
+          "y": 240,
+          "w": 800,
+          "h": 560,
+          "w2": 1.6,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "line",
+          "x1": 620,
+          "y1": 380,
+          "x2": 1300,
+          "y2": 380,
+          "w2": 1.4,
+          "col": "#8fe4ff",
+          "at": 0.2,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 620,
+          "y1": 660,
+          "x2": 1300,
+          "y2": 660,
+          "w2": 1.4,
+          "col": "#8fe4ff",
+          "at": 0.25,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 760,
+          "y": 380,
+          "r": 16,
+          "w2": 2.6,
+          "col": "#ffcf5c",
+          "at": 0.4,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "?",
+      "x": 760,
+      "y": 396,
+      "size": 44,
+      "col": "#ffcf5c",
+      "pulse": true,
+      "rate": 2.4
+    }
+  ],
+  "1.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 560,
+          "y": 240,
+          "w": 800,
+          "h": 560,
+          "w2": 1.6,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "line",
+          "x1": 620,
+          "y1": 380,
+          "x2": 1300,
+          "y2": 380,
+          "w2": 1.4,
+          "col": "#8fe4ff",
+          "at": 0.15,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 900,
+          "y": 380,
+          "r": 16,
+          "w2": 2.6,
+          "col": "#ffcf5c",
+          "at": 0.45,
+          "dur": 0.2
+        },
+        {
+          "k": "circle",
+          "x": 760,
+          "y": 380,
+          "r": 9,
+          "w2": 1.6,
+          "col": "#8fe4ff",
+          "at": 0.1,
+          "dur": 0.2
+        }
+      ]
+    }
+  ],
+  "1.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 560,
+          "y": 240,
+          "w": 800,
+          "h": 560,
+          "w2": 1.6,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "line",
+          "x1": 620,
+          "y1": 660,
+          "x2": 1300,
+          "y2": 660,
+          "w2": 1.4,
+          "col": "#8fe4ff",
+          "at": 0.15,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 1220,
+          "y": 660,
+          "r": 16,
+          "w2": 2.6,
+          "col": "#ffcf5c",
+          "at": 0.4,
+          "dur": 0.2
+        }
+      ]
+    },
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "stand",
+          "x": 980,
+          "y": 700,
+          "scale": 2.2,
+          "at": 0.3,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "1.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 520,
+          "r": 170,
+          "w2": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.45
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 520,
+          "x2": 960,
+          "y2": 410,
+          "w2": 3,
+          "col": "#ffcf5c",
+          "at": 0.5,
+          "dur": 0.2
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 520,
+          "x2": 1010,
+          "y2": 540,
+          "w2": 2.4,
+          "col": "#ffcf5c",
+          "at": 0.5,
+          "dur": 0.2
+        }
+      ]
+    }
+  ],
+  "1.05": [
+    {
+      "op": "text",
+      "text": "KNOWS WHERE YOU ARE",
+      "x": 960,
+      "y": 560,
+      "size": 56,
+      "col": "#ffcf5c"
+    }
+  ],
+  "2.01": [
+    {
+      "op": "text",
+      "text": "WHO OWNS THE SIGNAL?",
+      "x": 960,
+      "y": 540,
+      "size": 58
+    }
+  ],
+  "2.02": [
+    {
+      "op": "x:hero",
+      "kind": "phone-dot",
+      "scale": 2.2,
+      "pos": [
+        0,
+        260,
+        0
+      ]
+    },
+    {
+      "op": "x:hero",
+      "kind": "sat-constellation",
+      "scale": 1.2,
+      "count": 3
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              0,
+              420
+            ],
+            [
+              0,
+              180
+            ],
+            [
+              0,
+              -120
+            ]
+          ],
+          "r": 9,
+          "speed": 0.5,
+          "col": "#ffcf5c",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "2.03": [
+    {
+      "op": "x:hero",
+      "kind": "phone-dot",
+      "scale": 2.2,
+      "pos": [
+        0,
+        260,
+        0
+      ]
+    },
+    {
+      "op": "x:hero",
+      "kind": "sat-constellation",
+      "scale": 1.2,
+      "count": 3
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "arrow",
+          "x1": 0,
+          "y1": 420,
+          "x2": 0,
+          "y2": -120,
+          "col": "#ffcf5c",
+          "at": 0.1,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "INVISIBLE",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "2.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 480,
+          "y": 300,
+          "r": 54,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.1,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 700,
+          "y": 240,
+          "r": 54,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.25,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 480,
+          "y": 300,
+          "r": 54,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.4,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 700,
+          "y": 240,
+          "r": 54,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.55,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "FAR BEYOND YOUR PHONE",
+      "side": "L"
+    }
+  ],
+  "2.05": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 700,
+          "x2": 960,
+          "y2": 220,
+          "w": 3,
+          "col": "#ffcf5c",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 300,
+          "x2": 1020,
+          "y2": 380,
+          "w": 3.4,
+          "col": "#ffcf5c",
+          "at": 0.35,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 900,
+          "y1": 380,
+          "x2": 1020,
+          "y2": 300,
+          "w": 3.4,
+          "col": "#ffcf5c",
+          "at": 0.35,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "CAPABILITY OUTSIDE YOUR CONTROL",
+      "side": "L"
+    }
+  ],
+  "2.06": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 700,
+          "x2": 960,
+          "y2": 220,
+          "w": 3,
+          "col": "#ffcf5c",
+          "at": 0.05,
+          "dur": 0.5
+        }
+      ]
+    }
+  ],
+  "3.01": [
+    {
+      "op": "text",
+      "text": "DEGRADED OR DENIED",
+      "x": 960,
+      "y": 500,
+      "size": 58
+    },
+    {
+      "op": "railLabel",
+      "text": "AS INDIA HAS SAID",
+      "side": "R"
+    }
+  ],
+  "3.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 700,
+          "x2": 960,
+          "y2": 220,
+          "w": 3,
+          "col": "#ffcf5c",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 620,
+          "x2": 960,
+          "y2": 380,
+          "w": 1.6,
+          "col": "#ffcf5c",
+          "dash": [
+            10,
+            10
+          ],
+          "march": 20,
+          "at": 0.45,
+          "dur": 0.2
+        }
+      ]
+    },
+    {
+      "op": "text",
+      "text": "?",
+      "x": 960,
+      "y": 420,
+      "size": 90,
+      "col": "#ffcf5c",
+      "pulse": true,
+      "rate": 3.2
+    }
+  ],
+  "3.03": [
+    {
+      "op": "text",
+      "text": "THAT IS NOT PROOF OF ANY PAST STORY",
+      "x": 960,
+      "y": 520,
+      "size": 50
+    }
+  ],
+  "3.04": [
+    {
+      "op": "text",
+      "text": "IT EXPLAINS WHY INDEPENDENCE MATTERS",
+      "x": 960,
+      "y": 520,
+      "size": 50,
+      "col": "#8fe4ff"
+    }
+  ],
+  "4.01": [
+    {
+      "op": "x:hero",
+      "kind": "earth-wire",
+      "scale": 1.5
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 500,
+          "r": 330,
+          "w2": 1.6,
+          "col": "#ffcf5c",
+          "dash": [
+            12,
+            10
+          ],
+          "march": 18,
+          "at": 0.3,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "REGIONAL COVERAGE",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "4.02": [
+    {
+      "op": "x:hero",
+      "kind": "earth-wire",
+      "scale": 1.5
+    },
+    {
+      "op": "x:hero",
+      "kind": "sat-constellation",
+      "scale": 1.3,
+      "count": 3
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "4.03": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "look-up",
+          "x": 900,
+          "y": 860,
+          "scale": 3,
+          "accentPart": "head",
+          "phase": 0,
+          "prop": "bell",
+          "propX": 1120,
+          "propScale": 2.2,
+          "ring": 0.8,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    }
+  ],
+  "4.04": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 520,
+          "y": 520,
+          "r": 54,
+          "w2": 2.4,
+          "col": "#ffcf5c",
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 574,
+          "y1": 520,
+          "x2": 1180,
+          "y2": 520,
+          "w": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.25,
+          "dur": 0.35
+        },
+        {
+          "k": "circle",
+          "x": 1180,
+          "y": 520,
+          "r": 16,
+          "w2": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.6,
+          "dur": 0.2
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "BELL RINGS, SOUND ARRIVES",
+      "side": "L"
+    }
+  ],
+  "4.05": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "line",
+          "x1": 520,
+          "y1": 520,
+          "x2": 1180,
+          "y2": 520,
+          "w": 3.4,
+          "col": "#ffcf5c",
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "dot",
+          "x": 700,
+          "y": 520,
+          "r": 10,
+          "w2": 0,
+          "col": "#ffcf5c",
+          "at": 0.35,
+          "dur": 0.2
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "SPEED OF LIGHT",
+      "side": "L"
+    }
+  ],
+  "4.06": [
+    {
+      "op": "x:hero",
+      "kind": "sat-constellation",
+      "scale": 1.3,
+      "count": 3
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              420,
+              120
+            ],
+            [
+              960,
+              420
+            ],
+            [
+              1420,
+              760
+            ]
+          ],
+          "r": 11,
+          "speed": 0.55,
+          "col": "#ffcf5c",
+          "at": 0.1,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "5.01": [
+    {
+      "op": "x:hero",
+      "kind": "sat-constellation",
+      "scale": 1.4,
+      "count": 3
+    },
+    {
+      "op": "railLabel",
+      "text": "POSITION + TIME",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "5.02": [
+    {
+      "op": "x:hero",
+      "kind": "sat-constellation",
+      "scale": 1.4,
+      "count": 3
+    },
+    {
+      "op": "x:hero",
+      "kind": "phone-dot",
+      "scale": 1.8,
+      "pos": [
+        0,
+        -320,
+        0
+      ]
+    },
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "dot",
+          "path": [
+            [
+              400,
+              140
+            ],
+            [
+              960,
+              300
+            ],
+            [
+              960,
+              -260
+            ]
+          ],
+          "r": 10,
+          "speed": 0.6,
+          "col": "#ffcf5c",
+          "at": 0.15,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "5.03": [
+    {
+      "op": "x:hero",
+      "kind": "range-spheres",
+      "scale": 1.1,
+      "count": 1
+    },
+    {
+      "op": "railLabel",
+      "text": "ONE DISTANCE",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "5.04": [
+    {
+      "op": "text",
+      "text": "ONE DISTANCE = A WHOLE SPHERE",
+      "x": 960,
+      "y": 500,
+      "size": 50
+    },
+    {
+      "op": "text",
+      "text": "OF POSSIBLE PLACES",
+      "x": 960,
+      "y": 580,
+      "size": 50,
+      "col": "#8fe4ff"
+    }
+  ],
+  "6.01": [
+    {
+      "op": "x:hero",
+      "kind": "range-spheres",
+      "scale": 1,
+      "count": 2
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 480,
+          "r": 120,
+          "w2": 2.4,
+          "col": "#ffcf5c",
+          "at": 0.4,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "6.02": [
+    {
+      "op": "x:hero",
+      "kind": "range-spheres",
+      "scale": 1,
+      "count": 3
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 930,
+          "y": 470,
+          "r": 14,
+          "w2": 2.4,
+          "col": "#ffcf5c",
+          "at": 0.45,
+          "dur": 0.25
+        },
+        {
+          "k": "circle",
+          "x": 990,
+          "y": 470,
+          "r": 14,
+          "w2": 2.4,
+          "col": "#ffcf5c",
+          "at": 0.55,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "6.03": [
+    {
+      "op": "x:hero",
+      "kind": "range-spheres",
+      "scale": 1,
+      "count": 4
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 470,
+          "r": 16,
+          "w2": 2.8,
+          "col": "#ffcf5c",
+          "at": 0.55,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "4 SATELLITES",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "6.04": [
+    {
+      "op": "text",
+      "text": "POSITION AND CLOCK ERROR TOGETHER",
+      "x": 960,
+      "y": 540,
+      "size": 50
+    }
+  ],
+  "7.01": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 520,
+          "r": 130,
+          "w2": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 520,
+          "x2": 968,
+          "y2": 470,
+          "w": 2.4,
+          "col": "#ffcf5c",
+          "at": 0.4,
+          "dur": 0.25
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "A TINY ERROR",
+      "side": "L"
+    }
+  ],
+  "7.02": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 560,
+          "y": 240,
+          "w": 800,
+          "h": 560,
+          "w2": 1.6,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 700,
+          "y": 520,
+          "r": 12,
+          "w2": 2.4,
+          "col": "#ffcf5c",
+          "at": 0.3,
+          "dur": 0.2
+        },
+        {
+          "k": "circle",
+          "x": 1180,
+          "y": 520,
+          "r": 12,
+          "w2": 2.4,
+          "col": "#ffcf5c",
+          "at": 0.6,
+          "dur": 0.2
+        },
+        {
+          "k": "line",
+          "x1": 700,
+          "y1": 520,
+          "x2": 1180,
+          "y2": 520,
+          "w": 2,
+          "col": "#ffcf5c",
+          "dash": [
+            10,
+            10
+          ],
+          "march": 20,
+          "at": 0.45,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "ILLUSTRATIVE",
+      "side": "R"
+    }
+  ],
+  "7.03": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 300,
+          "r": 90,
+          "w2": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.3
+        },
+        {
+          "k": "line",
+          "x1": 960,
+          "y1": 300,
+          "x2": 960,
+          "y2": 190,
+          "w": 2.4,
+          "col": "#8fe4ff",
+          "at": 0.2,
+          "dur": 0.25
+        },
+        {
+          "k": "rect",
+          "x": 860,
+          "y": 480,
+          "w": 200,
+          "h": 60,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.4,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 700,
+          "r": 50,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.6,
+          "dur": 0.3
+        },
+        {
+          "k": "circle",
+          "x": 1160,
+          "y": 700,
+          "r": 40,
+          "w2": 2,
+          "col": "#8fe4ff",
+          "at": 0.75,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "7.04": [
+    {
+      "op": "text",
+      "text": "NAVIGATION IS A STORY ABOUT TIME",
+      "x": 960,
+      "y": 540,
+      "size": 52,
+      "col": "#ffcf5c"
+    }
+  ],
+  "8.01": [
+    {
+      "op": "x:hero",
+      "kind": "earth-wire",
+      "scale": 1.4
+    },
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "circle",
+          "x": 1150,
+          "y": 420,
+          "r": 190,
+          "w2": 1.8,
+          "col": "#8fe4ff",
+          "dash": [
+            12,
+            10
+          ],
+          "march": 18,
+          "at": 0.3,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
+      "side": "L"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "8.02": [
+    {
+      "op": "text",
+      "text": "SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
+      "x": 960,
+      "y": 520,
+      "size": 48
+    }
+  ],
+  "8.03": [
+    {
+      "op": "panel",
+      "name": "timeline",
+      "params": {
+        "y": 560,
+        "ticks": [
+          {
+            "label": "29 JULY 2026",
+            "note": "PARLIAMENT ANSWER",
+            "accent": true
+          }
+        ]
+      }
+    }
+  ],
+  "8.04": [
+    {
+      "op": "numberCard",
+      "value": "3 SATELLITES IN THE CONSTELLATION",
+      "sub": "4 NEEDED FOR BASIC POSITIONING",
+      "source": "PIB, 29 JULY 2026"
+    }
+  ],
+  "8.05": [
+    {
+      "op": "panel",
+      "name": "timeline",
+      "params": {
+        "y": 560,
+        "ticks": [
+          {
+            "label": "29 JULY 2026",
+            "note": "PARLIAMENT ANSWER"
+          },
+          {
+            "label": "30 OCTOBER 2026",
+            "note": "NVS-03 LAUNCHED (GSLV-F18)",
+            "accent": true
+          }
+        ]
+      }
+    }
+  ],
+  "8.06": [
+    {
+      "op": "x:hero",
+      "kind": "sat-constellation",
+      "scale": 1.5,
+      "count": 3
+    },
+    {
+      "op": "railLabel",
+      "text": "REACHING ITS SLOT",
+      "side": "R"
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "8.07": [
+    {
+      "op": "text",
+      "text": "A LAUNCH IS NOT RESTORED SERVICE",
+      "x": 960,
+      "y": 540,
+      "size": 52
+    }
+  ],
+  "9.01": [
+    {
+      "op": "text",
+      "text": "A FICTIONAL SCENARIO",
+      "x": 960,
+      "y": 300,
+      "size": 40,
+      "col": "#ff9b3d"
+    }
+  ],
+  "9.02": [
+    {
+      "op": "x:people",
+      "people": [
+        {
+          "pose": "stand",
+          "x": 860,
+          "y": 830,
+          "scale": 3,
+          "prop": "boat",
+          "propX": 1150,
+          "propScale": 2,
+          "receiver": true,
+          "ping": 0.8,
+          "at": 0.05,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "op": "railLabel",
+      "text": "ONE SIGNAL UNRELIABLE",
+      "side": "R"
+    }
+  ],
+  "9.03": [
+    {
+      "op": "x:flow",
+      "items": [
+        {
+          "k": "arrow",
+          "x1": 400,
+          "y1": 300,
+          "x2": 760,
+          "y2": 420,
+          "col": "#ffcf5c",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "arrow",
+          "x1": 400,
+          "y1": 560,
+          "x2": 760,
+          "y2": 480,
+          "col": "#ffcf5c",
+          "at": 0.2,
+          "dur": 0.4
+        },
+        {
+          "k": "arrow",
+          "x1": 400,
+          "y1": 820,
+          "x2": 760,
+          "y2": 540,
+          "col": "#8fe4ff",
+          "at": 0.35,
+          "dur": 0.4
+        }
+      ]
+    }
+  ],
+  "9.04": [
+    {
+      "op": "text",
+      "text": "ENOUGH USABLE SIGNALS?",
+      "x": 960,
+      "y": 500,
+      "size": 54
+    }
+  ],
+  "9.05": [
+    {
+      "op": "text",
+      "text": "INDEPENDENCE + REDUNDANCY",
+      "x": 960,
+      "y": 540,
+      "size": 54,
+      "col": "#8fe4ff"
+    }
+  ],
+  "10.01": [
+    {
+      "op": "x:draw",
+      "prims": [
+        {
+          "k": "rect",
+          "x": 560,
+          "y": 240,
+          "w": 800,
+          "h": 560,
+          "w2": 1.6,
+          "col": "#8fe4ff",
+          "at": 0.05,
+          "dur": 0.4
+        },
+        {
+          "k": "circle",
+          "x": 960,
+          "y": 520,
+          "r": 16,
+          "w2": 2.6,
+          "col": "#ffcf5c",
+          "at": 0.4,
+          "dur": 0.2
+        }
+      ]
+    }
+  ],
+  "10.02": [
+    {
+      "op": "x:hero",
+      "kind": "earth-wire",
+      "scale": 1.2
+    },
+    {
+      "op": "x:hero",
+      "kind": "sat-constellation",
+      "scale": 1,
+      "count": 3
+    },
+    {
+      "op": "tag",
+      "text": "SCHEMATIC, NOT TO SCALE"
+    }
+  ],
+  "10.03": [
+    {
+      "op": "text",
+      "text": "INDEPENDENCE IS NOT IGNORING THE WORLD",
+      "x": 960,
+      "y": 540,
+      "size": 48
+    }
+  ],
+  "10.04": [
+    {
+      "op": "text",
+      "text": "TO KNOW WHERE YOU ARE,",
+      "x": 960,
+      "y": 500,
+      "size": 54
+    },
+    {
+      "op": "text",
+      "text": "CONTROL THE CLOCK.",
+      "x": 960,
+      "y": 600,
+      "size": 54,
+      "col": "#ffcf5c"
+    }
+  ],
+  "10.05": [
+    {
+      "op": "titleCard",
+      "title": "INDIA BUILT IT ANYWAY",
+      "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+    }
+  ],
+  "8.08": [
+    {
+      "op": "text",
+      "text": "NO STANDALONE POSITIONING. TIMING FUNCTIONAL.",
+      "x": 1350,
+      "y": 700,
+      "size": 34,
+      "col": "#8fe4ff"
+    }
+  ]
+}

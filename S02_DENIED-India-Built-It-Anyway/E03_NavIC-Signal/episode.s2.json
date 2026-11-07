@@ -1,0 +1,2329 @@
+{
+  "id": "E03",
+  "title": "Who Controls the Signal That Finds You?",
+  "world": "orbit",
+  "fps": 30,
+  "seed": "s02",
+  "passages": [
+    {
+      "id": "P01",
+      "text": "Look at the blue dot on your phone. It knows where you are. It can guide a driver through an unfamiliar city. It can help a ship approach a port. It can keep a clock in a network synchronised.",
+      "estSec": 21.7,
+      "flag": "",
+      "words": 39
+    },
+    {
+      "id": "P02",
+      "text": "But the dot raises a question most people never ask. Who owns the signal that makes it possible?",
+      "estSec": 36.1,
+      "flag": "",
+      "words": 65
+    },
+    {
+      "id": "P03",
+      "text": "India has said the concern plainly: civilian signals from foreign navigation systems can potentially be degraded or denied. That does not prove every dramatic story told about a past shutdown. It explains why an independent system matters.",
+      "estSec": 20.6,
+      "flag": "",
+      "words": 37
+    },
+    {
+      "id": "P04",
+      "text": "So India developed NavIC, Navigation with Indian Constellation, a regional satellite navigation system.",
+      "estSec": 38.3,
+      "flag": "",
+      "words": 69
+    },
+    {
+      "id": "P05",
+      "text": "The satellite broadcasts its position and a precise time reference. Your receiver compares that time with the arrival of the signal. The difference helps estimate distance. But one distance is not enough. It tells you that you could be somewhere on a huge imaginary sphere around the satellite.",
+      "estSec": 26.7,
+      "flag": "",
+      "words": 48
+    },
+    {
+      "id": "P06",
+      "text": "Now add another satellite. Then another. Their distance measurements narrow the possible locations. The receiver's clock is not as precise as the satellites' clocks. So more measurements are needed, to solve for position and clock error together.",
+      "estSec": 20.6,
+      "flag": "",
+      "words": 37
+    },
+    {
+      "id": "P07",
+      "text": "Navigation is also a story about time.",
+      "estSec": 25,
+      "flag": "",
+      "words": 45
+    },
+    {
+      "id": "P08",
+      "text": "NavIC gave India a regional navigation architecture under its own control. Its signals can also work alongside other global navigation systems in compatible receivers.",
+      "estSec": 51.1,
+      "flag": "",
+      "words": 92
+    },
+    {
+      "id": "P09",
+      "text": "Here is a fictional scenario. A fishing vessel receives signals from several navigation systems. One signal becomes unreliable. A compatible receiver can compare the remaining measurements, but only if enough usable signals are available. Resilience comes from both independence and redundancy.",
+      "estSec": 22.8,
+      "flag": "FICTIONAL SCENARIO",
+      "words": 41
+    },
+    {
+      "id": "P10",
+      "text": "The blue dot looked simple. Behind it was a network of clocks, orbits and decisions.",
+      "estSec": 28.3,
+      "flag": "",
+      "words": 51
+    }
+  ],
+  "beats": [
+    {
+      "id": "1.01",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hook",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 560,
+              "y": 240,
+              "w": 800,
+              "h": 560,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "line",
+              "x1": 620,
+              "y1": 380,
+              "x2": 1300,
+              "y2": 380,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 620,
+              "y1": 660,
+              "x2": 1300,
+              "y2": 660,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 760,
+              "y": 380,
+              "r": 16,
+              "w2": 2.6,
+              "col": "#ffcf5c",
+              "at": 0.4,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "?",
+          "x": 760,
+          "y": 396,
+          "size": 44,
+          "col": "#ffcf5c",
+          "pulse": true,
+          "rate": 2.4
+        }
+      ],
+      "labels": [],
+      "notes": "blue location dot on a dark map, pulses",
+      "cam": "hold"
+    },
+    {
+      "id": "1.02",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 560,
+              "y": 240,
+              "w": 800,
+              "h": 560,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "line",
+              "x1": 620,
+              "y1": 380,
+              "x2": 1300,
+              "y2": 380,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "at": 0.15,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 900,
+              "y": 380,
+              "r": 16,
+              "w2": 2.6,
+              "col": "#ffcf5c",
+              "at": 0.45,
+              "dur": 0.2
+            },
+            {
+              "k": "circle",
+              "x": 760,
+              "y": 380,
+              "r": 9,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "at": 0.1,
+              "dur": 0.2
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "dot moves along a road (driver)",
+      "cam": "hold"
+    },
+    {
+      "id": "1.03",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 560,
+              "y": 240,
+              "w": 800,
+              "h": 560,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "line",
+              "x1": 620,
+              "y1": 660,
+              "x2": 1300,
+              "y2": 660,
+              "w2": 1.4,
+              "col": "#8fe4ff",
+              "at": 0.15,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1220,
+              "y": 660,
+              "r": 16,
+              "w2": 2.6,
+              "col": "#ffcf5c",
+              "at": 0.4,
+              "dur": 0.2
+            }
+          ]
+        },
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "stand",
+              "x": 980,
+              "y": 700,
+              "scale": 2.2,
+              "at": 0.3,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "dot approaches a harbour (ship)",
+      "cam": "hold"
+    },
+    {
+      "id": "1.04",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 170,
+              "w2": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.45
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 520,
+              "x2": 960,
+              "y2": 410,
+              "w2": 3,
+              "col": "#ffcf5c",
+              "at": 0.5,
+              "dur": 0.2
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 520,
+              "x2": 1010,
+              "y2": 540,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.5,
+              "dur": 0.2
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "dot becomes a clock face ticking (network time)",
+      "cam": "hold"
+    },
+    {
+      "id": "1.05",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "KNOWS WHERE YOU ARE",
+          "x": 960,
+          "y": 560,
+          "size": 56,
+          "col": "#ffcf5c"
+        }
+      ],
+      "labels": [],
+      "notes": "text: KNOWS WHERE YOU ARE",
+      "cam": "hold"
+    },
+    {
+      "id": "2.01",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "WHO OWNS THE SIGNAL?",
+          "x": 960,
+          "y": 540,
+          "size": 58
+        }
+      ],
+      "labels": [],
+      "notes": "text: WHO OWNS THE SIGNAL?",
+      "cam": "hold"
+    },
+    {
+      "id": "2.02a",
+      "p": "P02",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "phone-dot",
+          "scale": 2.2,
+          "pos": [
+            0,
+            260,
+            0
+          ]
+        },
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.2,
+          "count": 3
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  0,
+                  420
+                ],
+                [
+                  0,
+                  180
+                ],
+                [
+                  0,
+                  -120
+                ]
+              ],
+              "r": 9,
+              "speed": 0.5,
+              "col": "#ffcf5c",
+              "at": 0.2,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "camera pulls from the phone up through the sky to a satellite",
+      "cam": "hold"
+    },
+    {
+      "id": "2.02b",
+      "p": "P02",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "phone-dot",
+          "scale": 2.2,
+          "pos": [
+            0,
+            260,
+            0
+          ]
+        },
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.2,
+          "count": 3
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  0,
+                  420
+                ],
+                [
+                  0,
+                  180
+                ],
+                [
+                  0,
+                  -120
+                ]
+              ],
+              "r": 9,
+              "speed": 0.5,
+              "col": "#ffcf5c",
+              "at": 0.2,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "camera pulls from the phone up through the sky to a satellite",
+      "cam": "hold"
+    },
+    {
+      "id": "2.03a",
+      "p": "P02",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "phone-dot",
+          "scale": 2.2,
+          "pos": [
+            0,
+            260,
+            0
+          ]
+        },
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.2,
+          "count": 3
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 0,
+              "y1": 420,
+              "x2": 0,
+              "y2": -120,
+              "col": "#ffcf5c",
+              "at": 0.1,
+              "dur": 0.5
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "INVISIBLE",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "signal line from satellite to phone, \"INVISIBLE\" label dims as the line brightens",
+      "cam": "hold"
+    },
+    {
+      "id": "2.03b",
+      "p": "P02",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "phone-dot",
+          "scale": 2.2,
+          "pos": [
+            0,
+            260,
+            0
+          ]
+        },
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.2,
+          "count": 3
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 0,
+              "y1": 420,
+              "x2": 0,
+              "y2": -120,
+              "col": "#ffcf5c",
+              "at": 0.1,
+              "dur": 0.5
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "INVISIBLE",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "signal line from satellite to phone, \"INVISIBLE\" label dims as the line brightens",
+      "cam": "hold"
+    },
+    {
+      "id": "2.04",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 480,
+              "y": 300,
+              "r": 54,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.1,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 240,
+              "r": 54,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 480,
+              "y": 300,
+              "r": 54,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.4,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 240,
+              "r": 54,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.55,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FAR BEYOND YOUR PHONE",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "institutions icons far from the phone: FAR BEYOND YOUR PHONE",
+      "cam": "hold"
+    },
+    {
+      "id": "2.05",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.1,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 700,
+              "x2": 960,
+              "y2": 220,
+              "w": 3,
+              "col": "#ffcf5c",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 300,
+              "x2": 1020,
+              "y2": 380,
+              "w": 3.4,
+              "col": "#ffcf5c",
+              "at": 0.35,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 380,
+              "x2": 1020,
+              "y2": 300,
+              "w": 3.4,
+              "col": "#ffcf5c",
+              "at": 0.35,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "CAPABILITY OUTSIDE YOUR CONTROL",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "a gate icon on the signal line: CAPABILITY OUTSIDE YOUR CONTROL",
+      "cam": "hold"
+    },
+    {
+      "id": "2.06",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 700,
+              "x2": 960,
+              "y2": 220,
+              "w": 3,
+              "col": "#ffcf5c",
+              "at": 0.05,
+              "dur": 0.5
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "hold",
+      "cam": "hold"
+    },
+    {
+      "id": "3.01",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.2,
+      "scene": [
+        {
+          "op": "text",
+          "text": "DEGRADED OR DENIED",
+          "x": 960,
+          "y": 500,
+          "size": 58
+        },
+        {
+          "op": "railLabel",
+          "text": "AS INDIA HAS SAID",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "text: DEGRADED OR DENIED (attribution chip: \"AS INDIA HAS SAID\", pending F09)",
+      "cam": "hold"
+    },
+    {
+      "id": "3.02",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 700,
+              "x2": 960,
+              "y2": 220,
+              "w": 3,
+              "col": "#ffcf5c",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 620,
+              "x2": 960,
+              "y2": 380,
+              "w": 1.6,
+              "col": "#ffcf5c",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 20,
+              "at": 0.45,
+              "dur": 0.2
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "?",
+          "x": 960,
+          "y": 420,
+          "size": 90,
+          "col": "#ffcf5c",
+          "pulse": true,
+          "rate": 3.2
+        }
+      ],
+      "labels": [],
+      "notes": "signal line dims, flickers once by design, restores",
+      "cam": "hold"
+    },
+    {
+      "id": "3.03",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THAT IS NOT PROOF OF ANY PAST STORY",
+          "x": 960,
+          "y": 520,
+          "size": 50
+        }
+      ],
+      "labels": [],
+      "notes": "text: THAT IS NOT PROOF OF ANY PAST STORY",
+      "cam": "hold"
+    },
+    {
+      "id": "3.04",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "IT EXPLAINS WHY INDEPENDENCE MATTERS",
+          "x": 960,
+          "y": 520,
+          "size": 50,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: IT EXPLAINS WHY INDEPENDENCE MATTERS",
+      "cam": "hold"
+    },
+    {
+      "id": "4.01a",
+      "p": "P04",
+      "layer": "H",
+      "kind": "mech",
+      "w": 2,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "earth-wire",
+          "scale": 1.5
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 500,
+              "r": 330,
+              "w2": 1.6,
+              "col": "#ffcf5c",
+              "dash": [
+                12,
+                10
+              ],
+              "march": 18,
+              "at": 0.3,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "REGIONAL COVERAGE",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "Earth with a soft glow over the region (NO country or state borders anywhere), NavIC drawn as a regional footprint (label REGIONAL, up to 1,500 km beyond the boundary, ISRO)",
+      "cam": "hold"
+    },
+    {
+      "id": "4.01b",
+      "p": "P04",
+      "layer": "H",
+      "kind": "mech",
+      "w": 2,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "earth-wire",
+          "scale": 1.5
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 500,
+              "r": 330,
+              "w2": 1.6,
+              "col": "#ffcf5c",
+              "dash": [
+                12,
+                10
+              ],
+              "march": 18,
+              "at": 0.3,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "REGIONAL COVERAGE",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "Earth with a soft glow over the region (NO country or state borders anywhere), NavIC drawn as a regional footprint (label REGIONAL, up to 1,500 km beyond the boundary, ISRO)",
+      "cam": "hold"
+    },
+    {
+      "id": "4.02",
+      "p": "P04",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.3,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "earth-wire",
+          "scale": 1.5
+        },
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.3,
+          "count": 3
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "constellation appears, schematic",
+      "cam": "hold"
+    },
+    {
+      "id": "4.03",
+      "p": "P04",
+      "layer": "C",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "look-up",
+              "x": 900,
+              "y": 860,
+              "scale": 3,
+              "accentPart": "head",
+              "phase": 0,
+              "prop": "bell",
+              "propX": 1120,
+              "propScale": 2.2,
+              "ring": 0.8,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "person in a field hears a bell",
+      "cam": "hold"
+    },
+    {
+      "id": "4.04",
+      "p": "P04",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 520,
+              "y": 520,
+              "r": 54,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 574,
+              "y1": 520,
+              "x2": 1180,
+              "y2": 520,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.25,
+              "dur": 0.35
+            },
+            {
+              "k": "circle",
+              "x": 1180,
+              "y": 520,
+              "r": 16,
+              "w2": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.6,
+              "dur": 0.2
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "BELL RINGS, SOUND ARRIVES",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "timeline: BELL RINGS ... SOUND ARRIVES, difference = distance",
+      "cam": "hold"
+    },
+    {
+      "id": "4.05",
+      "p": "P04",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.3,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 520,
+              "y1": 520,
+              "x2": 1180,
+              "y2": 520,
+              "w": 3.4,
+              "col": "#ffcf5c",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "dot",
+              "x": 700,
+              "y": 520,
+              "r": 10,
+              "w2": 0,
+              "col": "#ffcf5c",
+              "at": 0.35,
+              "dur": 0.2
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "SPEED OF LIGHT",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "swap bell for radio pulse at speed of light, label SPEED OF LIGHT",
+      "cam": "hold"
+    },
+    {
+      "id": "4.06",
+      "p": "P04",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.3,
+          "count": 3
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  420,
+                  120
+                ],
+                [
+                  960,
+                  420
+                ],
+                [
+                  1420,
+                  760
+                ]
+              ],
+              "r": 11,
+              "speed": 0.55,
+              "col": "#ffcf5c",
+              "at": 0.1,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "pulse travels satellite to receiver",
+      "cam": "hold"
+    },
+    {
+      "id": "5.01",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.4,
+          "count": 3
+        },
+        {
+          "op": "railLabel",
+          "text": "POSITION + TIME",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "satellite broadcasts: label POSITION + TIME",
+      "cam": "hold"
+    },
+    {
+      "id": "5.02",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.4,
+          "count": 3
+        },
+        {
+          "op": "x:hero",
+          "kind": "phone-dot",
+          "scale": 1.8,
+          "pos": [
+            0,
+            -320,
+            0
+          ]
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  400,
+                  140
+                ],
+                [
+                  960,
+                  300
+                ],
+                [
+                  960,
+                  -260
+                ]
+              ],
+              "r": 10,
+              "speed": 0.6,
+              "col": "#ffcf5c",
+              "at": 0.15,
+              "dur": 0.4
+            }
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "receiver compares arrival time",
+      "cam": "hold"
+    },
+    {
+      "id": "5.03",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "range-spheres",
+          "scale": 1.1,
+          "count": 1
+        },
+        {
+          "op": "railLabel",
+          "text": "ONE DISTANCE",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "one range sphere grows around the satellite",
+      "cam": "hold"
+    },
+    {
+      "id": "5.04a",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1,
+      "scene": [
+        {
+          "op": "text",
+          "text": "ONE DISTANCE = A WHOLE SPHERE",
+          "x": 960,
+          "y": 500,
+          "size": 50
+        },
+        {
+          "op": "text",
+          "text": "OF POSSIBLE PLACES",
+          "x": 960,
+          "y": 580,
+          "size": 50,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: ONE DISTANCE = A WHOLE SPHERE OF POSSIBLE PLACES",
+      "cam": "hold"
+    },
+    {
+      "id": "5.04b",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1,
+      "scene": [
+        {
+          "op": "text",
+          "text": "ONE DISTANCE = A WHOLE SPHERE",
+          "x": 960,
+          "y": 500,
+          "size": 50
+        },
+        {
+          "op": "text",
+          "text": "OF POSSIBLE PLACES",
+          "x": 960,
+          "y": 580,
+          "size": 50,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: ONE DISTANCE = A WHOLE SPHERE OF POSSIBLE PLACES",
+      "cam": "hold"
+    },
+    {
+      "id": "6.01",
+      "p": "P06",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "range-spheres",
+          "scale": 1,
+          "count": 2
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 480,
+              "r": 120,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.4,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "second satellite, second sphere, intersection ring glows",
+      "cam": "hold"
+    },
+    {
+      "id": "6.02",
+      "p": "P06",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "range-spheres",
+          "scale": 1,
+          "count": 3
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 930,
+              "y": 470,
+              "r": 14,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.45,
+              "dur": 0.25
+            },
+            {
+              "k": "circle",
+              "x": 990,
+              "y": 470,
+              "r": 14,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.55,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "third sphere narrows to two points",
+      "cam": "hold"
+    },
+    {
+      "id": "6.03",
+      "p": "P06",
+      "layer": "H",
+      "kind": "hold",
+      "w": 2.2,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "range-spheres",
+          "scale": 1,
+          "count": 4
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 470,
+              "r": 16,
+              "w2": 2.8,
+              "col": "#ffcf5c",
+              "at": 0.55,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "4 SATELLITES",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "fourth measurement removes the clock error, one point remains, label 4 SATELLITES",
+      "cam": "hold"
+    },
+    {
+      "id": "6.04",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "POSITION AND CLOCK ERROR TOGETHER",
+          "x": 960,
+          "y": 540,
+          "size": 50
+        }
+      ],
+      "labels": [],
+      "notes": "text: POSITION AND CLOCK ERROR TOGETHER",
+      "cam": "hold"
+    },
+    {
+      "id": "7.01",
+      "p": "P07",
+      "layer": "B",
+      "kind": "mech",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 130,
+              "w2": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 520,
+              "x2": 968,
+              "y2": 470,
+              "w": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.4,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A TINY ERROR",
+          "side": "L"
+        }
+      ],
+      "labels": [],
+      "notes": "wristwatch with a tiny error",
+      "cam": "hold"
+    },
+    {
+      "id": "7.02a",
+      "p": "P07",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.35,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 560,
+              "y": 240,
+              "w": 800,
+              "h": 560,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 520,
+              "r": 12,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.3,
+              "dur": 0.2
+            },
+            {
+              "k": "circle",
+              "x": 1180,
+              "y": 520,
+              "r": 12,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.6,
+              "dur": 0.2
+            },
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 520,
+              "x2": 1180,
+              "y2": 520,
+              "w": 2,
+              "col": "#ffcf5c",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 20,
+              "at": 0.45,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "error × speed of light grows into a big location offset on a map (illustrative, labelled ILLUSTRATIVE)",
+      "cam": "hold"
+    },
+    {
+      "id": "7.02b",
+      "p": "P07",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.35,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 560,
+              "y": 240,
+              "w": 800,
+              "h": 560,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 520,
+              "r": 12,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.3,
+              "dur": 0.2
+            },
+            {
+              "k": "circle",
+              "x": 1180,
+              "y": 520,
+              "r": 12,
+              "w2": 2.4,
+              "col": "#ffcf5c",
+              "at": 0.6,
+              "dur": 0.2
+            },
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 520,
+              "x2": 1180,
+              "y2": 520,
+              "w": 2,
+              "col": "#ffcf5c",
+              "dash": [
+                10,
+                10
+              ],
+              "march": 20,
+              "at": 0.45,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "error × speed of light grows into a big location offset on a map (illustrative, labelled ILLUSTRATIVE)",
+      "cam": "hold"
+    },
+    {
+      "id": "7.03a",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 300,
+              "r": 90,
+              "w2": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 300,
+              "x2": 960,
+              "y2": 190,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 860,
+              "y": 480,
+              "w": 200,
+              "h": 60,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.4,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 700,
+              "r": 50,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.6,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1160,
+              "y": 700,
+              "r": 40,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.75,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "atomic clock icon, ground station, orbit knowledge, reliable satellite: four parts light in turn",
+      "cam": "orbit"
+    },
+    {
+      "id": "7.03b",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 300,
+              "r": 90,
+              "w2": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 960,
+              "y1": 300,
+              "x2": 960,
+              "y2": 190,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 860,
+              "y": 480,
+              "w": 200,
+              "h": 60,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.4,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 700,
+              "r": 50,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.6,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1160,
+              "y": 700,
+              "r": 40,
+              "w2": 2,
+              "col": "#8fe4ff",
+              "at": 0.75,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "atomic clock icon, ground station, orbit knowledge, reliable satellite: four parts light in turn",
+      "cam": "orbit"
+    },
+    {
+      "id": "7.04",
+      "p": "P07",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NAVIGATION IS A STORY ABOUT TIME",
+          "x": 960,
+          "y": 540,
+          "size": 52,
+          "col": "#ffcf5c"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NAVIGATION IS A STORY ABOUT TIME",
+      "cam": "hold"
+    },
+    {
+      "id": "8.01a",
+      "p": "P08",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "earth-wire",
+          "scale": 1.4
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 1150,
+              "y": 420,
+              "r": 190,
+              "w2": 1.8,
+              "col": "#8fe4ff",
+              "dash": [
+                12,
+                10
+              ],
+              "march": 18,
+              "at": 0.3,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
+          "side": "L"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "NavIC regional footprint with compatible-receiver glow beside other systems (no country marks)",
+      "cam": "hold"
+    },
+    {
+      "id": "8.01b",
+      "p": "P08",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "earth-wire",
+          "scale": 1.4
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 1150,
+              "y": 420,
+              "r": 190,
+              "w2": 1.8,
+              "col": "#8fe4ff",
+              "dash": [
+                12,
+                10
+              ],
+              "march": 18,
+              "at": 0.3,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
+          "side": "L"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "NavIC regional footprint with compatible-receiver glow beside other systems (no country marks)",
+      "cam": "hold"
+    },
+    {
+      "id": "8.02",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "text",
+          "text": "SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
+          "x": 960,
+          "y": 520,
+          "size": 48
+        }
+      ],
+      "labels": [],
+      "notes": "text: SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
+      "cam": "hold"
+    },
+    {
+      "id": "8.03",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "timeline",
+          "params": {
+            "y": 560,
+            "ticks": [
+              {
+                "label": "29 JULY 2026",
+                "note": "PARLIAMENT ANSWER",
+                "accent": true
+              }
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "timeline: 29 JULY 2026 PARLIAMENT ANSWER",
+      "cam": "hold"
+    },
+    {
+      "id": "8.04",
+      "p": "P08",
+      "layer": "B",
+      "kind": "number",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "numberCard",
+          "value": "3 SATELLITES IN THE CONSTELLATION",
+          "sub": "4 NEEDED FOR BASIC POSITIONING",
+          "source": "PIB, 29 JULY 2026"
+        }
+      ],
+      "labels": [],
+      "notes": "3 SATELLITES",
+      "cam": "hold"
+    },
+    {
+      "id": "8.05",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "timeline",
+          "params": {
+            "y": 560,
+            "ticks": [
+              {
+                "label": "29 JULY 2026",
+                "note": "PARLIAMENT ANSWER"
+              },
+              {
+                "label": "30 OCTOBER 2026",
+                "note": "NVS-03 LAUNCHED (GSLV-F18)",
+                "accent": true
+              }
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "NEEDED, source chip; \"NO STANDALONE POSITIONING; TIMING FUNCTIONAL\"",
+      "cam": "hold"
+    },
+    {
+      "id": "8.06",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1.5,
+          "count": 3
+        },
+        {
+          "op": "railLabel",
+          "text": "REACHING ITS SLOT",
+          "side": "R"
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "timeline: 30 OCTOBER 2026 NVS-03 LAUNCHED (GSLV-F18)",
+      "cam": "hold"
+    },
+    {
+      "id": "8.07a",
+      "p": "P08",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "text",
+          "text": "A LAUNCH IS NOT RESTORED SERVICE",
+          "x": 960,
+          "y": 540,
+          "size": 52
+        }
+      ],
+      "labels": [],
+      "notes": "NVS-03 climbs through transfer orbit, label REACHING ITS SLOT (status line from the ledger on the recording date)",
+      "cam": "orbit"
+    },
+    {
+      "id": "8.07b",
+      "p": "P08",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "text",
+          "text": "A LAUNCH IS NOT RESTORED SERVICE",
+          "x": 960,
+          "y": 540,
+          "size": 52
+        }
+      ],
+      "labels": [],
+      "notes": "NVS-03 climbs through transfer orbit, label REACHING ITS SLOT (status line from the ledger on the recording date)",
+      "cam": "orbit"
+    },
+    {
+      "id": "8.08",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NO STANDALONE POSITIONING. TIMING FUNCTIONAL.",
+          "x": 1350,
+          "y": 700,
+          "size": 34,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: A LAUNCH IS NOT RESTORED SERVICE",
+      "cam": "hold"
+    },
+    {
+      "id": "9.01",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "A FICTIONAL SCENARIO",
+          "x": 960,
+          "y": 300,
+          "size": 40,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "FICTIONAL SCENARIO stamp for the passage",
+      "cam": "hold"
+    },
+    {
+      "id": "9.02",
+      "p": "P09",
+      "layer": "C",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "stand",
+              "x": 860,
+              "y": 830,
+              "scale": 3,
+              "prop": "boat",
+              "propX": 1150,
+              "propScale": 2,
+              "receiver": true,
+              "ping": 0.8,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ONE SIGNAL UNRELIABLE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "fishing boat on a dark sea, receiver icon",
+      "cam": "hold"
+    },
+    {
+      "id": "9.03",
+      "p": "P09",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 400,
+              "y1": 300,
+              "x2": 760,
+              "y2": 420,
+              "col": "#ffcf5c",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "arrow",
+              "x1": 400,
+              "y1": 560,
+              "x2": 760,
+              "y2": 480,
+              "col": "#ffcf5c",
+              "at": 0.2,
+              "dur": 0.4
+            },
+            {
+              "k": "arrow",
+              "x1": 400,
+              "y1": 820,
+              "x2": 760,
+              "y2": 540,
+              "col": "#8fe4ff",
+              "at": 0.35,
+              "dur": 0.4
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "several signals arrive; one turns grey",
+      "cam": "hold"
+    },
+    {
+      "id": "9.04",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "text",
+          "text": "ENOUGH USABLE SIGNALS?",
+          "x": 960,
+          "y": 500,
+          "size": 54
+        }
+      ],
+      "labels": [],
+      "notes": "receiver compares the rest: ENOUGH USABLE SIGNALS?",
+      "cam": "hold"
+    },
+    {
+      "id": "9.05",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "text",
+          "text": "INDEPENDENCE + REDUNDANCY",
+          "x": 960,
+          "y": 540,
+          "size": 54,
+          "col": "#8fe4ff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: INDEPENDENCE + REDUNDANCY",
+      "cam": "hold"
+    },
+    {
+      "id": "10.01",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 560,
+              "y": 240,
+              "w": 800,
+              "h": 560,
+              "w2": 1.6,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 520,
+              "r": 16,
+              "w2": 2.6,
+              "col": "#ffcf5c",
+              "at": 0.4,
+              "dur": 0.2
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "blue dot again, now with a map under it",
+      "cam": "hold"
+    },
+    {
+      "id": "10.02",
+      "p": "P10",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "earth-wire",
+          "scale": 1.2
+        },
+        {
+          "op": "x:hero",
+          "kind": "sat-constellation",
+          "scale": 1,
+          "count": 3
+        },
+        {
+          "op": "tag",
+          "text": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "camera drops back through clocks, orbits, decisions in layers",
+      "cam": "hold"
+    },
+    {
+      "id": "10.03",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "text",
+          "text": "INDEPENDENCE IS NOT IGNORING THE WORLD",
+          "x": 960,
+          "y": 540,
+          "size": 48
+        }
+      ],
+      "labels": [],
+      "notes": "text: INDEPENDENCE IS NOT IGNORING THE WORLD",
+      "cam": "hold"
+    },
+    {
+      "id": "10.04",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2,
+      "scene": [
+        {
+          "op": "text",
+          "text": "TO KNOW WHERE YOU ARE,",
+          "x": 960,
+          "y": 500,
+          "size": 54
+        },
+        {
+          "op": "text",
+          "text": "CONTROL THE CLOCK.",
+          "x": 960,
+          "y": 600,
+          "size": 54,
+          "col": "#ffcf5c"
+        }
+      ],
+      "labels": [],
+      "notes": "final line: TO KNOW WHERE YOU ARE, CONTROL THE CLOCK.",
+      "cam": "hold"
+    },
+    {
+      "id": "10.05",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "titleCard",
+          "title": "INDIA BUILT IT ANYWAY",
+          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+        }
+      ],
+      "labels": [],
+      "notes": "series title ≤ 2.5 s",
+      "cam": "hold"
+    }
+  ]
+}

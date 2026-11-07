@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>kit-v2 gallery: 3D heroes</title>
+<style>
+  html, body { margin: 0; background: #0a2f5c; }
+  canvas { position: absolute; left: 0; top: 0; display: block; }
+</style>
+</head>
+<body>
+<canvas id="c2d" width="1920" height="1080"></canvas>
+<canvas id="c3d" width="1920" height="1080"></canvas>
+<script src="../vendor/three/three.iife.js"></script>
+<script src="../src/prng.js"></script>
+<script src="../src/tokens.js"></script>
+<script src="../src/scenereport.js"></script>
+<script src="../src/draw.js"></script>
+<script src="../src/hero/stage.js"></script>
+<script src="../src/hero/index.js"></script>
+<script>
+(function () {
+  const BB = window.BB;
+  BB.installSeed('gallery-heroes');
+  const T = BB.tokens('ice', 1920, 1080);
+  const x2 = document.getElementById('c2d').getContext('2d');
+  BB.stage.init(document.getElementById('c3d'), { W: 1920, H: 1080, dpr: 1 });
+  BB.draw.paper(x2, 1920, 1080, T);
+  BB.draw.grid(x2, 1920, 1080, T);
+
+  const kinds = ['tank', 'pipe-network', 'turbopump', 'chamber-nozzle', 'rocket-stack'];
+  // three camera angles per hero, laid out in a 5 x 3 grid
+  const angles = [{ az: 0, el: 0 }, { az: 35, el: 10 }, { az: -35, el: 18 }];
+  const cellW = 1920 / kinds.length, cellH = 1080 / angles.length;
+
+  const report = [];
+  kinds.forEach((kind, ci) => {
+    const hero = BB.hero.create(kind, { color: 0x8fe4ff, accent: 0xff9b3d });
+    angles.forEach((a, ri) => {
+      BB.stage.clearScene();
+      const g = hero.group;
+      g.position.set(0, 0, 0);
+      g.scale.setScalar(1);
+      BB.stage.scene.add(g);
+      if (hero.update) hero.update(ri * 0.7 + 0.2);
+      BB.stage.setCamera3d({ az: a.az * Math.PI / 180, el: a.el * Math.PI / 180, dist: 1 });
+      BB.stage.camera.aspect = cellW / cellH;
+      BB.stage.camera.updateProjectionMatrix();
+      BB.stage.renderer.setViewport(ci * cellW, 1080 - (ri + 1) * cellH, cellW, cellH);
+      BB.stage.renderer.setScissor(ci * cellW, 1080 - (ri + 1) * cellH, cellW, cellH);
+      BB.stage.renderer.setScissorTest(true);
+      BB.stage.renderer.clearDepth();
+      BB.stage.render();
+      BB.stage.renderer.setScissorTest(false);
+      BB.stage.renderer.setViewport(0, 0, 1920, 1080);
+      report.push({ kind, angle: a });
+    });
+  });
+
+  // labels for the gallery
+  kinds.forEach((kind, ci) => {
+    BB.draw.text(x2, kind.toUpperCase(), ci * cellW + cellW / 2, 1040, T.type.small, { align: 'center', col: T.dim, id: 'G-' + kind });
+  });
+  window.__gallery = { heroes: kinds, angles: angles.length, report: report };
+  document.title = 'kit-v2 gallery ready';
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "rows": [
+    { "id": "thrust", "ledger": "F05", "label": "TONNES OF THRUST", "kind": "counter", "value": 22, "unit": "t", "as_of": "2026-07-06", "display": "22", "decimals": 0, "source": "ISRO, 6 JUL 2026" },
+    { "id": "missions", "ledger": "F03", "label": "SUCCESSIVE LVM3 MISSIONS", "kind": "counter", "value": 8, "unit": "", "as_of": "2026-07-07", "display": "8", "decimals": 0, "source": "ISRO, 7 JUL 2026" },
+    { "id": "range", "ledger": "F02", "label": "QUALIFIED THRUST RANGE", "kind": "counter", "value": 19, "unit": "to 22 t", "as_of": "2026-07-07", "display": "19 TO 22 t", "decimals": 0, "source": "ISRO, 7 JUL 2026" },
+    { "id": "first_indigenous", "ledger": "F07", "label": "FIRST INDIGENOUS CRYOGENIC STAGE FLIES", "kind": "counter", "value": 2014, "unit": "", "as_of": "2014-01-05", "display": "JAN 2014", "decimals": 0, "source": "ISRO" }
+  ]
+}

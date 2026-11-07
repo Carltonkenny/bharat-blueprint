@@ -1,0 +1,2294 @@
+{
+  "id": "E05",
+  "title": "India Wants to Build the Chips Inside Everything",
+  "world": "cleanroom",
+  "fps": 30,
+  "seed": "s02",
+  "passages": [
+    {
+      "id": "P01",
+      "text": "A modern car can be stopped by a component smaller than your fingernail. A phone, a hospital scanner, a power grid, a factory: all of them depend on chips that most people will never see.",
+      "estSec": 19.4,
+      "flag": "",
+      "words": 35
+    },
+    {
+      "id": "P02",
+      "text": "Now imagine needing those chips while the factories that make them are concentrated far beyond your borders.",
+      "estSec": 30,
+      "flag": "",
+      "words": 54
+    },
+    {
+      "id": "P03",
+      "text": "So what does it take to make one? It begins with something almost impossible to see.",
+      "estSec": 33.9,
+      "flag": "",
+      "words": 61
+    },
+    {
+      "id": "P04",
+      "text": "One of the central ideas is photolithography. Think of shining light through a stencil onto a surface coated with a light-sensitive material. The exposed pattern can guide later processing steps. In a chip factory, this process is repeated with extraordinary alignment and control.",
+      "estSec": 23.9,
+      "flag": "",
+      "words": 43
+    },
+    {
+      "id": "P05",
+      "text": "But the pattern is only part of the challenge.",
+      "estSec": 29.4,
+      "flag": "",
+      "words": 53
+    },
+    {
+      "id": "P06",
+      "text": "Next comes layering. A chip is not one flat drawing. It is built through repeated processes that create and connect tiny electronic structures. Think of a city where roads, tunnels, wires and junctions must line up across many levels. If one critical connection fails, the finished device may not work.",
+      "estSec": 27.8,
+      "flag": "",
+      "words": 50
+    },
+    {
+      "id": "P07",
+      "text": "And even a completed wafer is not the end. Chips must be separated, connected, packaged and tested. Packaging protects the device and provides connections to the outside world. It is technically demanding, but it is not the same process as fabricating advanced transistors on a wafer.",
+      "estSec": 25.6,
+      "flag": "",
+      "words": 46
+    },
+    {
+      "id": "P08",
+      "text": "India is trying to strengthen several parts of this chain. According to a government press note from this year, twelve manufacturing units are approved. Nine of them are for assembly, test and packaging. Three are fabrication units. Five units have begun commercial production, while other major projects remain under development.",
+      "estSec": 27.8,
+      "flag": "",
+      "words": 50
+    },
+    {
+      "id": "P09",
+      "text": "Here is a fictional scenario. A factory receives a perfect chip design, but a critical processing tool is unavailable. The design cannot simply become a working wafer. Another factory can package chips, but it cannot automatically replace the missing fabrication step. The chain is only as strong as the capability it lacks.",
+      "estSec": 28.9,
+      "flag": "FICTIONAL SCENARIO",
+      "words": 52
+    },
+    {
+      "id": "P10",
+      "text": "Advanced equipment, materials, process expertise, yields and a reliable supplier ecosystem take years to build. Announcing a plant is not the same as mastering every generation of chip technology.",
+      "estSec": 16.1,
+      "flag": "",
+      "words": 29
+    },
+    {
+      "id": "P11",
+      "text": "But building capability changes the choices available to a country, and to the companies that depend on it.",
+      "estSec": 30,
+      "flag": "",
+      "words": 54
+    }
+  ],
+  "beats": [
+    {
+      "id": "1.01",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hook",
+      "w": 2.3,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "poly",
+              "pts": [
+                [
+                  520,
+                  640
+                ],
+                [
+                  700,
+                  520
+                ],
+                [
+                  1080,
+                  520
+                ],
+                [
+                  1240,
+                  640
+                ],
+                [
+                  1180,
+                  700
+                ],
+                [
+                  560,
+                  700
+                ]
+              ],
+              "w2": 2.4,
+              "col": "#c39bff",
+              "close": true,
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 900,
+              "y": 470,
+              "r": 16,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.45,
+              "dur": 0.25
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "a chip the size of a fingernail on a car outline, car stops",
+      "cam": "hold"
+    },
+    {
+      "id": "1.02",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 820,
+              "y": 380,
+              "w": 280,
+              "h": 460,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 430,
+              "r": 12,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "same chip beside a phone",
+      "cam": "hold"
+    },
+    {
+      "id": "1.03",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 700,
+              "y": 420,
+              "w": 520,
+              "h": 360,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 470,
+              "r": 12,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A HOSPITAL SCANNER",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "hospital scanner",
+      "cam": "hold"
+    },
+    {
+      "id": "1.04",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.2,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 520,
+              "y1": 620,
+              "x2": 1400,
+              "y2": 620,
+              "w": 3,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 620,
+              "x2": 700,
+              "y2": 480,
+              "w": 2.4,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 1240,
+              "y1": 620,
+              "x2": 1240,
+              "y2": 480,
+              "w": 2.4,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 620,
+              "r": 12,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "power grid",
+      "cam": "hold"
+    },
+    {
+      "id": "1.05",
+      "p": "P01",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 600,
+              "y": 560,
+              "w": 720,
+              "h": 160,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.4
+            },
+            {
+              "k": "circle",
+              "x": 960,
+              "y": 560,
+              "r": 12,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.4,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A FACTORY LINE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "factory line; one chip highlighted in each",
+      "cam": "hold"
+    },
+    {
+      "id": "2.01",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOW IMAGINE NEEDING THEM...",
+          "x": 960,
+          "y": 520,
+          "size": 56,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: NOW IMAGINE NEEDING THEM...",
+      "cam": "hold"
+    },
+    {
+      "id": "2.02a",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.3,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 300,
+              "y": 300,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 520,
+              "y": 260,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 780,
+              "y": 320,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1050,
+              "y": 280,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.5,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1330,
+              "y": 330,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.65,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FAR FROM HERE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "a world map-less lattice of distant factory icons far from the frame edge (no country marks)",
+      "cam": "hold"
+    },
+    {
+      "id": "2.02b",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.3,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 300,
+              "y": 300,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 520,
+              "y": 260,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 780,
+              "y": 320,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1050,
+              "y": 280,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.5,
+              "dur": 0.25
+            },
+            {
+              "k": "rect",
+              "x": 1330,
+              "y": 330,
+              "w": 90,
+              "h": 90,
+              "w2": 2,
+              "col": "#c39bff",
+              "at": 0.65,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FAR FROM HERE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "a world map-less lattice of distant factory icons far from the frame edge (no country marks)",
+      "cam": "hold"
+    },
+    {
+      "id": "2.03",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "DEPENDENCE ON A COMPLEX SYSTEM",
+          "x": 960,
+          "y": 520,
+          "size": 50
+        }
+      ],
+      "labels": [],
+      "notes": "text: DEPENDENCE ON A COMPLEX SYSTEM",
+      "cam": "hold"
+    },
+    {
+      "id": "2.04",
+      "p": "P02",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "NOT ONE COUNTRY SAYING NO",
+          "x": 960,
+          "y": 520,
+          "size": 50,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "label: NOT ONE COUNTRY SAYING NO",
+      "cam": "hold"
+    },
+    {
+      "id": "3.01a",
+      "p": "P03",
+      "layer": "C",
+      "kind": "mech",
+      "w": 0.9,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "sort",
+              "x": 880,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "papers",
+              "propX": 1000,
+              "propScale": 2.4,
+              "n": 3,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "person draws a circuit on a paper sheet",
+      "cam": "hold"
+    },
+    {
+      "id": "3.01b",
+      "p": "P03",
+      "layer": "C",
+      "kind": "mech",
+      "w": 0.9,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "sort",
+              "x": 880,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "papers",
+              "propX": 1000,
+              "propScale": 2.4,
+              "n": 3,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "person draws a circuit on a paper sheet",
+      "cam": "hold"
+    },
+    {
+      "id": "3.02a",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 620,
+              "y": 500,
+              "w": 180,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 840,
+              "y": 500,
+              "w": 90,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 970,
+              "y": 500,
+              "w": 45,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.45,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "drawing shrinks, ruler vs a hair vs the circuit (illustrative scale line, ILLUSTRATIVE)",
+      "cam": "hold"
+    },
+    {
+      "id": "3.02b",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.15,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 620,
+              "y": 500,
+              "w": 180,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 840,
+              "y": 500,
+              "w": 90,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "k": "rect",
+              "x": 970,
+              "y": 500,
+              "w": 45,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.45,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "drawing shrinks, ruler vs a hair vs the circuit (illustrative scale line, ILLUSTRATIVE)",
+      "cam": "hold"
+    },
+    {
+      "id": "3.03",
+      "p": "P03",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.3,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 420,
+              "x2": 1020,
+              "y2": 620,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.1,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 1020,
+              "y1": 420,
+              "x2": 900,
+              "y2": 620,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.1,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "A PENCIL CANNOT DO THIS",
+          "x": 960,
+          "y": 760,
+          "size": 44,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "pencil crossed out",
+      "cam": "hold"
+    },
+    {
+      "id": "3.04a",
+      "p": "P03",
+      "layer": "H",
+      "kind": "hold",
+      "w": 0.85,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "wafer appears, circuit pattern forms on it",
+      "cam": "hold"
+    },
+    {
+      "id": "3.04b",
+      "p": "P03",
+      "layer": "H",
+      "kind": "hold",
+      "w": 0.85,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "wafer appears, circuit pattern forms on it",
+      "cam": "hold"
+    },
+    {
+      "id": "4.01",
+      "p": "P04",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.4
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "litho-stack: light source, stencil (mask), coated wafer",
+      "cam": "hold"
+    },
+    {
+      "id": "4.02",
+      "p": "P04",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.8,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.4
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "dot",
+              "path": [
+                [
+                  960,
+                  380
+                ],
+                [
+                  960,
+                  200
+                ],
+                [
+                  960,
+                  60
+                ]
+              ],
+              "r": 8,
+              "speed": 0.7,
+              "col": "#c39bff",
+              "at": 0.2,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "light passes through, pattern prints on the coating",
+      "cam": "hold"
+    },
+    {
+      "id": "4.03",
+      "p": "P04",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.7,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.4
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:flow",
+          "items": [
+            {
+              "k": "arrow",
+              "x1": 1160,
+              "y1": 380,
+              "x2": 1160,
+              "y2": 240,
+              "col": "#c39bff",
+              "at": 0.25,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "THE PATTERN GUIDES",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "pattern guides the next step (etch arrow)",
+      "cam": "hold"
+    },
+    {
+      "id": "4.04",
+      "p": "P04",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.4
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "REPEATED WITH ALIGNMENT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "repeat marker ×N (no number)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.01",
+      "p": "P05",
+      "layer": "C",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "reach",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "palette",
+              "propX": 1080,
+              "propScale": 2.4,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "dot",
+              "x": 1300,
+              "y": 300,
+              "r": 6,
+              "w2": 0,
+              "col": "#ff9b3d",
+              "at": 0.25,
+              "dur": 0.2
+            },
+            {
+              "k": "dot",
+              "x": 1400,
+              "y": 420,
+              "r": 6,
+              "w2": 0,
+              "col": "#ff9b3d",
+              "at": 0.35,
+              "dur": 0.2
+            },
+            {
+              "k": "dot",
+              "x": 1240,
+              "y": 520,
+              "r": 6,
+              "w2": 0,
+              "col": "#ff9b3d",
+              "at": 0.45,
+              "dur": 0.2
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FLOATING SAND",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "painter in a room, floating sand",
+      "cam": "hold"
+    },
+    {
+      "id": "5.02",
+      "p": "P05",
+      "layer": "C",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:people",
+          "people": [
+            {
+              "pose": "reach",
+              "x": 860,
+              "y": 850,
+              "scale": 3,
+              "accentPart": "armR",
+              "phase": 0,
+              "prop": "palette",
+              "propX": 1080,
+              "propScale": 2.4,
+              "at": 0.05,
+              "dur": 0.35
+            }
+          ]
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "dot",
+              "x": 1120,
+              "y": 640,
+              "r": 9,
+              "w2": 0,
+              "col": "#ff9b3d",
+              "at": 0.4,
+              "dur": 0.2
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "a grain lands in wet paint, spoils the finish",
+      "cam": "hold"
+    },
+    {
+      "id": "5.03a",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.05,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 520,
+              "r": 44,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1100,
+              "y": 520,
+              "r": 14,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "scale-up: dust grain beside a die, then beside a feature (ILLUSTRATIVE)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.03b",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.05,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "circle",
+              "x": 700,
+              "y": 520,
+              "r": 44,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "circle",
+              "x": 1100,
+              "y": 520,
+              "r": 14,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "ILLUSTRATIVE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "scale-up: dust grain beside a die, then beside a feature (ILLUSTRATIVE)",
+      "cam": "hold"
+    },
+    {
+      "id": "5.04",
+      "p": "P05",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 300,
+              "x2": 700,
+              "y2": 800,
+              "w": 1.8,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 1220,
+              "y1": 300,
+              "x2": 1220,
+              "y2": 800,
+              "w": 1.8,
+              "col": "#c39bff",
+              "at": 0.15,
+              "dur": 0.3
+            },
+            {
+              "k": "arrow",
+              "x1": 760,
+              "y1": 340,
+              "x2": 760,
+              "y2": 460,
+              "col": "#c39bff",
+              "at": 0.3,
+              "dur": 0.3
+            },
+            {
+              "k": "arrow",
+              "x1": 1160,
+              "y1": 340,
+              "x2": 1160,
+              "y2": 460,
+              "col": "#c39bff",
+              "at": 0.4,
+              "dur": 0.3
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "FILTERED AIR",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "cleanroom corridor, filtered air arrows downward",
+      "cam": "hold"
+    },
+    {
+      "id": "5.05",
+      "p": "P05",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "text",
+          "text": "CONTAMINATION RUINS STRUCTURES",
+          "x": 960,
+          "y": 540,
+          "size": 50,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "label CONTAMINATION RUINS STRUCTURES",
+      "cam": "hold"
+    },
+    {
+      "id": "6.01a",
+      "p": "P06",
+      "layer": "H",
+      "kind": "mech",
+      "w": 1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "flat layer builds, then a second, then a third (layering)",
+      "cam": "hold"
+    },
+    {
+      "id": "6.01b",
+      "p": "P06",
+      "layer": "H",
+      "kind": "mech",
+      "w": 1,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "flat layer builds, then a second, then a third (layering)",
+      "cam": "hold"
+    },
+    {
+      "id": "6.02a",
+      "p": "P06",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.05,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "layers morph into a city of levels: roads, tunnels, wires, junctions",
+      "cam": "hold"
+    },
+    {
+      "id": "6.02b",
+      "p": "P06",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.05,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "layers morph into a city of levels: roads, tunnels, wires, junctions",
+      "cam": "hold"
+    },
+    {
+      "id": "6.03",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "layer-city",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 200,
+              "x2": 900,
+              "y2": 400,
+              "w": 3,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "DEVICE FAILS",
+          "x": 1300,
+          "y": 300,
+          "size": 44,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "one broken connection flashes: DEVICE FAILS",
+      "cam": "hold"
+    },
+    {
+      "id": "6.04",
+      "p": "P06",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "text",
+          "text": "ALIGNMENT ACROSS MANY LEVELS",
+          "x": 960,
+          "y": 540,
+          "size": 50,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "label ALIGNMENT ACROSS MANY LEVELS",
+      "cam": "hold"
+    },
+    {
+      "id": "7.01",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "completed wafer, die grid",
+      "cam": "hold"
+    },
+    {
+      "id": "7.02",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.3,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 600,
+              "y1": 300,
+              "x2": 1320,
+              "y2": 300,
+              "w": 3,
+              "col": "#c39bff",
+              "at": 0.25,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 600,
+              "y1": 300,
+              "x2": 600,
+              "y2": 760,
+              "w": 3,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "SEPARATE",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "cutting lines: SEPARATE",
+      "cam": "hold"
+    },
+    {
+      "id": "7.03",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "package-chip",
+          "scale": 1.6
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "CONNECT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "die onto package: CONNECT",
+      "cam": "hold"
+    },
+    {
+      "id": "7.04",
+      "p": "P07",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.3,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "package-chip",
+          "scale": 1.6
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "railLabel",
+          "text": "PROTECT",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "package sealed: PROTECT",
+      "cam": "hold"
+    },
+    {
+      "id": "7.05",
+      "p": "P07",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 760,
+              "y": 560,
+              "w": 120,
+              "h": 60,
+              "w2": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 590,
+              "x2": 1020,
+              "y2": 590,
+              "w": 2.4,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "TEST",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "TEST gate lights green/amber",
+      "cam": "hold"
+    },
+    {
+      "id": "7.06",
+      "p": "P07",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "FABRICATION IS NOT ASSEMBLY,",
+          "x": 960,
+          "y": 460,
+          "size": 44
+        },
+        {
+          "op": "text",
+          "text": "TEST AND PACKAGING",
+          "x": 960,
+          "y": 540,
+          "size": 44,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "bracket: FABRICATION ≠ ASSEMBLY, TEST, PACKAGING",
+      "cam": "hold"
+    },
+    {
+      "id": "8.01",
+      "p": "P08",
+      "layer": "B",
+      "kind": "number",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "numberCard",
+          "value": "12 UNITS APPROVED",
+          "sub": "SEMICON INDIA PROGRAMME",
+          "source": "PIB PRESS NOTE, 2026"
+        }
+      ],
+      "labels": [],
+      "notes": "12 UNITS APPROVED, source chip \"PIB PRESS NOTE, 2026\"",
+      "cam": "hold"
+    },
+    {
+      "id": "8.02",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.4,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "slots",
+          "params": {
+            "cy": 580,
+            "cols": 6,
+            "bw": 250,
+            "bh": 100,
+            "items": [
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              }
+            ],
+            "gapX": 34
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "twelve slots draw: 9 fill as ASSEMBLY / TEST / PACKAGING, 3 as FABRICATION",
+      "cam": "hold"
+    },
+    {
+      "id": "8.03",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.1,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "chain",
+          "params": {
+            "items": [
+              "DESIGN",
+              "FABRICATION",
+              "ASSEMBLY",
+              "TESTING",
+              "PACKAGING"
+            ],
+            "x0": 500,
+            "x1": 1420,
+            "y": 640
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "chain draws: DESIGN · FABRICATION · ASSEMBLY · TESTING · PACKAGING",
+      "cam": "hold"
+    },
+    {
+      "id": "8.04",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.2,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "slots",
+          "params": {
+            "cy": 580,
+            "cols": 6,
+            "bw": 250,
+            "bh": 100,
+            "items": [
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "PRODUCTION",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "ATMP",
+                "lit": true
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              },
+              {
+                "label": "FAB",
+                "lit": false
+              }
+            ],
+            "gapX": 34
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "five slots light: 5 UNITS IN COMMERCIAL PRODUCTION (do not say which)",
+      "cam": "hold"
+    },
+    {
+      "id": "8.05",
+      "p": "P08",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "5 UNITS IN COMMERCIAL PRODUCTION",
+          "x": 960,
+          "y": 800,
+          "size": 42,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "remaining links faint: STILL UNDER DEVELOPMENT",
+      "cam": "hold"
+    },
+    {
+      "id": "9.01",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "A FICTIONAL SCENARIO",
+          "x": 960,
+          "y": 300,
+          "size": 40,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "FICTIONAL SCENARIO stamp for the passage",
+      "cam": "hold"
+    },
+    {
+      "id": "9.02",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 780,
+              "y": 400,
+              "w": 360,
+              "h": 240,
+              "w2": 2.2,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 820,
+              "y1": 460,
+              "x2": 1100,
+              "y2": 460,
+              "w": 1.8,
+              "col": "#c39bff",
+              "at": 0.3,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 820,
+              "y1": 520,
+              "x2": 1060,
+              "y2": 520,
+              "w": 1.8,
+              "col": "#c39bff",
+              "at": 0.35,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A PERFECT DESIGN",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "perfect chip design file, glowing",
+      "cam": "hold"
+    },
+    {
+      "id": "9.03",
+      "p": "P09",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "litho-stack",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 1180,
+              "y": 180,
+              "w": 120,
+              "h": 40,
+              "w2": 2,
+              "col": "#ff9b3d",
+              "dash": [
+                10,
+                8
+              ],
+              "march": 18,
+              "at": 0.25,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "railLabel",
+          "text": "A TOOL IS MISSING",
+          "side": "R"
+        }
+      ],
+      "labels": [],
+      "notes": "the fabrication step is missing a tool (empty slot)",
+      "cam": "hold"
+    },
+    {
+      "id": "9.04",
+      "p": "P09",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "wafer-die",
+          "scale": 1.3
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "text",
+          "text": "THE DESIGN CANNOT BECOME A WAFER",
+          "x": 960,
+          "y": 820,
+          "size": 44,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "design cannot become a wafer",
+      "cam": "hold"
+    },
+    {
+      "id": "9.05",
+      "p": "P09",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "x:hero",
+          "kind": "package-chip",
+          "scale": 1.6
+        },
+        {
+          "op": "tag",
+          "text": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "text",
+          "text": "PACKAGING CANNOT REPLACE THE MISSING STEP",
+          "x": 960,
+          "y": 820,
+          "size": 42,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "packaging line runs but cannot replace the missing step",
+      "cam": "hold"
+    },
+    {
+      "id": "9.06",
+      "p": "P09",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.2,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE CHAIN IS ONLY AS STRONG",
+          "x": 960,
+          "y": 460,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "AS THE CAPABILITY IT LACKS",
+          "x": 960,
+          "y": 550,
+          "size": 46,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "text: THE CHAIN IS ONLY AS STRONG AS THE CAPABILITY IT LACKS",
+      "cam": "hold"
+    },
+    {
+      "id": "10.01",
+      "p": "P10",
+      "layer": "B",
+      "kind": "missing",
+      "w": 1.4,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE REAL CHALLENGE",
+          "x": 960,
+          "y": 300,
+          "size": 52,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "heading THE REAL CHALLENGE",
+      "cam": "hold"
+    },
+    {
+      "id": "10.02",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.4,
+      "scene": [
+        {
+          "op": "panel",
+          "name": "checklist",
+          "params": {
+            "x": 560,
+            "y": 380,
+            "items": [
+              "ADVANCED EQUIPMENT",
+              "MATERIALS",
+              "PROCESS EXPERTISE",
+              "YIELDS",
+              "SUPPLIER ECOSYSTEM"
+            ]
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "list draws: ADVANCED EQUIPMENT · MATERIALS · PROCESS EXPERTISE · YIELDS · SUPPLIER ECOSYSTEM",
+      "cam": "hold"
+    },
+    {
+      "id": "10.03",
+      "p": "P10",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.9,
+      "scene": [
+        {
+          "op": "text",
+          "text": "ANNOUNCING A PLANT IS NOT",
+          "x": 960,
+          "y": 460,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "MASTERING EVERY CHIP GENERATION",
+          "x": 960,
+          "y": 550,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "text: ANNOUNCING A PLANT ≠ MASTERING EVERY CHIP GENERATION",
+      "cam": "hold"
+    },
+    {
+      "id": "11.01",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "text",
+          "text": "CAPABILITY CHANGES THE CHOICES AVAILABLE",
+          "x": 960,
+          "y": 520,
+          "size": 46
+        }
+      ],
+      "labels": [],
+      "notes": "text: CAPABILITY CHANGES THE CHOICES AVAILABLE",
+      "cam": "hold"
+    },
+    {
+      "id": "11.02",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 800,
+              "y": 480,
+              "w": 320,
+              "h": 100,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.35
+            },
+            {
+              "k": "line",
+              "x1": 880,
+              "y1": 530,
+              "x2": 1040,
+              "y2": 530,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 950,
+              "y1": 490,
+              "x2": 950,
+              "y2": 570,
+              "w": 4,
+              "col": "#ff9b3d",
+              "at": 0.3,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "SELF-RELIANCE IS NOT A SWITCH",
+          "x": 960,
+          "y": 700,
+          "size": 46,
+          "col": "#ff9b3d"
+        }
+      ],
+      "labels": [],
+      "notes": "word SELF-RELIANCE with a switch drawn, crossed: NOT A SWITCH",
+      "cam": "hold"
+    },
+    {
+      "id": "11.03",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2.1,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "line",
+              "x1": 700,
+              "y1": 800,
+              "x2": 1220,
+              "y2": 800,
+              "w": 3,
+              "col": "#8fe4ff",
+              "at": 0.05,
+              "dur": 0.3
+            },
+            {
+              "k": "line",
+              "x1": 760,
+              "y1": 800,
+              "x2": 760,
+              "y2": 700,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.2,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 900,
+              "y1": 800,
+              "x2": 900,
+              "y2": 640,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.3,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 1040,
+              "y1": 800,
+              "x2": 1040,
+              "y2": 580,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.4,
+              "dur": 0.25
+            },
+            {
+              "k": "line",
+              "x1": 1180,
+              "y1": 800,
+              "x2": 1180,
+              "y2": 520,
+              "w": 2.4,
+              "col": "#8fe4ff",
+              "at": 0.5,
+              "dur": 0.25
+            }
+          ]
+        },
+        {
+          "op": "text",
+          "text": "EARNED",
+          "x": 960,
+          "y": 460,
+          "size": 50,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "a ladder of capabilities lights one rung at a time: EARNED",
+      "cam": "hold"
+    },
+    {
+      "id": "11.04",
+      "p": "P11",
+      "layer": "H",
+      "kind": "hold",
+      "w": 1.6,
+      "scene": [
+        {
+          "op": "x:draw",
+          "prims": [
+            {
+              "k": "rect",
+              "x": 900,
+              "y": 480,
+              "w": 120,
+              "h": 120,
+              "w2": 2.4,
+              "col": "#c39bff",
+              "at": 0.05,
+              "dur": 0.3
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "the single chip from P01 again",
+      "cam": "hold"
+    },
+    {
+      "id": "11.05",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 2,
+      "scene": [
+        {
+          "op": "text",
+          "text": "THE SMALLEST PARTS CAN CARRY",
+          "x": 960,
+          "y": 460,
+          "size": 46
+        },
+        {
+          "op": "text",
+          "text": "THE BIGGEST DEPENDENCIES.",
+          "x": 960,
+          "y": 550,
+          "size": 46,
+          "col": "#c39bff"
+        }
+      ],
+      "labels": [],
+      "notes": "final line: THE SMALLEST PARTS CAN CARRY THE BIGGEST DEPENDENCIES.",
+      "cam": "hold"
+    },
+    {
+      "id": "11.06",
+      "p": "P11",
+      "layer": "B",
+      "kind": "hold",
+      "w": 1.5,
+      "scene": [
+        {
+          "op": "titleCard",
+          "title": "INDIA BUILT IT ANYWAY",
+          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
+        }
+      ],
+      "labels": [],
+      "notes": "series title ≤ 2.5 s",
+      "cam": "hold"
+    }
+  ]
+}

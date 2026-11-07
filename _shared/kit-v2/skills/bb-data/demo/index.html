@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>bb-data demo</title>
+<style>
+  @font-face { font-family: 'IBM Plex Mono'; font-weight: 400; src: url('../../../assets/fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2'); }
+  html, body { margin: 0; background: #0a2f5c; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script src="../../../src/prng.js"></script>
+<script src="../../../src/tokens.js"></script>
+<script src="../../../src/scenereport.js"></script>
+<script src="../../../src/draw.js"></script>
+<script src="../../../src/fx.js"></script>
+<script src="../../../src/panels.js"></script>
+<script src="../../../src/charts.js"></script>
+<script>
+(function () {
+  const BB = window.BB;
+  BB.installSeed('bb-data-demo');
+  const T = BB.tokens('ice', 1920, 1080);
+  window.EPISODE = {
+    data: [
+      { id: 'thrust', label: 'TONNES OF THRUST', value: 22, unit: 't', as_of: '2026-07-06', source_id: 'F05', kind: 'counter', display: '22', decimals: 0, source: 'ISRO, 6 JUL 2026' },
+      { id: 'missions', label: 'SUCCESSIVE LVM3 MISSIONS', value: 8, unit: '', as_of: '2026-07-07', source_id: 'F03', kind: 'counter', display: '8', decimals: 0, source: 'ISRO, 7 JUL 2026' },
+      { id: 'rings', label: 'RINGS', value: 7700, unit: '', as_of: '2026-07-18', source_id: 'F05', kind: 'counter', display: '7,700', decimals: 0, source: 'PIB' },
+      { id: 'ratio', label: 'OF 12 UNITS', value: 9, unit: '', as_of: '2026-09-01', source_id: 'F12', kind: 'ratio', display: '9', decimals: 0, source: 'PIB PRESS NOTE, 2026' },
+    ],
+  };
+  const c = document.getElementById('c');
+  const ctx = c.getContext('2d');
+  BB.draw.paper(ctx, 1920, 1080, T);
+  const page = { T, t: 3, p: 1, ctx, beat: { id: 'demo', t0: 0 }, heroes: new Map(), threeHeroes: [] };
+  BB.report.begin(3, 'demo');
+  // counter
+  BB.charts.draw(page, T, { op: 'chart', type: 'counter', row: 'thrust', x: 420, y: 420, dur: 1.2 }, page);
+  // bar
+  BB.charts.draw(page, T, { op: 'chart', type: 'bar', row: 'missions', x: 900, base: 700, max: 10, dur: 1.2 }, page);
+  // chain
+  BB.charts.draw(page, T, { op: 'chart', type: 'chain', value: '22 t', items: ['FUEL', 'PUMP', 'CHAMBER'], x0: 300, x1: 900, y: 900 }, page);
+  // ratio
+  BB.charts.draw(page, T, { op: 'chart', type: 'ratio', row: 'ratio', total: 12, filled: 9, cx: 1450, cy: 420, label: '9 OF 12 UNITS' }, page);
+  window.__gallery = { skill: 'bb-data', types: ['counter', 'bar', 'chain', 'ratio'], finalValues: BB.report.items().filter((i) => i.kind === 'text').map((i) => i.text) };
+  document.title = 'bb-data demo ready';
+})();
+</script>
+</body>
+</html>
+
+
+

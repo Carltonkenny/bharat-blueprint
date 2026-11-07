@@ -1,0 +1,5 @@
+id,label,value,unit,as_of,source_id,kind,display,decimals,source
+thrust,TONNES OF THRUST,22,t,2026-07-06,F05,counter,22,0,"ISRO, 6 JUL 2026"
+missions,SUCCESSIVE LVM3 MISSIONS,8,,2026-07-07,F03,counter,8,0,"ISRO, 7 JUL 2026"
+range,QUALIFIED THRUST RANGE,19,to 22 t,2026-07-07,F02,counter,19 TO 22 t,0,"ISRO, 7 JUL 2026"
+first_indigenous,FIRST INDIGENOUS CRYOGENIC STAGE FLIES,2014,,2014-01-05,F07,counter,JAN 2014,0,ISRO

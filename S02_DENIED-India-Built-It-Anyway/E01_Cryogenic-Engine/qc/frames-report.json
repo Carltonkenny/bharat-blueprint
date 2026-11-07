@@ -1,0 +1,14 @@
+{
+  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S02\\E01\\E01-final.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "duration": 315.8,
+  "frames": 9474,
+  "meanLuma": 41.553,
+  "maxDelta": 12.1631,
+  "frozenFrames": 1,
+  "failures": []
+}

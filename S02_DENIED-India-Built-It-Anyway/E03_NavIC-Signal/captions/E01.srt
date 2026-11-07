@@ -1,0 +1,123 @@
+1
+00:00:00.000 --> 00:00:04.340
+Look at the blue dot on your phone.
+
+2
+00:00:04.340 --> 00:00:08.680
+It knows where you are.
+
+3
+00:00:08.680 --> 00:00:13.020
+It can guide a driver through an unfamiliar city.
+
+4
+00:00:13.020 --> 00:00:17.360
+It can help a ship approach a port.
+
+5
+00:00:17.360 --> 00:00:21.700
+It can keep a clock in a network synchronised.
+
+6
+00:00:21.700 --> 00:00:39.750
+But the dot raises a question most people never ask.
+
+7
+00:00:39.750 --> 00:00:57.800
+Who owns the signal that makes it possible?
+
+8
+00:00:57.800 --> 00:01:04.667
+India has said the concern plainly: civilian signals from foreign navigation systems can potentially be degraded or denied.
+
+9
+00:01:04.667 --> 00:01:11.533
+That does not prove every dramatic story told about a past shutdown.
+
+10
+00:01:11.533 --> 00:01:18.400
+It explains why an independent system matters.
+
+11
+00:01:18.400 --> 00:01:56.700
+So India developed NavIC, Navigation with Indian Constellation, a regional satellite navigation system.
+
+12
+00:01:56.700 --> 00:02:02.040
+The satellite broadcasts its position and a precise time reference.
+
+13
+00:02:02.040 --> 00:02:07.380
+Your receiver compares that time with the arrival of the signal.
+
+14
+00:02:07.380 --> 00:02:12.720
+The difference helps estimate distance.
+
+15
+00:02:12.720 --> 00:02:18.060
+But one distance is not enough.
+
+16
+00:02:18.060 --> 00:02:23.400
+It tells you that you could be somewhere on a huge imaginary sphere around the satellite.
+
+17
+00:02:23.400 --> 00:02:27.520
+Now add another satellite.
+
+18
+00:02:27.520 --> 00:02:31.640
+Then another.
+
+19
+00:02:31.640 --> 00:02:35.760
+Their distance measurements narrow the possible locations.
+
+20
+00:02:35.760 --> 00:02:39.880
+The receiver's clock is not as precise as the satellites' clocks.
+
+21
+00:02:39.880 --> 00:02:44.000
+So more measurements are needed, to solve for position and clock error together.
+
+22
+00:02:44.000 --> 00:03:09.000
+Navigation is also a story about time.
+
+23
+00:03:09.000 --> 00:03:34.550
+NavIC gave India a regional navigation architecture under its own control.
+
+24
+00:03:34.550 --> 00:04:00.100
+Its signals can also work alongside other global navigation systems in compatible receivers.
+
+25
+00:04:00.100 --> 00:04:04.660
+Here is a fictional scenario.
+
+26
+00:04:04.660 --> 00:04:09.220
+A fishing vessel receives signals from several navigation systems.
+
+27
+00:04:09.220 --> 00:04:13.780
+One signal becomes unreliable.
+
+28
+00:04:13.780 --> 00:04:18.340
+A compatible receiver can compare the remaining measurements, but only if enough usable signals are available.
+
+29
+00:04:18.340 --> 00:04:22.900
+Resilience comes from both independence and redundancy.
+
+30
+00:04:22.900 --> 00:04:37.050
+The blue dot looked simple.
+
+31
+00:04:37.050 --> 00:04:51.200
+Behind it was a network of clocks, orbits and decisions.
