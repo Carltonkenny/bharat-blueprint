@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.key
+smoke/*.mp4
+smoke/*.md5
+dist/

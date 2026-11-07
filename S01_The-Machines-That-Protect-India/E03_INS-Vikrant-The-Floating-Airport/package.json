@@ -1,0 +1,18 @@
+{
+  "name": "akash-ng-episode-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@fontsource/space-mono": "5.3.0",
+    "hyperframes": "0.9.9"
+  }
+}

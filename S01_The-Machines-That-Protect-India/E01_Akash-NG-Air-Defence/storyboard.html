@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akash-NG Storyboard</title>
+<style>
+  :root { --bg:#06213f; --panel:#0a2f58; --ink:#eef6ff; --cy:#86dcff; --dim:#8fb4d6; --line:rgba(134,220,255,.25); --red:#ff5b4a; --or:#ff9b3d; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 'IBM Plex Mono','Space Mono',Consolas,'Courier New',monospace; }
+  header.top { padding:48px 6vw 24px; border-bottom:1px solid var(--line); }
+  header.top .kick { color:var(--cy); letter-spacing:.14em; font-size:13px; }
+  h1 { font-size:clamp(26px,4vw,48px); margin:10px 0 4px; letter-spacing:.02em; }
+  .sub { font-size:20px; color:var(--cy); } .spec { margin-top:14px; color:var(--dim); font-size:13px; }
+  main { padding:0 6vw 80px; max-width:1500px; margin:0 auto; }
+  .blk { margin-top:44px; } .blk h2 { font-size:20px; letter-spacing:.06em; color:var(--cy); border-bottom:1px solid var(--line); padding-bottom:8px; }
+  table { width:100%; border-collapse:collapse; } th,td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--line); }
+  table.kv th { width:150px; color:var(--cy); font-weight:600; } table.src { font-size:13px; } table.src th { color:var(--cy); } code { color:var(--dim); word-break:break-all; font-size:12px; }
+  .nar { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:18px; } .nsec { background:var(--panel); border:1px solid var(--line); padding:12px 16px; }
+  .nsec h3 { margin:0 0 6px; font-size:14px; color:var(--cy);} .nsec p { margin:3px 0; } .fin { margin-top:10px !important; color:var(--cy); font-weight:600; }
+  .scene { margin-top:34px; } .scene h3 { font-size:18px; margin:0 0 12px; } .scene h3 span { color:var(--dim); font-weight:400; margin-left:10px; font-size:14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(520px,1fr)); gap:22px; }
+  .card { background:var(--panel); border:1px solid var(--line); } .card canvas { display:block; width:100%; height:auto; background:#0b3763; }
+  .meta { padding:12px 16px 16px; } .hd { font-size:16px; } .hd b { color:var(--cy); margin-right:6px; } .tm { float:right; color:var(--dim); }
+  .bd { margin:8px 0; } .badge { display:inline-block; font-size:11px; padding:2px 8px; margin:0 6px 6px 0; border:1px solid var(--line); letter-spacing:.04em; }
+  .bP { border-color:var(--cy); color:var(--cy);} .bC { border-color:#c9d9ec; color:#c9d9ec; } .bO { border-color:var(--or); color:var(--or); }
+  dl { margin:0; display:grid; grid-template-columns:118px 1fr; gap:6px 12px; font-size:13px; } dt { color:var(--dim); } dd { margin:0; } dd.q { color:var(--ink); border-left:3px solid var(--cy); padding-left:8px; }
+  ul { padding-left:20px; } ul.chk { list-style:none; padding-left:0; } ul.chk li::before { content:'☐ '; color:var(--cy); }
+  @media (max-width:640px){ .grid{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="kick">CINEMATIC SCENARIO-DRIVEN ENGINEERING EXPLAINERS · EPISODE 01 · STORYBOARD / PRODUCTION BIBLE</div>
+  <h1 id="ep-title"></h1><div class="sub" id="ep-sub"></div><div class="spec" id="spec"></div>
+</header>
+<main id="root"></main>
+<script src="lib/harness.js"></script>
+<script src="src/blueprint.js"></script>
+<script src="src/objects.js"></script>
+<script src="src/panels.js"></script>
+<script src="src/storyboard-data.js"></script>
+<script src="src/storyboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+{
+ "voice": "Daniel htZQqY7WtacRNV7s62Iy",
+ "model": "eleven_v4",
+ "tempo": 1.12,
+ "status": "NOT GENERATED",
+ "words": 743,
+ "passages": 14,
+ "estimatedCredits": 5127,
+ "takesPerPassage": 1,
+ "passagesDetail": [
+  {
+   "id": "P01",
+   "clips": [
+    "g01",
+    "g02",
+    "g03"
+   ],
+   "text": "[calm] We believe India buys its weapons. Some of it does. But look at what is being made. [long pause] [long pause] In Episode 4, we saw how a defence system senses, decides and steers. This time, we ask a plainer question: who makes the thing? [long pause] [long pause] Not who designs it. Who makes the thousands of parts, in thousands of workshops, and makes them well enough to trust?"
+  },
+  {
+   "id": "P02",
+   "clips": [
+    "g04",
+    "g05",
+    "g06"
+   ],
+   "text": "[calm] That is the story of how a country goes from buying to building. [long pause] [long pause] There is a reason to care that is not about engineering. [long pause] [long pause] In twenty fourteen to fifteen, India's defence production was about forty-six thousand crore rupees."
+  },
+  {
+   "id": "P03",
+   "clips": [
+    "g07",
+    "g08",
+    "g09"
+   ],
+   "text": "[calm] In twenty twenty-five to twenty-six, it was one point seven eight lakh crore. [long pause] [long pause] A lakh crore is a trillion rupees. So that is one point seven eight trillion rupees, a record, the government said in June. [long pause] [long pause] To see where that money goes, we need three ideas. Idea one: many small makers make one machine."
+  },
+  {
+   "id": "P04",
+   "clips": [
+    "g10",
+    "g11",
+    "g12"
+   ],
+   "text": "[calm] Think of a car. It is not built in one workshop. Hundreds of small shops make the seats, the glass and the screws, and one factory puts them together. [long pause] [long pause] A defence machine is the same. About sixteen thousand small and medium businesses are part of India's defence industry. [long pause] [long pause] Picture a web, with a big factory at the centre and small makers around it, each doing one thing well."
+  },
+  {
+   "id": "P05",
+   "clips": [
+    "g13",
+    "g14",
+    "g15"
+   ],
+   "text": "[calm] Idea two: nothing ships until it passes. We tell you this because a thousand parts are only as good as the worst one. [long pause] [long pause] Think of school exams. You do not move up because you tried. You move up because you passed. [long pause] [long pause] Every part is tested against a standard, and the whole machine is tested again. This is the proof idea from Episode 2, only now it runs in every workshop."
+  },
+  {
+   "id": "P06",
+   "clips": [
+    "g16",
+    "g17",
+    "g18"
+   ],
+   "text": "[calm] Idea three: making one is not the same as making a thousand. Why does that matter? Because a defence force needs thousands, on time. [long pause] [long pause] Think of baking. One cake at home is a hobby. A thousand cakes a day is a bakery, with ovens, shifts and a steady supply of flour. [long pause] [long pause] To scale, a country needs factories, trained workers and a steady flow of orders. In twenty twenty-four to twenty-five, the government signed a record one hundred and ninety-three defence contracts, worth more than two lakh crore rupees, and about ninety-two percent went to domestic industry."
+  },
+  {
+   "id": "P07",
+   "clips": [
+    "g19",
+    "g20",
+    "g21"
+   ],
+   "text": "[calm] Now, the part that is not engineering. [long pause] [long pause] In twenty twenty-five to twenty-six, India's defence exports reached a record thirty-eight thousand four hundred and twenty-four crore rupees. [long pause] [long pause] In twenty fourteen, the same exports were under two thousand crore. That is more than nineteen times as much."
+  },
+  {
+   "id": "P08",
+   "clips": [
+    "g22",
+    "g23",
+    "g24"
+   ],
+   "text": "[calm] Here the small-base effect matters. When you start from almost nothing, any growth looks enormous. [long pause] [long pause] So hold two numbers together. Exports are about a fifth of what India produces. That is real growth from a small start, and still a long way from the whole. [long pause] [long pause] What India can do: produce at a record level, with thousands of small makers, and, the Defence Minister says, reach more than eighty countries."
+  },
+  {
+   "id": "P09",
+   "clips": [
+    "g25",
+    "g26",
+    "g27"
+   ],
+   "text": "[calm] What it cannot yet do: reach its own targets. The aim for twenty twenty-nine is three lakh crore in production and fifty thousand crore in exports. [long pause] [long pause] A target is not a result. Between today and that aim, there are about three years. [long pause] [long pause] Think back to the cake in Episode 2."
+  },
+  {
+   "id": "P10",
+   "clips": [
+    "g28",
+    "g29",
+    "g30"
+   ],
+   "text": "[calm] A country can buy the cake, bake from someone else's recipe, write a recipe together, or write its own. [long pause] [long pause] Countries often mix all four, for different parts, at different times. [long pause] [long pause] Building more at home does not mean buying nothing. It means choosing what to buy, and why."
+  },
+  {
+   "id": "P11",
+   "clips": [
+    "g31",
+    "g32",
+    "g33"
+   ],
+   "text": "[calm] A fictional Sunday: a small part fails on a ship far from port. [long pause] [long pause] If a workshop nearby makes that part, a replacement can arrive by morning. If not, it waits for a delivery. [long pause] [long pause] A factory floor is part of the defence. It just does not look like one."
+  },
+  {
+   "id": "P12",
+   "clips": [
+    "g34",
+    "g35",
+    "g36"
+   ],
+   "text": "[calm] One idea about people: we trust big multiples. [long pause] [long pause] Nineteen times sounds like a victory. The honest question is always: nineteen times what? [long pause] [long pause] Ask it of every record you hear, including the ones in this series."
+  },
+  {
+   "id": "P13",
+   "clips": [
+    "g37",
+    "g38",
+    "g39"
+   ],
+   "text": "[calm] Five episodes, one chain. [long pause] [long pause] An air defence system, a fighter engine, a floating airport, a defence that senses and decides, and the workshops under all of them. [long pause] [long pause] In each one, India has built a great deal, and has something left to build."
+  },
+  {
+   "id": "P14",
+   "clips": [
+    "g40"
+   ],
+   "text": "[calm] India has learned to build. The question for the next decade: what will it choose never to buy again?"
+  }
+ ]
+}

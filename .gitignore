@@ -1,0 +1,39 @@
+# dependencies (shared install lives in S01/E01 for now; the kit work moves it to the workspace root)
+node_modules/
+.venv/
+
+# media: never tracked. Renders, finals, raw takes and audio mixes live in OneDrive only.
+**/renders/
+**/dist/
+**/smoke/
+**/audio/
+**/FINAL/
+**/narration/raw/
+**/*.mp4
+**/*.wav
+**/*.mp3
+**/*.m4a
+**/*.aac
+**/*.ogg
+**/*.mov
+**/*.webm
+
+# generated raster output. QC contact sheets are deliverables and stay tracked.
+**/*.png
+!**/qc/sheet_*.png
+!**/qc/cuts.png
+!**/qc/frames_*.png
+**/qc/frames/
+
+# secrets and local state: never commit
+.env
+.env.*
+*.key
+*.pem
+*.p8
+.claude/settings.local.json
+.hyperframes/
+
+# OS / editor
+Thumbs.db
+.DS_Store

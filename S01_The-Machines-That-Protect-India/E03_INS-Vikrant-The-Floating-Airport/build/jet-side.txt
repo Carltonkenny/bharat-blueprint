@@ -1,0 +1,34 @@
+  V.jetSide = function (ix, x, y, s, o = {}) {
+    const p = o.p == null ? 1 : o.p, id = o.id || 'js', sd = o.seed || 900, P = tf(x, y, s, o.rot), g = o.gear == null ? 1 : o.gear, hk = o.hook || 0, fl = o.flame || 0;
+    const E = (w, k) => ({ w, a: o.a, dash: o.dash, p: seg(p, k[0], k[1]), seed: sd + k[0] * 10 });
+    const fill = fillOf(o), pts = (a) => a.map(([u, v]) => P(u, v));
+    const sm = (a, n = 2) => { let q = a; for (let k = 0; k < n; k++) { const r = [q[0]]; for (let i = 0; i < q.length - 1; i++) { const A = q[i], B = q[i + 1]; r.push([A[0] * 0.75 + B[0] * 0.25, A[1] * 0.75 + B[1] * 0.25], [A[0] * 0.25 + B[0] * 0.75, A[1] * 0.25 + B[1] * 0.75]); } r.push(q[q.length - 1]); q = r; } return q; };
+    BP.poly(ix, pts([[10, 3.5], [-18, 10.5], [-30, 10.5], [-16, 4]]), Object.assign({ close: true, fill, j: 0.3 }, E(1.5, [0.1, 0.5])));                         // wing, thin delta
+    BP.poly(ix, pts([[-34, 3], [-49, 8.5], [-44, 8.5], [-30, 4.5]]), Object.assign({ close: true, fill, j: 0.3 }, E(1.4, [0.2, 0.55])));                    // stabiliser
+    BP.poly(ix, pts([[-24, -6.5], [-41, -25], [-34, -25], [-16, -6.5]]), Object.assign({ close: true, fill, j: 0.3 }, E(1.6, [0.2, 0.6])));                // fin
+    const body = sm([[52, 1.5], [44, -1.2], [34, -4], [8, -6.4], [-30, -6.6], [-46, -4.6], [-50, -1.4], [-50, 1.4], [-46, 3.6], [-30, 5.4], [8, 6.4], [30, 4.4], [44, 3]], 2);
+    BP.poly(ix, pts(body), Object.assign({ close: true, fill, j: 0.25 }, E(2, [0, 0.55])));                                                                  // fuselage, one smooth profile
+    BP.poly(ix, pts(sm([[34, -4], [27, -8.6], [17, -10.4], [8, -8.2], [5, -6.3]], 2)), Object.assign({ j: 0.25, fill: 'rgba(134,220,255,0.10)' }, E(1.5, [0.45, 0.75])));   // bubble canopy
+    BP.poly(ix, pts([[13, -2.4], [11.5, 1.5], [13, 5.8]]), Object.assign({}, E(1.2, [0.55, 0.8]), { j: 0 }));                                              // intake lip
+    BP.poly(ix, pts([[-50, -3.4], [-54, -4.2], [-54, 4.2], [-50, 3.4]]), Object.assign({ close: true }, E(1.5, [0.6, 0.85])));                              // nozzle
+    BP.line(ix, ...P(-20, -6.5), ...P(-20, 5.5), Object.assign(E(0.9, [0.65, 0.9]), { j: 0, col: C.cyan, a: 0.6 }));                                        // panel lines
+    BP.circle(ix, ...P(-9, -1.5), 1.9 * s, { w: 1, p: seg(p, 0.7, 0.95), seed: sd + 40, a: o.a, col: C.cyan });                                              // roundel
+    if (g > 0.08 && p >= 0.9) {                                                                                                                              // small tucked landing gear
+      const ga = (o.a == null ? 1 : o.a) * Math.min(1, g * 1.4);
+      [[-7, 0], [27, 1]].forEach(([u], i) => {
+        const [bx, by] = P(u, 6.2), [wx, wy] = P(u, 6.2 + V.GEAR * g);
+        BP.line(ix, bx, by, wx, wy, { w: 1.4, seed: sd + 50 + i, j: 0, a: ga });
+        wheel(ix, P, s, u, 6.2 + V.GEAR * g, { p: 1, a: ga, spin: o.spin }, sd + 60 + i * 3);
+      });
+    }
+    const ha = 1.0 * hk, hl = (V.GROUND - 3) / Math.sin(1.0) * Math.min(1, hk * 1.2), tip = P(-48 - hl * Math.cos(ha), 3 + hl * Math.sin(ha));
+    BP.pt(id + ':hookTip', ...tip);
+    if (hk > 0.02) BP.line(ix, ...P(-48, 3), ...tip, { w: 2, seed: sd + 70, j: 0, a: o.a, col: C.orange });                                               // arrester hook
+    if (fl > 0.02) {                                                                                                                                         // afterburner
+      const k = fl * (1 + 0.18 * Math.sin(M.clock() * 46));
+      ix.save(); ix.fillStyle = 'rgba(255,155,61,0.55)'; ix.beginPath(); const q = pts([[-54, -3.2], [-54 - 24 * k, 0], [-54, 3.2]]); ix.moveTo(...q[0]); ix.lineTo(...q[1]); ix.lineTo(...q[2]); ix.closePath(); ix.fill(); ix.restore();
+      M.particles(ix, { t: M.clock(), t0: 0, rate: 40, life: 0.45, from: () => P(-55, 0), vx: -170 * s, vy: 0, spread: 9 * s, size: 1.8, col: C.orange, a: 0.9, seed: sd });
+    }
+    BP.pt(id + ':hook', ...P(-48, 3)); BP.pt(id + ':nose', ...P(52, 1.5)); BP.pt(id + ':engine', ...P(-26, 0)); BP.pt(id + ':top', ...P(0, -10.4)); BP.pt(id + ':wheel', ...P(-7, 6.2 + V.GEAR * g));
+  };
+

@@ -1,0 +1,21 @@
+Here is a question. India can design and build a fighter jet. So why is the engine inside it so hard to build? Think of a car: a beautiful body is useless without a motor, and a fighter jet is the same. An engine does one simple thing. It throws air backwards, very fast, so the aircraft moves forward, like a balloon you let go.
+
+There is also a reason beyond engineering. A country that cannot build its own engines must ask someone else for them, and for repairs, and for delivery dates. In November twenty twenty-five, India's HAL signed for one hundred and thirteen more American engines for the Tejas, arriving between twenty twenty-seven and twenty thirty-two. A fighter order is also an engine order.
+
+India tried this before. Its first home-built fighter, the Marut, flew in nineteen sixty-one, led by a German designer, Kurt Tank. But it never got the more powerful engine it was designed for.
+
+Idea one: squeeze. First, the engine pulls in air. Then it squeezes it. Think of a bicycle pump: the more you press, the harder the air pushes back. Rows of spinning blades do this, stage after stage. The catch: imagine a crowd squeezing through a door. If one person stumbles, everyone jams. One flawed blade does the same to the airflow, and the engine stalls.
+
+Idea two: heat. Next, fuel is sprayed into the squeezed air and burned, like a gas stove, only fiercer. The hot gas rushes past more blades, which spin the engine. But this gas is hotter than the metal would survive, like a spoon left in a candle flame. Two tricks help. Each blade is grown as a single crystal, like a chocolate bar in one piece, with no joins where cracks begin. And cool air flows from tiny holes, wrapping each blade in a cool blanket.
+
+Idea three: proof. You would not trust a new bicycle brake after one try. An engine runs on a test stand, then in a chamber that copies thin air, then on a flying test aircraft. Only after thousands of hours does anyone trust it with a pilot.
+
+Now, India. In nineteen eighty-nine, India began building its own fighter engine, Kaveri. It built nine prototypes, ran over three thousand test hours, and flew one on a test aircraft, a first for India. But it fell short of the thrust the Tejas needed, like a kite built for a lighter wind, so the Tejas flies on American F404 engines. Was the work wasted? No: its lessons now feed a version of the engine for an unmanned jet. Was the goal reached? Also no. Both are true.
+
+Think of baking a cake. Some countries buy the cake. Some bake from someone else's recipe, called licence-building. Some write a recipe together. A few have written their own for decades. India has done the first three: it buys the F404, builds the AL-31FP under licence, and has announced a joint engine with France. These are stages of one climb, not a league table.
+
+A fictional morning: an alert sounds, and fighters wait on a runway. The engines must start, perform, and bring the aircraft home. Spares matter too. If only four of six aircraft have working engines, only four fly tomorrow.
+
+One idea about people: sunk cost. You paid for a movie ticket, the film is boring, and you stay because you paid. The money is gone either way. About two thousand crore rupees went into Kaveri. A crore is ten million, so that is about twenty billion rupees. It cannot decide the next step. Only what the next rupee buys matters.
+
+India built the fighter. The engine is the harder half. Whose name will be on it?

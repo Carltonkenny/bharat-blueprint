@@ -1,0 +1,138 @@
+{
+ "voice": "Daniel htZQqY7WtacRNV7s62Iy",
+ "model": "eleven_v4",
+ "tempo": 1.12,
+ "status": "NOT GENERATED",
+ "words": 683,
+ "passages": 14,
+ "estimatedCredits": 4713,
+ "takesPerPassage": 1,
+ "passagesDetail": [
+  {
+   "id": "P01",
+   "clips": [
+    "f01",
+    "f02",
+    "f03"
+   ],
+   "text": "[calm] We believe a missile is something a country simply buys. [long pause] [long pause] It is not. A missile is a decision made in seconds, by a machine, that you will never see. [long pause] [long pause] In Episode 3, a carrier carried the jets. This time, we look at the thing that keeps both of them safe."
+  },
+  {
+   "id": "P02",
+   "clips": [
+    "f04",
+    "f05",
+    "f06"
+   ],
+   "text": "[calm] How does a missile find its target? [long pause] [long pause] There is a reason to care that is not about engineering. [long pause] [long pause] In July nineteen eighty-three, India began a programme to build guided missiles of its own."
+  },
+  {
+   "id": "P03",
+   "clips": [
+    "f07",
+    "f08",
+    "f09"
+   ],
+   "text": "[calm] The Ministry of Defence itself lists denial of critical technologies and import embargoes among the reasons it ran late. [long pause] [long pause] One of its missiles, Akash, was sanctioned at about ninety-five crore rupees in nineteen eighty-three. By two thousand seven, the sanction was five hundred and forty-eight crore. [long pause] [long pause] That is more than five times the cost, and a completion date that slipped from nineteen ninety-five to two thousand seven."
+  },
+  {
+   "id": "P04",
+   "clips": [
+    "f10",
+    "f11",
+    "f12"
+   ],
+   "text": "[calm] To hit something, you must first know where it is. That is idea one: sense. [long pause] [long pause] Think of shouting across a valley. You hear your own voice come back, and the delay tells you how far away the cliff is. [long pause] [long pause] A radar does the same, with radio waves instead of a shout. It sends out a pulse, waits for the echo, and measures the time."
+  },
+  {
+   "id": "P05",
+   "clips": [
+    "f13",
+    "f14",
+    "f15"
+   ],
+   "text": "[calm] Before the echo, there is only empty sky. After it, there is a point on a screen: a place, and a direction. [long pause] [long pause] But knowing is not enough. You must aim where it will be. That is idea two: decide. [long pause] [long pause] Think of catching a ball. You do not reach for where the ball is. You move to where it will land."
+  },
+  {
+   "id": "P06",
+   "clips": [
+    "f16",
+    "f17",
+    "f18"
+   ],
+   "text": "[calm] A missile's computer does the same sum, again and again, many times a second, as the target moves. [long pause] [long pause] Before the sum, the missile only knows the past. After it, it has a path through the future. [long pause] [long pause] And a decision is useless until the body obeys. That is idea three: steer."
+  },
+  {
+   "id": "P07",
+   "clips": [
+    "f19",
+    "f20",
+    "f21"
+   ],
+   "text": "[calm] Think of steering a bicycle. A small turn of the handlebar, and the whole bike leans into the curve. [long pause] [long pause] A missile also steers with small movements. Air pushes on them, and the whole missile turns. [long pause] [long pause] Sense, decide, steer. Three jobs, repeated until the missile and its target meet."
+  },
+  {
+   "id": "P08",
+   "clips": [
+    "f22",
+    "f23",
+    "f24"
+   ],
+   "text": "[calm] Now, India. Under that same programme, India designed Trishul, Akash and Nag, three missiles for three different jobs. [long pause] [long pause] That is what India can do: design, build and test missile families of its own. [long pause] [long pause] What it cannot yet do is finish the shield. Mission Sudarshan Chakra, announced in August twenty twenty-five, aims at a national security shield by twenty thirty-five."
+  },
+  {
+   "id": "P09",
+   "clips": [
+    "f25",
+    "f26",
+    "f27"
+   ],
+   "text": "[calm] A government statement describes it as a multi-level system with three layers of protection. An aim is not an achievement. It is a deadline with a name. [long pause] [long pause] Think of finding a friend in the dark. [long pause] [long pause] You can call out and listen for the echo. That is how radar works."
+  },
+  {
+   "id": "P10",
+   "clips": [
+    "f28",
+    "f29",
+    "f30"
+   ],
+   "text": "[calm] You can look for their body heat. That is how a heat seeker works. [long pause] [long pause] Or you can watch for a bright jacket. That is how a camera guides. [long pause] [long pause] Each way works best in some conditions and worst in others. These are tools, not ranks."
+  },
+  {
+   "id": "P11",
+   "clips": [
+    "f31",
+    "f32",
+    "f33"
+   ],
+   "text": "[calm] A fictional afternoon: a radar screen shows a dot where no dot should be. [long pause] [long pause] Within seconds the system must decide: friend, or not. [long pause] [long pause] A shield is not one machine. It is a chain, and every link must answer in time."
+  },
+  {
+   "id": "P12",
+   "clips": [
+    "f34",
+    "f35",
+    "f36"
+   ],
+   "text": "[calm] One idea about people: hindsight bias. [long pause] [long pause] After you know the answer, it always looks obvious. You say you knew it all along. [long pause] [long pause] Looking back, the road from denial to design looks like a straight line. At the time, nobody could be sure it would reach the end."
+  },
+  {
+   "id": "P13",
+   "clips": [
+    "f37",
+    "f38",
+    "f39"
+   ],
+   "text": "[calm] So when you hear about a shield by twenty thirty-five, remember how uncertain the first road was. [long pause] [long pause] Three things to remember. [long pause] [long pause] A programme begun in nineteen eighty-three, under denial, is the base of today's shield."
+  },
+  {
+   "id": "P14",
+   "clips": [
+    "f40",
+    "f41",
+    "f42"
+   ],
+   "text": "[calm] A missile does three jobs: sense, decide, steer. [long pause] [long pause] And a shield is a chain, so its weakest link sets its strength. [long pause] [long pause] India built the missiles. Now the question is the chain: which link will be finished last?"
+  }
+ ]
+}
