@@ -57,3 +57,5 @@ jobs:
           name: ${{ matrix.episode }}-silent
           path: out/
           retention-days: 7
+
+# (touched to register the workflow)
