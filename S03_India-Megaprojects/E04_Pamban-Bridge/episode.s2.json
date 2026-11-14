@@ -118,7 +118,7 @@
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.1 · THE LIFT"
@@ -235,6 +235,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -250,13 +256,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.1 · THE LIFT"
@@ -492,7 +504,7 @@
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.2 · THE NUMBERS"
@@ -517,6 +529,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -532,13 +550,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.2 · THE NUMBERS"
@@ -658,6 +682,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -674,13 +704,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.3 · WHY IT MATTERS"
@@ -1221,6 +1257,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1236,13 +1278,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.5 · IDEA 2 · SALT"
@@ -1497,6 +1545,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1512,13 +1566,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.6 · IDEA 3 · WIND"
@@ -1543,6 +1603,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1558,13 +1624,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT"
@@ -1710,6 +1782,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1726,13 +1804,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT"
@@ -1883,6 +1967,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1898,13 +1988,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.8 · THE FIELD"
@@ -1929,6 +2025,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1944,13 +2046,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.9 · WHAT IF"
@@ -2067,6 +2175,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2082,13 +2196,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.9 · WHAT IF"
@@ -2113,6 +2233,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2128,13 +2254,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.10 · THE HABIT"
@@ -2252,6 +2384,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2268,13 +2406,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.10 · THE HABIT"
@@ -2299,6 +2443,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2314,13 +2464,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.11 · THE CLOSE"
@@ -2442,6 +2598,12 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2458,13 +2620,19 @@
       "lift": true,
       "ship": true
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.11 · THE CLOSE"

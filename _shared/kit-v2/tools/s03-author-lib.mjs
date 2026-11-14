@@ -19,10 +19,10 @@ export function authorKit(dir, cfg) {
   let n = 0, scene = 0;
   const add = (p, o) => { const sc = +p.slice(1); if (sc !== scene) { scene = sc; n = 0; } n += 1; const sparse = ['flow', 'number', 'timeline', 'route'].includes(o.tpl); const b = Object.assign({ id: `${sc}.${String(n).padStart(2, '0')}`, p, w: 1 }, o); if (sparse) b.w = Math.min(b.w, o.tpl === 'flow' ? 0.62 : 0.72); else if (o.tpl === 'hero' && o.w == null) b.w = 1.6; B.push(b); };
   const TAG = 'CONCEPTUAL, NOT TO SCALE';
-  const hero = (p, kind, opts, title, extra) => add(p, Object.assign({ tpl: 'hero', kind, opts, title, tag: TAG, camAz: 40 }, extra, extra && extra.callouts ? { camAz: 14 } : {}));
+  const hero = (p, kind, opts, title, extra) => add(p, Object.assign({ tpl: 'hero', kind, opts, title, tag: TAG, camAz: 55 }, extra, extra && extra.callouts ? { camAz: 14 } : {}));
   const stmt = (p, lines, extra) => {
     const e = Object.assign({}, extra);
-    if (!e.hero && !(e.size >= 100)) { e.hero = cfg.hero; e.heroOpts = cfg.heroOpts || {}; e.camAz = 40; delete e.align; if (e.size > 64) e.size = 64; }
+    if (!e.hero && !(e.size >= 100)) { e.hero = cfg.hero; e.heroOpts = cfg.heroOpts || {}; e.camAz = 55; e.hframe = [900, 230, 1840, 920]; delete e.align; if (e.size > 64) e.size = 64; }
     if (e.hero && !e.tag) e.tag = TAG;
     add(p, Object.assign({ tpl: 'statement', lines, size: 70 }, e));
   };

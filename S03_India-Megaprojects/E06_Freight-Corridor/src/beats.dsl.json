@@ -11,7 +11,7 @@
   },
   "title": "A LANE ONLY FOR GOODS",
   "tag": "CONCEPTUAL, NOT TO SCALE",
-  "camAz": 40,
+  "camAz": 55,
   "sc": "SC.1 · THE LANE",
   "k": "hook"
  },
@@ -58,7 +58,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -196,7 +202,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -213,7 +225,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -401,7 +419,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -508,7 +532,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -526,7 +556,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -594,7 +630,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -664,7 +706,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -682,7 +730,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -735,7 +789,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -753,7 +813,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -803,7 +869,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -821,7 +893,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -877,7 +955,13 @@
   "heroOpts": {
    "layers": 2
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {

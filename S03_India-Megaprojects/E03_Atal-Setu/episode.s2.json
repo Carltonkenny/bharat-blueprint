@@ -112,7 +112,7 @@
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.1 · THE WATER"
@@ -120,7 +120,7 @@
   {
    "id": "1.02",
    "p": "P01",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -213,6 +213,12 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -226,13 +232,19 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.1 · THE WATER"
@@ -240,7 +252,7 @@
   {
    "id": "2.01",
    "p": "P02",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -282,7 +294,7 @@
   {
    "id": "2.02",
    "p": "P02",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "number",
    "scene": [
@@ -316,7 +328,7 @@
   {
    "id": "2.03",
    "p": "P02",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "number",
    "scene": [
@@ -376,7 +388,7 @@
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.2 · THE NUMBERS"
@@ -420,7 +432,7 @@
   {
    "id": "2.06",
    "p": "P02",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "number",
    "scene": [
@@ -454,7 +466,7 @@
   {
    "id": "3.01",
    "p": "P03",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -498,7 +510,7 @@
   {
    "id": "3.02",
    "p": "P03",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "number",
    "scene": [
@@ -532,7 +544,7 @@
   {
    "id": "3.03",
    "p": "P03",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -596,6 +608,12 @@
      "size": 62,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -608,13 +626,19 @@
      "size": 62,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.3 · WHY IT MATTERS"
@@ -666,7 +690,7 @@
   {
    "id": "4.02",
    "p": "P04",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -802,7 +826,7 @@
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.4 · IDEA 1 · PILES"
@@ -810,7 +834,7 @@
   {
    "id": "4.05",
    "p": "P04",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -900,7 +924,7 @@
   {
    "id": "5.02",
    "p": "P05",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -968,7 +992,7 @@
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.5 · IDEA 2 · THE DECK"
@@ -1118,7 +1142,7 @@
   {
    "id": "5.07",
    "p": "P05",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -1178,6 +1202,12 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1190,13 +1220,19 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.6 · IDEA 3 · SALT"
@@ -1204,7 +1240,7 @@
   {
    "id": "6.02",
    "p": "P06",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -1276,7 +1312,7 @@
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.6 · IDEA 3 · SALT"
@@ -1284,7 +1320,7 @@
   {
    "id": "6.04",
    "p": "P06",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -1346,6 +1382,12 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1358,13 +1400,19 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON"
@@ -1372,7 +1420,7 @@
   {
    "id": "7.02",
    "p": "P07",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "number",
    "scene": [
@@ -1438,7 +1486,7 @@
   {
    "id": "7.04",
    "p": "P07",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -1540,7 +1588,7 @@
   {
    "id": "7.06",
    "p": "P07",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -1620,7 +1668,7 @@
   {
    "id": "7.08",
    "p": "P07",
-   "w": 1,
+   "w": 1.8,
    "layer": "H",
    "kind": "payoff",
    "scene": [
@@ -1635,6 +1683,12 @@
      "size": 62,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1648,13 +1702,19 @@
      "size": 62,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON"
@@ -1662,7 +1722,7 @@
   {
    "id": "8.01",
    "p": "P08",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -1698,7 +1758,7 @@
   {
    "id": "8.02",
    "p": "P08",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "number",
    "scene": [
@@ -1732,7 +1792,7 @@
   {
    "id": "8.03",
    "p": "P08",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -1784,6 +1844,12 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1796,13 +1862,19 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.8 · THE FIELD"
@@ -1824,6 +1896,12 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1836,13 +1914,19 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.9 · WHAT IF"
@@ -1850,7 +1934,7 @@
   {
    "id": "9.02",
    "p": "P09",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -1947,6 +2031,12 @@
      "size": 60,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1960,13 +2050,19 @@
      "size": 60,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.9 · WHAT IF"
@@ -1988,6 +2084,12 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2000,13 +2102,19 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.10 · THE HABIT"
@@ -2014,7 +2122,7 @@
   {
    "id": "10.02",
    "p": "P10",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "number",
    "scene": [
@@ -2048,7 +2156,7 @@
   {
    "id": "10.03",
    "p": "P10",
-   "w": 0.8,
+   "w": 0.72,
    "layer": "B",
    "kind": "number",
    "scene": [
@@ -2097,6 +2205,12 @@
      "size": 60,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2110,13 +2224,19 @@
      "size": 60,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.10 · THE HABIT"
@@ -2138,6 +2258,12 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2150,13 +2276,19 @@
      "size": 64,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.11 · THE CLOSE"
@@ -2164,7 +2296,7 @@
   {
    "id": "11.02",
    "p": "P11",
-   "w": 0.8,
+   "w": 0.62,
    "layer": "B",
    "kind": "hold",
    "scene": [
@@ -2271,6 +2403,12 @@
      "size": 62,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2284,13 +2422,19 @@
      "size": 62,
      "hero": "sea-bridge",
      "heroOpts": {},
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.11 · THE CLOSE"

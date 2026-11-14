@@ -1,5 +1,5 @@
 {
-  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\E05\\E05-r4.mp4",
+  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\E05\\E05-r5.mp4",
   "width": 1920,
   "height": 1080,
   "fps": 30,
@@ -7,8 +7,8 @@
   "pixFmt": "yuv420p",
   "duration": 241.367,
   "frames": 7241,
-  "meanLuma": 47.302,
-  "maxDelta": 13.438,
+  "meanLuma": 47.418,
+  "maxDelta": 15.3542,
   "frozenFrames": 1,
   "failures": []
 }

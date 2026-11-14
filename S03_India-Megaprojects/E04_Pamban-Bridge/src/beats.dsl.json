@@ -11,7 +11,7 @@
   },
   "title": "A BRIDGE THAT STANDS UP FOR A SHIP",
   "tag": "CONCEPTUAL, NOT TO SCALE",
-  "camAz": 40,
+  "camAz": 55,
   "sc": "SC.1 · THE LIFT",
   "k": "hook"
  },
@@ -67,7 +67,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -157,7 +163,7 @@
   },
   "title": "ONLY A SMALL PART MOVES",
   "tag": "CONCEPTUAL, NOT TO SCALE",
-  "camAz": 40,
+  "camAz": 55,
   "chain": "ABOUT TWO KILOMETRES LONG (PIB)"
  },
  {
@@ -176,7 +182,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -233,7 +245,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -450,7 +468,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -560,7 +584,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -579,7 +609,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -644,7 +680,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -712,7 +754,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -731,7 +779,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -785,7 +839,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -804,7 +864,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -859,7 +925,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -878,7 +950,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -936,7 +1014,13 @@
    "lift": true,
    "ship": true
   },
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {

@@ -33,7 +33,7 @@
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -162,6 +162,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -177,13 +183,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -443,7 +455,7 @@
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -472,6 +484,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -487,13 +505,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -625,6 +649,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -641,13 +671,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -1240,6 +1276,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1255,13 +1297,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -1540,6 +1588,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1555,13 +1609,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -1590,6 +1650,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1605,13 +1671,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -1773,6 +1845,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1789,13 +1867,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -1962,6 +2046,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1977,13 +2067,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -2012,6 +2108,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2027,13 +2129,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -2162,6 +2270,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2177,13 +2291,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -2212,6 +2332,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2227,13 +2353,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -2363,6 +2495,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2379,13 +2517,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -2414,6 +2558,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2429,13 +2579,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
@@ -2569,6 +2725,12 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2585,13 +2747,19 @@
             "lift": true,
             "ship": true
           },
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",

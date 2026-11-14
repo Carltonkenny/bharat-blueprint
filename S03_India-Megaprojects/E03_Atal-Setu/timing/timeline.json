@@ -27,14 +27,14 @@
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE WATER",
       "t0": 0.8,
-      "t1": 4.6138,
-      "dur": 3.8138,
+      "t1": 4.7562,
+      "dur": 3.9562,
       "passageStart": 0.8
     },
     {
@@ -82,10 +82,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE WATER",
-      "t0": 4.6138,
-      "t1": 6.5206,
-      "dur": 1.9069,
-      "passageStart": 4.6138
+      "t0": 4.7562,
+      "t1": 6.2892,
+      "dur": 1.533,
+      "passageStart": 4.7562
     },
     {
       "id": "1.03",
@@ -118,10 +118,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE WATER",
-      "t0": 6.5206,
-      "t1": 10.3344,
-      "dur": 3.8138,
-      "passageStart": 6.5206
+      "t0": 6.2892,
+      "t1": 10.2454,
+      "dur": 3.9562,
+      "passageStart": 6.2892
     },
     {
       "id": "1.04",
@@ -140,6 +140,12 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -153,21 +159,27 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE WATER",
-      "t0": 10.3344,
+      "t0": 10.2454,
       "t1": 12.718,
-      "dur": 2.3836,
-      "passageStart": 10.3344
+      "dur": 2.4726,
+      "passageStart": 10.2454
     },
     {
       "id": "2.01",
@@ -211,8 +223,8 @@
       "tr": "fade",
       "sceneTag": "SC.2 · THE NUMBERS",
       "t0": 12.718,
-      "t1": 16.2499,
-      "dur": 3.5319,
+      "t1": 16.064,
+      "dur": 3.346,
       "passageStart": 12.718
     },
     {
@@ -248,10 +260,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.2 · THE NUMBERS",
-      "t0": 16.2499,
-      "t1": 19.7817,
-      "dur": 3.5319,
-      "passageStart": 16.2499
+      "t0": 16.064,
+      "t1": 19.41,
+      "dur": 3.346,
+      "passageStart": 16.064
     },
     {
       "id": "2.03",
@@ -286,10 +298,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.2 · THE NUMBERS",
-      "t0": 19.7817,
-      "t1": 23.3136,
-      "dur": 3.5319,
-      "passageStart": 19.7817
+      "t0": 19.41,
+      "t1": 22.756,
+      "dur": 3.346,
+      "passageStart": 19.41
     },
     {
       "id": "2.04",
@@ -319,15 +331,15 @@
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.2 · THE NUMBERS",
-      "t0": 23.3136,
-      "t1": 30.3774,
-      "dur": 7.0638,
-      "passageStart": 23.3136
+      "t0": 22.756,
+      "t1": 30.1915,
+      "dur": 7.4355,
+      "passageStart": 22.756
     },
     {
       "id": "2.05",
@@ -364,10 +376,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.2 · THE NUMBERS",
-      "t0": 30.3774,
-      "t1": 37.4411,
-      "dur": 7.0638,
-      "passageStart": 30.3774
+      "t0": 30.1915,
+      "t1": 37.627,
+      "dur": 7.4355,
+      "passageStart": 30.1915
     },
     {
       "id": "2.06",
@@ -402,10 +414,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.2 · THE NUMBERS",
-      "t0": 37.4411,
+      "t0": 37.627,
       "t1": 40.973,
-      "dur": 3.5319,
-      "passageStart": 37.4411
+      "dur": 3.346,
+      "passageStart": 37.627
     },
     {
       "id": "3.01",
@@ -451,8 +463,8 @@
       "tr": "fade",
       "sceneTag": "SC.3 · WHY IT MATTERS",
       "t0": 40.973,
-      "t1": 46.3817,
-      "dur": 5.4087,
+      "t1": 45.7878,
+      "dur": 4.8148,
       "passageStart": 40.973
     },
     {
@@ -488,10 +500,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.3 · WHY IT MATTERS",
-      "t0": 46.3817,
-      "t1": 51.7904,
-      "dur": 5.4087,
-      "passageStart": 46.3817
+      "t0": 45.7878,
+      "t1": 51.3793,
+      "dur": 5.5914,
+      "passageStart": 45.7878
     },
     {
       "id": "3.03",
@@ -542,10 +554,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.3 · WHY IT MATTERS",
-      "t0": 51.7904,
-      "t1": 57.1991,
-      "dur": 5.4087,
-      "passageStart": 51.7904
+      "t0": 51.3793,
+      "t1": 56.1941,
+      "dur": 4.8148,
+      "passageStart": 51.3793
     },
     {
       "id": "3.04",
@@ -563,6 +575,12 @@
           "size": 62,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -575,21 +593,27 @@
           "size": 62,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.3 · WHY IT MATTERS",
-      "t0": 57.1991,
+      "t0": 56.1941,
       "t1": 63.96,
-      "dur": 6.7609,
-      "passageStart": 57.1991
+      "dur": 7.7659,
+      "passageStart": 56.1941
     },
     {
       "id": "4.01",
@@ -635,8 +659,8 @@
       "tr": "fade",
       "sceneTag": "SC.4 · IDEA 1 · PILES",
       "t0": 63.96,
-      "t1": 68.9579,
-      "dur": 4.9979,
+      "t1": 69.3296,
+      "dur": 5.3696,
       "passageStart": 63.96
     },
     {
@@ -682,10 +706,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.4 · IDEA 1 · PILES",
-      "t0": 68.9579,
-      "t1": 72.9562,
-      "dur": 3.9983,
-      "passageStart": 68.9579
+      "t0": 69.3296,
+      "t1": 72.6588,
+      "dur": 3.3292,
+      "passageStart": 69.3296
     },
     {
       "id": "4.03",
@@ -748,10 +772,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.4 · IDEA 1 · PILES",
-      "t0": 72.9562,
-      "t1": 79.4534,
-      "dur": 6.4973,
-      "passageStart": 72.9562
+      "t0": 72.6588,
+      "t1": 79.6393,
+      "dur": 6.9805,
+      "passageStart": 72.6588
     },
     {
       "id": "4.04",
@@ -785,15 +809,15 @@
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.4 · IDEA 1 · PILES",
-      "t0": 79.4534,
-      "t1": 85.9507,
-      "dur": 6.4973,
-      "passageStart": 79.4534
+      "t0": 79.6393,
+      "t1": 86.6198,
+      "dur": 6.9805,
+      "passageStart": 79.6393
     },
     {
       "id": "4.05",
@@ -844,10 +868,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.4 · IDEA 1 · PILES",
-      "t0": 85.9507,
+      "t0": 86.6198,
       "t1": 89.949,
-      "dur": 3.9983,
-      "passageStart": 85.9507
+      "dur": 3.3292,
+      "passageStart": 86.6198
     },
     {
       "id": "5.01",
@@ -889,8 +913,8 @@
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · THE DECK",
       "t0": 89.949,
-      "t1": 93.9401,
-      "dur": 3.9911,
+      "t1": 94.1188,
+      "dur": 4.1698,
       "passageStart": 89.949
     },
     {
@@ -936,10 +960,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · THE DECK",
-      "t0": 93.9401,
-      "t1": 97.1329,
-      "dur": 3.1929,
-      "passageStart": 93.9401
+      "t0": 94.1188,
+      "t1": 96.704,
+      "dur": 2.5853,
+      "passageStart": 94.1188
     },
     {
       "id": "5.03",
@@ -967,15 +991,15 @@
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · THE DECK",
-      "t0": 97.1329,
-      "t1": 101.9222,
-      "dur": 4.7893,
-      "passageStart": 97.1329
+      "t0": 96.704,
+      "t1": 101.7078,
+      "dur": 5.0037,
+      "passageStart": 96.704
     },
     {
       "id": "5.04",
@@ -1028,10 +1052,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · THE DECK",
-      "t0": 101.9222,
-      "t1": 107.5097,
-      "dur": 5.5875,
-      "passageStart": 101.9222
+      "t0": 101.7078,
+      "t1": 107.5455,
+      "dur": 5.8377,
+      "passageStart": 101.7078
     },
     {
       "id": "5.05",
@@ -1084,10 +1108,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · THE DECK",
-      "t0": 107.5097,
-      "t1": 113.8954,
-      "dur": 6.3857,
-      "passageStart": 107.5097
+      "t0": 107.5455,
+      "t1": 114.2171,
+      "dur": 6.6716,
+      "passageStart": 107.5455
     },
     {
       "id": "5.06",
@@ -1126,10 +1150,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · THE DECK",
-      "t0": 113.8954,
-      "t1": 120.2811,
-      "dur": 6.3857,
-      "passageStart": 113.8954
+      "t0": 114.2171,
+      "t1": 120.8887,
+      "dur": 6.6716,
+      "passageStart": 114.2171
     },
     {
       "id": "5.07",
@@ -1176,10 +1200,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · THE DECK",
-      "t0": 120.2811,
+      "t0": 120.8887,
       "t1": 123.474,
-      "dur": 3.1929,
-      "passageStart": 120.2811
+      "dur": 2.5853,
+      "passageStart": 120.8887
     },
     {
       "id": "6.01",
@@ -1197,6 +1221,12 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1209,20 +1239,26 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · SALT",
       "t0": 123.474,
-      "t1": 129.0648,
-      "dur": 5.5908,
+      "t1": 129.6357,
+      "dur": 6.1617,
       "passageStart": 123.474
     },
     {
@@ -1268,10 +1304,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · SALT",
-      "t0": 129.0648,
-      "t1": 133.5374,
-      "dur": 4.4726,
-      "passageStart": 129.0648
+      "t0": 129.6357,
+      "t1": 133.4568,
+      "dur": 3.8212,
+      "passageStart": 129.6357
     },
     {
       "id": "6.03",
@@ -1303,15 +1339,15 @@
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · SALT",
-      "t0": 133.5374,
-      "t1": 140.8054,
-      "dur": 7.268,
-      "passageStart": 133.5374
+      "t0": 133.4568,
+      "t1": 141.4568,
+      "dur": 8,
+      "passageStart": 133.4568
     },
     {
       "id": "6.04",
@@ -1360,10 +1396,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · SALT",
-      "t0": 140.8054,
+      "t0": 141.4568,
       "t1": 145.278,
-      "dur": 4.4726,
-      "passageStart": 140.8054
+      "dur": 3.8212,
+      "passageStart": 141.4568
     },
     {
       "id": "7.01",
@@ -1381,6 +1417,12 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1393,20 +1435,26 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
       "t0": 145.278,
-      "t1": 150.0103,
-      "dur": 4.7323,
+      "t1": 149.8321,
+      "dur": 4.5541,
       "passageStart": 145.278
     },
     {
@@ -1442,10 +1490,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
-      "t0": 150.0103,
-      "t1": 153.7961,
-      "dur": 3.7858,
-      "passageStart": 150.0103
+      "t0": 149.8321,
+      "t1": 153.111,
+      "dur": 3.2789,
+      "passageStart": 149.8321
     },
     {
       "id": "7.03",
@@ -1478,10 +1526,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
-      "t0": 153.7961,
-      "t1": 161.3678,
-      "dur": 7.5717,
-      "passageStart": 153.7961
+      "t0": 153.111,
+      "t1": 160.3975,
+      "dur": 7.2865,
+      "passageStart": 153.111
     },
     {
       "id": "7.04",
@@ -1532,10 +1580,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
-      "t0": 161.3678,
-      "t1": 165.1536,
-      "dur": 3.7858,
-      "passageStart": 161.3678
+      "t0": 160.3975,
+      "t1": 163.2211,
+      "dur": 2.8235,
+      "passageStart": 160.3975
     },
     {
       "id": "7.05",
@@ -1588,10 +1636,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
-      "t0": 165.1536,
-      "t1": 172.7252,
-      "dur": 7.5717,
-      "passageStart": 165.1536
+      "t0": 163.2211,
+      "t1": 170.5076,
+      "dur": 7.2865,
+      "passageStart": 163.2211
     },
     {
       "id": "7.06",
@@ -1634,10 +1682,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
-      "t0": 172.7252,
-      "t1": 176.5111,
-      "dur": 3.7858,
-      "passageStart": 172.7252
+      "t0": 170.5076,
+      "t1": 173.3311,
+      "dur": 2.8235,
+      "passageStart": 170.5076
     },
     {
       "id": "7.07",
@@ -1676,10 +1724,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
-      "t0": 176.5111,
-      "t1": 184.0827,
-      "dur": 7.5717,
-      "passageStart": 176.5111
+      "t0": 173.3311,
+      "t1": 180.6177,
+      "dur": 7.2865,
+      "passageStart": 173.3311
     },
     {
       "id": "7.08",
@@ -1698,6 +1746,12 @@
           "size": 62,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1711,21 +1765,27 @@
           "size": 62,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
-      "t0": 184.0827,
+      "t0": 180.6177,
       "t1": 188.815,
-      "dur": 4.7323,
-      "passageStart": 184.0827
+      "dur": 8.1973,
+      "passageStart": 180.6177
     },
     {
       "id": "8.01",
@@ -1763,8 +1823,8 @@
       "tr": "fade",
       "sceneTag": "SC.8 · THE FIELD",
       "t0": 188.815,
-      "t1": 192.7037,
-      "dur": 3.8887,
+      "t1": 192.2767,
+      "dur": 3.4617,
       "passageStart": 188.815
     },
     {
@@ -1800,10 +1860,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.8 · THE FIELD",
-      "t0": 192.7037,
-      "t1": 196.5924,
-      "dur": 3.8887,
-      "passageStart": 192.7037
+      "t0": 192.2767,
+      "t1": 196.2968,
+      "dur": 4.0201,
+      "passageStart": 192.2767
     },
     {
       "id": "8.03",
@@ -1842,10 +1902,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.8 · THE FIELD",
-      "t0": 196.5924,
-      "t1": 200.4811,
-      "dur": 3.8887,
-      "passageStart": 196.5924
+      "t0": 196.2968,
+      "t1": 199.7586,
+      "dur": 3.4617,
+      "passageStart": 196.2968
     },
     {
       "id": "8.04",
@@ -1863,6 +1923,12 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1875,21 +1941,27 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.8 · THE FIELD",
-      "t0": 200.4811,
+      "t0": 199.7586,
       "t1": 205.342,
-      "dur": 4.8609,
-      "passageStart": 200.4811
+      "dur": 5.5834,
+      "passageStart": 199.7586
     },
     {
       "id": "9.01",
@@ -1907,6 +1979,12 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -1919,20 +1997,26 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.9 · WHAT IF",
       "t0": 205.342,
-      "t1": 208.8075,
-      "dur": 3.4655,
+      "t1": 208.9455,
+      "dur": 3.6035,
       "passageStart": 205.342
     },
     {
@@ -1984,10 +2068,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.9 · WHAT IF",
-      "t0": 208.8075,
-      "t1": 211.58,
-      "dur": 2.7724,
-      "passageStart": 208.8075
+      "t0": 208.9455,
+      "t1": 211.1797,
+      "dur": 2.2342,
+      "passageStart": 208.9455
     },
     {
       "id": "9.03",
@@ -2020,10 +2104,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.9 · WHAT IF",
-      "t0": 211.58,
-      "t1": 217.1248,
-      "dur": 5.5449,
-      "passageStart": 211.58
+      "t0": 211.1797,
+      "t1": 216.9454,
+      "dur": 5.7657,
+      "passageStart": 211.1797
     },
     {
       "id": "9.04",
@@ -2042,6 +2126,12 @@
           "size": 60,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2055,21 +2145,27 @@
           "size": 60,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.9 · WHAT IF",
-      "t0": 217.1248,
+      "t0": 216.9454,
       "t1": 221.63,
-      "dur": 4.5052,
-      "passageStart": 217.1248
+      "dur": 4.6846,
+      "passageStart": 216.9454
     },
     {
       "id": "10.01",
@@ -2087,6 +2183,12 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2099,20 +2201,26 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.10 · THE HABIT",
       "t0": 221.63,
-      "t1": 227.9336,
-      "dur": 6.3036,
+      "t1": 228.2268,
+      "dur": 6.5968,
       "passageStart": 221.63
     },
     {
@@ -2148,10 +2256,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.10 · THE HABIT",
-      "t0": 227.9336,
+      "t0": 228.2268,
       "t1": 232.9765,
-      "dur": 5.0429,
-      "passageStart": 227.9336
+      "dur": 4.7497,
+      "passageStart": 228.2268
     },
     {
       "id": "10.03",
@@ -2187,8 +2295,8 @@
       "tr": "fade",
       "sceneTag": "SC.10 · THE HABIT",
       "t0": 232.9765,
-      "t1": 238.0194,
-      "dur": 5.0429,
+      "t1": 237.7262,
+      "dur": 4.7497,
       "passageStart": 232.9765
     },
     {
@@ -2208,6 +2316,12 @@
           "size": 60,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2221,21 +2335,27 @@
           "size": 60,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.10 · THE HABIT",
-      "t0": 238.0194,
+      "t0": 237.7262,
       "t1": 244.323,
-      "dur": 6.3036,
-      "passageStart": 238.0194
+      "dur": 6.5968,
+      "passageStart": 237.7262
     },
     {
       "id": "11.01",
@@ -2253,6 +2373,12 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2265,20 +2391,26 @@
           "size": 64,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.11 · THE CLOSE",
       "t0": 244.323,
-      "t1": 247.6437,
-      "dur": 3.3207,
+      "t1": 247.75,
+      "dur": 3.427,
       "passageStart": 244.323
     },
     {
@@ -2336,10 +2468,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.11 · THE CLOSE",
-      "t0": 247.6437,
-      "t1": 250.3002,
-      "dur": 2.6566,
-      "passageStart": 247.6437
+      "t0": 247.75,
+      "t1": 249.8748,
+      "dur": 2.1248,
+      "passageStart": 247.75
     },
     {
       "id": "11.03",
@@ -2376,10 +2508,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.11 · THE CLOSE",
-      "t0": 250.3002,
-      "t1": 255.6133,
-      "dur": 5.3131,
-      "passageStart": 250.3002
+      "t0": 249.8748,
+      "t1": 255.3581,
+      "dur": 5.4833,
+      "passageStart": 249.8748
     },
     {
       "id": "11.04",
@@ -2398,6 +2530,12 @@
           "size": 62,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
@@ -2411,21 +2549,27 @@
           "size": 62,
           "hero": "sea-bridge",
           "heroOpts": {},
+          "hframe": [
+            900,
+            230,
+            1840,
+            920
+          ],
           "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
       "cam": "orbit",
-      "camAz": 40,
+      "camAz": 55,
       "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.11 · THE CLOSE",
-      "t0": 255.6133,
-      "t1": 260.2623,
-      "dur": 4.649,
-      "passageStart": 255.6133
+      "t0": 255.3581,
+      "t1": 260.156,
+      "dur": 4.7979,
+      "passageStart": 255.3581
     },
     {
       "id": "11.05",
@@ -2460,13 +2604,20 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.11 · THE CLOSE",
-      "t0": 260.2623,
+      "t0": 260.156,
       "t1": 263.583,
-      "dur": 3.3207,
-      "passageStart": 260.2623
+      "dur": 3.427,
+      "passageStart": 260.156
     }
   ],
-  "clampReport": [],
+  "clampReport": [
+    {
+      "beat": "6.03",
+      "from": 8.007,
+      "to": 8,
+      "reason": "too long"
+    }
+  ],
   "bpm": 12.52,
   "leadIn": 0.8
 }

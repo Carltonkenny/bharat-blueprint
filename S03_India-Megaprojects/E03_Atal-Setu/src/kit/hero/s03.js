@@ -329,9 +329,9 @@
       const m = p.mesh.material, e = p.edges && p.edges.material;
       if (m.userData.base == null) m.userData.base = m.opacity;
       if (e && e.userData.base == null) e.userData.base = e.opacity;
-      const ph = Math.sin(t * 5.4 - (o.position.x * 0.016 + o.position.y * 0.01));
-      m.opacity = Math.max(0.03, m.userData.base * (1 + 0.65 * ph));
-      if (e) e.opacity = Math.min(1, e.userData.base * (0.82 + 0.18 * ph));
+      const ph = Math.sin(t * 9 - (o.position.x * 0.016 + o.position.y * 0.01));
+      m.opacity = Math.max(0.03, m.userData.base * (1 + 1.1 * ph));
+      if (e) e.opacity = Math.min(1, e.userData.base * (0.7 + 0.3 * ph));
     });
   };
 

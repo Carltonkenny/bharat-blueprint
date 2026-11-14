@@ -50,7 +50,7 @@ flow('P07', 'THE DECK TECHNOLOGY', [{ t: 'A JAPANESE EXPERT', sub: 'RECOMMENDED 
 hero('P07', DP, { ribs: true, growDur: 3 }, 'THE DECK THAT WAS NEW TO INDIA', { callouts: [{ fx: 0.5, fy: 0.72, t: 'RIBBED STEEL DECK' }] });
 flow('P07', 'STEEL SPANS MADE IN FIVE COUNTRIES (MMRDA)', ['JAPAN', 'SOUTH KOREA', 'VIETNAM', 'TAIWAN', 'MYANMAR'], [], { w: 1.3 });
 hero('P07', SB, { ribs: true, growDur: 4 }, 'SPANS ARRIVE FROM MANY WORKSHOPS', { camAz: 28 });
-stmt('P07', ['INDIA BUILT THE BRIDGE,', 'WITH PARTNERS.', 'BOTH ARE TRUE.'], { size: 62, k: 'payoff' });
+stmt('P07', ['INDIA BUILT THE BRIDGE,', 'WITH PARTNERS.', 'BOTH ARE TRUE.'], { size: 62, k: 'payoff', w: 1.8 });
 // P08 field
 flow('P08', 'LENGTH IS ONE MEASURE', ['THE SEA SECTION', 'THE LAND VIADUCTS'], [], { sc: 'SC.8 · THE FIELD' });
 num('P08', 'THE SEA SECTION', '16.5', 'KILOMETRES', 'THE FULL 21.8 KM INCLUDES VIADUCTS ON LAND', 'PIB, 12 JAN 2024');

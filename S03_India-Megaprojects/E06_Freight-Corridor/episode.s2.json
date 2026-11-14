@@ -118,7 +118,7 @@
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.1 · THE LANE"
@@ -218,6 +218,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -232,13 +238,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.1 · THE LANE"
@@ -580,6 +592,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -594,13 +612,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.3 · WHY IT MATTERS"
@@ -624,6 +648,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -638,13 +668,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.3 · WHY IT MATTERS"
@@ -1099,6 +1135,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1114,13 +1156,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.5 · IDEA 2 · DOUBLE-STACK"
@@ -1370,6 +1418,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1384,13 +1438,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.6 · IDEA 3 · WEIGHT"
@@ -1414,6 +1474,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1428,13 +1494,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT"
@@ -1586,6 +1658,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1600,13 +1678,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT"
@@ -1762,6 +1846,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1776,13 +1866,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.8 · THE FIELD"
@@ -1806,6 +1902,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1820,13 +1922,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.9 · WHAT IF"
@@ -1941,6 +2049,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -1956,13 +2070,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.9 · WHAT IF"
@@ -1986,6 +2106,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2000,13 +2126,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.10 · THE HABIT"
@@ -2112,6 +2244,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2126,13 +2264,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.10 · THE HABIT"
@@ -2156,6 +2300,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2170,13 +2320,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.11 · THE CLOSE"
@@ -2295,6 +2451,12 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
@@ -2310,13 +2472,19 @@
      "heroOpts": {
       "layers": 2
      },
+     "hframe": [
+      900,
+      230,
+      1840,
+      920
+     ],
      "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
    "cam": "orbit",
-   "camAz": 40,
+   "camAz": 55,
    "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.11 · THE CLOSE"

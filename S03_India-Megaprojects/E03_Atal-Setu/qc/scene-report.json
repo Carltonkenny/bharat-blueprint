@@ -1,11 +1,27 @@
 {
   "episode": "E03",
-  "generated": "2026-11-14T08:05:33.857Z",
+  "generated": "2026-11-14T10:47:45.084Z",
   "beats": 55,
   "duration": 263.56666666666666,
   "bpm": 12.52,
   "samples": 275,
-  "failures": [],
+  "failures": [
+    {
+      "gate": "B5",
+      "beat": "1.02",
+      "msg": "\"SC.1 · THE WATER\" visible 1.53 s < required 1.60 s"
+    },
+    {
+      "gate": "B5",
+      "beat": "7.04",
+      "msg": "\"SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON\" visible 2.82 s < required 3.10 s"
+    },
+    {
+      "gate": "B5",
+      "beat": "7.06",
+      "msg": "\"SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON\" visible 2.82 s < required 3.10 s"
+    }
+  ],
   "notes": [],
   "warnings": []
 }

@@ -8,14 +8,14 @@
   "opts": {},
   "title": "BETWEEN MUMBAI AND NAVI MUMBAI",
   "tag": "CONCEPTUAL, NOT TO SCALE",
-  "camAz": 40,
+  "camAz": 55,
   "sc": "SC.1 · THE WATER",
   "k": "hook"
  },
  {
   "id": "1.02",
   "p": "P01",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "A BAY IN THE WAY",
   "nodes": [
@@ -55,13 +55,19 @@
   "k": "hook",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
   "id": "2.01",
   "p": "P02",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "timeline",
   "title": "ATAL SETU, THE MUMBAI TRANS HARBOUR LINK",
   "items": [
@@ -78,7 +84,7 @@
  {
   "id": "2.02",
   "p": "P02",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "number",
   "k": "number",
   "title": "HOW LONG",
@@ -91,7 +97,7 @@
  {
   "id": "2.03",
   "p": "P02",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "number",
   "k": "number",
   "title": "OVER THE SEA",
@@ -110,7 +116,7 @@
   "opts": {},
   "title": "INDIA'S LONGEST SEA BRIDGE (PIB)",
   "tag": "CONCEPTUAL, NOT TO SCALE",
-  "camAz": 40,
+  "camAz": 55,
   "chain": "ABOUT 16.5 KM OVER THE SEA (PIB)"
  },
  {
@@ -129,7 +135,7 @@
  {
   "id": "2.06",
   "p": "P02",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "number",
   "k": "number",
   "title": "WHAT IT COST",
@@ -142,7 +148,7 @@
  {
   "id": "3.01",
   "p": "P03",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "FASTER CONNECTIONS TO BOTH AIRPORTS",
   "nodes": [
@@ -160,7 +166,7 @@
  {
   "id": "3.02",
   "p": "P03",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "number",
   "k": "number",
   "title": "THE CROSSING",
@@ -173,7 +179,7 @@
  {
   "id": "3.03",
   "p": "P03",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "TWO STATEMENTS, TWO \"BEFORE\" TIMES",
   "nodes": [
@@ -202,7 +208,13 @@
   "size": 62,
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -225,7 +237,7 @@
  {
   "id": "4.02",
   "p": "P04",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "THINK OF A TENT PEG",
   "nodes": [
@@ -277,12 +289,12 @@
   },
   "title": "DRIVEN DEEP TO FIRM GROUND",
   "tag": "CONCEPTUAL, NOT TO SCALE",
-  "camAz": 40
+  "camAz": 55
  },
  {
   "id": "4.05",
   "p": "P04",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "BEFORE THE PILES, AFTER THEM",
   "nodes": [
@@ -317,7 +329,7 @@
  {
   "id": "5.02",
   "p": "P05",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "THINK OF CARD",
   "nodes": [
@@ -340,7 +352,7 @@
   "opts": {},
   "title": "A FLAT STEEL PLATE BENDS",
   "tag": "CONCEPTUAL, NOT TO SCALE",
-  "camAz": 40
+  "camAz": 55
  },
  {
   "id": "5.04",
@@ -401,7 +413,7 @@
  {
   "id": "5.07",
   "p": "P05",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "BUILT IN A FACTORY",
   "nodes": [
@@ -429,13 +441,19 @@
   "sc": "SC.6 · IDEA 3 · SALT",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
   "id": "6.02",
   "p": "P06",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "A BICYCLE BY THE BEACH",
   "nodes": [
@@ -460,12 +478,12 @@
   },
   "title": "DESIGNED FOR A MARINE ENVIRONMENT",
   "tag": "CONCEPTUAL, NOT TO SCALE",
-  "camAz": 40
+  "camAz": 55
  },
  {
   "id": "6.04",
   "p": "P06",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "DURABILITY AND FLAMINGOS",
   "nodes": [
@@ -494,13 +512,19 @@
   "sc": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
   "id": "7.02",
   "p": "P07",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "number",
   "k": "number",
   "title": "A JAPANESE LOAN",
@@ -524,7 +548,7 @@
  {
   "id": "7.04",
   "p": "P07",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "THE DECK TECHNOLOGY",
   "nodes": [
@@ -565,7 +589,7 @@
  {
   "id": "7.06",
   "p": "P07",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "STEEL SPANS MADE IN FIVE COUNTRIES (MMRDA)",
   "nodes": [
@@ -595,7 +619,7 @@
  {
   "id": "7.08",
   "p": "P07",
-  "w": 1,
+  "w": 1.8,
   "tpl": "statement",
   "lines": [
    "INDIA BUILT THE BRIDGE,",
@@ -606,13 +630,19 @@
   "k": "payoff",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
   "id": "8.01",
   "p": "P08",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "LENGTH IS ONE MEASURE",
   "nodes": [
@@ -626,7 +656,7 @@
  {
   "id": "8.02",
   "p": "P08",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "number",
   "k": "number",
   "title": "THE SEA SECTION",
@@ -639,7 +669,7 @@
  {
   "id": "8.03",
   "p": "P08",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "OTHER BRIDGES, OTHER PROBLEMS",
   "nodes": [
@@ -663,7 +693,13 @@
   "k": "payoff",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -679,13 +715,19 @@
   "sc": "SC.9 · WHAT IF",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
   "id": "9.02",
   "p": "P09",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "TWO ROUTES",
   "nodes": [
@@ -726,7 +768,13 @@
   "size": 60,
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -742,13 +790,19 @@
   "sc": "SC.10 · THE HABIT",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
   "id": "10.02",
   "p": "P10",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "number",
   "k": "number",
   "title": "SOUNDS HUGE",
@@ -761,7 +815,7 @@
  {
   "id": "10.03",
   "p": "P10",
-  "w": 0.8,
+  "w": 0.72,
   "tpl": "number",
   "k": "number",
   "title": "NOW DIVIDE BY THE LENGTH",
@@ -785,7 +839,13 @@
   "k": "payoff",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
@@ -801,13 +861,19 @@
   "sc": "SC.11 · THE CLOSE",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
   "id": "11.02",
   "p": "P11",
-  "w": 0.8,
+  "w": 0.62,
   "tpl": "flow",
   "title": "THREE THINGS",
   "nodes": [
@@ -854,7 +920,13 @@
   "k": "hook",
   "hero": "sea-bridge",
   "heroOpts": {},
-  "camAz": 40,
+  "camAz": 55,
+  "hframe": [
+   900,
+   230,
+   1840,
+   920
+  ],
   "tag": "CONCEPTUAL, NOT TO SCALE"
  },
  {
