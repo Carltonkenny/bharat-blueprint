@@ -8,7 +8,7 @@ const { hero, stmt, flow, num, timeline, finish } = authorKit(dir, { id: 'E03', 
 
 // P01
 hero('P01', SB, {}, 'BETWEEN MUMBAI AND NAVI MUMBAI', { sc: 'SC.1 · THE WATER', k: 'hook' });
-flow('P01', 'A BAY IN THE WAY', ['MUMBAI', { t: 'WATER', sub: 'A LONG WAY AROUND', hot: true }, 'NAVI MUMBAI']);
+hero('P01', SB, { piles: true, growDur: 4 }, 'A BAY IN THE WAY', { camAz: 34 });
 hero('P01', SB, {}, 'WHAT IF THE ROAD WENT OVER THE SEA?', { camAz: 28 });
 stmt('P01', ['WHAT IF THE ROAD', 'SIMPLY WENT', 'OVER THE SEA?'], { k: 'hook', size: 64 });
 // P02
@@ -43,7 +43,7 @@ flow('P06', 'A BICYCLE BY THE BEACH', ['SEA AIR', { t: 'RUSTS STEEL', hot: true 
 hero('P06', SB, { ribs: true }, 'DESIGNED FOR A MARINE ENVIRONMENT', { w: 1.3 });
 flow('P06', 'DURABILITY AND FLAMINGOS', [{ t: 'CORROSION PROTECTION' }, { t: 'SPECIAL MEASURES', sub: 'TO PROTECT FLAMINGO HABITAT', hot: true }], 'chain', { w: 1.3 });
 // P07 india
-stmt('P07', ['MMRDA CARRIED OUT', 'THE PROJECT'], { sc: 'SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON', size: 72 });
+stmt('P07', ['MMRDA CARRIED OUT', 'THE PROJECT'], { sc: 'SC.7 · BUILT, AND RELIED ON', size: 72 });
 num('P07', 'A JAPANESE LOAN', '13,658', 'CRORE RUPEES, ABOUT', 'JICA, JAPAN\'S DEVELOPMENT AGENCY', 'JICA, 14 JAN 2022', { size: 130 });
 hero('P07', SB, {}, 'A BRIDGE BUILT WITH PARTNERS', { camAz: 26 });
 flow('P07', 'THE DECK TECHNOLOGY', [{ t: 'A JAPANESE EXPERT', sub: 'RECOMMENDED THE DECK' }, { t: 'FIRST USE IN INDIA', sub: 'JICA SAYS', hot: true }], 'chain', { w: 1.2 });

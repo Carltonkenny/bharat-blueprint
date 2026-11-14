@@ -33,59 +33,51 @@
       "tr": "fade",
       "sceneTag": "SC.1 · THE WATER",
       "t0": 0.8,
-      "t1": 4.7562,
-      "dur": 3.9562,
+      "t1": 4.0877,
+      "dur": 3.2877,
       "passageStart": 0.8
     },
     {
       "id": "1.02",
       "p": "P01",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "H",
       "scene": [
         {
           "op": "cw",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "sea-bridge",
+          "opts": {
+            "piles": true,
+            "growDur": 4
+          },
           "title": "A BAY IN THE WAY",
-          "nodes": [
-            "MUMBAI",
-            {
-              "t": "WATER",
-              "sub": "A LONG WAY AROUND",
-              "hot": true
-            },
-            "NAVI MUMBAI"
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
           "op": "cs",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "sea-bridge",
+          "opts": {
+            "piles": true,
+            "growDur": 4
+          },
           "title": "A BAY IN THE WAY",
-          "nodes": [
-            "MUMBAI",
-            {
-              "t": "WATER",
-              "sub": "A LONG WAY AROUND",
-              "hot": true
-            },
-            "NAVI MUMBAI"
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
-      "cam": "hold",
+      "cam": "orbit",
+      "camAz": 34,
+      "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE WATER",
-      "t0": 4.7562,
-      "t1": 6.2892,
-      "dur": 1.533,
-      "passageStart": 4.7562
+      "t0": 4.0877,
+      "t1": 7.3754,
+      "dur": 3.2877,
+      "passageStart": 4.0877
     },
     {
       "id": "1.03",
@@ -118,10 +110,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE WATER",
-      "t0": 6.2892,
-      "t1": 10.2454,
-      "dur": 3.9562,
-      "passageStart": 6.2892
+      "t0": 7.3754,
+      "t1": 10.6632,
+      "dur": 3.2877,
+      "passageStart": 7.3754
     },
     {
       "id": "1.04",
@@ -176,10 +168,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE WATER",
-      "t0": 10.2454,
+      "t0": 10.6632,
       "t1": 12.718,
-      "dur": 2.4726,
-      "passageStart": 10.2454
+      "dur": 2.0548,
+      "passageStart": 10.6632
     },
     {
       "id": "2.01",
@@ -1451,7 +1443,7 @@
       "camEl": 5,
       "fx": [],
       "tr": "fade",
-      "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+      "sceneTag": "SC.7 · BUILT, AND RELIED ON",
       "t0": 145.278,
       "t1": 149.8321,
       "dur": 4.5541,
@@ -1489,7 +1481,7 @@
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+      "sceneTag": "SC.7 · BUILT, AND RELIED ON",
       "t0": 149.8321,
       "t1": 153.111,
       "dur": 3.2789,
@@ -1525,7 +1517,7 @@
       "camEl": 5,
       "fx": [],
       "tr": "fade",
-      "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+      "sceneTag": "SC.7 · BUILT, AND RELIED ON",
       "t0": 153.111,
       "t1": 160.3975,
       "dur": 7.2865,
@@ -1579,7 +1571,7 @@
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+      "sceneTag": "SC.7 · BUILT, AND RELIED ON",
       "t0": 160.3975,
       "t1": 163.2211,
       "dur": 2.8235,
@@ -1635,7 +1627,7 @@
       "camEl": 5,
       "fx": [],
       "tr": "fade",
-      "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+      "sceneTag": "SC.7 · BUILT, AND RELIED ON",
       "t0": 163.2211,
       "t1": 170.5076,
       "dur": 7.2865,
@@ -1681,7 +1673,7 @@
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+      "sceneTag": "SC.7 · BUILT, AND RELIED ON",
       "t0": 170.5076,
       "t1": 173.3311,
       "dur": 2.8235,
@@ -1723,7 +1715,7 @@
       "camEl": 5,
       "fx": [],
       "tr": "fade",
-      "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+      "sceneTag": "SC.7 · BUILT, AND RELIED ON",
       "t0": 173.3311,
       "t1": 180.6177,
       "dur": 7.2865,
@@ -1781,7 +1773,7 @@
       "camEl": 5,
       "fx": [],
       "tr": "fade",
-      "sceneTag": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+      "sceneTag": "SC.7 · BUILT, AND RELIED ON",
       "t0": 180.6177,
       "t1": 188.815,
       "dur": 8.1973,

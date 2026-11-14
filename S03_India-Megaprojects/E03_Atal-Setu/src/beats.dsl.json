@@ -15,20 +15,16 @@
  {
   "id": "1.02",
   "p": "P01",
-  "w": 0.62,
-  "tpl": "flow",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "sea-bridge",
+  "opts": {
+   "piles": true,
+   "growDur": 4
+  },
   "title": "A BAY IN THE WAY",
-  "nodes": [
-   "MUMBAI",
-   {
-    "t": "WATER",
-    "sub": "A LONG WAY AROUND",
-    "hot": true
-   },
-   "NAVI MUMBAI"
-  ],
-  "links": "chain",
-  "layout": "row"
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 34
  },
  {
   "id": "1.03",
@@ -509,7 +505,7 @@
    "THE PROJECT"
   ],
   "size": 64,
-  "sc": "SC.7 · WHAT INDIA BUILT, WHAT IT RELIED ON",
+  "sc": "SC.7 · BUILT, AND RELIED ON",
   "hero": "sea-bridge",
   "heroOpts": {},
   "camAz": 55,
