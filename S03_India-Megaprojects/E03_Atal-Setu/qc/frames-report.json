@@ -1,5 +1,5 @@
 {
-  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\E03\\E03-r4.mp4",
+  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\e03\\E03_Atal-Setu-silent\\E03_Atal-Setu-silent.mp4",
   "width": 1920,
   "height": 1080,
   "fps": 30,
@@ -7,8 +7,8 @@
   "pixFmt": "yuv420p",
   "duration": 263.567,
   "frames": 7907,
-  "meanLuma": 48.758,
-  "maxDelta": 12.0464,
+  "meanLuma": 49.309,
+  "maxDelta": 12.4476,
   "frozenFrames": 1,
   "failures": []
 }

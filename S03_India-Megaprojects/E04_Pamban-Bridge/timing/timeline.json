@@ -1363,61 +1363,51 @@
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WIND",
       "t0": 113.574,
-      "t1": 119.5968,
-      "dur": 6.0228,
+      "t1": 117.5185,
+      "dur": 3.9445,
       "passageStart": 113.574
     },
     {
       "id": "6.02",
       "p": "P06",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "H",
       "scene": [
         {
           "op": "cw",
-          "tpl": "flow",
-          "title": "A KITE",
-          "nodes": [
-            "A KITE",
-            {
-              "t": "STEADY IN A BREEZE"
-            },
-            {
-              "t": "FIGHTS YOU IN A GALE",
-              "hot": true
-            }
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tpl": "hero",
+          "kind": "lift-span",
+          "opts": {
+            "lift": true,
+            "growDur": 4
+          },
+          "title": "A KITE IN A GALE",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
           "op": "cs",
-          "tpl": "flow",
-          "title": "A KITE",
-          "nodes": [
-            "A KITE",
-            {
-              "t": "STEADY IN A BREEZE"
-            },
-            {
-              "t": "FIGHTS YOU IN A GALE",
-              "hot": true
-            }
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tpl": "hero",
+          "kind": "lift-span",
+          "opts": {
+            "lift": true,
+            "growDur": 4
+          },
+          "title": "A KITE IN A GALE",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
-      "cam": "hold",
+      "cam": "orbit",
+      "camAz": 50,
+      "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WIND",
-      "t0": 119.5968,
-      "t1": 123.4251,
-      "dur": 3.8283,
-      "passageStart": 119.5968
+      "t0": 117.5185,
+      "t1": 123.8296,
+      "dur": 6.3112,
+      "passageStart": 117.5185
     },
     {
       "id": "6.03",
@@ -1472,13 +1462,57 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WIND",
-      "t0": 123.4251,
-      "t1": 131.4251,
-      "dur": 8,
-      "passageStart": 123.4251
+      "t0": 123.8296,
+      "t1": 130.1408,
+      "dur": 6.3112,
+      "passageStart": 123.8296
     },
     {
       "id": "6.04",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "lift-span",
+          "opts": {
+            "lift": true,
+            "hold": true,
+            "growDur": 5
+          },
+          "title": "THE SPAN CATCHES THE WIND",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "lift-span",
+          "opts": {
+            "lift": true,
+            "hold": true,
+            "growDur": 5
+          },
+          "title": "THE SPAN CATCHES THE WIND",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 56,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · WIND",
+      "t0": 130.1408,
+      "t1": 136.4519,
+      "dur": 6.3112,
+      "passageStart": 130.1408
+    },
+    {
+      "id": "6.05",
       "p": "P06",
       "kind": "number",
       "layer": "B",
@@ -1510,13 +1544,13 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WIND",
-      "t0": 131.4251,
-      "t1": 135.8309,
-      "dur": 4.4058,
-      "passageStart": 131.4251
+      "t0": 136.4519,
+      "t1": 139.292,
+      "dur": 2.84,
+      "passageStart": 136.4519
     },
     {
-      "id": "6.05",
+      "id": "6.06",
       "p": "P06",
       "kind": "hold",
       "layer": "B",
@@ -1564,13 +1598,13 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WIND",
-      "t0": 135.8309,
-      "t1": 139.6592,
-      "dur": 3.8283,
-      "passageStart": 135.8309
+      "t0": 139.292,
+      "t1": 141.7375,
+      "dur": 2.4456,
+      "passageStart": 139.292
     },
     {
-      "id": "6.06",
+      "id": "6.07",
       "p": "P06",
       "kind": "payoff",
       "layer": "H",
@@ -1626,10 +1660,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WIND",
-      "t0": 139.6592,
+      "t0": 141.7375,
       "t1": 145.682,
-      "dur": 6.0228,
-      "passageStart": 139.6592
+      "dur": 3.9445,
+      "passageStart": 141.7375
     },
     {
       "id": "7.01",
@@ -2808,14 +2842,7 @@
       "passageStart": 242.7539
     }
   ],
-  "clampReport": [
-    {
-      "beat": "6.03",
-      "from": 9.24,
-      "to": 8,
-      "reason": "too long"
-    }
-  ],
-  "bpm": 13.39,
+  "clampReport": [],
+  "bpm": 13.64,
   "leadIn": 0.8
 }

@@ -405,18 +405,18 @@
     const THREE = THREE_();
     const group = new THREE.Group(); const parts = {};
     const col = opts.color || 0x8fe4ff, acc = opts.accent || 0xff9b3d;
-    const water = H.mesh(new THREE.BoxGeometry(1300, 6, 160), { color: 0x6ecbff, opacity: 0.2, edgeOpacity: 0.6, rim: false });
+    const water = H.mesh(new THREE.BoxGeometry(960, 6, 160), { color: 0x6ecbff, opacity: 0.2, edgeOpacity: 0.6, rim: false });
     water.position.set(0, -70, 0); group.add(water);
     [-1, 1].forEach((sx) => {
-      const fixed = H.mesh(new THREE.BoxGeometry(520, 14, 56), { color: 0xeef6ff, opacity: 0.2, edgeOpacity: 0.95, rim: false });
-      fixed.position.set(sx * 430, 20, 0); group.add(fixed);
+      const fixed = H.mesh(new THREE.BoxGeometry(360, 14, 56), { color: 0xeef6ff, opacity: 0.2, edgeOpacity: 0.95, rim: false });
+      fixed.position.set(sx * 350, 20, 0); group.add(fixed);
       [-1, 1].forEach((z) => {
         const tw = H.mesh(new THREE.BoxGeometry(34, 330, 30), { color: col, opacity: 0.2, edgeOpacity: 0.95, rim: false });
         tw.position.set(sx * 178, 90, z * 34); group.add(tw);
       });
       for (let k = 0; k < 3; k++) {
         const pr = H.mesh(new THREE.CylinderGeometry(14, 16, 90, 14), { color: col, opacity: 0.16, edgeOpacity: 0.7, rim: false });
-        pr.position.set(sx * (330 + k * 150), -30, 0); group.add(pr);
+        pr.position.set(sx * (270 + k * 80), -30, 0); group.add(pr);
       }
     });
     const span = H.mesh(new THREE.BoxGeometry(322, 14, 56), { color: acc, opacity: 0.32, edgeOpacity: 1, rim: false });
@@ -440,7 +440,7 @@
         a.set([sx * 178, 262, z * 24, sx * 178, 230 - 150 * lift + 35, z * 24], n); n += 6;
       }); });
       cableGeo.attributes.position.needsUpdate = true;
-      if (opts.ship) { ship.position.set(lerp(-520, 520, (t * 0.12) % 1), -45 + 10, 0); }
+      if (opts.ship) { ship.position.set(lerp(-380, 380, (t * 0.12) % 1), -35, 0); }
     } };
   };
 
@@ -464,18 +464,18 @@
       return g;
     };
     if (mode === 'hub') {
-      const sea = H.mesh(new THREE.BoxGeometry(1100, 6, 700), { color: 0x6ecbff, opacity: 0.1, edgeOpacity: 0.35, rim: false });
+      const sea = H.mesh(new THREE.BoxGeometry(760, 6, 440), { color: 0x6ecbff, opacity: 0.1, edgeOpacity: 0.35, rim: false });
       sea.position.y = -30; group.add(sea);
-      const big = mkShip(300, 40, 0xeef6ff, true); big.position.set(0, 0, 0); group.add(big); parts.big = big;
+      const big = mkShip(380, 64, 0xeef6ff, true); big.position.set(0, 0, 0); group.add(big); parts.big = big;
       const smalls = [];
       for (let k = 0; k < 6; k++) {
         const a = (k / 6) * Math.PI * 2, s = mkShip(110, 18, col, false);
-        s.position.set(Math.cos(a) * 380, -6, Math.sin(a) * 250); s.rotation.y = -a + Math.PI / 2; group.add(s); smalls.push({ s, a });
+        s.position.set(Math.cos(a) * 300, -6, Math.sin(a) * 175); s.rotation.y = -a + Math.PI / 2; group.add(s); smalls.push({ s, a });
       }
       const boxes = [];
       for (let k = 0; k < 6; k++) { const b = H.mesh(new THREE.BoxGeometry(22, 14, 14), { color: acc, opacity: 0.6, edgeOpacity: 1, rim: false }); group.add(b); boxes.push(b); }
       return { group, parts, update(t) {
-        boxes.forEach((b, i) => { const u = ((t * 0.3 + i / 6) % 1); const a = smalls[i].a; b.position.set(lerp(0, Math.cos(a) * 380, u), 30 + 70 * Math.sin(u * Math.PI), lerp(0, Math.sin(a) * 250, u)); });
+        boxes.forEach((b, i) => { const u = ((t * 0.3 + i / 6) % 1); const a = smalls[i].a; b.position.set(lerp(0, Math.cos(a) * 300, u), 40 + 90 * Math.sin(u * Math.PI), lerp(0, Math.sin(a) * 175, u)); });
       } };
     }
     // quay and shallow: a side-view cross-section
@@ -503,14 +503,14 @@
     const col = opts.color || 0x8fe4ff, acc = opts.accent || 0xff9b3d;
     const tracks = opts.second ? [-70, 70] : [0];
     tracks.forEach((z, ti) => {
-      [-14, 14].forEach((dz) => { const r = H.mesh(new THREE.BoxGeometry(1200, 6, 5), { color: 0xeef6ff, opacity: 0.3, edgeOpacity: 1, rim: false }); r.position.set(0, 0, z + dz); group.add(r); });
-      for (let x = -560; x <= 560; x += 40) { const s = H.mesh(new THREE.BoxGeometry(8, 4, 50), { color: 0xd9b27c, opacity: 0.2, edgeOpacity: 0.6, rim: false }); s.position.set(x, -5, z); group.add(s); }
+      [-14, 14].forEach((dz) => { const r = H.mesh(new THREE.BoxGeometry(760, 6, 5), { color: 0xeef6ff, opacity: 0.3, edgeOpacity: 1, rim: false }); r.position.set(0, 0, z + dz); group.add(r); });
+      for (let x = -360; x <= 360; x += 40) { const s = H.mesh(new THREE.BoxGeometry(8, 4, 50), { color: 0xd9b27c, opacity: 0.2, edgeOpacity: 0.6, rim: false }); s.position.set(x, -5, z); group.add(s); }
     });
-    for (let x = -400; x <= 400; x += 400) {
+    for (let x = -260; x <= 260; x += 260) {
       [-1, 1].forEach((sx) => { const p = H.mesh(new THREE.BoxGeometry(8, 190, 8), { color: col, opacity: 0.2, edgeOpacity: 0.9, rim: false }); p.position.set(x, 90, sx * (opts.second ? 130 : 60)); group.add(p); });
       const bm = H.mesh(new THREE.BoxGeometry(8, 8, opts.second ? 270 : 130), { color: col, opacity: 0.2, edgeOpacity: 0.9, rim: false }); bm.position.set(x, 185, 0); group.add(bm);
     }
-    const wire = new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(-600, 160, tracks[0]), new THREE.Vector3(600, 160, tracks[0])]), new THREE.LineBasicMaterial({ color: acc, transparent: true, opacity: 0.9 }));
+    const wire = new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(-380, 160, tracks[0]), new THREE.Vector3(380, 160, tracks[0])]), new THREE.LineBasicMaterial({ color: acc, transparent: true, opacity: 0.9 }));
     group.add(wire);
     const wagon = new THREE.Group();
     const bed = H.mesh(new THREE.BoxGeometry(300, 12, 46), { color: 0xeef6ff, opacity: 0.25, edgeOpacity: 1, rim: false }); bed.position.y = 14; wagon.add(bed);
@@ -518,15 +518,15 @@
     for (let l = 0; l < L; l++) for (let i = 0; i < 3; i++) {
       const b = H.mesh(new THREE.BoxGeometry(88, 40, 40), { color: l ? acc : col, opacity: 0.32, edgeOpacity: 1, rim: false }); b.position.set(-100 + i * 100, 40 + l * 42, 0); wagon.add(b);
     }
-    wagon.position.z = tracks[0]; group.add(wagon); parts.wagon = wagon;
+    wagon.scale.setScalar(1.35); wagon.position.z = tracks[0]; group.add(wagon); parts.wagon = wagon;
     let ax = null;
     if (opts.axle) { ax = arrow(90, acc, 10); aim(ax, 0, -1, 0); ax.position.set(-110, 150, tracks[0]); group.add(ax); }
     let fast = null;
     if (opts.second) { fast = H.mesh(new THREE.BoxGeometry(220, 34, 40), { color: 0x8fe4ff, opacity: 0.3, edgeOpacity: 1, rim: false }); fast.position.set(0, 26, 70); group.add(fast); }
     return { group, parts, update(t) {
-      wagon.position.x = lerp(-300, 300, (t * 0.12) % 1);
+      wagon.position.x = lerp(-200, 200, (t * 0.12) % 1);
       if (ax) { ax.position.x = wagon.position.x - 110; ax.position.y = 118 + 10 * Math.sin(t * 3); }
-      if (fast) fast.position.x = lerp(-450, 450, (t * 0.25) % 1);
+      if (fast) fast.position.x = lerp(-300, 300, (t * 0.25) % 1);
     } };
   };
 

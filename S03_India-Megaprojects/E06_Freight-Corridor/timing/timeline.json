@@ -39,51 +39,49 @@
       "tr": "fade",
       "sceneTag": "SC.1 · THE LANE",
       "t0": 0.8,
-      "t1": 5.8353,
-      "dur": 5.0353,
+      "t1": 5.1096,
+      "dur": 4.3096,
       "passageStart": 0.8
     },
     {
       "id": "1.02",
       "p": "P01",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "H",
       "scene": [
         {
           "op": "cw",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "rail-corridor",
+          "opts": {
+            "layers": 1
+          },
           "title": "ONE LANE FOR EVERYONE",
-          "nodes": [
-            "TRUCKS",
-            "BUSES",
-            "SCOOTERS"
-          ],
-          "links": [],
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
           "op": "cs",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "rail-corridor",
+          "opts": {
+            "layers": 1
+          },
           "title": "ONE LANE FOR EVERYONE",
-          "nodes": [
-            "TRUCKS",
-            "BUSES",
-            "SCOOTERS"
-          ],
-          "links": [],
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
-      "cam": "hold",
+      "cam": "orbit",
+      "camAz": 50,
+      "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE LANE",
-      "t0": 5.8353,
-      "t1": 7.7865,
-      "dur": 1.9512,
-      "passageStart": 5.8353
+      "t0": 5.1096,
+      "t1": 9.4193,
+      "dur": 4.3096,
+      "passageStart": 5.1096
     },
     {
       "id": "1.03",
@@ -122,10 +120,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE LANE",
-      "t0": 7.7865,
-      "t1": 12.8218,
-      "dur": 5.0353,
-      "passageStart": 7.7865
+      "t0": 9.4193,
+      "t1": 13.7289,
+      "dur": 4.3096,
+      "passageStart": 9.4193
     },
     {
       "id": "1.04",
@@ -182,10 +180,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE LANE",
-      "t0": 12.8218,
-      "t1": 15.9689,
-      "dur": 3.1471,
-      "passageStart": 12.8218
+      "t0": 13.7289,
+      "t1": 16.4225,
+      "dur": 2.6935,
+      "passageStart": 13.7289
     },
     {
       "id": "1.05",
@@ -230,10 +228,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.1 · THE LANE",
-      "t0": 15.9689,
+      "t0": 16.4225,
       "t1": 19.116,
-      "dur": 3.1471,
-      "passageStart": 15.9689
+      "dur": 2.6935,
+      "passageStart": 16.4225
     },
     {
       "id": "2.01",
@@ -967,57 +965,49 @@
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · DOUBLE-STACK",
       "t0": 92.3402,
-      "t1": 96.7246,
-      "dur": 4.3844,
+      "t1": 96.0636,
+      "dur": 3.7234,
       "passageStart": 92.3402
     },
     {
       "id": "5.02",
       "p": "P05",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "H",
       "scene": [
         {
           "op": "cw",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "rail-corridor",
+          "opts": {
+            "layers": 2
+          },
           "title": "TWO BOOKS, NOT ONE",
-          "nodes": [
-            "ONE BOOK",
-            {
-              "t": "TWO BOOKS",
-              "sub": "THE SAME TRAIN, TWICE THE BOXES",
-              "hot": true
-            }
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
           "op": "cs",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "rail-corridor",
+          "opts": {
+            "layers": 2
+          },
           "title": "TWO BOOKS, NOT ONE",
-          "nodes": [
-            "ONE BOOK",
-            {
-              "t": "TWO BOOKS",
-              "sub": "THE SAME TRAIN, TWICE THE BOXES",
-              "hot": true
-            }
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
-      "cam": "hold",
+      "cam": "orbit",
+      "camAz": 50,
+      "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · DOUBLE-STACK",
-      "t0": 96.7246,
-      "t1": 99.443,
-      "dur": 2.7183,
-      "passageStart": 96.7246
+      "t0": 96.0636,
+      "t1": 102.021,
+      "dur": 5.9574,
+      "passageStart": 96.0636
     },
     {
       "id": "5.03",
@@ -1054,10 +1044,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · DOUBLE-STACK",
-      "t0": 99.443,
-      "t1": 106.458,
-      "dur": 7.0151,
-      "passageStart": 99.443
+      "t0": 102.021,
+      "t1": 107.9784,
+      "dur": 5.9574,
+      "passageStart": 102.021
     },
     {
       "id": "5.04",
@@ -1118,10 +1108,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · DOUBLE-STACK",
-      "t0": 106.458,
-      "t1": 112.1578,
-      "dur": 5.6997,
-      "passageStart": 106.458
+      "t0": 107.9784,
+      "t1": 112.8188,
+      "dur": 4.8404,
+      "passageStart": 107.9784
     },
     {
       "id": "5.05",
@@ -1180,10 +1170,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.5 · IDEA 2 · DOUBLE-STACK",
-      "t0": 112.1578,
+      "t0": 112.8188,
       "t1": 116.5422,
-      "dur": 4.3844,
-      "passageStart": 112.1578
+      "dur": 3.7234,
+      "passageStart": 112.8188
     },
     {
       "id": "6.01",
@@ -1231,57 +1221,51 @@
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WEIGHT",
       "t0": 116.5422,
-      "t1": 123.1861,
-      "dur": 6.6439,
+      "t1": 122.2223,
+      "dur": 5.6801,
       "passageStart": 116.5422
     },
     {
       "id": "6.02",
       "p": "P06",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "H",
       "scene": [
         {
           "op": "cw",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "rail-corridor",
+          "opts": {
+            "axle": true,
+            "layers": 1
+          },
           "title": "ONE FOOT, THEN TWO",
-          "nodes": [
-            "ONE FOOT",
-            {
-              "t": "PRESSES HARDER",
-              "hot": true
-            },
-            "THAN TWO"
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
           "op": "cs",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "rail-corridor",
+          "opts": {
+            "axle": true,
+            "layers": 1
+          },
           "title": "ONE FOOT, THEN TWO",
-          "nodes": [
-            "ONE FOOT",
-            {
-              "t": "PRESSES HARDER",
-              "hot": true
-            },
-            "THAN TWO"
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
-      "cam": "hold",
+      "cam": "orbit",
+      "camAz": 50,
+      "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WEIGHT",
-      "t0": 123.1861,
-      "t1": 127.3438,
-      "dur": 4.1576,
-      "passageStart": 123.1861
+      "t0": 122.2223,
+      "t1": 130.2223,
+      "dur": 8,
+      "passageStart": 122.2223
     },
     {
       "id": "6.03",
@@ -1334,10 +1318,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WEIGHT",
-      "t0": 127.3438,
-      "t1": 135.3438,
-      "dur": 8,
-      "passageStart": 127.3438
+      "t0": 130.2223,
+      "t1": 137.557,
+      "dur": 7.3347,
+      "passageStart": 130.2223
     },
     {
       "id": "6.04",
@@ -1372,10 +1356,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WEIGHT",
-      "t0": 135.3438,
-      "t1": 140.1557,
-      "dur": 4.8119,
-      "passageStart": 135.3438
+      "t0": 137.557,
+      "t1": 141.6928,
+      "dur": 4.1358,
+      "passageStart": 137.557
     },
     {
       "id": "6.05",
@@ -1426,10 +1410,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WEIGHT",
-      "t0": 140.1557,
-      "t1": 144.3133,
-      "dur": 4.1576,
-      "passageStart": 140.1557
+      "t0": 141.6928,
+      "t1": 145.2771,
+      "dur": 3.5843,
+      "passageStart": 141.6928
     },
     {
       "id": "6.06",
@@ -1486,10 +1470,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.6 · IDEA 3 · WEIGHT",
-      "t0": 144.3133,
+      "t0": 145.2771,
       "t1": 150.9572,
-      "dur": 6.6439,
-      "passageStart": 144.3133
+      "dur": 5.6801,
+      "passageStart": 145.2771
     },
     {
       "id": "7.01",
@@ -2656,8 +2640,8 @@
       "reason": "too long"
     },
     {
-      "beat": "6.03",
-      "from": 8.506,
+      "beat": "6.02",
+      "from": 8.824,
       "to": 8,
       "reason": "too long"
     },

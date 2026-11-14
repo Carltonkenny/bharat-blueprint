@@ -126,38 +126,36 @@
   {
    "id": "1.02",
    "p": "P01",
-   "w": 0.62,
-   "layer": "B",
-   "kind": "hold",
+   "w": 1.6,
+   "layer": "H",
+   "kind": "mech",
    "scene": [
     {
      "op": "cw",
-     "tpl": "flow",
+     "tpl": "hero",
+     "kind": "rail-corridor",
+     "opts": {
+      "layers": 1
+     },
      "title": "ONE LANE FOR EVERYONE",
-     "nodes": [
-      "TRUCKS",
-      "BUSES",
-      "SCOOTERS"
-     ],
-     "links": [],
-     "layout": "row"
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
      "op": "cs",
-     "tpl": "flow",
+     "tpl": "hero",
+     "kind": "rail-corridor",
+     "opts": {
+      "layers": 1
+     },
      "title": "ONE LANE FOR EVERYONE",
-     "nodes": [
-      "TRUCKS",
-      "BUSES",
-      "SCOOTERS"
-     ],
-     "links": [],
-     "layout": "row"
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
-   "cam": "hold",
+   "cam": "orbit",
+   "camAz": 50,
+   "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.1 · THE LANE"
   },
@@ -978,44 +976,36 @@
   {
    "id": "5.02",
    "p": "P05",
-   "w": 0.62,
-   "layer": "B",
-   "kind": "hold",
+   "w": 1.6,
+   "layer": "H",
+   "kind": "mech",
    "scene": [
     {
      "op": "cw",
-     "tpl": "flow",
+     "tpl": "hero",
+     "kind": "rail-corridor",
+     "opts": {
+      "layers": 2
+     },
      "title": "TWO BOOKS, NOT ONE",
-     "nodes": [
-      "ONE BOOK",
-      {
-       "t": "TWO BOOKS",
-       "sub": "THE SAME TRAIN, TWICE THE BOXES",
-       "hot": true
-      }
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
      "op": "cs",
-     "tpl": "flow",
+     "tpl": "hero",
+     "kind": "rail-corridor",
+     "opts": {
+      "layers": 2
+     },
      "title": "TWO BOOKS, NOT ONE",
-     "nodes": [
-      "ONE BOOK",
-      {
-       "t": "TWO BOOKS",
-       "sub": "THE SAME TRAIN, TWICE THE BOXES",
-       "hot": true
-      }
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
-   "cam": "hold",
+   "cam": "orbit",
+   "camAz": 50,
+   "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.5 · IDEA 2 · DOUBLE-STACK"
   },
@@ -1222,44 +1212,38 @@
   {
    "id": "6.02",
    "p": "P06",
-   "w": 0.62,
-   "layer": "B",
-   "kind": "hold",
+   "w": 1.6,
+   "layer": "H",
+   "kind": "mech",
    "scene": [
     {
      "op": "cw",
-     "tpl": "flow",
+     "tpl": "hero",
+     "kind": "rail-corridor",
+     "opts": {
+      "axle": true,
+      "layers": 1
+     },
      "title": "ONE FOOT, THEN TWO",
-     "nodes": [
-      "ONE FOOT",
-      {
-       "t": "PRESSES HARDER",
-       "hot": true
-      },
-      "THAN TWO"
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
      "op": "cs",
-     "tpl": "flow",
+     "tpl": "hero",
+     "kind": "rail-corridor",
+     "opts": {
+      "axle": true,
+      "layers": 1
+     },
      "title": "ONE FOOT, THEN TWO",
-     "nodes": [
-      "ONE FOOT",
-      {
-       "t": "PRESSES HARDER",
-       "hot": true
-      },
-      "THAN TWO"
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
-   "cam": "hold",
+   "cam": "orbit",
+   "camAz": 50,
+   "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.6 · IDEA 3 · WEIGHT"
   },

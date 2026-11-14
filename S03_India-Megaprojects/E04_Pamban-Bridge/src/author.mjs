@@ -40,8 +40,9 @@ hero('P05', LS, {}, 'THINK OF A RAINCOAT SEALED AT EVERY SEAM', { camAz: 46, w: 
 stmt('P05', ['SEAMS, COATINGS', 'AND STEEL TYPE MATTER.'], { size: 60 });
 // P06 wind
 stmt('P06', ['IDEA THREE:', 'WIND'], { sc: 'SC.6 · IDEA 3 · WIND', hero: LS, heroOpts: { lift: true }, size: 86 });
-flow('P06', 'A KITE', ['A KITE', { t: 'STEADY IN A BREEZE' }, { t: 'FIGHTS YOU IN A GALE', hot: true }]);
+hero('P06', LS, { lift: true, growDur: 4 }, 'A KITE IN A GALE', { camAz: 50 });
 hero('P06', LS, { lift: true, hold: true, growDur: 3 }, 'A LIFTING SPAN IS A BIG FLAT SURFACE', { callouts: [{ fx: 0.5, fy: 0.3, t: 'A FLAT SURFACE' }] });
+hero('P06', LS, { lift: true, hold: true, growDur: 5 }, 'THE SPAN CATCHES THE WIND', { camAz: 56 });
 num('P06', 'TRAINS ARE SUSPENDED ABOVE', '58', 'KM/H OF WIND, REPORTED', 'A RULE, AS MUCH AS THE STEEL', 'RAILWAY GAZETTE, APR 2025', { w: 1.3 });
 flow('P06', 'BEFORE THE RULE, AFTER IT', [{ t: 'BEFORE THE RULE', sub: 'WIND IS A SURPRISE' }, { t: 'AFTER IT', sub: 'WIND IS AN INPUT', hot: true }], 'chain', { w: 1.2 });
 stmt('P06', ['A RULE KEEPS THE BRIDGE SAFE', 'AS MUCH AS THE STEEL.'], { size: 60, k: 'payoff' });

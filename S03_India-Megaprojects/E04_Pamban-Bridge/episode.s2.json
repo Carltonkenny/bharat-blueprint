@@ -1342,48 +1342,38 @@
   {
    "id": "6.02",
    "p": "P06",
-   "w": 0.62,
-   "layer": "B",
-   "kind": "hold",
+   "w": 1.6,
+   "layer": "H",
+   "kind": "mech",
    "scene": [
     {
      "op": "cw",
-     "tpl": "flow",
-     "title": "A KITE",
-     "nodes": [
-      "A KITE",
-      {
-       "t": "STEADY IN A BREEZE"
-      },
-      {
-       "t": "FIGHTS YOU IN A GALE",
-       "hot": true
-      }
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tpl": "hero",
+     "kind": "lift-span",
+     "opts": {
+      "lift": true,
+      "growDur": 4
+     },
+     "title": "A KITE IN A GALE",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
      "op": "cs",
-     "tpl": "flow",
-     "title": "A KITE",
-     "nodes": [
-      "A KITE",
-      {
-       "t": "STEADY IN A BREEZE"
-      },
-      {
-       "t": "FIGHTS YOU IN A GALE",
-       "hot": true
-      }
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tpl": "hero",
+     "kind": "lift-span",
+     "opts": {
+      "lift": true,
+      "growDur": 4
+     },
+     "title": "A KITE IN A GALE",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
-   "cam": "hold",
+   "cam": "orbit",
+   "camAz": 50,
+   "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.6 · IDEA 3 · WIND"
   },
@@ -1444,6 +1434,46 @@
   {
    "id": "6.04",
    "p": "P06",
+   "w": 1.6,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "lift-span",
+     "opts": {
+      "lift": true,
+      "hold": true,
+      "growDur": 5
+     },
+     "title": "THE SPAN CATCHES THE WIND",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "lift-span",
+     "opts": {
+      "lift": true,
+      "hold": true,
+      "growDur": 5
+     },
+     "title": "THE SPAN CATCHES THE WIND",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 56,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.6 · IDEA 3 · WIND"
+  },
+  {
+   "id": "6.05",
+   "p": "P06",
    "w": 0.72,
    "layer": "B",
    "kind": "number",
@@ -1476,7 +1506,7 @@
    "sceneTag": "SC.6 · IDEA 3 · WIND"
   },
   {
-   "id": "6.05",
+   "id": "6.06",
    "p": "P06",
    "w": 0.62,
    "layer": "B",
@@ -1526,7 +1556,7 @@
    "sceneTag": "SC.6 · IDEA 3 · WIND"
   },
   {
-   "id": "6.06",
+   "id": "6.07",
    "p": "P06",
    "w": 1,
    "layer": "H",

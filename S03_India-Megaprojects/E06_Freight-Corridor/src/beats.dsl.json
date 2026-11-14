@@ -18,16 +18,15 @@
  {
   "id": "1.02",
   "p": "P01",
-  "w": 0.62,
-  "tpl": "flow",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 1
+  },
   "title": "ONE LANE FOR EVERYONE",
-  "nodes": [
-   "TRUCKS",
-   "BUSES",
-   "SCOOTERS"
-  ],
-  "links": [],
-  "layout": "row"
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 50
  },
  {
   "id": "1.03",
@@ -352,19 +351,15 @@
  {
   "id": "5.02",
   "p": "P05",
-  "w": 0.62,
-  "tpl": "flow",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 2
+  },
   "title": "TWO BOOKS, NOT ONE",
-  "nodes": [
-   "ONE BOOK",
-   {
-    "t": "TWO BOOKS",
-    "sub": "THE SAME TRAIN, TWICE THE BOXES",
-    "hot": true
-   }
-  ],
-  "links": "chain",
-  "layout": "row"
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 50
  },
  {
   "id": "5.03",
@@ -449,19 +444,16 @@
  {
   "id": "6.02",
   "p": "P06",
-  "w": 0.62,
-  "tpl": "flow",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "axle": true,
+   "layers": 1
+  },
   "title": "ONE FOOT, THEN TWO",
-  "nodes": [
-   "ONE FOOT",
-   {
-    "t": "PRESSES HARDER",
-    "hot": true
-   },
-   "THAN TWO"
-  ],
-  "links": "chain",
-  "layout": "row"
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 50
  },
  {
   "id": "6.03",

@@ -1,5 +1,5 @@
 {
-  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\E01\\E01-r5.mp4",
+  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\all\\E01_Chenab-Bridge-silent\\E01_Chenab-Bridge-silent.mp4",
   "width": 1920,
   "height": 1080,
   "fps": 30,
@@ -7,8 +7,8 @@
   "pixFmt": "yuv420p",
   "duration": 292.167,
   "frames": 8765,
-  "meanLuma": 49.543,
-  "maxDelta": 15.9805,
+  "meanLuma": 49.626,
+  "maxDelta": 15.5439,
   "frozenFrames": 1,
   "failures": []
 }

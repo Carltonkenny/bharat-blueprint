@@ -1,0 +1,16 @@
+{
+  "video": "E03_Atal-Setu-silent.mp4",
+  "frames": 7907,
+  "seconds": 263.6,
+  "meanYDIF": 0.6408,
+  "motionFrames": 0.5783,
+  "emptyFrames": 0.0817,
+  "longestEmpty": 3.67,
+  "pass": true,
+  "thresholds": {
+    "meanYDIF": 0.2,
+    "motionFrames": 0.08,
+    "emptyFrames": 0.12,
+    "longestEmpty": 4.0
+  }
+}

@@ -497,21 +497,16 @@
  {
   "id": "6.02",
   "p": "P06",
-  "w": 0.62,
-  "tpl": "flow",
-  "title": "A KITE",
-  "nodes": [
-   "A KITE",
-   {
-    "t": "STEADY IN A BREEZE"
-   },
-   {
-    "t": "FIGHTS YOU IN A GALE",
-    "hot": true
-   }
-  ],
-  "links": "chain",
-  "layout": "row"
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "lift-span",
+  "opts": {
+   "lift": true,
+   "growDur": 4
+  },
+  "title": "A KITE IN A GALE",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 50
  },
  {
   "id": "6.03",
@@ -538,6 +533,21 @@
  {
   "id": "6.04",
   "p": "P06",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "lift-span",
+  "opts": {
+   "lift": true,
+   "hold": true,
+   "growDur": 5
+  },
+  "title": "THE SPAN CATCHES THE WIND",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 56
+ },
+ {
+  "id": "6.05",
+  "p": "P06",
   "w": 0.72,
   "tpl": "number",
   "k": "number",
@@ -549,7 +559,7 @@
   "source": "RAILWAY GAZETTE, APR 2025"
  },
  {
-  "id": "6.05",
+  "id": "6.06",
   "p": "P06",
   "w": 0.62,
   "tpl": "flow",
@@ -569,7 +579,7 @@
   "layout": "row"
  },
  {
-  "id": "6.06",
+  "id": "6.07",
   "p": "P06",
   "w": 1,
   "tpl": "statement",

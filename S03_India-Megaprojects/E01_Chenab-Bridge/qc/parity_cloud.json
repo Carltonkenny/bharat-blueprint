@@ -1,0 +1,16 @@
+{
+  "video": "E01_Chenab-Bridge-silent.mp4",
+  "frames": 8765,
+  "seconds": 292.2,
+  "meanYDIF": 0.7033,
+  "motionFrames": 0.5333,
+  "emptyFrames": 0.0708,
+  "longestEmpty": 2.8,
+  "pass": true,
+  "thresholds": {
+    "meanYDIF": 0.2,
+    "motionFrames": 0.08,
+    "emptyFrames": 0.12,
+    "longestEmpty": 4.0
+  }
+}

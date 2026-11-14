@@ -1,0 +1,16 @@
+{
+  "video": "E02_Atal-Tunnel-silent.mp4",
+  "frames": 7850,
+  "seconds": 261.7,
+  "meanYDIF": 0.6028,
+  "motionFrames": 0.478,
+  "emptyFrames": 0.0618,
+  "longestEmpty": 1.97,
+  "pass": true,
+  "thresholds": {
+    "meanYDIF": 0.2,
+    "motionFrames": 0.08,
+    "emptyFrames": 0.12,
+    "longestEmpty": 4.0
+  }
+}

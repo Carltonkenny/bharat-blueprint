@@ -1,5 +1,5 @@
 {
-  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\E02\\E02-r5.mp4",
+  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\all\\E02_Atal-Tunnel-silent\\E02_Atal-Tunnel-silent.mp4",
   "width": 1920,
   "height": 1080,
   "fps": 30,
@@ -7,8 +7,8 @@
   "pixFmt": "yuv420p",
   "duration": 261.667,
   "frames": 7850,
-  "meanLuma": 49.131,
-  "maxDelta": 18.4969,
+  "meanLuma": 49.215,
+  "maxDelta": 20.2887,
   "frozenFrames": 1,
   "failures": []
 }

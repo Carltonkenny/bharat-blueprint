@@ -8,7 +8,7 @@ const { hero, stmt, flow, num, timeline, finish } = authorKit(dir, { id: 'E06', 
 
 // P01
 hero('P01', RC, { layers: 1, second: true }, 'A LANE ONLY FOR GOODS', { sc: 'SC.1 · THE LANE', k: 'hook' });
-flow('P01', 'ONE LANE FOR EVERYONE', ['TRUCKS', 'BUSES', 'SCOOTERS'], [], {});
+hero('P01', RC, { layers: 1 }, 'ONE LANE FOR EVERYONE', { camAz: 50 });
 hero('P01', RC, { layers: 1, second: true }, 'EVERYONE MOVES AT THE SLOWEST SPEED', { camAz: 48 });
 stmt('P01', ['NOW IMAGINE A LANE', 'BUILT ONLY FOR TRUCKS.'], { size: 62, k: 'hook' });
 stmt('P01', ['INDIA\'S DEDICATED', 'FREIGHT CORRIDORS'], { size: 64, hero: RC, heroOpts: { layers: 2 } });
@@ -31,13 +31,13 @@ flow('P04', 'BEFORE A DEDICATED LINE, AFTER IT', [{ t: 'BEFORE', sub: 'A GOODS T
 hero('P04', RC, { layers: 1, second: true }, 'NO MORE WAITING TO PASS', { camAz: 48 });
 // P05 double stack
 stmt('P05', ['IDEA TWO:', 'DOUBLE-STACK'], { sc: 'SC.5 · IDEA 2 · DOUBLE-STACK', hero: RC, heroOpts: { layers: 2 }, size: 74 });
-flow('P05', 'TWO BOOKS, NOT ONE', ['ONE BOOK', { t: 'TWO BOOKS', sub: 'THE SAME TRAIN, TWICE THE BOXES', hot: true }]);
+hero('P05', RC, { layers: 2 }, 'TWO BOOKS, NOT ONE', { camAz: 50 });
 hero('P05', RC, { layers: 1 }, 'ONE LAYER OF BOXES', { camAz: 46 });
 hero('P05', RC, { layers: 2 }, 'TWO LAYERS, IF THE WIRES LEAVE ROOM', { callouts: [{ fx: 0.5, fy: 0.2, t: 'THE WIRE' }, { fx: 0.5, fy: 0.5, t: 'TWO LAYERS' }], w: 1.3 });
 stmt('P05', ['RAILWAYS, 2019: SUCH A TRAIN', 'CAN CARRY FOUR TIMES', 'THE CONTAINER UNITS'], { size: 54 });
 // P06 axle load
 stmt('P06', ['IDEA THREE:', 'WEIGHT'], { sc: 'SC.6 · IDEA 3 · WEIGHT', hero: RC, heroOpts: { axle: true, layers: 2 }, size: 86 });
-flow('P06', 'ONE FOOT, THEN TWO', ['ONE FOOT', { t: 'PRESSES HARDER', hot: true }, 'THAN TWO']);
+hero('P06', RC, { axle: true, layers: 1 }, 'ONE FOOT, THEN TWO', { camAz: 50 });
 hero('P06', RC, { axle: true, layers: 2 }, 'A HEAVIER AXLE PRESSES HARDER', { callouts: [{ fx: 0.4, fy: 0.45, t: 'AXLE LOAD' }], w: 1.3 });
 num('P06', 'CORRIDOR WAGONS ARE DESIGNED FOR', '25', 'TONNES ON EACH AXLE', 'SO THE TRACK MUST BE STRONGER', 'PIB, 2019');
 flow('P06', 'OLD WAGONS, NEW WAGONS (2019)', [{ t: 'OLD WAGONS', sub: 'SIXTY-ONE TO SEVENTY-ONE TONNES' }, { t: 'NEW WAGONS', sub: 'UP TO EIGHTY-ONE TONNES, FASTER', hot: true }], 'chain', { w: 1.3 });

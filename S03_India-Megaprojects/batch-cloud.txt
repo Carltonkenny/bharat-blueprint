@@ -1,0 +1,7 @@
+E01 parity {"video":"E01_Chenab-Bridge-silent.mp4","frames":8765,"seconds":292.2,"meanYDIF":0.7033,"motionFrames":0.5333,"emptyFrames":0.0708,"longestEmpty":2.8,"pass":true, | all frame gates pass
+E02 parity {"video":"E02_Atal-Tunnel-silent.mp4","frames":7850,"seconds":261.7,"meanYDIF":0.6028,"motionFrames":0.478,"emptyFrames":0.0618,"longestEmpty":1.97,"pass":true, | all frame gates pass
+E03 parity {"video":"E03_Atal-Setu-silent.mp4","frames":7907,"seconds":263.6,"meanYDIF":0.6408,"motionFrames":0.5783,"emptyFrames":0.0817,"longestEmpty":3.67,"pass":true, | all frame gates pass
+E04 parity {"video":"E04_Pamban-Bridge-silent.mp4","frames":7392,"seconds":246.4,"meanYDIF":0.3616,"motionFrames":0.1186,"emptyFrames":0.1112,"longestEmpty":4.4,"pass":false, | all frame gates pass
+E05 parity {"video":"E05_Vizhinjam-Port-silent.mp4","frames":7241,"seconds":241.4,"meanYDIF":0.2788,"motionFrames":0.1148,"emptyFrames":0.0855,"longestEmpty":3.47,"pass":true, | all frame gates pass
+E06 parity {"video":"E06_Freight-Corridor-silent.mp4","frames":7511,"seconds":250.4,"meanYDIF":0.2594,"motionFrames":0.0699,"emptyFrames":0.0925,"longestEmpty":4.17,"pass":false, | all frame gates pass
+POST DONE
