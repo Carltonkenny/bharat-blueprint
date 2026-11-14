@@ -1,0 +1,16 @@
+{
+  "video": "E02-r4.mp4",
+  "frames": 7850,
+  "seconds": 261.7,
+  "meanYDIF": 0.3213,
+  "motionFrames": 0.1289,
+  "emptyFrames": 0.0665,
+  "longestEmpty": 4.93,
+  "pass": false,
+  "thresholds": {
+    "meanYDIF": 0.2,
+    "motionFrames": 0.08,
+    "emptyFrames": 0.12,
+    "longestEmpty": 4.0
+  }
+}

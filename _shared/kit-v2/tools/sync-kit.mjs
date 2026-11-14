@@ -8,7 +8,7 @@ import { KIT_ROOT } from './paths.mjs';
 
 const BROWSER_FILES = [
   'prng.js', 'tokens.js', 'scenereport.js', 'draw.js', 'labels.js', 'fx.js', 'camera.js',
-  'panels.js', 'props.js', 'figures.js', 'charts.js', 'maps.js', 'scenes.js', 'film.js',
+  'panels.js', 'props.js', 'figures.js', 'charts.js', 'maps.js', 'compose.js', 'scenes.js', 'film.js',
 ];
 
 const FONT_DIR = join(KIT_ROOT, 'assets', 'fonts');
@@ -25,6 +25,7 @@ export function syncKit(projectDir) {
   cpSync(join(KIT_ROOT, 'src', 'hero', 'stage.js'), join(kit, 'hero', 'stage.js'));
   cpSync(join(KIT_ROOT, 'src', 'hero', 'index.js'), join(kit, 'hero', 'index.js'));
   cpSync(join(KIT_ROOT, 'src', 'hero', 'more.js'), join(kit, 'hero', 'more.js'));
+  if (existsSync(join(KIT_ROOT, 'src', 'hero', 's03.js'))) cpSync(join(KIT_ROOT, 'src', 'hero', 's03.js'), join(kit, 'hero', 's03.js'));
   cpSync(join(KIT_ROOT, 'vendor', 'three', 'three.iife.js'), join(kit, 'vendor', 'three.iife.js'));
 
   if (existsSync(FONT_DIR)) {

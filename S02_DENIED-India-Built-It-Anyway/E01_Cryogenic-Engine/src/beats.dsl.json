@@ -1,0 +1,1513 @@
+[
+ {
+  "id": "1.01",
+  "p": "P01",
+  "w": 1,
+  "sc": "SC.1 · THE FINAL PUSH",
+  "k": "hook",
+  "tpl": "hero",
+  "kind": "rocket-stack",
+  "opts": {
+   "flame": 0
+  },
+  "title": "A ROCKET CAN CLIMB",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.08,
+    "t": "UPPER STAGE"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.9,
+    "t": "FIRST STAGES"
+   }
+  ],
+  "flows": [
+   {
+    "a": [
+     0.08,
+     0.95
+    ],
+    "b": [
+     0.08,
+     0.05
+    ]
+   }
+  ],
+  "chain": "TOWARD SPACE",
+  "camAz": 22
+ },
+ {
+  "id": "1.02",
+  "p": "P01",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE FINAL PUSH",
+  "nodes": [
+   "THE ROCKET",
+   {
+    "t": "FINAL PUSH",
+    "sub": "UPPER STAGE"
+   },
+   {
+    "t": "THE ENGINE",
+    "sub": "BEYOND YOUR REACH",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "1.03",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "NOT BECAUSE",
+   "PHYSICS FORBIDS IT."
+  ],
+  "hero": "chamber-nozzle",
+  "heroOpts": {
+   "flame": 0.3
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "1.04",
+  "p": "P01",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE TECHNOLOGY IS NOT BEING TRANSFERRED",
+  "nodes": [
+   "THE ENGINE",
+   {
+    "t": "TRANSFER",
+    "sub": "NOT HAPPENING",
+    "hot": true
+   },
+   "YOU"
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ],
+   [
+    1,
+    2,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "1.05",
+  "p": "P01",
+  "w": 1.3,
+  "tpl": "statement",
+  "k": "hook",
+  "lines": [
+   "SO WHAT DO YOU DO",
+   "WHEN THE ONE ENGINE YOU NEED",
+   "IS THE ONE YOU CANNOT GET?"
+  ],
+  "size": 76,
+  "align": "center"
+ },
+ {
+  "id": "2.01",
+  "p": "P02",
+  "w": 1,
+  "sc": "SC.2 · THE RESTRICTION",
+  "tpl": "timeline",
+  "title": "THE EARLY NINETEEN NINETIES",
+  "items": [
+   {
+    "t": "EARLY 1990s",
+    "sub": "RESTRICTIONS ON ACCESS TO CRYOGENIC ROCKET TECHNOLOGY",
+    "hot": true,
+    "at": 0.5,
+    "size": 84
+   }
+  ]
+ },
+ {
+  "id": "2.02",
+  "p": "P02",
+  "w": 1,
+  "tpl": "flow",
+  "title": "AN UNCOMFORTABLE MESSAGE",
+  "nodes": [
+   "INDIA",
+   {
+    "t": "ACCESS",
+    "sub": "RESTRICTED",
+    "hot": true
+   },
+   "CRYOGENIC TECHNOLOGY"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "2.03",
+  "p": "P02",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "chamber-nozzle",
+  "opts": {
+   "flame": 0.6
+  },
+  "title": "THE MACHINE EXISTED",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.2,
+    "t": "OTHER NATIONS HAD MASTERED IT"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.85,
+    "t": "ACCESS WAS ANOTHER MATTER"
+   }
+  ],
+  "camAz": 18
+ },
+ {
+  "id": "2.04",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE TEMPTING STORY:",
+   "THEY SAID NO,",
+   "INDIA SAID YES."
+  ],
+  "hero": "pipe-network",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "2.05",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   {
+    "t": "THE REAL STORY",
+    "col": "ink"
+   },
+   {
+    "t": "IS HARDER.",
+    "col": "accent"
+   }
+  ],
+  "prop": "lockedCabinet",
+  "pscale": 4
+ },
+ {
+  "id": "2.06",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A REFUSAL DOES NOT",
+   "CREATE AN ENGINE."
+  ],
+  "hero": "turbopump",
+  "hscale": 1,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "2.07",
+  "p": "P02",
+  "w": 1,
+  "tpl": "figure",
+  "title": "IT CREATES A PROBLEM",
+  "pose": "point",
+  "fig2": {
+   "pose": "reach",
+   "x": 1250
+  },
+  "figX": 640,
+  "props": [
+   {
+    "prop": "desk",
+    "x": 960,
+    "y": 690,
+    "scale": 3.2
+   }
+  ],
+  "callouts": [
+   {
+    "t": "ENGINEERS MUST SOLVE IT",
+    "dx": 0,
+    "dy": -40
+   }
+  ],
+  "ground": 840
+ },
+ {
+  "id": "2.08",
+  "p": "P02",
+  "w": 1,
+  "tpl": "flow",
+  "title": "ONE STUBBORN PIECE AT A TIME",
+  "nodes": [
+   "PUMP",
+   "VALVE",
+   "SEAL",
+   "CHAMBER",
+   "NOZZLE"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "2.09",
+  "p": "P02",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "chamber-nozzle",
+  "opts": {
+   "flame": 0
+  },
+  "title": "PIECES BECOME AN ENGINE",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "explode": {
+   "at": 0.1,
+   "dur": 0.45,
+   "amt": 0.9
+  },
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.15,
+    "t": "CHAMBER"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.85,
+    "t": "NOZZLE"
+   }
+  ],
+  "camAz": 24
+ },
+ {
+  "id": "2.10",
+  "p": "P02",
+  "w": 1.2,
+  "tpl": "statement",
+  "k": "payoff",
+  "lines": [
+   {
+    "t": "STUBBORN.",
+    "col": "ink"
+   },
+   {
+    "t": "TESTED.",
+    "col": "cyan"
+   },
+   {
+    "t": "REPEATED.",
+    "col": "accent"
+   }
+  ],
+  "hero": "rocket-stack",
+  "opts": {
+   "flame": 0
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "3.01",
+  "p": "P03",
+  "w": 1.1,
+  "sc": "SC.3 · IDEA 1 · FUEL AND OXYGEN",
+  "tpl": "figure",
+  "title": "START WITH A KITCHEN GAS STOVE",
+  "pose": "reach",
+  "accent": "armR",
+  "figX": 620,
+  "props": [
+   {
+    "prop": "gasStove",
+    "x": 1090,
+    "scale": 4.4
+   },
+   {
+    "prop": "pot",
+    "x": 1090,
+    "y": 672,
+    "scale": 3.4
+   }
+  ],
+  "propOpts": {
+   "flame": 0.9
+  },
+  "callouts": [
+   {
+    "t": "FUEL MEETS OXYGEN AND BURNS",
+    "prop": 0,
+    "dy": -60
+   }
+  ]
+ },
+ {
+  "id": "3.02",
+  "p": "P03",
+  "w": 1,
+  "tpl": "flow",
+  "title": "FUEL + OXYGEN = HEAT",
+  "nodes": [
+   "FUEL",
+   "OXYGEN",
+   {
+    "t": "HEAT",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    2,
+    ""
+   ],
+   [
+    1,
+    2,
+    ""
+   ]
+  ],
+  "layout": "tri"
+ },
+ {
+  "id": "3.03",
+  "p": "P03",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "tank",
+  "title": "A ROCKET CARRIES ITS OWN OXYGEN",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "FUEL"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.72,
+    "t": "OWN OXYGEN"
+   }
+  ],
+  "chain": "FAR MORE INTENSE THAN A STOVE",
+  "camAz": 20
+ },
+ {
+  "id": "3.04",
+  "p": "P03",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "tank",
+  "title": "KEPT EXTRAORDINARILY COLD",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "cut": [
+   0.05,
+   0.5
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "EXTREMELY LOW TEMPERATURE"
+   },
+   {
+    "fx": 0.15,
+    "fy": 0.5,
+    "t": "FROST ON THE TANK"
+   }
+  ],
+  "camAz": -24
+ },
+ {
+  "id": "3.05",
+  "p": "P03",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "pipe-network",
+  "title": "THE PLUMBING IS UNFORGIVING",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.3,
+    "fy": 0.6,
+    "t": "JOINTS AND SEALS"
+   },
+   {
+    "fx": 0.75,
+    "fy": 0.35,
+    "t": "COLD FLOWS THROUGH"
+   }
+  ],
+  "flows": [
+   {
+    "a": [
+     0.05,
+     0.7
+    ],
+    "b": [
+     0.95,
+     0.3
+    ],
+    "col": "cyan"
+   }
+  ],
+  "camAz": 30
+ },
+ {
+  "id": "3.06",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE COLD MAKES",
+   "THEM USEFUL."
+  ],
+  "hero": "tank",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "3.07",
+  "p": "P03",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "BUT IT ALSO MAKES THE",
+   {
+    "t": "PLUMBING UNFORGIVING.",
+    "col": "accent"
+   }
+  ],
+  "hero": "pipe-network",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "4.01",
+  "p": "P04",
+  "w": 1.1,
+  "sc": "SC.4 · IDEA 2 · THE PUMP",
+  "tpl": "figure",
+  "title": "NOW PICTURE A BICYCLE PUMP",
+  "pose": "pumpUp",
+  "poseTo": "pumpDown",
+  "hz": 0.9,
+  "figX": 600,
+  "props": [
+   {
+    "prop": "bicyclePump",
+    "x": 930,
+    "scale": 4.4
+   },
+   {
+    "prop": "tyre",
+    "x": 1330,
+    "scale": 2.2
+   }
+  ],
+  "motion": {
+   "x1": 960,
+   "y1": 560,
+   "x2": 1290,
+   "y2": 720
+  },
+  "callouts": [
+   {
+    "t": "EACH PUSH FORCES AIR THROUGH A NARROW PASSAGE",
+    "prop": 0,
+    "dy": -120
+   }
+  ]
+ },
+ {
+  "id": "4.02",
+  "p": "P04",
+  "w": 1,
+  "tpl": "flow",
+  "title": "EACH PUSH, A NARROW PASSAGE",
+  "nodes": [
+   "PUSH",
+   {
+    "t": "NARROW PASSAGE",
+    "hot": true
+   },
+   "AIR OUT"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.03",
+  "p": "P04",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A ROCKET ENGINE NEEDS",
+   "A CONTINUOUS,",
+   "ENORMOUS FLOW."
+  ],
+  "hero": "pipe-network",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "4.04",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "turbopump",
+  "title": "POWERFUL TURBOPUMPS SPIN RAPIDLY",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "SPINS RAPIDLY"
+   },
+   {
+    "fx": 0.08,
+    "fy": 0.5,
+    "t": "FUEL AND OXIDISER IN"
+   },
+   {
+    "fx": 0.92,
+    "fy": 0.5,
+    "t": "ON TO THE CHAMBER"
+   }
+  ],
+  "flows": [
+   {
+    "a": [
+     0,
+     0.5
+    ],
+    "b": [
+     0.3,
+     0.5
+    ]
+   },
+   {
+    "a": [
+     0.7,
+     0.5
+    ],
+    "b": [
+     1,
+     0.5
+    ]
+   }
+  ],
+  "camAz": 26
+ },
+ {
+  "id": "4.05",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "turbopump",
+  "title": "INSIDE THE PUMP",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "cut": [
+   0.05,
+   0.45
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.45,
+    "t": "IMPELLER PUSHES THE FLOW"
+   },
+   {
+    "fx": 0.8,
+    "fy": 0.7,
+    "t": "PRESSURE BUILDS"
+   }
+  ],
+  "camAz": -30
+ },
+ {
+  "id": "4.06a",
+  "p": "P04",
+  "w": 0.4,
+  "tpl": "statement",
+  "lines": [
+   {
+    "t": "TINY HAND PUMPS CANNOT DO IT",
+    "col": "accent"
+   }
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "4.06b",
+  "p": "P04",
+  "w": 0.6,
+  "tpl": "flow",
+  "title": "TINY HAND PUMPS CANNOT DO IT",
+  "nodes": [
+   {
+    "t": "TINY HAND PUMP",
+    "sub": "ONE PUSH"
+   },
+   {
+    "t": "TURBOPUMP",
+    "sub": "CONTINUOUS FLOW",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "4.07",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "statement",
+  "k": "payoff",
+  "lines": [
+   "THE PUMP IS NOT",
+   "AN ACCESSORY."
+  ],
+  "sub": "WITHOUT THE RIGHT PRESSURE AND FLOW, THE WHOLE ENGINE FAILS.",
+  "hero": "turbopump",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "5.01",
+  "p": "P05",
+  "w": 1.1,
+  "sc": "SC.5 · IDEA 3 · THE CHAMBER",
+  "tpl": "figure",
+  "title": "THEN COMES THE CHAMBER",
+  "pose": "point",
+  "figX": 620,
+  "props": [
+   {
+    "prop": "pressureCooker",
+    "x": 1120,
+    "scale": 4.6
+   }
+  ],
+  "propOpts": {
+   "steam": 0.9
+  },
+  "callouts": [
+   {
+    "t": "A PRESSURE COOKER TRAPS HOT GAS",
+    "prop": 0,
+    "dy": -80
+   }
+  ]
+ },
+ {
+  "id": "5.02",
+  "p": "P05",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE GOAL IS NOT TO TRAP THE GAS",
+  "nodes": [
+   {
+    "t": "HOT GAS",
+    "sub": "IN THE CHAMBER"
+   },
+   {
+    "t": "SHAPED NOZZLE",
+    "hot": true
+   },
+   {
+    "t": "RACING OUT"
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "5.03",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "chamber-nozzle",
+  "opts": {
+   "flame": 1
+  },
+  "title": "THE COMBUSTION CHAMBER",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.25,
+    "t": "CHAMBER"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "THROAT"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.85,
+    "t": "SHAPED NOZZLE"
+   }
+  ],
+  "camAz": 20
+ },
+ {
+  "id": "5.04",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "chamber-nozzle",
+  "opts": {
+   "flame": 1
+  },
+  "title": "EXHAUST ACCELERATES BACKWARD",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "flows": [
+   {
+    "a": [
+     0.5,
+     0.45
+    ],
+    "b": [
+     0.5,
+     1.05
+    ],
+    "col": "accent2"
+   }
+  ],
+  "callouts": [
+   {
+    "fx": 0.55,
+    "fy": 0.9,
+    "t": "EXHAUST GOES BACKWARD"
+   }
+  ],
+  "camAz": -22
+ },
+ {
+  "id": "5.05",
+  "p": "P05",
+  "w": 1,
+  "tpl": "flow",
+  "title": "BACKWARD EXHAUST, FORWARD MOMENTUM",
+  "nodes": [
+   "EXHAUST BACKWARD",
+   {
+    "t": "ROCKET FORWARD",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    "MOMENTUM"
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "5.06",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "chamber-nozzle",
+  "opts": {
+   "flame": 1
+  },
+  "title": "HEAT INSIDE, COLD NEARBY",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "cut": [
+   0.05,
+   0.45
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "INTENSE HEAT"
+   },
+   {
+    "fx": 0.88,
+    "fy": 0.35,
+    "t": "COLD PROPELLANT ARRIVING"
+   }
+  ],
+  "camAz": 28
+ },
+ {
+  "id": "5.07",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "EVERYTHING HAS TO COOPERATE",
+  "nodes": [
+   "MATERIALS",
+   "SEALS",
+   "COOLING PASSAGES",
+   "VALVES"
+  ],
+  "layout": "grid:2",
+  "hot": -1
+ },
+ {
+  "id": "5.08",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "k": "payoff",
+  "lines": [
+   "EVERYTHING",
+   "HAS TO COOPERATE."
+  ],
+  "hero": "chamber-nozzle",
+  "heroOpts": {
+   "flame": 1
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "6.01",
+  "p": "P06",
+  "w": 1.1,
+  "sc": "SC.6 · BUILDING IT",
+  "tpl": "statement",
+  "lines": [
+   "COPYING THE OUTLINE",
+   "OF AN ENGINE"
+  ],
+  "sub": "IS NOT THE SAME AS BUILDING ONE.",
+  "hero": "rocket-stack",
+  "opts": {
+   "flame": 0
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "6.02",
+  "p": "P06",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE INVISIBLE BEHAVIOUR INSIDE",
+  "nodes": [
+   "FLOW",
+   "HEAT",
+   "VIBRATION",
+   "PRESSURE"
+  ],
+  "layout": "row",
+  "links": []
+ },
+ {
+  "id": "6.03",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "TEST, LEARN, CHANGE, TEST AGAIN",
+  "nodes": [
+   "TEST",
+   {
+    "t": "FAIL",
+    "hot": true
+   },
+   "CHANGE"
+  ],
+  "links": "cycle",
+  "layout": "tri"
+ },
+ {
+  "id": "6.04",
+  "p": "P06",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "TEST.",
+   "DISCOVER WHAT FAILED.",
+   "CHANGE THE DESIGN.",
+   "TEST AGAIN."
+  ],
+  "size": 72,
+  "hero": "turbopump",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "7.01",
+  "p": "P07",
+  "w": 1.1,
+  "sc": "SC.7 · THE LONG ROUTE",
+  "tpl": "statement",
+  "lines": [
+   "INDIA'S SPACE PROGRAMME",
+   "TOOK THAT LONG ROUTE."
+  ],
+  "hero": "rocket-stack",
+  "opts": {
+   "flame": 0
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "7.02",
+  "p": "P07",
+  "w": 1,
+  "tpl": "timeline",
+  "title": "THE GSLV ROCKET",
+  "items": [
+   {
+    "t": "EARLY FLIGHTS",
+    "sub": "CRYOGENIC STAGES SUPPLIED FROM ABROAD",
+    "at": 0.2,
+    "size": 58
+   },
+   {
+    "t": "JAN 2014",
+    "sub": "FIRST FLIGHT WITH AN INDIGENOUS CRYOGENIC STAGE",
+    "at": 0.8,
+    "hot": true,
+    "size": 72
+   }
+  ]
+ },
+ {
+  "id": "7.03",
+  "p": "P07",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "rocket-stack",
+  "opts": {
+   "flame": 1
+  },
+  "title": "GSLV: THE INDIGENOUS CRYOGENIC STAGE",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.1,
+    "t": "CRYOGENIC UPPER STAGE"
+   }
+  ],
+  "flows": [
+   {
+    "a": [
+     0.8,
+     0.9
+    ],
+    "b": [
+     0.8,
+     0.1
+    ]
+   }
+  ],
+  "camAz": 20
+ },
+ {
+  "id": "7.04",
+  "p": "P07",
+  "w": 1,
+  "tpl": "flow",
+  "title": "LATER: A DIFFERENT INDIGENOUS ENGINE",
+  "nodes": [
+   {
+    "t": "GSLV",
+    "sub": "INDIGENOUS CRYOGENIC STAGE"
+   },
+   {
+    "t": "CE20",
+    "sub": "INDIGENOUS ENGINE",
+    "hot": true
+   },
+   {
+    "t": "LVM3",
+    "sub": "UPPER STAGE"
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "7.05",
+  "p": "P07",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "chamber-nozzle",
+  "opts": {
+   "flame": 1
+  },
+  "title": "THE CE20 ENGINE",
+  "tag": "CONCEPTUAL, NOT CE20 INTERNALS",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "INDIGENOUSLY DEVELOPED"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.9,
+    "t": "POWERS THE LVM3 UPPER STAGE"
+   }
+  ],
+  "camAz": 24
+ },
+ {
+  "id": "7.06",
+  "p": "P07",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "rocket-stack",
+  "opts": {
+   "flame": 1
+  },
+  "title": "THE HEAVIER LVM3 ROCKET",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.1,
+    "t": "CE20 UPPER STAGE"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.9,
+    "t": "LVM3"
+   }
+  ],
+  "camAz": -20
+ },
+ {
+  "id": "7.07",
+  "p": "P07",
+  "w": 1.3,
+  "tpl": "grid",
+  "title": "EIGHT SUCCESSIVE LVM3 MISSIONS",
+  "slots": [
+   {
+    "n": 8,
+    "col": "accent",
+    "cell": "LVM3"
+   }
+  ],
+  "lit": 8,
+  "cols": 4,
+  "legend": [
+   {
+    "t": "CHANDRAYAAN-3 AMONG THEM",
+    "col": "accent"
+   }
+  ],
+  "source": "ISRO, 7 JUL 2026"
+ },
+ {
+  "id": "7.08",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "ACCORDING TO ISRO,",
+   "THE ENGINE HAS PERFORMED",
+   "IN EIGHT SUCCESSIVE MISSIONS."
+  ],
+  "size": 62,
+  "hero": "chamber-nozzle",
+  "heroOpts": {
+   "flame": 1
+  },
+  "tag": "CONCEPTUAL, NOT CE20 INTERNALS"
+ },
+ {
+  "id": "7.09",
+  "p": "P07",
+  "w": 1,
+  "tpl": "timeline",
+  "title": "JULY 2026",
+  "items": [
+   {
+    "t": "6 JULY 2026",
+    "sub": "FLIGHT ACCEPTANCE HOT TEST AT ISRO PROPULSION COMPLEX",
+    "hot": true,
+    "at": 0.5,
+    "size": 76
+   }
+  ]
+ },
+ {
+  "id": "7.10",
+  "p": "P07",
+  "w": 1.4,
+  "tpl": "number",
+  "k": "number",
+  "title": "THE FLIGHT ACCEPTANCE TEST",
+  "value": "22",
+  "unit": "TONNES OF THRUST",
+  "note": "FLIGHT ACCEPTANCE HOT TEST",
+  "bars": [
+   {
+    "t": "19.5 T FOR 45 S",
+    "v": 19.5
+   },
+   {
+    "t": "22 T FOR 25 S",
+    "v": 22,
+    "hot": true
+   }
+  ],
+  "max": 25,
+  "chain": "ISRO REPORTED THRUST LEVELS",
+  "source": "ISRO, 6 JUL 2026"
+ },
+ {
+  "id": "7.11",
+  "p": "P07",
+  "w": 1.1,
+  "tpl": "hero",
+  "kind": "chamber-nozzle",
+  "opts": {
+   "flame": 1
+  },
+  "title": "UNDER REAL CONDITIONS",
+  "tag": "CONCEPTUAL, NOT CE20 INTERNALS",
+  "flows": [
+   {
+    "a": [
+     0.5,
+     0.4
+    ],
+    "b": [
+     0.5,
+     1.05
+    ],
+    "col": "accent2"
+   }
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.35,
+    "t": "FULL THRUST"
+   }
+  ],
+  "camAz": -26
+ },
+ {
+  "id": "7.12",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE POINT IS NOT",
+   "A SINGLE TRIUMPHANT TEST."
+  ],
+  "hero": "rocket-stack",
+  "opts": {
+   "flame": 1
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "7.13",
+  "p": "P07",
+  "w": 1.2,
+  "tpl": "statement",
+  "k": "payoff",
+  "lines": [
+   "IT IS AN INDUSTRIAL",
+   {
+    "t": "CAPABILITY THAT",
+    "col": "accent"
+   },
+   {
+    "t": "CAN BE REPEATED.",
+    "col": "accent"
+   }
+  ],
+  "hero": "rocket-stack",
+  "opts": {
+   "flame": 1
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "8.01",
+  "p": "P08",
+  "w": 1,
+  "sc": "SC.8 · WHAT IF",
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "rocket-stack",
+  "opts": {
+   "flame": 0
+  },
+  "title": "A ROCKET IS READY",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.1,
+    "t": "UPPER STAGE"
+   }
+  ],
+  "camAz": 18
+ },
+ {
+  "id": "8.02",
+  "p": "P08",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "turbopump",
+  "title": "ITS UPPER-STAGE PUMP",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "DELIVERS SLIGHTLY TOO LITTLE PRESSURE"
+   }
+  ],
+  "camAz": -24
+ },
+ {
+  "id": "8.03",
+  "p": "P08",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "THE FLOW FALLS SHORT",
+  "nodes": [
+   "PUMP",
+   {
+    "t": "TOO LITTLE FLOW",
+    "hot": true
+   },
+   "CHAMBER"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "8.04",
+  "p": "P08",
+  "w": 1.2,
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "chamber-nozzle",
+  "opts": {
+   "flame": 0.15
+  },
+  "title": "THE CHAMBER CANNOT GET THE FLOW",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "STARVED OF FLOW"
+   }
+  ],
+  "camAz": 22
+ },
+ {
+  "id": "8.05",
+  "p": "P08",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "BEAUTIFULLY ASSEMBLED.",
+   "MISSION IN DANGER."
+  ],
+  "hero": "rocket-stack",
+  "opts": {
+   "flame": 0
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "8.06",
+  "p": "P08",
+  "w": 1.3,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "RELIABILITY",
+   "IN EVERY HIDDEN PART."
+  ],
+  "hero": "turbopump",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "9.01",
+  "p": "P09",
+  "w": 1,
+  "sc": "SC.9 · STILL MISSING",
+  "k": "missing",
+  "tpl": "statement",
+  "lines": [
+   "THE STORY IS",
+   "NOT FINISHED."
+  ],
+  "hero": "rocket-stack",
+  "opts": {
+   "flame": 0
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "9.02",
+  "p": "P09",
+  "w": 1.5,
+  "k": "missing",
+  "tpl": "flow",
+  "title": "STILL REQUIRES WORK",
+  "nodes": [
+   "HIGHER PERFORMANCE",
+   "MORE CAPABLE STAGES",
+   "MANUFACTURING CONSISTENCY",
+   "FUTURE PROPULSION SYSTEMS"
+  ],
+  "layout": "grid:2"
+ },
+ {
+  "id": "9.03",
+  "p": "P09",
+  "w": 1,
+  "k": "missing",
+  "tpl": "statement",
+  "lines": [
+   "INTERNATIONAL COOPERATION",
+   "REMAINS VALUABLE."
+  ],
+  "size": 64,
+  "hero": "chamber-nozzle",
+  "heroOpts": {
+   "flame": 0.5
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "9.04",
+  "p": "P09",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "CAN AN UNAVAILABLE ENGINE",
+   "STOP A PROGRAMME?"
+  ],
+  "size": 78,
+  "align": "center"
+ },
+ {
+  "id": "9.05",
+  "p": "P09",
+  "w": 1.4,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "THE ANSWER CAME NOT FROM A SPEECH,",
+   {
+    "t": "BUT FROM YEARS OF TESTING.",
+    "col": "accent"
+   }
+  ],
+  "size": 70,
+  "align": "center"
+ },
+ {
+  "id": "10.01",
+  "p": "P10",
+  "w": 1,
+  "sc": "SC.10 · THE ANSWER",
+  "tpl": "statement",
+  "lines": [
+   "A NATION DOES NOT BECOME CAPABLE",
+   "BECAUSE IT DECLARES ITSELF CAPABLE."
+  ],
+  "size": 60,
+  "align": "center"
+ },
+ {
+  "id": "10.02",
+  "p": "P10",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IT BECOMES CAPABLE WHEN AN ENGINE WORKS",
+   "UNDER CONDITIONS THAT CANNOT BE NEGOTIATED."
+  ],
+  "size": 56,
+  "align": "center",
+  "hero": null
+ },
+ {
+  "id": "10.03",
+  "p": "P10",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "rocket-stack",
+  "opts": {
+   "flame": 1
+  },
+  "title": "THE ENGINE WORKS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "flows": [
+   {
+    "a": [
+     0.85,
+     0.95
+    ],
+    "b": [
+     0.85,
+     0.05
+    ]
+   }
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.1,
+    "t": "UPPER STAGE"
+   }
+  ],
+  "camAz": 14
+ },
+ {
+  "id": "10.04",
+  "p": "P10",
+  "w": 1.6,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "A CLOSED DOOR IS NOT",
+   {
+    "t": "A FINISHED STORY.",
+    "col": "accent"
+   }
+  ],
+  "size": 104,
+  "align": "center"
+ },
+ {
+  "id": "10.05",
+  "p": "P10",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA BUILT IT ANYWAY"
+  ],
+  "sub": "S02 · E01 · THE ROCKET ENGINE THEY WOULDN'T TRANSFER",
+  "size": 100,
+  "align": "center"
+ }
+]

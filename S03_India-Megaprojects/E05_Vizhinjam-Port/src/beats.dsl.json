@@ -1,0 +1,896 @@
+[
+ {
+  "id": "1.01",
+  "p": "P01",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "WHERE GOODS CHANGE SHIPS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 40,
+  "sc": "SC.1 · THE HUB",
+  "k": "hook"
+ },
+ {
+  "id": "1.02",
+  "p": "P01",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "ONE STOP, MANY ONWARD SHIPS",
+  "nodes": [
+   "A GIANT SHIP ARRIVES",
+   {
+    "t": "BOXES FOR OTHER PORTS LIFT OFF",
+    "hot": true
+   },
+   "SMALLER SHIPS CARRY THEM ON"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "1.03",
+  "p": "P01",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "ONE BIG SHIP, MANY SMALL ONES",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 50
+ },
+ {
+  "id": "1.04",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "MOST PORTS: GOODS ARRIVE",
+   "TO BE USED.",
+   "THIS ONE: GOODS CHANGE SHIPS."
+  ],
+  "size": 56,
+  "k": "hook",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "2.01",
+  "p": "P02",
+  "w": 0.72,
+  "tpl": "timeline",
+  "title": "VIZHINJAM INTERNATIONAL SEAPORT, KERALA",
+  "items": [
+   {
+    "t": "2 MAY 2025",
+    "sub": "INAUGURATED",
+    "hot": true,
+    "at": 0.5,
+    "size": 80
+   }
+  ],
+  "sc": "SC.2 · THE NUMBERS"
+ },
+ {
+  "id": "2.02",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA'S FIRST DEDICATED",
+   "CONTAINER TRANSSHIPMENT PORT"
+  ],
+  "size": 58,
+  "sub": "PIB",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "quay"
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "2.03",
+  "p": "P02",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "WHAT IT COST",
+  "value": "8,800",
+  "unit": "CRORE RUPEES, ABOUT",
+  "note": "THE WHOLE PROJECT",
+  "size": 150,
+  "source": "PIB, JUN 2025"
+ },
+ {
+  "id": "2.04",
+  "p": "P02",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "quay"
+  },
+  "title": "DEEP WATER, CLOSE TO THE SHORE",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 14,
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.85,
+    "t": "DEEP WATER"
+   },
+   {
+    "fx": 0.12,
+    "fy": 0.3,
+    "t": "THE QUAY"
+   }
+  ]
+ },
+ {
+  "id": "2.05",
+  "p": "P02",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "A PORT BUILT TO CHANGE SHIPS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 50
+ },
+ {
+  "id": "3.01",
+  "p": "P03",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "WHO EARNS FROM THE CHANGE",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 46,
+  "sc": "SC.3 · WHY IT MATTERS"
+ },
+ {
+  "id": "3.02",
+  "p": "P03",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "A PORT DECIDES",
+  "nodes": [
+   {
+    "t": "INDIA'S BOXES"
+   },
+   {
+    "t": "CHANGE SHIPS",
+    "sub": "AT A PORT",
+    "hot": true
+   },
+   {
+    "t": "SOMEWHERE"
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "3.03",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "PIB: IT REDUCES",
+   "RELIANCE ON FOREIGN PORTS"
+  ],
+  "size": 58,
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "3.04",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE MINISTER: EXPANSION WILL",
+   "HELP CUT DEPENDENCE",
+   "ON FOREIGN HUBS"
+  ],
+  "size": 54,
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "4.01",
+  "p": "P04",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IDEA ONE:",
+   "A HUB"
+  ],
+  "size": 86,
+  "sc": "SC.4 · IDEA 1 · A HUB",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "4.02",
+  "p": "P04",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "AN AIRLINE HUB",
+  "nodes": [
+   "AN AIRLINE HUB",
+   {
+    "t": "YOU FLY TO THE HUB",
+    "hot": true
+   },
+   "THEN OUT AGAIN"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.03",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "EVERY ROUTE NEEDS ITS OWN BIG SHIP",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 46
+ },
+ {
+  "id": "4.04",
+  "p": "P04",
+  "w": 1.3,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "ONE BIG SHIP FEEDS MANY SMALL ONES",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 14,
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "THE HUB"
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "p": "P04",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "BEFORE A HUB, AFTER IT",
+  "nodes": [
+   {
+    "t": "BEFORE A HUB",
+    "sub": "EVERY ROUTE NEEDS A BIG SHIP"
+   },
+   {
+    "t": "AFTER IT",
+    "sub": "ONE FEEDS MANY",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.06",
+  "p": "P04",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "ONE STOP AT A HUB,",
+   "MANY ONWARD SHIPS."
+  ],
+  "size": 62,
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "5.01",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IDEA TWO:",
+   "DEPTH"
+  ],
+  "size": 86,
+  "sc": "SC.5 · IDEA 2 · DEPTH",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "quay"
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "5.02",
+  "p": "P05",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "A LOADED TRUCK",
+  "nodes": [
+   "A LOADED TRUCK",
+   {
+    "t": "NEEDS A STRONG ROAD",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "5.03",
+  "p": "P05",
+  "w": 1.3,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "quay"
+  },
+  "title": "A LOADED SHIP SITS DEEP",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 14,
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.85,
+    "t": "DEEP WATER AT THE BERTH"
+   },
+   {
+    "fx": 0.55,
+    "fy": 0.45,
+    "t": "LOADED HULL"
+   }
+  ]
+ },
+ {
+  "id": "5.04",
+  "p": "P05",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "shallow"
+  },
+  "title": "IN SHALLOW WATER, IT GROUNDS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 14,
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.8,
+    "t": "TOO SHALLOW"
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "p": "P05",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "quay"
+  },
+  "title": "LESS DIGGING WHERE WATER IS DEEP",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 44
+ },
+ {
+  "id": "5.06",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "PIB: IT CAN HOST",
+   "THE WORLD'S LARGEST",
+   "CARGO SHIPS"
+  ],
+  "size": 56,
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "6.01",
+  "p": "P06",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IDEA THREE:",
+   "SPEED"
+  ],
+  "size": 86,
+  "sc": "SC.6 · IDEA 3 · SPEED",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "quay"
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "6.02",
+  "p": "P06",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "A RACING PIT STOP",
+  "nodes": [
+   "A RACING PIT STOP",
+   {
+    "t": "EVERY SECOND PRACTISED",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "6.03",
+  "p": "P06",
+  "w": 1.3,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "quay"
+  },
+  "title": "CRANES AND YARD MACHINES, IN A LOOP",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 46
+ },
+ {
+  "id": "6.04",
+  "p": "P06",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA'S FIRST",
+   "AUTOMATED PORT (PIB)"
+  ],
+  "size": 62,
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "6.05",
+  "p": "P06",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "BEFORE THE MACHINES, AFTER THEM",
+  "nodes": [
+   {
+    "t": "BEFORE THE MACHINES",
+    "sub": "A SHIP WAITS"
+   },
+   {
+    "t": "AFTER THEM",
+    "sub": "THE SHIP LEAVES",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "7.01",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "PHASE ONE OPENED",
+   "IN DECEMBER 2024"
+  ],
+  "size": 64,
+  "sc": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "7.02",
+  "p": "P07",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "DESIGNED CAPACITY",
+  "value": "1",
+  "unit": "MILLION CONTAINERS A YEAR",
+  "note": "PHASE ONE, TWENTY-FOOT UNITS",
+  "size": 150,
+  "source": "PIB"
+ },
+ {
+  "id": "7.03",
+  "p": "P07",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "HANDLED SINCE THEN",
+  "value": "1.43",
+  "unit": "MILLION CONTAINERS",
+  "note": "OVER ITS DESIGN",
+  "size": 150,
+  "source": "PIB"
+ },
+ {
+  "id": "7.04",
+  "p": "P07",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "RUNNING AT",
+  "value": "130",
+  "unit": "PERCENT OF DESIGN CAPACITY",
+  "note": "MORE THAN",
+  "size": 150,
+  "source": "PIB"
+ },
+ {
+  "id": "7.05",
+  "p": "P07",
+  "w": 0.72,
+  "tpl": "timeline",
+  "title": "PHASES TWO TO FOUR",
+  "items": [
+   {
+    "t": "DEC 2024",
+    "sub": "PHASE ONE OPENS",
+    "at": 0.1
+   },
+   {
+    "t": "DEC 2028",
+    "sub": "EXPANSION TARGETED",
+    "hot": true,
+    "at": 0.9
+   }
+  ]
+ },
+ {
+  "id": "7.06",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A SIGN OF DEMAND,",
+   "AND A LIMIT."
+  ],
+  "size": 64,
+  "k": "payoff",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "8.01",
+  "p": "P08",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "PORTS ARE NOT RANKED BY SIZE ALONE",
+  "nodes": [
+   "A TRANSSHIPMENT HUB",
+   "A GATEWAY FOR LOCAL GOODS",
+   "A FISHING HARBOUR"
+  ],
+  "links": [],
+  "layout": "row",
+  "sc": "SC.8 · THE FIELD"
+ },
+ {
+  "id": "8.02",
+  "p": "P08",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "VIZHINJAM IS A HUB",
+  "nodes": [
+   {
+    "t": "A TRANSSHIPMENT HUB",
+    "hot": true
+   },
+   "A GATEWAY",
+   "A FISHING HARBOUR"
+  ],
+  "links": [],
+  "layout": "row"
+ },
+ {
+  "id": "8.03",
+  "p": "P08",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "IT DOES NOT REPLACE EVERY PORT",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "8.04",
+  "p": "P08",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "DIFFERENT PROBLEMS,",
+   "NOT A LEAGUE TABLE."
+  ],
+  "size": 64,
+  "k": "payoff",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "9.01",
+  "p": "P09",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A GIANT SHIP WAITS OFFSHORE.",
+   "THE BERTH IS BUSY."
+  ],
+  "size": 60,
+  "sc": "SC.9 · WHAT IF",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "9.02",
+  "p": "P09",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "EVERY HOUR OF WAITING COSTS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "9.03",
+  "p": "P09",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "A COST FOR EVERY BOX",
+  "nodes": [
+   {
+    "t": "A WAITING SHIP"
+   },
+   {
+    "t": "A COST FOR EVERY BOX ON BOARD",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "9.04",
+  "p": "P09",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A FULL PORT IS A PORT",
+   "THAT IS WANTED,",
+   "AND ALSO LATE."
+  ],
+  "size": 60,
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "10.01",
+  "p": "P10",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "ONE IDEA ABOUT PEOPLE:",
+   "DEMAND FILLS CAPACITY"
+  ],
+  "size": 62,
+  "sc": "SC.10 · THE HABIT",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "10.02",
+  "p": "P10",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "WIDER ROADS, MORE DRIVING",
+  "nodes": [
+   {
+    "t": "ROAD CAPACITY GROWS"
+   },
+   {
+    "t": "DRIVING GROWS WITH IT",
+    "sub": "AMERICAN CITIES",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "10.03",
+  "p": "P10",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "ALREADY ABOVE ITS DESIGN",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "10.04",
+  "p": "P10",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "SPACE BUILT FOR TODAY",
+   "FILLS UP TOMORROW."
+  ],
+  "size": 64,
+  "k": "payoff",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "11.01",
+  "p": "P11",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THREE THINGS",
+   "TO REMEMBER"
+  ],
+  "size": 64,
+  "sc": "SC.11 · THE CLOSE",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "11.02",
+  "p": "P11",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "THREE THINGS",
+  "nodes": [
+   {
+    "t": "ONE",
+    "sub": "A HUB LETS ONE BIG SHIP FEED MANY SMALL ONES"
+   },
+   {
+    "t": "TWO",
+    "sub": "DEEP WATER NEAR THE SHORE IS THE FIRST ASSET"
+   },
+   {
+    "t": "THREE",
+    "sub": "A FULL PORT IS A SIGNAL TO EXPAND"
+   }
+  ],
+  "links": [],
+  "layout": "row"
+ },
+ {
+  "id": "11.03",
+  "p": "P11",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "port-hub",
+  "opts": {
+   "mode": "hub"
+  },
+  "title": "THE HUB",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "11.04",
+  "p": "P11",
+  "w": 1.4,
+  "tpl": "statement",
+  "lines": [
+   "INDIA BUILT THE HUB.",
+   "WILL CAPACITY KEEP UP",
+   "WITH THE BOXES?"
+  ],
+  "size": 60,
+  "k": "hook",
+  "hero": "port-hub",
+  "heroOpts": {
+   "mode": "hub"
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "11.05",
+  "p": "P11",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA MEGAPROJECTS"
+  ],
+  "size": 100,
+  "sub": "THE PORT WHERE BOXES CHANGE SHIPS",
+  "align": "center"
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "video": "E06-r4.mp4",
+  "frames": 7515,
+  "seconds": 250.5,
+  "meanYDIF": 0.2066,
+  "motionFrames": 0.0609,
+  "emptyFrames": 0.0997,
+  "longestEmpty": 4.83,
+  "pass": false,
+  "thresholds": {
+    "meanYDIF": 0.2,
+    "motionFrames": 0.08,
+    "emptyFrames": 0.12,
+    "longestEmpty": 4.0
+  }
+}

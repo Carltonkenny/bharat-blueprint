@@ -1,2964 +1,3795 @@
 {
-  "id": "E01",
-  "title": "The Rocket Engine They Wouldn't Transfer",
-  "world": "ice",
-  "fps": 30,
-  "seed": "s02",
-  "passages": [
+ "id": "E01",
+ "title": "The Rocket Engine They Wouldn't Transfer",
+ "world": "ice",
+ "fps": 30,
+ "seed": "s02",
+ "passages": [
+  {
+   "id": "P01",
+   "text": "A rocket can climb toward space. But the engine for its final push is beyond your reach. Not because physics forbids it. Because the technology is not being transferred. So what do you do when the one engine you need is the one you cannot get?",
+   "estSec": 25.6,
+   "flag": "",
+   "words": 46
+  },
+  {
+   "id": "P02",
+   "text": "In the early nineteen nineties, India faced restrictions around acquiring cryogenic rocket technology. It was an uncomfortable message. The machine existed. Other nations had mastered it. But access was another matter.",
+   "estSec": 41.1,
+   "flag": "",
+   "words": 74
+  },
+  {
+   "id": "P03",
+   "text": "Why is a cryogenic engine so difficult? Start with a kitchen gas stove. Fuel meets oxygen, burns, and releases energy. A rocket needs that reaction to happen far more intensely, while carrying its own oxygen. A cryogenic stage uses propellants kept at extraordinarily low temperatures. The cold makes them useful, but it also makes the plumbing unforgiving.",
+   "estSec": 31.7,
+   "flag": "",
+   "words": 57
+  },
+  {
+   "id": "P04",
+   "text": "Now picture a bicycle pump. Each push forces air through a narrow passage. A rocket engine needs a continuous, enormous flow of propellants. Tiny hand pumps cannot do it. Powerful turbopumps spin rapidly to push fuel and oxidiser into a combustion chamber. The pump is not an accessory. Without the right pressure and flow, the whole engine fails.",
+   "estSec": 32.2,
+   "flag": "",
+   "words": 58
+  },
+  {
+   "id": "P05",
+   "text": "Then comes the chamber. Imagine a pressure cooker, except the goal is not to trap hot gas. The goal is to send it racing through a shaped nozzle. The exhaust accelerates backward, and the rocket gains forward momentum. But the chamber must survive intense heat while the propellants arriving nearby are extremely cold. Materials, seals, cooling passages, valves: everything has to cooperate.",
+   "estSec": 34.4,
+   "flag": "",
+   "words": 62
+  },
+  {
+   "id": "P06",
+   "text": "That is why copying the outline of an engine is not the same as building one. You must understand the invisible behaviour inside it. You must test, discover what failed, change the design, and test again.",
+   "estSec": 20,
+   "flag": "",
+   "words": 36
+  },
+  {
+   "id": "P07",
+   "text": "India's space programme took that long route. Early flights of the GSLV rocket used cryogenic stages supplied from abroad. In January twenty fourteen, a GSLV flew with an indigenous cryogenic stage for the first time. Later, a different indigenous engine, the CE twenty, took over the upper stage of the heavier LVM three rocket. According to ISRO, it has performed in eight successive LVM three missions, Chandrayaan three among them. In July twenty twenty-six, its flight acceptance test reached twenty-two tonnes of thrust. The point is not a single triumphant test. It is an industrial capability that can be repeated.",
+   "estSec": 55.6,
+   "flag": "",
+   "words": 100
+  },
+  {
+   "id": "P08",
+   "text": "Here is a fictional scenario. A rocket is ready. Its upper-stage pump delivers slightly too little pressure. The combustion chamber cannot receive the flow it needs. The vehicle may be beautifully assembled, but its mission is now in danger. That is what engineering independence really demands: reliability in every hidden part.",
+   "estSec": 28.3,
+   "flag": "FICTIONAL SCENARIO",
+   "words": 51
+  },
+  {
+   "id": "P09",
+   "text": "The story is not finished. Higher performance, more capable stages, manufacturing consistency and future propulsion systems still require work. And international cooperation remains valuable.",
+   "estSec": 26.7,
+   "flag": "",
+   "words": 48
+  },
+  {
+   "id": "P10",
+   "text": "That difference matters. A nation does not become capable because it declares itself capable. It becomes capable when an engine works under conditions that cannot be negotiated.",
+   "estSec": 19.4,
+   "flag": "",
+   "words": 35
+  }
+ ],
+ "beats": [
+  {
+   "id": "1.01",
+   "p": "P01",
+   "w": 1,
+   "layer": "H",
+   "kind": "hook",
+   "scene": [
     {
-      "id": "P01",
-      "text": "A rocket can climb toward space. But the engine for its final push is beyond your reach. Not because physics forbids it. Because the technology is not being transferred. So what do you do when the one engine you need is the one you cannot get?",
-      "estSec": 25.6,
-      "flag": "",
-      "words": 46
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "title": "A ROCKET CAN CLIMB",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.08,
+       "t": "UPPER STAGE"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.9,
+       "t": "FIRST STAGES"
+      }
+     ],
+     "flows": [
+      {
+       "a": [
+        0.08,
+        0.95
+       ],
+       "b": [
+        0.08,
+        0.05
+       ]
+      }
+     ],
+     "chain": "TOWARD SPACE"
     },
     {
-      "id": "P02",
-      "text": "In the early nineteen nineties, India faced restrictions around acquiring cryogenic rocket technology. It was an uncomfortable message. The machine existed. Other nations had mastered it. But access was another matter.",
-      "estSec": 41.1,
-      "flag": "",
-      "words": 74
-    },
-    {
-      "id": "P03",
-      "text": "Why is a cryogenic engine so difficult? Start with a kitchen gas stove. Fuel meets oxygen, burns, and releases energy. A rocket needs that reaction to happen far more intensely, while carrying its own oxygen. A cryogenic stage uses propellants kept at extraordinarily low temperatures. The cold makes them useful, but it also makes the plumbing unforgiving.",
-      "estSec": 31.7,
-      "flag": "",
-      "words": 57
-    },
-    {
-      "id": "P04",
-      "text": "Now picture a bicycle pump. Each push forces air through a narrow passage. A rocket engine needs a continuous, enormous flow of propellants. Tiny hand pumps cannot do it. Powerful turbopumps spin rapidly to push fuel and oxidiser into a combustion chamber. The pump is not an accessory. Without the right pressure and flow, the whole engine fails.",
-      "estSec": 32.2,
-      "flag": "",
-      "words": 58
-    },
-    {
-      "id": "P05",
-      "text": "Then comes the chamber. Imagine a pressure cooker, except the goal is not to trap hot gas. The goal is to send it racing through a shaped nozzle. The exhaust accelerates backward, and the rocket gains forward momentum. But the chamber must survive intense heat while the propellants arriving nearby are extremely cold. Materials, seals, cooling passages, valves: everything has to cooperate.",
-      "estSec": 34.4,
-      "flag": "",
-      "words": 62
-    },
-    {
-      "id": "P06",
-      "text": "That is why copying the outline of an engine is not the same as building one. You must understand the invisible behaviour inside it. You must test, discover what failed, change the design, and test again.",
-      "estSec": 20,
-      "flag": "",
-      "words": 36
-    },
-    {
-      "id": "P07",
-      "text": "India's space programme took that long route. Early flights of the GSLV rocket used cryogenic stages supplied from abroad. In January twenty fourteen, a GSLV flew with an indigenous cryogenic stage for the first time. Later, a different indigenous engine, the CE twenty, took over the upper stage of the heavier LVM three rocket. According to ISRO, it has performed in eight successive LVM three missions, Chandrayaan three among them. In July twenty twenty-six, its flight acceptance test reached twenty-two tonnes of thrust. The point is not a single triumphant test. It is an industrial capability that can be repeated.",
-      "estSec": 55.6,
-      "flag": "",
-      "words": 100
-    },
-    {
-      "id": "P08",
-      "text": "Here is a fictional scenario. A rocket is ready. Its upper-stage pump delivers slightly too little pressure. The combustion chamber cannot receive the flow it needs. The vehicle may be beautifully assembled, but its mission is now in danger. That is what engineering independence really demands: reliability in every hidden part.",
-      "estSec": 28.3,
-      "flag": "FICTIONAL SCENARIO",
-      "words": 51
-    },
-    {
-      "id": "P09",
-      "text": "The story is not finished. Higher performance, more capable stages, manufacturing consistency and future propulsion systems still require work. And international cooperation remains valuable.",
-      "estSec": 26.7,
-      "flag": "",
-      "words": 48
-    },
-    {
-      "id": "P10",
-      "text": "That difference matters. A nation does not become capable because it declares itself capable. It becomes capable when an engine works under conditions that cannot be negotiated.",
-      "estSec": 19.4,
-      "flag": "",
-      "words": 35
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "title": "A ROCKET CAN CLIMB",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.08,
+       "t": "UPPER STAGE"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.9,
+       "t": "FIRST STAGES"
+      }
+     ],
+     "flows": [
+      {
+       "a": [
+        0.08,
+        0.95
+       ],
+       "b": [
+        0.08,
+        0.05
+       ]
+      }
+     ],
+     "chain": "TOWARD SPACE"
     }
-  ],
-  "beats": [
-    {
-      "id": "1.01",
-      "p": "P01",
-      "layer": "H",
-      "kind": "hook",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 420,
-              "y1": 560,
-              "x2": 1500,
-              "y2": 560,
-              "w": 3
-            },
-            {
-              "k": "line",
-              "x1": 420,
-              "y1": 700,
-              "x2": 1500,
-              "y2": 700,
-              "w": 1.4,
-              "dash": [
-                14,
-                12
-              ],
-              "march": 22
-            },
-            {
-              "k": "line",
-              "x1": 620,
-              "y1": 560,
-              "x2": 620,
-              "y2": 700,
-              "w": 1.4,
-              "dash": [
-                14,
-                12
-              ],
-              "march": 22
-            },
-            {
-              "k": "line",
-              "x1": 900,
-              "y1": 560,
-              "x2": 900,
-              "y2": 700,
-              "w": 1.4,
-              "dash": [
-                14,
-                12
-              ],
-              "march": 22
-            },
-            {
-              "k": "line",
-              "x1": 1180,
-              "y1": 560,
-              "x2": 1180,
-              "y2": 700,
-              "w": 1.4,
-              "dash": [
-                14,
-                12
-              ],
-              "march": 22
-            },
-            {
-              "k": "drop",
-              "x": 960,
-              "y0": 150,
-              "y": 548,
-              "r": 26,
-              "at": 0.05,
-              "dur": 0.75
-            },
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 560,
-              "r": 78,
-              "w": 1.6,
-              "col": "#8fe4ff",
-              "at": 0.8,
-              "dur": 0.2
-            },
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 560,
-              "r": 130,
-              "w": 1.2,
-              "col": "#8fe4ff",
-              "at": 0.85,
-              "dur": 0.2
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "frost drop falls on grid, push-in",
-      "cam": "push-in",
-      "camAmount": 0.1
-    },
-    {
-      "id": "1.02",
-      "p": "P01",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "turbopump",
-          "scale": 1.15,
-          "grow": true,
-          "growDur": 0.55,
-          "opts": {
-            "flame": 0
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "match-cut: drop becomes pump rotor, spins",
-      "cam": "hold",
-      "camDist": 0.62,
-      "camAmount": 0.1
-    },
-    {
-      "id": "1.03",
-      "p": "P01",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.1,
-          "grow": true,
-          "growDur": 0.5,
-          "cut": true,
-          "cutStart": 0.15,
-          "cutDur": 0.5,
-          "opts": {
-            "flamePulse": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "rotor opens into chamber, flame sketch draws on",
-      "cam": "hold",
-      "camDist": 1.1,
-      "camAmount": 0.1
-    },
-    {
-      "id": "1.04",
-      "p": "P01",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "rocket-stack",
-          "scale": 1,
-          "pos": [
-            0,
-            -40,
-            0
-          ],
-          "opts": {
-            "flame": 0
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "pull-back: full rocket stack outline",
-      "cam": "pull-back",
-      "camDist": 1.85,
-      "camAmount": 0.1
-    },
-    {
-      "id": "1.05",
-      "p": "P01",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "rocket-stack",
-          "scale": 1,
-          "pos": [
-            0,
-            -40,
-            0
-          ],
-          "opts": {
-            "upperLit": 1,
-            "flame": 0
-          }
-        },
-        {
-          "op": "railLabel",
-          "text": "FINAL PUSH",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "upper stage glows amber, rest dim, label FINAL PUSH",
-      "cam": "hold",
-      "camDist": 1.85,
-      "camAmount": 0.06
-    },
-    {
-      "id": "1.06",
-      "p": "P01",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 760,
-              "y": 330,
-              "w": 400,
-              "h": 400,
-              "w2": 2,
-              "dash": [
-                16,
-                12
-              ],
-              "march": 26,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "text",
-          "text": "?",
-          "x": 960,
-          "y": 590,
-          "size": 80,
-          "col": "#8fe4ff",
-          "pulse": true,
-          "rate": 2.6
-        }
-      ],
-      "labels": [],
-      "notes": "empty box where the engine should be, \"?\" pulses once",
-      "cam": "hold"
-    },
-    {
-      "id": "1.07",
-      "p": "P01",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "text",
-          "text": "NOT PHYSICS. TRANSFER.",
-          "x": 960,
-          "y": 560,
-          "size": 64
-        }
-      ],
-      "labels": [],
-      "notes": "stamp-less text: \"NOT PHYSICS. TRANSFER.\"",
-      "cam": "hold"
-    },
-    {
-      "id": "1.08",
-      "p": "P01",
-      "layer": "B",
-      "kind": "hold",
-      "w": 3,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "question",
-          "params": {
-            "lines": [
-              "SO WHAT DO YOU DO",
-              "WHEN THE ONE ENGINE YOU NEED",
-              "IS THE ONE YOU CANNOT GET?"
-            ],
-            "y": 420,
-            "size": 46
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "question draws on: SO WHAT DO YOU DO WHEN THE ONE ENGINE YOU NEED IS THE ONE YOU CANNOT GET?",
-      "cam": "hold"
-    },
-    {
-      "id": "2.01",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "timeline",
-          "params": {
-            "y": 560,
-            "ticks": [
-              {
-                "note": "RESTRICTIONS ON ACCESS (NONPROLIFERATION REVIEW)",
-                "label": "EARLY 1990s"
-              }
-            ]
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "tick on a bare timeline: EARLY 1990s",
-      "cam": "hold"
-    },
-    {
-      "id": "2.02",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.2,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 380,
-              "y1": 500,
-              "x2": 1540,
-              "y2": 500,
-              "w": 3
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 380,
-              "x2": 960,
-              "y2": 620,
-              "w": 5,
-              "col": "#ff9b3d",
-              "at": 0.25,
-              "dur": 0.35
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 400,
-              "x2": 920,
-              "y2": 380,
-              "w": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.25
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 400,
-              "x2": 1000,
-              "y2": 380,
-              "w": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.25
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 440,
-              "x2": 920,
-              "y2": 460,
-              "w": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.25
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 440,
-              "x2": 1000,
-              "y2": 460,
-              "w": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.25
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "RESTRICTED ACCESS",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "gate drawn across a pipeline (concept: restrictions on access), label RESTRICTED ACCESS",
-      "cam": "hold"
-    },
-    {
-      "id": "2.03",
-      "p": "P02",
-      "layer": "H",
-      "kind": "hold",
-      "w": 2.2,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 0.95,
-          "opts": {
-            "flame": 0.15
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 330,
-              "y": 400,
-              "w": 150,
-              "h": 220,
-              "w2": 1.4,
-              "dash": [
-                10,
-                10
-              ],
-              "march": 16,
-              "col": "#8fe4ff",
-              "at": 0.3,
-              "dur": 0.3
-            },
-            {
-              "k": "rect",
-              "x": 1440,
-              "y": 400,
-              "w": 150,
-              "h": 220,
-              "w2": 1.4,
-              "dash": [
-                10,
-                10
-              ],
-              "march": 16,
-              "col": "#8fe4ff",
-              "at": 0.4,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 300,
-              "x2": 960,
-              "y2": 700,
-              "w": 4,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.3
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "engine silhouette behind the gate, others' engines faint ghosts (no country marks)",
-      "cam": "hold",
-      "camDist": 1.25,
-      "camAmount": 0.08
-    },
-    {
-      "id": "2.04",
-      "p": "P02",
-      "layer": "C",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 620,
-              "y1": 720,
-              "x2": 1300,
-              "y2": 720,
-              "w": 3,
-              "at": 0.05,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 660,
-              "y1": 720,
-              "x2": 660,
-              "y2": 790,
-              "w": 2,
-              "at": 0.1,
-              "dur": 0.2
-            },
-            {
-              "k": "line",
-              "x1": 1260,
-              "y1": 720,
-              "x2": 1260,
-              "y2": 790,
-              "w": 2,
-              "at": 0.1,
-              "dur": 0.2
-            },
-            {
-              "k": "rect",
-              "x": 900,
-              "y": 690,
-              "w": 120,
-              "h": 30,
-              "w2": 1.6,
-              "at": 0.2,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "point",
-              "x": 760,
-              "y": 720,
-              "scale": 2.4,
-              "accentPart": "armR",
-              "phase": 0,
-              "at": 0.25,
-              "dur": 0.3
-            },
-            {
-              "pose": "stand",
-              "x": 1160,
-              "y": 720,
-              "scale": 2.4,
-              "accentPart": "armL",
-              "phase": 1.1,
-              "at": 0.35,
-              "dur": 0.3
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "two engineers at a bench look at a drawing, point",
-      "cam": "hold"
-    },
-    {
-      "id": "2.05",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.3,
-      "scene": [
-        {
-          "op": "text",
-          "text": "A REFUSAL DOES NOT",
-          "x": 960,
-          "y": 480,
-          "size": 52
-        },
-        {
-          "op": "text",
-          "text": "CREATE AN ENGINE",
-          "x": 960,
-          "y": 570,
-          "size": 52
-        }
-      ],
-      "labels": [],
-      "notes": "\"A refusal does not create an engine\" draws on as a stroke title",
-      "cam": "hold"
-    },
-    {
-      "id": "2.06",
-      "p": "P02",
-      "layer": "C",
-      "kind": "hold",
-      "w": 2.4,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 560,
-              "y1": 760,
-              "x2": 1360,
-              "y2": 760,
-              "w": 3,
-              "at": 0.05,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 700,
-              "y": 700,
-              "r": 34,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.2,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 830,
-              "y": 668,
-              "w": 54,
-              "h": 64,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.35,
-              "dur": 0.25
-            },
-            {
-              "k": "circle",
-              "x": 990,
-              "y": 700,
-              "r": 26,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.5,
-              "dur": 0.25
-            },
-            {
-              "k": "poly",
-              "pts": [
-                [
-                  1080,
-                  740
-                ],
-                [
-                  1080,
-                  640
-                ],
-                [
-                  1160,
-                  640
-                ],
-                [
-                  1160,
-                  740
-                ]
-              ],
-              "w2": 2,
-              "col": "#8fe4ff",
-              "close": true,
-              "at": 0.65,
-              "dur": 0.25
-            },
-            {
-              "k": "poly",
-              "pts": [
-                [
-                  1240,
-                  740
-                ],
-                [
-                  1300,
-                  700
-                ],
-                [
-                  1300,
-                  740
-                ]
-              ],
-              "w2": 2,
-              "col": "#8fe4ff",
-              "close": true,
-              "at": 0.8,
-              "dur": 0.25
-            }
-          ]
-        },
-        {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "sort",
-              "x": 560,
-              "y": 760,
-              "scale": 2.4,
-              "accentPart": "armR",
-              "phase": 0.4,
-              "at": 0.15,
-              "dur": 0.3
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "puzzle: pieces assemble one by one on the bench (pump, valve, seal, chamber, nozzle)",
-      "cam": "hold"
-    },
-    {
-      "id": "2.07",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "text",
-          "text": "ONE PIECE AT A TIME",
-          "x": 960,
-          "y": 540,
-          "size": 60,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "counter ticks \"ONE PIECE AT A TIME\" (no number)",
-      "cam": "hold"
-    },
-    {
-      "id": "2.08",
-      "p": "P02",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.05,
-          "explode": true,
-          "explodeAt": 0.1,
-          "explodeDur": 1.4,
-          "explodeAmount": 0.5,
-          "opts": {
-            "flamePulse": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "pieces slide into the engine",
-      "cam": "hold",
-      "camDist": 1.1,
-      "camAmount": 0.08
-    },
-    {
-      "id": "2.09",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "stack",
-          "words": [
-            "STUBBORN.",
-            "TESTED.",
-            "REPEATED."
-          ],
-          "x": 960,
-          "y": 430,
-          "size": 58,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "hold: three words, STUBBORN. TESTED. REPEATED.",
-      "cam": "hold"
-    },
-    {
-      "id": "3.01",
-      "p": "P03",
-      "layer": "C",
-      "kind": "mech",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "reach",
-              "x": 800,
-              "y": 830,
-              "scale": 3,
-              "accentPart": "armR",
-              "phase": 0,
-              "amp": 10,
-              "prop": "gasStove",
-              "propX": 1060,
-              "propScale": 2.2,
-              "flame": 0.8,
-              "at": 0.05,
-              "dur": 0.35
-            },
-            {
-              "op": "prop",
-              "prop": "pot",
-              "x": 1060,
-              "y": 690,
-              "scale": 2,
-              "p": 1
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "cook lights gas stove, flame blue-amber",
-      "cam": "hold"
-    },
-    {
-      "id": "3.02",
-      "p": "P03",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.3,
-      "scene": [
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "arrow",
-              "x1": 620,
-              "y1": 300,
-              "x2": 880,
-              "y2": 430,
-              "at": 0.05,
-              "dur": 0.4,
-              "col": "#8fe4ff"
-            },
-            {
-              "k": "arrow",
-              "x1": 1300,
-              "y1": 300,
-              "x2": 1040,
-              "y2": 430,
-              "at": 0.2,
-              "dur": 0.4,
-              "col": "#8fe4ff"
-            },
-            {
-              "k": "dot",
-              "path": [
-                [
-                  620,
-                  300
-                ],
-                [
-                  960,
-                  470
-                ],
-                [
-                  1300,
-                  300
-                ]
-              ],
-              "r": 10,
-              "speed": 0.35,
-              "col": "#ff9b3d",
-              "at": 0.4,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "FUEL + OXYGEN = HEAT",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "fuel + oxygen arrows merge at flame, label FUEL + OXYGEN = HEAT",
-      "cam": "hold"
-    },
-    {
-      "id": "3.03",
-      "p": "P03",
-      "layer": "H",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "tank",
-          "scale": 1,
-          "rot": [
-            0,
-            0,
-            0
-          ],
-          "opts": {
-            "frostOn": false
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "railLabel",
-          "text": "OWN OXYGEN",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "rocket tank cutaway: carries its own oxygen, label OWN OXYGEN",
-      "cam": "hold",
-      "camDist": 1.45,
-      "camAmount": 0.08
-    },
-    {
-      "id": "3.04",
-      "p": "P03",
-      "layer": "H",
-      "kind": "hold",
-      "w": 2.2,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "tank",
-          "scale": 1,
-          "opts": {
-            "frostOn": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 1420,
-              "y1": 330,
-              "x2": 1420,
-              "y2": 470,
-              "w": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.3,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 1420,
-              "y": 490,
-              "r": 42,
-              "w2": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.35,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 1420,
-              "y1": 490,
-              "x2": 1420,
-              "y2": 520,
-              "w": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "VERY COLD",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "tank frosts, thermometer glyph dives, label VERY COLD (no number unless sourced)",
-      "cam": "hold",
-      "camDist": 1.45,
-      "camAmount": 0.06
-    },
-    {
-      "id": "3.05",
-      "p": "P03",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "pipe-network",
-          "scale": 1.1,
-          "opts": {
-            "flow": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "arrow",
-              "x1": 520,
-              "y1": 320,
-              "x2": 640,
-              "y2": 320,
-              "col": "#ff9b3d",
-              "at": 0.35,
-              "dur": 0.3
-            },
-            {
-              "k": "arrow",
-              "x1": 1300,
-              "y1": 320,
-              "x2": 1180,
-              "y2": 320,
-              "col": "#ff9b3d",
-              "at": 0.45,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "PLUMBING UNFORGIVING",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "pipe-network shrinks slightly (contraction arrows), label PLUMBING UNFORGIVING",
-      "cam": "hold",
-      "camDist": 1.3,
-      "camAmount": 0.08
-    },
-    {
-      "id": "3.06",
-      "p": "P03",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "tank",
-          "scale": 0.8,
-          "pos": [
-            -420,
-            0,
-            0
-          ],
-          "opts": {
-            "frostOn": true
-          }
-        },
-        {
-          "op": "x:hero",
-          "kind": "pipe-network",
-          "scale": 0.8,
-          "pos": [
-            380,
-            0,
-            0
-          ],
-          "opts": {
-            "flow": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "hold on tank + pipes together",
-      "cam": "hold",
-      "camDist": 1.6,
-      "camAmount": 0.06
-    },
-    {
-      "id": "4.01",
-      "p": "P04",
-      "layer": "C",
-      "kind": "mech",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "pump",
-              "x": 820,
-              "y": 850,
-              "scale": 3,
-              "accentPart": "armR",
-              "phase": 0,
-              "amp": 16,
-              "speed": 2.6,
-              "prop": "bicyclePump",
-              "propX": 1010,
-              "propScale": 2.6,
-              "at": 0.05,
-              "dur": 0.3
-            },
-            {
-              "op": "prop",
-              "prop": "tyre",
-              "x": 1330,
-              "y": 850,
-              "r": 78,
-              "scale": 1,
-              "p": 1
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "cyclist pumps tyre, one push per beat",
-      "cam": "hold"
-    },
-    {
-      "id": "4.02",
-      "p": "P04",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "arrow",
-              "x1": 420,
-              "y1": 540,
-              "x2": 1500,
-              "y2": 540,
-              "at": 0.1,
-              "dur": 0.5
-            }
-          ]
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 900,
-              "y1": 460,
-              "x2": 1020,
-              "y2": 460,
-              "w": 3.4
-            },
-            {
-              "k": "line",
-              "x1": 900,
-              "y1": 620,
-              "x2": 1020,
-              "y2": 620,
-              "w": 3.4
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "THROUGH A NARROW PASSAGE",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "air arrow through a narrow passage",
-      "cam": "hold"
-    },
-    {
-      "id": "4.03",
-      "p": "P04",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "turbopump",
-          "scale": 1.2,
-          "grow": true,
-          "growDur": 0.5
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "turbopump appears in cutaway, impeller spins",
-      "cam": "hold",
-      "camDist": 0.62,
-      "camAmount": 0.08
-    },
-    {
-      "id": "4.04",
-      "p": "P04",
-      "layer": "H",
-      "kind": "hold",
-      "w": 2.1,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "turbopump",
-          "scale": 1.1,
-          "pos": [
-            -300,
-            0,
-            0
-          ],
-          "opts": {
-            "rate": 5
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "arrow",
-              "x1": 420,
-              "y1": 380,
-              "x2": 720,
-              "y2": 380,
-              "col": "#8fe4ff",
-              "at": 0.1,
-              "dur": 0.4
-            },
-            {
-              "k": "arrow",
-              "x1": 900,
-              "y1": 380,
-              "x2": 1200,
-              "y2": 380,
-              "col": "#8fe4ff",
-              "at": 0.3,
-              "dur": 0.4
-            },
-            {
-              "k": "arrow",
-              "x1": 1300,
-              "y1": 380,
-              "x2": 1560,
-              "y2": 380,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "gauge",
-              "x": 1180,
-              "y": 640,
-              "r": 66,
-              "value": 0.85,
-              "at": 0.45,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "PRESSURE UP",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "flow arrows: fuel in, pressure up, out to chamber, gauge rises",
-      "cam": "hold",
-      "camDist": 0.75,
-      "camAmount": 0.06
-    },
-    {
-      "id": "4.05",
-      "p": "P04",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "compare",
-          "params": {
-            "y": 560,
-            "w": 400,
-            "h": 260,
-            "columns": [
-              {
-                "title": "TINY HAND PUMP",
-                "body": "ONE PUSH",
-                "ghost": true
-              },
-              {
-                "title": "TURBOPUMP",
-                "body": "CONTINUOUS FLOW",
-                "accent": true
-              }
-            ]
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "two lines: TINY HAND PUMP vs TURBOPUMP, scale-ghost",
-      "cam": "hold"
-    },
-    {
-      "id": "4.06",
-      "p": "P04",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "turbopump",
-          "scale": 1.1,
-          "opts": {
-            "rate": 0.7
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "gauge",
-              "x": 1340,
-              "y": 620,
-              "r": 70,
-              "value": 0.18,
-              "low": true,
-              "at": 0.2,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "NO FLOW, NO ENGINE",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "fail state: pump slows, gauge falls, chamber flame fades",
-      "cam": "hold",
-      "camDist": 0.75,
-      "camAmount": 0.06
-    },
-    {
-      "id": "4.07",
-      "p": "P04",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "text",
-          "text": "WITHOUT FLOW, NO ENGINE",
-          "x": 960,
-          "y": 540,
-          "size": 58,
-          "col": "#ff9b3d"
-        }
-      ],
-      "labels": [],
-      "notes": "label WITHOUT FLOW, NO ENGINE",
-      "cam": "hold"
-    },
-    {
-      "id": "5.01",
-      "p": "P05",
-      "layer": "C",
-      "kind": "hold",
-      "w": 1.4,
-      "scene": [
-        {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "reach",
-              "x": 780,
-              "y": 840,
-              "scale": 3,
-              "accentPart": "armR",
-              "phase": 0.4,
-              "amp": 8,
-              "prop": "pressureCooker",
-              "propX": 1060,
-              "propScale": 2.4,
-              "steam": 0.8,
-              "at": 0.05,
-              "dur": 0.35
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "pressure cooker, steam rattles",
-      "cam": "hold"
-    },
-    {
-      "id": "5.02",
-      "p": "P05",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.15,
-          "cut": true,
-          "cutStart": 0.1,
-          "cutDur": 0.55,
-          "opts": {
-            "flame": 0
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "chamber section appears (clipping plane sweeps)",
-      "cam": "hold",
-      "camDist": 1.1,
-      "camAmount": 0.08
-    },
-    {
-      "id": "5.03",
-      "p": "P05",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.15,
-          "opts": {
-            "flamePulse": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  960,
-                  780
-                ],
-                [
-                  960,
-                  640
-                ],
-                [
-                  960,
-                  470
-                ],
-                [
-                  960,
-                  300
-                ]
-              ],
-              "r": 8,
-              "speed": 0.9,
-              "col": "#ff9b3d",
-              "at": 0.1,
-              "dur": 0.4
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "gas speeds through throat, particles accelerate (seeded)",
-      "cam": "hold",
-      "camDist": 1.1,
-      "camAmount": 0.06
-    },
-    {
-      "id": "5.04",
-      "p": "P05",
-      "layer": "H",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "rocket-stack",
-          "scale": 0.95,
-          "pos": [
-            0,
-            -60,
-            0
-          ],
-          "opts": {
-            "flame": 0
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  960,
-                  700
-                ],
-                [
-                  960,
-                  800
-                ],
-                [
-                  960,
-                  940
-                ]
-              ],
-              "r": 7,
-              "speed": 1.4,
-              "col": "#ff9b3d",
-              "at": 0.15,
-              "dur": 0.4
-            },
-            {
-              "k": "dot",
-              "path": [
-                [
-                  900,
-                  700
-                ],
-                [
-                  880,
-                  810
-                ],
-                [
-                  860,
-                  950
-                ]
-              ],
-              "r": 6,
-              "speed": 1.2,
-              "col": "#ff9b3d",
-              "phase": 0.3,
-              "at": 0.25,
-              "dur": 0.4
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "nozzle bell draws on, exhaust goes backward, rocket nudges forward",
-      "cam": "hold",
-      "camDist": 1.85,
-      "camAmount": 0.06
-    },
-    {
-      "id": "5.05",
-      "p": "P05",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.25,
-          "cut": true,
-          "cutStart": 0.1,
-          "cutDur": 0.5,
-          "opts": {
-            "flamePulse": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "railLabel",
-          "text": "HEAT INSIDE, COLD OUTSIDE",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "heat/cold wall: amber inside, cyan cooling passages outside (concept)",
-      "cam": "hold",
-      "camDist": 1.25,
-      "camAmount": 0.06
-    },
-    {
-      "id": "5.06",
-      "p": "P05",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.3,
-      "scene": [
-        {
-          "op": "railLabel",
-          "text": "MATERIALS",
-          "side": "L",
-          "at": 0.05
-        },
-        {
-          "op": "railLabel",
-          "text": "SEALS",
-          "side": "L",
-          "at": 0.2
-        },
-        {
-          "op": "railLabel",
-          "text": "COOLING",
-          "side": "L",
-          "at": 0.35
-        },
-        {
-          "op": "railLabel",
-          "text": "VALVES",
-          "side": "L",
-          "at": 0.5
-        }
-      ],
-      "labels": [],
-      "notes": "callouts pop one at a time: MATERIALS · SEALS · COOLING · VALVES",
-      "cam": "hold"
-    },
-    {
-      "id": "5.07",
-      "p": "P05",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.25,
-          "opts": {
-            "flamePulse": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "railLabel",
-          "text": "EVERYTHING COOPERATES",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "all four light up together, label EVERYTHING COOPERATES",
-      "cam": "hold",
-      "camDist": 1.25,
-      "camAmount": 0.06
-    },
-    {
-      "id": "6.01",
-      "p": "P06",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "poly",
-              "pts": [
-                [
-                  800,
-                  700
-                ],
-                [
-                  800,
-                  400
-                ],
-                [
-                  900,
-                  330
-                ],
-                [
-                  1020,
-                  330
-                ],
-                [
-                  1120,
-                  400
-                ],
-                [
-                  1120,
-                  700
-                ]
-              ],
-              "w2": 2.4,
-              "close": true,
-              "at": 0.05,
-              "dur": 0.5
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 330,
-              "x2": 960,
-              "y2": 700,
-              "w": 1.2,
-              "dash": [
-                10,
-                10
-              ],
-              "march": 16,
-              "at": 0.4,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "text",
-          "text": "COPY THE OUTLINE",
-          "x": 960,
-          "y": 790,
-          "size": 52,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "outline of an engine, empty; \"COPY THE OUTLINE\"",
-      "cam": "hold"
-    },
-    {
-      "id": "6.02",
-      "p": "P06",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.3,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "poly",
-              "pts": [
-                [
-                  800,
-                  700
-                ],
-                [
-                  800,
-                  400
-                ],
-                [
-                  900,
-                  330
-                ],
-                [
-                  1020,
-                  330
-                ],
-                [
-                  1120,
-                  400
-                ],
-                [
-                  1120,
-                  700
-                ]
-              ],
-              "w2": 2.4,
-              "close": true
-            },
-            {
-              "k": "line",
-              "x1": 840,
-              "y1": 560,
-              "x2": 1090,
-              "y2": 560,
-              "w": 2,
-              "col": "#8fe4ff",
-              "dash": [
-                12,
-                10
-              ],
-              "march": 24,
-              "at": 0.2,
-              "dur": 0.3
-            },
-            {
-              "k": "zigzag",
-              "pts": [
-                [
-                  840,
-                  480
-                ],
-                [
-                  880,
-                  450
-                ],
-                [
-                  920,
-                  490
-                ],
-                [
-                  960,
-                  450
-                ],
-                [
-                  1000,
-                  490
-                ],
-                [
-                  1040,
-                  450
-                ],
-                [
-                  1090,
-                  480
-                ]
-              ],
-              "w": 1.8,
-              "col": "#ff9b3d",
-              "dash": [
-                8,
-                8
-              ],
-              "march": 20,
-              "at": 0.4,
-              "dur": 0.35
-            },
-            {
-              "k": "arc",
-              "x": 960,
-              "y": 620,
-              "r": 90,
-              "a0": 3.4,
-              "a1": 6,
-              "w": 1.8,
-              "col": "#8fe4ff",
-              "dash": [
-                10,
-                10
-              ],
-              "march": 18,
-              "at": 0.6,
-              "dur": 0.3
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "ghost layers of invisible behaviour fill inside (flow, heat, vibration) as dashed lines",
-      "cam": "hold"
-    },
-    {
-      "id": "6.03",
-      "p": "P06",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.3,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "loop",
-          "params": {
-            "cx": 960,
-            "cy": 540,
-            "r": 190,
-            "turns": 2
-          }
-        },
-        {
-          "op": "text",
-          "text": "TEST",
-          "x": 960,
-          "y": 300,
-          "size": 44
-        },
-        {
-          "op": "text",
-          "text": "FAIL",
-          "x": 960,
-          "y": 800,
-          "size": 44,
-          "col": "#ff9b3d"
-        },
-        {
-          "op": "text",
-          "text": "CHANGE",
-          "x": 1420,
-          "y": 560,
-          "size": 44
-        },
-        {
-          "op": "text",
-          "text": "TEST",
-          "x": 500,
-          "y": 560,
-          "size": 44
-        }
-      ],
-      "labels": [],
-      "notes": "test loop draws: TEST - FAIL - CHANGE - TEST, arrow circulates twice",
-      "cam": "hold"
-    },
-    {
-      "id": "6.04",
-      "p": "P06",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.1,
-      "scene": [
-        {
-          "op": "text",
-          "text": "THE PARTS YOU CANNOT SEE",
-          "x": 960,
-          "y": 540,
-          "size": 54,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "hold",
-      "cam": "hold"
-    },
-    {
-      "id": "7.01",
-      "p": "P07",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.1,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "timeline",
-          "params": {
-            "y": 560,
-            "ticks": [
-              {
-                "label": "EARLY GSLV FLIGHTS",
-                "note": "CRYOGENIC STAGES SUPPLIED FROM ABROAD"
-              }
-            ]
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "timeline strip: EARLY GSLV FLIGHTS - CRYOGENIC STAGES SUPPLIED FROM ABROAD",
-      "cam": "hold"
-    },
-    {
-      "id": "7.02",
-      "p": "P07",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "timeline",
-          "params": {
-            "y": 560,
-            "ticks": [
-              {
-                "label": "EARLY GSLV FLIGHTS",
-                "note": "CRYOGENIC STAGES SUPPLIED FROM ABROAD"
-              },
-              {
-                "label": "JAN 2014",
-                "note": "FIRST INDIGENOUS CRYOGENIC STAGE FLIES (ISRO)",
-                "accent": true
-              }
-            ]
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "tick JAN 2014 - FIRST INDIGENOUS CRYOGENIC STAGE FLIES (ISRO)",
-      "cam": "hold"
-    },
-    {
-      "id": "7.03",
-      "p": "P07",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "rocket-stack",
-          "scale": 1,
-          "pos": [
-            0,
-            -40,
-            0
-          ],
-          "opts": {
-            "upperLit": 1,
-            "flame": 0
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "railLabel",
-          "text": "CE20 ON LVM3",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "rocket stack, upper stage highlighted, label CE20 ON LVM3",
-      "cam": "hold",
-      "camDist": 1.85,
-      "camAmount": 0.06
-    },
-    {
-      "id": "7.04",
-      "p": "P07",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "chart",
-          "type": "counter",
-          "row": "missions",
-          "x": 700,
-          "y": 470,
-          "size": 120,
-          "dur": 1.3
-        },
-        {
-          "op": "text",
-          "text": "CHANDRAYAAN-3",
-          "x": 1150,
-          "y": 470,
-          "size": 44,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "counter ticks to 8 SUCCESSIVE LVM3 MISSIONS (ISRO), Chandrayaan-3 tag",
-      "cam": "hold"
-    },
-    {
-      "id": "7.05",
-      "p": "P07",
-      "layer": "B",
-      "kind": "number",
-      "w": 2.5,
-      "scene": [
-        {
-          "op": "numberCard",
-          "value": "22 TONNES OF THRUST",
-          "sub": "FLIGHT ACCEPTANCE TEST",
-          "source": "ISRO, 6 JUL 2026"
-        },
-        {
-          "op": "chart",
-          "type": "chain",
-          "value": "22 t",
-          "items": [
-            "TEST",
-            "THRUST",
-            "QUALIFIED"
-          ],
-          "x0": 1150,
-          "x1": 1700,
-          "y": 700
-        }
-      ],
-      "labels": [],
-      "notes": "22 TONNES OF THRUST card on a dimension chain, source chip \"ISRO, 6 JUL 2026\"",
-      "cam": "hold"
-    },
-    {
-      "id": "7.06",
-      "p": "P07",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.15,
-          "opts": {
-            "flamePulse": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 700,
-              "y1": 820,
-              "x2": 1220,
-              "y2": 820,
-              "w": 4,
-              "at": 0.15,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 760,
-              "y1": 820,
-              "x2": 760,
-              "y2": 880,
-              "w": 3,
-              "at": 0.2,
-              "dur": 0.2
-            },
-            {
-              "k": "line",
-              "x1": 1160,
-              "y1": 820,
-              "x2": 1160,
-              "y2": 880,
-              "w": 3,
-              "at": 0.2,
-              "dur": 0.2
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "engine in test-stand sketch, flame (concept)",
-      "cam": "hold",
-      "camDist": 1.1,
-      "camAmount": 0.06
-    },
-    {
-      "id": "7.07",
-      "p": "P07",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "text",
-          "text": "NOT A SINGLE TEST.",
-          "x": 960,
-          "y": 480,
-          "size": 56
-        },
-        {
-          "op": "text",
-          "text": "A CAPABILITY THAT REPEATS.",
-          "x": 960,
-          "y": 580,
-          "size": 56,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "text: NOT A SINGLE TEST. A CAPABILITY THAT REPEATS.",
-      "cam": "hold"
-    },
-    {
-      "id": "7.08",
-      "p": "P07",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "pos": [
-            -420,
-            60,
-            0
-          ],
-          "scale": 0.28,
-          "op": "x:hero",
-          "opts": {
-            "flame": 0
-          },
-          "kind": "rocket-stack"
-        },
-        {
-          "pos": [
-            -300,
-            60,
-            0
-          ],
-          "scale": 0.28,
-          "op": "x:hero",
-          "opts": {
-            "flame": 0
-          },
-          "kind": "rocket-stack"
-        },
-        {
-          "pos": [
-            -180,
-            60,
-            0
-          ],
-          "scale": 0.28,
-          "op": "x:hero",
-          "opts": {
-            "flame": 0
-          },
-          "kind": "rocket-stack"
-        },
-        {
-          "pos": [
-            -60,
-            60,
-            0
-          ],
-          "scale": 0.28,
-          "op": "x:hero",
-          "opts": {
-            "flame": 0
-          },
-          "kind": "rocket-stack"
-        },
-        {
-          "pos": [
-            60,
-            60,
-            0
-          ],
-          "scale": 0.28,
-          "op": "x:hero",
-          "opts": {
-            "flame": 0
-          },
-          "kind": "rocket-stack"
-        },
-        {
-          "pos": [
-            180,
-            60,
-            0
-          ],
-          "scale": 0.28,
-          "op": "x:hero",
-          "opts": {
-            "flame": 0
-          },
-          "kind": "rocket-stack"
-        },
-        {
-          "pos": [
-            300,
-            60,
-            0
-          ],
-          "scale": 0.28,
-          "op": "x:hero",
-          "opts": {
-            "flame": 0
-          },
-          "kind": "rocket-stack"
-        },
-        {
-          "pos": [
-            420,
-            60,
-            0
-          ],
-          "scale": 0.28,
-          "op": "x:hero",
-          "opts": {
-            "flame": 0
-          },
-          "kind": "rocket-stack"
-        },
-        {
-          "op": "text",
-          "text": "EIGHT SUCCESSIVE FLIGHTS",
-          "col": "#8fe4ff",
-          "y": 880,
-          "x": 960,
-          "size": 44
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "pull-back: 8 small rocket marks line up",
-      "cam": "pull-back",
-      "camDist": 2.9,
-      "camAmount": 0.08
-    },
-    {
-      "id": "8.01",
-      "p": "P08",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "text",
-          "text": "A FICTIONAL SCENARIO",
-          "x": 960,
-          "y": 300,
-          "size": 40,
-          "col": "#ff9b3d"
-        }
-      ],
-      "labels": [],
-      "notes": "FICTIONAL SCENARIO stamp across the frame for the whole passage",
-      "cam": "hold"
-    },
-    {
-      "id": "8.02",
-      "p": "P08",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "rocket-stack",
-          "scale": 1,
-          "pos": [
-            0,
-            -40,
-            0
-          ],
-          "opts": {
-            "flame": 0
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "rocket ready on pad, assembled",
-      "cam": "hold",
-      "camDist": 1.85,
-      "camAmount": 0.06
-    },
-    {
-      "id": "8.03",
-      "p": "P08",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "turbopump",
-          "scale": 1.05,
-          "opts": {
-            "rate": 2
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "gauge",
-              "x": 1400,
-              "y": 620,
-              "r": 72,
-              "value": 0.42,
-              "low": true,
-              "at": 0.15,
-              "dur": 0.4
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "pump gauge a notch low",
-      "cam": "hold",
-      "camDist": 0.75,
-      "camAmount": 0.06
-    },
-    {
-      "id": "8.04",
-      "p": "P08",
-      "layer": "H",
-      "kind": "hold",
-      "w": 2.1,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.15,
-          "opts": {
-            "flamePulse": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "railLabel",
-          "text": "CHAMBER STARVED",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "chamber starved: flame thin and flickering (no flicker artefact; designed pulse)",
-      "cam": "hold",
-      "camDist": 1.1,
-      "camAmount": 0.06
-    },
-    {
-      "id": "8.05",
-      "p": "P08",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "arc",
-              "x": 960,
-              "y": 880,
-              "r": 620,
-              "a0": -1.5,
-              "a1": -0.35,
-              "w": 3,
-              "col": "#8fe4ff",
-              "at": 0.1,
-              "dur": 0.55
-            },
-            {
-              "k": "circle",
-              "x": 1500,
-              "y": 250,
-              "r": 26,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.55,
-              "dur": 0.25
-            },
-            {
-              "k": "circle",
-              "x": 1560,
-              "y": 190,
-              "r": 18,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.6,
-              "dur": 0.25
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "FALLS SHORT",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "mission arc fades short of orbit",
-      "cam": "orbit"
-    },
-    {
-      "id": "8.06",
-      "p": "P08",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "text",
-          "text": "RELIABILITY IN EVERY HIDDEN PART",
-          "x": 960,
-          "y": 540,
-          "size": 52
-        }
-      ],
-      "labels": [],
-      "notes": "text: RELIABILITY IN EVERY HIDDEN PART",
-      "cam": "hold"
-    },
-    {
-      "id": "9.01",
-      "p": "P09",
-      "layer": "B",
-      "kind": "missing",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "text",
-          "text": "THE STORY IS NOT FINISHED",
-          "x": 960,
-          "y": 300,
-          "size": 52,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "heading THE STORY IS NOT FINISHED",
-      "cam": "hold"
-    },
-    {
-      "id": "9.02",
-      "p": "P09",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.9,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "boxes",
-          "params": {
-            "cy": 580,
-            "items": [
-              "HIGHER PERFORMANCE",
-              "MORE CAPABLE STAGES",
-              "MANUFACTURING CONSISTENCY",
-              "FUTURE PROPULSION"
-            ],
-            "bw": 520,
-            "bh": 150,
-            "cols": 2
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "four empty boxes draw one by one: HIGHER PERFORMANCE · MORE CAPABLE STAGES · MANUFACTURING CONSISTENCY · FUTURE PROPULSION",
-      "cam": "hold"
-    },
-    {
-      "id": "9.03",
-      "p": "P09",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 860,
-              "y1": 560,
-              "x2": 940,
-              "y2": 520,
-              "w": 2.6,
-              "at": 0.1,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 940,
-              "y1": 520,
-              "x2": 1000,
-              "y2": 560,
-              "w": 2.6,
-              "at": 0.2,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 1000,
-              "y1": 560,
-              "x2": 1060,
-              "y2": 520,
-              "w": 2.6,
-              "at": 0.3,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 1060,
-              "y1": 520,
-              "x2": 1100,
-              "y2": 545,
-              "w": 2.6,
-              "at": 0.4,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "INTERNATIONAL COOPERATION STILL VALUABLE",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "two hands-joined glyph labelled INTERNATIONAL COOPERATION STILL VALUABLE",
-      "cam": "hold"
-    },
-    {
-      "id": "9.04",
-      "p": "P09",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.1,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "question",
-          "params": {
-            "lines": [
-              "CAN AN UNAVAILABLE ENGINE",
-              "STOP A PROGRAMME?"
-            ],
-            "y": 480,
-            "size": 50
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "the opening question re-appears: CAN AN UNAVAILABLE ENGINE STOP A PROGRAMME?",
-      "cam": "hold"
-    },
-    {
-      "id": "9.05",
-      "p": "P09",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "text",
-          "text": "YEARS OF TESTING",
-          "x": 960,
-          "y": 640,
-          "size": 62,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "answer draws as a stroke over it: YEARS OF TESTING",
-      "cam": "hold"
-    },
-    {
-      "id": "10.01",
-      "p": "P10",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "text",
-          "text": "CAPABLE ONLY WHEN IT WORKS",
-          "x": 960,
-          "y": 540,
-          "size": 54
-        }
-      ],
-      "labels": [],
-      "notes": "text: CAPABLE ONLY WHEN IT WORKS",
-      "cam": "hold"
-    },
-    {
-      "id": "10.02",
-      "p": "P10",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "drop",
-              "x": 960,
-              "y0": 150,
-              "y": 548,
-              "r": 26,
-              "at": 0.05,
-              "dur": 0.7
-            }
-          ]
-        },
-        {
-          "op": "x:hero",
-          "kind": "turbopump",
-          "scale": 1.15,
-          "grow": true,
-          "growDur": 0.5,
-          "opts": {
-            "flame": 0
-          }
-        },
-        {
-          "op": "x:hero",
-          "kind": "chamber-nozzle",
-          "scale": 1.1,
-          "grow": true,
-          "growDur": 0.5,
-          "opts": {
-            "flamePulse": true
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "frozen drop returns, rotor, chamber (reverse of P01)",
-      "cam": "hold",
-      "camDist": 0.95,
-      "camAmount": 0.08
-    },
-    {
-      "id": "10.03",
-      "p": "P10",
-      "layer": "H",
-      "kind": "payoff",
-      "w": 3.8,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "rocket-stack",
-          "scale": 1,
-          "pos": [
-            0,
-            -40,
-            0
-          ],
-          "opts": {
-            "flame": 0
-          }
-        },
-        {
-          "op": "tag",
-          "text": "CONCEPTUAL, NOT TO SCALE"
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  960,
-                  720
-                ],
-                [
-                  960,
-                  900
-                ],
-                [
-                  960,
-                  1040
-                ]
-              ],
-              "r": 8,
-              "speed": 1.5,
-              "col": "#ff9b3d",
-              "at": 0.2,
-              "dur": 0.4
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "camera pulls back to the full rocket rising, line-drawn",
-      "cam": "hold",
-      "camDist": 1.85,
-      "camAmount": 0.1
-    },
-    {
-      "id": "10.04",
-      "p": "P10",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.1,
-      "scene": [
-        {
-          "op": "text",
-          "text": "A CLOSED DOOR IS NOT",
-          "x": 960,
-          "y": 500,
-          "size": 56
-        },
-        {
-          "op": "text",
-          "text": "A FINISHED STORY.",
-          "x": 960,
-          "y": 600,
-          "size": 56,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "final line holds: A CLOSED DOOR IS NOT A FINISHED STORY.",
-      "cam": "hold"
-    },
-    {
-      "id": "10.05",
-      "p": "P10",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "titleCard",
-          "title": "INDIA BUILT IT ANYWAY",
-          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
-        }
-      ],
-      "labels": [],
-      "notes": "series title card ≤ 2.5 s",
-      "cam": "hold"
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 22,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE FINAL PUSH"
+  },
+  {
+   "id": "1.02",
+   "p": "P01",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE FINAL PUSH",
+     "nodes": [
+      "THE ROCKET",
+      {
+       "t": "FINAL PUSH",
+       "sub": "UPPER STAGE"
+      },
+      {
+       "t": "THE ENGINE",
+       "sub": "BEYOND YOUR REACH",
+       "hot": true
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE FINAL PUSH",
+     "nodes": [
+      "THE ROCKET",
+      {
+       "t": "FINAL PUSH",
+       "sub": "UPPER STAGE"
+      },
+      {
+       "t": "THE ENGINE",
+       "sub": "BEYOND YOUR REACH",
+       "hot": true
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
     }
-  ]
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE FINAL PUSH"
+  },
+  {
+   "id": "1.03",
+   "p": "P01",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "NOT BECAUSE",
+      "PHYSICS FORBIDS IT."
+     ],
+     "hero": "chamber-nozzle",
+     "heroOpts": {
+      "flame": 0.3
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "NOT BECAUSE",
+      "PHYSICS FORBIDS IT."
+     ],
+     "hero": "chamber-nozzle",
+     "heroOpts": {
+      "flame": 0.3
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE FINAL PUSH"
+  },
+  {
+   "id": "1.04",
+   "p": "P01",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE TECHNOLOGY IS NOT BEING TRANSFERRED",
+     "nodes": [
+      "THE ENGINE",
+      {
+       "t": "TRANSFER",
+       "sub": "NOT HAPPENING",
+       "hot": true
+      },
+      "YOU"
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ],
+      [
+       1,
+       2,
+       ""
+      ]
+     ],
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE TECHNOLOGY IS NOT BEING TRANSFERRED",
+     "nodes": [
+      "THE ENGINE",
+      {
+       "t": "TRANSFER",
+       "sub": "NOT HAPPENING",
+       "hot": true
+      },
+      "YOU"
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ],
+      [
+       1,
+       2,
+       ""
+      ]
+     ],
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE FINAL PUSH"
+  },
+  {
+   "id": "1.05",
+   "p": "P01",
+   "w": 1.3,
+   "layer": "B",
+   "kind": "hook",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "SO WHAT DO YOU DO",
+      "WHEN THE ONE ENGINE YOU NEED",
+      "IS THE ONE YOU CANNOT GET?"
+     ],
+     "size": 76,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "SO WHAT DO YOU DO",
+      "WHEN THE ONE ENGINE YOU NEED",
+      "IS THE ONE YOU CANNOT GET?"
+     ],
+     "size": 76,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE FINAL PUSH"
+  },
+  {
+   "id": "2.01",
+   "p": "P02",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "timeline",
+     "title": "THE EARLY NINETEEN NINETIES",
+     "items": [
+      {
+       "t": "EARLY 1990s",
+       "sub": "RESTRICTIONS ON ACCESS TO CRYOGENIC ROCKET TECHNOLOGY",
+       "hot": true,
+       "at": 0.5,
+       "size": 84
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "timeline",
+     "title": "THE EARLY NINETEEN NINETIES",
+     "items": [
+      {
+       "t": "EARLY 1990s",
+       "sub": "RESTRICTIONS ON ACCESS TO CRYOGENIC ROCKET TECHNOLOGY",
+       "hot": true,
+       "at": 0.5,
+       "size": 84
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.02",
+   "p": "P02",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "AN UNCOMFORTABLE MESSAGE",
+     "nodes": [
+      "INDIA",
+      {
+       "t": "ACCESS",
+       "sub": "RESTRICTED",
+       "hot": true
+      },
+      "CRYOGENIC TECHNOLOGY"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "AN UNCOMFORTABLE MESSAGE",
+     "nodes": [
+      "INDIA",
+      {
+       "t": "ACCESS",
+       "sub": "RESTRICTED",
+       "hot": true
+      },
+      "CRYOGENIC TECHNOLOGY"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.03",
+   "p": "P02",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 0.6
+     },
+     "title": "THE MACHINE EXISTED",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.2,
+       "t": "OTHER NATIONS HAD MASTERED IT"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.85,
+       "t": "ACCESS WAS ANOTHER MATTER"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 0.6
+     },
+     "title": "THE MACHINE EXISTED",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.2,
+       "t": "OTHER NATIONS HAD MASTERED IT"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.85,
+       "t": "ACCESS WAS ANOTHER MATTER"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 18,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.04",
+   "p": "P02",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "THE TEMPTING STORY:",
+      "THEY SAID NO,",
+      "INDIA SAID YES."
+     ],
+     "hero": "pipe-network",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "THE TEMPTING STORY:",
+      "THEY SAID NO,",
+      "INDIA SAID YES."
+     ],
+     "hero": "pipe-network",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.05",
+   "p": "P02",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      {
+       "t": "THE REAL STORY",
+       "col": "ink"
+      },
+      {
+       "t": "IS HARDER.",
+       "col": "accent"
+      }
+     ],
+     "prop": "lockedCabinet",
+     "pscale": 4
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      {
+       "t": "THE REAL STORY",
+       "col": "ink"
+      },
+      {
+       "t": "IS HARDER.",
+       "col": "accent"
+      }
+     ],
+     "prop": "lockedCabinet",
+     "pscale": 4
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.06",
+   "p": "P02",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "A REFUSAL DOES NOT",
+      "CREATE AN ENGINE."
+     ],
+     "hero": "turbopump",
+     "hscale": 1,
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "A REFUSAL DOES NOT",
+      "CREATE AN ENGINE."
+     ],
+     "hero": "turbopump",
+     "hscale": 1,
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.07",
+   "p": "P02",
+   "w": 1,
+   "layer": "C",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "figure",
+     "title": "IT CREATES A PROBLEM",
+     "pose": "point",
+     "fig2": {
+      "pose": "reach",
+      "x": 1250
+     },
+     "figX": 640,
+     "props": [
+      {
+       "prop": "desk",
+       "x": 960,
+       "y": 690,
+       "scale": 3.2
+      }
+     ],
+     "callouts": [
+      {
+       "t": "ENGINEERS MUST SOLVE IT",
+       "dx": 0,
+       "dy": -40
+      }
+     ],
+     "ground": 840
+    },
+    {
+     "op": "cs",
+     "tpl": "figure",
+     "title": "IT CREATES A PROBLEM",
+     "pose": "point",
+     "fig2": {
+      "pose": "reach",
+      "x": 1250
+     },
+     "figX": 640,
+     "props": [
+      {
+       "prop": "desk",
+       "x": 960,
+       "y": 690,
+       "scale": 3.2
+      }
+     ],
+     "callouts": [
+      {
+       "t": "ENGINEERS MUST SOLVE IT",
+       "dx": 0,
+       "dy": -40
+      }
+     ],
+     "ground": 840
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.08",
+   "p": "P02",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "ONE STUBBORN PIECE AT A TIME",
+     "nodes": [
+      "PUMP",
+      "VALVE",
+      "SEAL",
+      "CHAMBER",
+      "NOZZLE"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "ONE STUBBORN PIECE AT A TIME",
+     "nodes": [
+      "PUMP",
+      "VALVE",
+      "SEAL",
+      "CHAMBER",
+      "NOZZLE"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.09",
+   "p": "P02",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 0
+     },
+     "title": "PIECES BECOME AN ENGINE",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "explode": {
+      "at": 0.1,
+      "dur": 0.45,
+      "amt": 0.9
+     },
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.15,
+       "t": "CHAMBER"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.85,
+       "t": "NOZZLE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 0
+     },
+     "title": "PIECES BECOME AN ENGINE",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "explode": {
+      "at": 0.1,
+      "dur": 0.45,
+      "amt": 0.9
+     },
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.15,
+       "t": "CHAMBER"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.85,
+       "t": "NOZZLE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 24,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "2.10",
+   "p": "P02",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      {
+       "t": "STUBBORN.",
+       "col": "ink"
+      },
+      {
+       "t": "TESTED.",
+       "col": "cyan"
+      },
+      {
+       "t": "REPEATED.",
+       "col": "accent"
+      }
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      {
+       "t": "STUBBORN.",
+       "col": "ink"
+      },
+      {
+       "t": "TESTED.",
+       "col": "cyan"
+      },
+      {
+       "t": "REPEATED.",
+       "col": "accent"
+      }
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.2 · THE RESTRICTION"
+  },
+  {
+   "id": "3.01",
+   "p": "P03",
+   "w": 1.1,
+   "layer": "C",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "figure",
+     "title": "START WITH A KITCHEN GAS STOVE",
+     "pose": "reach",
+     "accent": "armR",
+     "figX": 620,
+     "props": [
+      {
+       "prop": "gasStove",
+       "x": 1090,
+       "scale": 4.4
+      },
+      {
+       "prop": "pot",
+       "x": 1090,
+       "y": 672,
+       "scale": 3.4
+      }
+     ],
+     "propOpts": {
+      "flame": 0.9
+     },
+     "callouts": [
+      {
+       "t": "FUEL MEETS OXYGEN AND BURNS",
+       "prop": 0,
+       "dy": -60
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "figure",
+     "title": "START WITH A KITCHEN GAS STOVE",
+     "pose": "reach",
+     "accent": "armR",
+     "figX": 620,
+     "props": [
+      {
+       "prop": "gasStove",
+       "x": 1090,
+       "scale": 4.4
+      },
+      {
+       "prop": "pot",
+       "x": 1090,
+       "y": 672,
+       "scale": 3.4
+      }
+     ],
+     "propOpts": {
+      "flame": 0.9
+     },
+     "callouts": [
+      {
+       "t": "FUEL MEETS OXYGEN AND BURNS",
+       "prop": 0,
+       "dy": -60
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.3 · IDEA 1 · FUEL AND OXYGEN"
+  },
+  {
+   "id": "3.02",
+   "p": "P03",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "FUEL + OXYGEN = HEAT",
+     "nodes": [
+      "FUEL",
+      "OXYGEN",
+      {
+       "t": "HEAT",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       2,
+       ""
+      ],
+      [
+       1,
+       2,
+       ""
+      ]
+     ],
+     "layout": "tri"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "FUEL + OXYGEN = HEAT",
+     "nodes": [
+      "FUEL",
+      "OXYGEN",
+      {
+       "t": "HEAT",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       2,
+       ""
+      ],
+      [
+       1,
+       2,
+       ""
+      ]
+     ],
+     "layout": "tri"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.3 · IDEA 1 · FUEL AND OXYGEN"
+  },
+  {
+   "id": "3.03",
+   "p": "P03",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "tank",
+     "title": "A ROCKET CARRIES ITS OWN OXYGEN",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.3,
+       "t": "FUEL"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.72,
+       "t": "OWN OXYGEN"
+      }
+     ],
+     "chain": "FAR MORE INTENSE THAN A STOVE"
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "tank",
+     "title": "A ROCKET CARRIES ITS OWN OXYGEN",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.3,
+       "t": "FUEL"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.72,
+       "t": "OWN OXYGEN"
+      }
+     ],
+     "chain": "FAR MORE INTENSE THAN A STOVE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 20,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.3 · IDEA 1 · FUEL AND OXYGEN"
+  },
+  {
+   "id": "3.04",
+   "p": "P03",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "tank",
+     "title": "KEPT EXTRAORDINARILY COLD",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "cut": [
+      0.05,
+      0.5
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.4,
+       "t": "EXTREMELY LOW TEMPERATURE"
+      },
+      {
+       "fx": 0.15,
+       "fy": 0.5,
+       "t": "FROST ON THE TANK"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "tank",
+     "title": "KEPT EXTRAORDINARILY COLD",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "cut": [
+      0.05,
+      0.5
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.4,
+       "t": "EXTREMELY LOW TEMPERATURE"
+      },
+      {
+       "fx": 0.15,
+       "fy": 0.5,
+       "t": "FROST ON THE TANK"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -24,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.3 · IDEA 1 · FUEL AND OXYGEN"
+  },
+  {
+   "id": "3.05",
+   "p": "P03",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "pipe-network",
+     "title": "THE PLUMBING IS UNFORGIVING",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.3,
+       "fy": 0.6,
+       "t": "JOINTS AND SEALS"
+      },
+      {
+       "fx": 0.75,
+       "fy": 0.35,
+       "t": "COLD FLOWS THROUGH"
+      }
+     ],
+     "flows": [
+      {
+       "a": [
+        0.05,
+        0.7
+       ],
+       "b": [
+        0.95,
+        0.3
+       ],
+       "col": "cyan"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "pipe-network",
+     "title": "THE PLUMBING IS UNFORGIVING",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.3,
+       "fy": 0.6,
+       "t": "JOINTS AND SEALS"
+      },
+      {
+       "fx": 0.75,
+       "fy": 0.35,
+       "t": "COLD FLOWS THROUGH"
+      }
+     ],
+     "flows": [
+      {
+       "a": [
+        0.05,
+        0.7
+       ],
+       "b": [
+        0.95,
+        0.3
+       ],
+       "col": "cyan"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 30,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.3 · IDEA 1 · FUEL AND OXYGEN"
+  },
+  {
+   "id": "3.06",
+   "p": "P03",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "THE COLD MAKES",
+      "THEM USEFUL."
+     ],
+     "hero": "tank",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "THE COLD MAKES",
+      "THEM USEFUL."
+     ],
+     "hero": "tank",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.3 · IDEA 1 · FUEL AND OXYGEN"
+  },
+  {
+   "id": "3.07",
+   "p": "P03",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "BUT IT ALSO MAKES THE",
+      {
+       "t": "PLUMBING UNFORGIVING.",
+       "col": "accent"
+      }
+     ],
+     "hero": "pipe-network",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "BUT IT ALSO MAKES THE",
+      {
+       "t": "PLUMBING UNFORGIVING.",
+       "col": "accent"
+      }
+     ],
+     "hero": "pipe-network",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.3 · IDEA 1 · FUEL AND OXYGEN"
+  },
+  {
+   "id": "4.01",
+   "p": "P04",
+   "w": 1.1,
+   "layer": "C",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "figure",
+     "title": "NOW PICTURE A BICYCLE PUMP",
+     "pose": "pumpUp",
+     "poseTo": "pumpDown",
+     "hz": 0.9,
+     "figX": 600,
+     "props": [
+      {
+       "prop": "bicyclePump",
+       "x": 930,
+       "scale": 4.4
+      },
+      {
+       "prop": "tyre",
+       "x": 1330,
+       "scale": 2.2
+      }
+     ],
+     "motion": {
+      "x1": 960,
+      "y1": 560,
+      "x2": 1290,
+      "y2": 720
+     },
+     "callouts": [
+      {
+       "t": "EACH PUSH FORCES AIR THROUGH A NARROW PASSAGE",
+       "prop": 0,
+       "dy": -120
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "figure",
+     "title": "NOW PICTURE A BICYCLE PUMP",
+     "pose": "pumpUp",
+     "poseTo": "pumpDown",
+     "hz": 0.9,
+     "figX": 600,
+     "props": [
+      {
+       "prop": "bicyclePump",
+       "x": 930,
+       "scale": 4.4
+      },
+      {
+       "prop": "tyre",
+       "x": 1330,
+       "scale": 2.2
+      }
+     ],
+     "motion": {
+      "x1": 960,
+      "y1": 560,
+      "x2": 1290,
+      "y2": 720
+     },
+     "callouts": [
+      {
+       "t": "EACH PUSH FORCES AIR THROUGH A NARROW PASSAGE",
+       "prop": 0,
+       "dy": -120
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.4 · IDEA 2 · THE PUMP"
+  },
+  {
+   "id": "4.02",
+   "p": "P04",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "EACH PUSH, A NARROW PASSAGE",
+     "nodes": [
+      "PUSH",
+      {
+       "t": "NARROW PASSAGE",
+       "hot": true
+      },
+      "AIR OUT"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "EACH PUSH, A NARROW PASSAGE",
+     "nodes": [
+      "PUSH",
+      {
+       "t": "NARROW PASSAGE",
+       "hot": true
+      },
+      "AIR OUT"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.4 · IDEA 2 · THE PUMP"
+  },
+  {
+   "id": "4.03",
+   "p": "P04",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "A ROCKET ENGINE NEEDS",
+      "A CONTINUOUS,",
+      "ENORMOUS FLOW."
+     ],
+     "hero": "pipe-network",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "A ROCKET ENGINE NEEDS",
+      "A CONTINUOUS,",
+      "ENORMOUS FLOW."
+     ],
+     "hero": "pipe-network",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.4 · IDEA 2 · THE PUMP"
+  },
+  {
+   "id": "4.04",
+   "p": "P04",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "turbopump",
+     "title": "POWERFUL TURBOPUMPS SPIN RAPIDLY",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "SPINS RAPIDLY"
+      },
+      {
+       "fx": 0.08,
+       "fy": 0.5,
+       "t": "FUEL AND OXIDISER IN"
+      },
+      {
+       "fx": 0.92,
+       "fy": 0.5,
+       "t": "ON TO THE CHAMBER"
+      }
+     ],
+     "flows": [
+      {
+       "a": [
+        0,
+        0.5
+       ],
+       "b": [
+        0.3,
+        0.5
+       ]
+      },
+      {
+       "a": [
+        0.7,
+        0.5
+       ],
+       "b": [
+        1,
+        0.5
+       ]
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "turbopump",
+     "title": "POWERFUL TURBOPUMPS SPIN RAPIDLY",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "SPINS RAPIDLY"
+      },
+      {
+       "fx": 0.08,
+       "fy": 0.5,
+       "t": "FUEL AND OXIDISER IN"
+      },
+      {
+       "fx": 0.92,
+       "fy": 0.5,
+       "t": "ON TO THE CHAMBER"
+      }
+     ],
+     "flows": [
+      {
+       "a": [
+        0,
+        0.5
+       ],
+       "b": [
+        0.3,
+        0.5
+       ]
+      },
+      {
+       "a": [
+        0.7,
+        0.5
+       ],
+       "b": [
+        1,
+        0.5
+       ]
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 26,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.4 · IDEA 2 · THE PUMP"
+  },
+  {
+   "id": "4.05",
+   "p": "P04",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "turbopump",
+     "title": "INSIDE THE PUMP",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "cut": [
+      0.05,
+      0.45
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.45,
+       "t": "IMPELLER PUSHES THE FLOW"
+      },
+      {
+       "fx": 0.8,
+       "fy": 0.7,
+       "t": "PRESSURE BUILDS"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "turbopump",
+     "title": "INSIDE THE PUMP",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "cut": [
+      0.05,
+      0.45
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.45,
+       "t": "IMPELLER PUSHES THE FLOW"
+      },
+      {
+       "fx": 0.8,
+       "fy": 0.7,
+       "t": "PRESSURE BUILDS"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -30,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.4 · IDEA 2 · THE PUMP"
+  },
+  {
+   "id": "4.06a",
+   "p": "P04",
+   "w": 0.4,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      {
+       "t": "TINY HAND PUMPS CANNOT DO IT",
+       "col": "accent"
+      }
+     ],
+     "size": 84,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      {
+       "t": "TINY HAND PUMPS CANNOT DO IT",
+       "col": "accent"
+      }
+     ],
+     "size": 84,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.4 · IDEA 2 · THE PUMP"
+  },
+  {
+   "id": "4.06b",
+   "p": "P04",
+   "w": 0.6,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "TINY HAND PUMPS CANNOT DO IT",
+     "nodes": [
+      {
+       "t": "TINY HAND PUMP",
+       "sub": "ONE PUSH"
+      },
+      {
+       "t": "TURBOPUMP",
+       "sub": "CONTINUOUS FLOW",
+       "hot": true
+      }
+     ],
+     "layout": "two"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "TINY HAND PUMPS CANNOT DO IT",
+     "nodes": [
+      {
+       "t": "TINY HAND PUMP",
+       "sub": "ONE PUSH"
+      },
+      {
+       "t": "TURBOPUMP",
+       "sub": "CONTINUOUS FLOW",
+       "hot": true
+      }
+     ],
+     "layout": "two"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.4 · IDEA 2 · THE PUMP"
+  },
+  {
+   "id": "4.07",
+   "p": "P04",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "THE PUMP IS NOT",
+      "AN ACCESSORY."
+     ],
+     "sub": "WITHOUT THE RIGHT PRESSURE AND FLOW, THE WHOLE ENGINE FAILS.",
+     "hero": "turbopump",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "THE PUMP IS NOT",
+      "AN ACCESSORY."
+     ],
+     "sub": "WITHOUT THE RIGHT PRESSURE AND FLOW, THE WHOLE ENGINE FAILS.",
+     "hero": "turbopump",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.4 · IDEA 2 · THE PUMP"
+  },
+  {
+   "id": "5.01",
+   "p": "P05",
+   "w": 1.1,
+   "layer": "C",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "figure",
+     "title": "THEN COMES THE CHAMBER",
+     "pose": "point",
+     "figX": 620,
+     "props": [
+      {
+       "prop": "pressureCooker",
+       "x": 1120,
+       "scale": 4.6
+      }
+     ],
+     "propOpts": {
+      "steam": 0.9
+     },
+     "callouts": [
+      {
+       "t": "A PRESSURE COOKER TRAPS HOT GAS",
+       "prop": 0,
+       "dy": -80
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "figure",
+     "title": "THEN COMES THE CHAMBER",
+     "pose": "point",
+     "figX": 620,
+     "props": [
+      {
+       "prop": "pressureCooker",
+       "x": 1120,
+       "scale": 4.6
+      }
+     ],
+     "propOpts": {
+      "steam": 0.9
+     },
+     "callouts": [
+      {
+       "t": "A PRESSURE COOKER TRAPS HOT GAS",
+       "prop": 0,
+       "dy": -80
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.5 · IDEA 3 · THE CHAMBER"
+  },
+  {
+   "id": "5.02",
+   "p": "P05",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE GOAL IS NOT TO TRAP THE GAS",
+     "nodes": [
+      {
+       "t": "HOT GAS",
+       "sub": "IN THE CHAMBER"
+      },
+      {
+       "t": "SHAPED NOZZLE",
+       "hot": true
+      },
+      {
+       "t": "RACING OUT"
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE GOAL IS NOT TO TRAP THE GAS",
+     "nodes": [
+      {
+       "t": "HOT GAS",
+       "sub": "IN THE CHAMBER"
+      },
+      {
+       "t": "SHAPED NOZZLE",
+       "hot": true
+      },
+      {
+       "t": "RACING OUT"
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.5 · IDEA 3 · THE CHAMBER"
+  },
+  {
+   "id": "5.03",
+   "p": "P05",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "THE COMBUSTION CHAMBER",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.25,
+       "t": "CHAMBER"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "THROAT"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.85,
+       "t": "SHAPED NOZZLE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "THE COMBUSTION CHAMBER",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.25,
+       "t": "CHAMBER"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "THROAT"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.85,
+       "t": "SHAPED NOZZLE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 20,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.5 · IDEA 3 · THE CHAMBER"
+  },
+  {
+   "id": "5.04",
+   "p": "P05",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "EXHAUST ACCELERATES BACKWARD",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "flows": [
+      {
+       "a": [
+        0.5,
+        0.45
+       ],
+       "b": [
+        0.5,
+        1.05
+       ],
+       "col": "accent2"
+      }
+     ],
+     "callouts": [
+      {
+       "fx": 0.55,
+       "fy": 0.9,
+       "t": "EXHAUST GOES BACKWARD"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "EXHAUST ACCELERATES BACKWARD",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "flows": [
+      {
+       "a": [
+        0.5,
+        0.45
+       ],
+       "b": [
+        0.5,
+        1.05
+       ],
+       "col": "accent2"
+      }
+     ],
+     "callouts": [
+      {
+       "fx": 0.55,
+       "fy": 0.9,
+       "t": "EXHAUST GOES BACKWARD"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -22,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.5 · IDEA 3 · THE CHAMBER"
+  },
+  {
+   "id": "5.05",
+   "p": "P05",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "BACKWARD EXHAUST, FORWARD MOMENTUM",
+     "nodes": [
+      "EXHAUST BACKWARD",
+      {
+       "t": "ROCKET FORWARD",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       "MOMENTUM"
+      ]
+     ],
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "BACKWARD EXHAUST, FORWARD MOMENTUM",
+     "nodes": [
+      "EXHAUST BACKWARD",
+      {
+       "t": "ROCKET FORWARD",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       "MOMENTUM"
+      ]
+     ],
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.5 · IDEA 3 · THE CHAMBER"
+  },
+  {
+   "id": "5.06",
+   "p": "P05",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "HEAT INSIDE, COLD NEARBY",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "cut": [
+      0.05,
+      0.45
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.3,
+       "t": "INTENSE HEAT"
+      },
+      {
+       "fx": 0.88,
+       "fy": 0.35,
+       "t": "COLD PROPELLANT ARRIVING"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "HEAT INSIDE, COLD NEARBY",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "cut": [
+      0.05,
+      0.45
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.3,
+       "t": "INTENSE HEAT"
+      },
+      {
+       "fx": 0.88,
+       "fy": 0.35,
+       "t": "COLD PROPELLANT ARRIVING"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 28,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.5 · IDEA 3 · THE CHAMBER"
+  },
+  {
+   "id": "5.07",
+   "p": "P05",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "EVERYTHING HAS TO COOPERATE",
+     "nodes": [
+      "MATERIALS",
+      "SEALS",
+      "COOLING PASSAGES",
+      "VALVES"
+     ],
+     "layout": "grid:2",
+     "hot": -1
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "EVERYTHING HAS TO COOPERATE",
+     "nodes": [
+      "MATERIALS",
+      "SEALS",
+      "COOLING PASSAGES",
+      "VALVES"
+     ],
+     "layout": "grid:2",
+     "hot": -1
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.5 · IDEA 3 · THE CHAMBER"
+  },
+  {
+   "id": "5.08",
+   "p": "P05",
+   "w": 1,
+   "layer": "H",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "EVERYTHING",
+      "HAS TO COOPERATE."
+     ],
+     "hero": "chamber-nozzle",
+     "heroOpts": {
+      "flame": 1
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "EVERYTHING",
+      "HAS TO COOPERATE."
+     ],
+     "hero": "chamber-nozzle",
+     "heroOpts": {
+      "flame": 1
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.5 · IDEA 3 · THE CHAMBER"
+  },
+  {
+   "id": "6.01",
+   "p": "P06",
+   "w": 1.1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "COPYING THE OUTLINE",
+      "OF AN ENGINE"
+     ],
+     "sub": "IS NOT THE SAME AS BUILDING ONE.",
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "COPYING THE OUTLINE",
+      "OF AN ENGINE"
+     ],
+     "sub": "IS NOT THE SAME AS BUILDING ONE.",
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.6 · BUILDING IT"
+  },
+  {
+   "id": "6.02",
+   "p": "P06",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE INVISIBLE BEHAVIOUR INSIDE",
+     "nodes": [
+      "FLOW",
+      "HEAT",
+      "VIBRATION",
+      "PRESSURE"
+     ],
+     "layout": "row",
+     "links": []
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE INVISIBLE BEHAVIOUR INSIDE",
+     "nodes": [
+      "FLOW",
+      "HEAT",
+      "VIBRATION",
+      "PRESSURE"
+     ],
+     "layout": "row",
+     "links": []
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.6 · BUILDING IT"
+  },
+  {
+   "id": "6.03",
+   "p": "P06",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "TEST, LEARN, CHANGE, TEST AGAIN",
+     "nodes": [
+      "TEST",
+      {
+       "t": "FAIL",
+       "hot": true
+      },
+      "CHANGE"
+     ],
+     "links": "cycle",
+     "layout": "tri"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "TEST, LEARN, CHANGE, TEST AGAIN",
+     "nodes": [
+      "TEST",
+      {
+       "t": "FAIL",
+       "hot": true
+      },
+      "CHANGE"
+     ],
+     "links": "cycle",
+     "layout": "tri"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.6 · BUILDING IT"
+  },
+  {
+   "id": "6.04",
+   "p": "P06",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "TEST.",
+      "DISCOVER WHAT FAILED.",
+      "CHANGE THE DESIGN.",
+      "TEST AGAIN."
+     ],
+     "size": 72,
+     "hero": "turbopump",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "TEST.",
+      "DISCOVER WHAT FAILED.",
+      "CHANGE THE DESIGN.",
+      "TEST AGAIN."
+     ],
+     "size": 72,
+     "hero": "turbopump",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.6 · BUILDING IT"
+  },
+  {
+   "id": "7.01",
+   "p": "P07",
+   "w": 1.1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "INDIA'S SPACE PROGRAMME",
+      "TOOK THAT LONG ROUTE."
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "INDIA'S SPACE PROGRAMME",
+      "TOOK THAT LONG ROUTE."
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.02",
+   "p": "P07",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "timeline",
+     "title": "THE GSLV ROCKET",
+     "items": [
+      {
+       "t": "EARLY FLIGHTS",
+       "sub": "CRYOGENIC STAGES SUPPLIED FROM ABROAD",
+       "at": 0.2,
+       "size": 58
+      },
+      {
+       "t": "JAN 2014",
+       "sub": "FIRST FLIGHT WITH AN INDIGENOUS CRYOGENIC STAGE",
+       "at": 0.8,
+       "hot": true,
+       "size": 72
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "timeline",
+     "title": "THE GSLV ROCKET",
+     "items": [
+      {
+       "t": "EARLY FLIGHTS",
+       "sub": "CRYOGENIC STAGES SUPPLIED FROM ABROAD",
+       "at": 0.2,
+       "size": 58
+      },
+      {
+       "t": "JAN 2014",
+       "sub": "FIRST FLIGHT WITH AN INDIGENOUS CRYOGENIC STAGE",
+       "at": 0.8,
+       "hot": true,
+       "size": 72
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.03",
+   "p": "P07",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "title": "GSLV: THE INDIGENOUS CRYOGENIC STAGE",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "CRYOGENIC UPPER STAGE"
+      }
+     ],
+     "flows": [
+      {
+       "a": [
+        0.8,
+        0.9
+       ],
+       "b": [
+        0.8,
+        0.1
+       ]
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "title": "GSLV: THE INDIGENOUS CRYOGENIC STAGE",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "CRYOGENIC UPPER STAGE"
+      }
+     ],
+     "flows": [
+      {
+       "a": [
+        0.8,
+        0.9
+       ],
+       "b": [
+        0.8,
+        0.1
+       ]
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 20,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.04",
+   "p": "P07",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "LATER: A DIFFERENT INDIGENOUS ENGINE",
+     "nodes": [
+      {
+       "t": "GSLV",
+       "sub": "INDIGENOUS CRYOGENIC STAGE"
+      },
+      {
+       "t": "CE20",
+       "sub": "INDIGENOUS ENGINE",
+       "hot": true
+      },
+      {
+       "t": "LVM3",
+       "sub": "UPPER STAGE"
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "LATER: A DIFFERENT INDIGENOUS ENGINE",
+     "nodes": [
+      {
+       "t": "GSLV",
+       "sub": "INDIGENOUS CRYOGENIC STAGE"
+      },
+      {
+       "t": "CE20",
+       "sub": "INDIGENOUS ENGINE",
+       "hot": true
+      },
+      {
+       "t": "LVM3",
+       "sub": "UPPER STAGE"
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.05",
+   "p": "P07",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "THE CE20 ENGINE",
+     "tag": "CONCEPTUAL, NOT CE20 INTERNALS",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "INDIGENOUSLY DEVELOPED"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.9,
+       "t": "POWERS THE LVM3 UPPER STAGE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "THE CE20 ENGINE",
+     "tag": "CONCEPTUAL, NOT CE20 INTERNALS",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "INDIGENOUSLY DEVELOPED"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.9,
+       "t": "POWERS THE LVM3 UPPER STAGE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 24,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.06",
+   "p": "P07",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "title": "THE HEAVIER LVM3 ROCKET",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "CE20 UPPER STAGE"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.9,
+       "t": "LVM3"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "title": "THE HEAVIER LVM3 ROCKET",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "CE20 UPPER STAGE"
+      },
+      {
+       "fx": 0.5,
+       "fy": 0.9,
+       "t": "LVM3"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -20,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.07",
+   "p": "P07",
+   "w": 1.3,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "grid",
+     "title": "EIGHT SUCCESSIVE LVM3 MISSIONS",
+     "slots": [
+      {
+       "n": 8,
+       "col": "accent",
+       "cell": "LVM3"
+      }
+     ],
+     "lit": 8,
+     "cols": 4,
+     "legend": [
+      {
+       "t": "CHANDRAYAAN-3 AMONG THEM",
+       "col": "accent"
+      }
+     ],
+     "source": "ISRO, 7 JUL 2026"
+    },
+    {
+     "op": "cs",
+     "tpl": "grid",
+     "title": "EIGHT SUCCESSIVE LVM3 MISSIONS",
+     "slots": [
+      {
+       "n": 8,
+       "col": "accent",
+       "cell": "LVM3"
+      }
+     ],
+     "lit": 8,
+     "cols": 4,
+     "legend": [
+      {
+       "t": "CHANDRAYAAN-3 AMONG THEM",
+       "col": "accent"
+      }
+     ],
+     "source": "ISRO, 7 JUL 2026"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.08",
+   "p": "P07",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "ACCORDING TO ISRO,",
+      "THE ENGINE HAS PERFORMED",
+      "IN EIGHT SUCCESSIVE MISSIONS."
+     ],
+     "size": 62,
+     "hero": "chamber-nozzle",
+     "heroOpts": {
+      "flame": 1
+     },
+     "tag": "CONCEPTUAL, NOT CE20 INTERNALS"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "ACCORDING TO ISRO,",
+      "THE ENGINE HAS PERFORMED",
+      "IN EIGHT SUCCESSIVE MISSIONS."
+     ],
+     "size": 62,
+     "hero": "chamber-nozzle",
+     "heroOpts": {
+      "flame": 1
+     },
+     "tag": "CONCEPTUAL, NOT CE20 INTERNALS"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.09",
+   "p": "P07",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "timeline",
+     "title": "JULY 2026",
+     "items": [
+      {
+       "t": "6 JULY 2026",
+       "sub": "FLIGHT ACCEPTANCE HOT TEST AT ISRO PROPULSION COMPLEX",
+       "hot": true,
+       "at": 0.5,
+       "size": 76
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "timeline",
+     "title": "JULY 2026",
+     "items": [
+      {
+       "t": "6 JULY 2026",
+       "sub": "FLIGHT ACCEPTANCE HOT TEST AT ISRO PROPULSION COMPLEX",
+       "hot": true,
+       "at": 0.5,
+       "size": 76
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.10",
+   "p": "P07",
+   "w": 1.4,
+   "layer": "B",
+   "kind": "number",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "number",
+     "title": "THE FLIGHT ACCEPTANCE TEST",
+     "value": "22",
+     "unit": "TONNES OF THRUST",
+     "note": "FLIGHT ACCEPTANCE HOT TEST",
+     "bars": [
+      {
+       "t": "19.5 T FOR 45 S",
+       "v": 19.5
+      },
+      {
+       "t": "22 T FOR 25 S",
+       "v": 22,
+       "hot": true
+      }
+     ],
+     "max": 25,
+     "chain": "ISRO REPORTED THRUST LEVELS",
+     "source": "ISRO, 6 JUL 2026"
+    },
+    {
+     "op": "cs",
+     "tpl": "number",
+     "title": "THE FLIGHT ACCEPTANCE TEST",
+     "value": "22",
+     "unit": "TONNES OF THRUST",
+     "note": "FLIGHT ACCEPTANCE HOT TEST",
+     "bars": [
+      {
+       "t": "19.5 T FOR 45 S",
+       "v": 19.5
+      },
+      {
+       "t": "22 T FOR 25 S",
+       "v": 22,
+       "hot": true
+      }
+     ],
+     "max": 25,
+     "chain": "ISRO REPORTED THRUST LEVELS",
+     "source": "ISRO, 6 JUL 2026"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.11",
+   "p": "P07",
+   "w": 1.1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "UNDER REAL CONDITIONS",
+     "tag": "CONCEPTUAL, NOT CE20 INTERNALS",
+     "flows": [
+      {
+       "a": [
+        0.5,
+        0.4
+       ],
+       "b": [
+        0.5,
+        1.05
+       ],
+       "col": "accent2"
+      }
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.35,
+       "t": "FULL THRUST"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 1
+     },
+     "title": "UNDER REAL CONDITIONS",
+     "tag": "CONCEPTUAL, NOT CE20 INTERNALS",
+     "flows": [
+      {
+       "a": [
+        0.5,
+        0.4
+       ],
+       "b": [
+        0.5,
+        1.05
+       ],
+       "col": "accent2"
+      }
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.35,
+       "t": "FULL THRUST"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -26,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.12",
+   "p": "P07",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "THE POINT IS NOT",
+      "A SINGLE TRIUMPHANT TEST."
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "THE POINT IS NOT",
+      "A SINGLE TRIUMPHANT TEST."
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "7.13",
+   "p": "P07",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "IT IS AN INDUSTRIAL",
+      {
+       "t": "CAPABILITY THAT",
+       "col": "accent"
+      },
+      {
+       "t": "CAN BE REPEATED.",
+       "col": "accent"
+      }
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "IT IS AN INDUSTRIAL",
+      {
+       "t": "CAPABILITY THAT",
+       "col": "accent"
+      },
+      {
+       "t": "CAN BE REPEATED.",
+       "col": "accent"
+      }
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.7 · THE LONG ROUTE"
+  },
+  {
+   "id": "8.01",
+   "p": "P08",
+   "w": 1,
+   "layer": "H",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "title": "A ROCKET IS READY",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "UPPER STAGE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "title": "A ROCKET IS READY",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "UPPER STAGE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 18,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.8 · WHAT IF"
+  },
+  {
+   "id": "8.02",
+   "p": "P08",
+   "w": 1,
+   "layer": "H",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "turbopump",
+     "title": "ITS UPPER-STAGE PUMP",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "DELIVERS SLIGHTLY TOO LITTLE PRESSURE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "turbopump",
+     "title": "ITS UPPER-STAGE PUMP",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "DELIVERS SLIGHTLY TOO LITTLE PRESSURE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -24,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.8 · WHAT IF"
+  },
+  {
+   "id": "8.03",
+   "p": "P08",
+   "w": 1,
+   "layer": "B",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE FLOW FALLS SHORT",
+     "nodes": [
+      "PUMP",
+      {
+       "t": "TOO LITTLE FLOW",
+       "hot": true
+      },
+      "CHAMBER"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE FLOW FALLS SHORT",
+     "nodes": [
+      "PUMP",
+      {
+       "t": "TOO LITTLE FLOW",
+       "hot": true
+      },
+      "CHAMBER"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · WHAT IF"
+  },
+  {
+   "id": "8.04",
+   "p": "P08",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 0.15
+     },
+     "title": "THE CHAMBER CANNOT GET THE FLOW",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.4,
+       "t": "STARVED OF FLOW"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "chamber-nozzle",
+     "opts": {
+      "flame": 0.15
+     },
+     "title": "THE CHAMBER CANNOT GET THE FLOW",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.4,
+       "t": "STARVED OF FLOW"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 22,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.8 · WHAT IF"
+  },
+  {
+   "id": "8.05",
+   "p": "P08",
+   "w": 1,
+   "layer": "H",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "BEAUTIFULLY ASSEMBLED.",
+      "MISSION IN DANGER."
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "BEAUTIFULLY ASSEMBLED.",
+      "MISSION IN DANGER."
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.8 · WHAT IF"
+  },
+  {
+   "id": "8.06",
+   "p": "P08",
+   "w": 1.3,
+   "layer": "H",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "RELIABILITY",
+      "IN EVERY HIDDEN PART."
+     ],
+     "hero": "turbopump",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "RELIABILITY",
+      "IN EVERY HIDDEN PART."
+     ],
+     "hero": "turbopump",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.8 · WHAT IF"
+  },
+  {
+   "id": "9.01",
+   "p": "P09",
+   "w": 1,
+   "layer": "H",
+   "kind": "missing",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "THE STORY IS",
+      "NOT FINISHED."
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "THE STORY IS",
+      "NOT FINISHED."
+     ],
+     "hero": "rocket-stack",
+     "opts": {
+      "flame": 0
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.9 · STILL MISSING"
+  },
+  {
+   "id": "9.02",
+   "p": "P09",
+   "w": 1.5,
+   "layer": "B",
+   "kind": "missing",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "STILL REQUIRES WORK",
+     "nodes": [
+      "HIGHER PERFORMANCE",
+      "MORE CAPABLE STAGES",
+      "MANUFACTURING CONSISTENCY",
+      "FUTURE PROPULSION SYSTEMS"
+     ],
+     "layout": "grid:2"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "STILL REQUIRES WORK",
+     "nodes": [
+      "HIGHER PERFORMANCE",
+      "MORE CAPABLE STAGES",
+      "MANUFACTURING CONSISTENCY",
+      "FUTURE PROPULSION SYSTEMS"
+     ],
+     "layout": "grid:2"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.9 · STILL MISSING"
+  },
+  {
+   "id": "9.03",
+   "p": "P09",
+   "w": 1,
+   "layer": "H",
+   "kind": "missing",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "INTERNATIONAL COOPERATION",
+      "REMAINS VALUABLE."
+     ],
+     "size": 64,
+     "hero": "chamber-nozzle",
+     "heroOpts": {
+      "flame": 0.5
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "INTERNATIONAL COOPERATION",
+      "REMAINS VALUABLE."
+     ],
+     "size": 64,
+     "hero": "chamber-nozzle",
+     "heroOpts": {
+      "flame": 0.5
+     },
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.9 · STILL MISSING"
+  },
+  {
+   "id": "9.04",
+   "p": "P09",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "CAN AN UNAVAILABLE ENGINE",
+      "STOP A PROGRAMME?"
+     ],
+     "size": 78,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "CAN AN UNAVAILABLE ENGINE",
+      "STOP A PROGRAMME?"
+     ],
+     "size": 78,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.9 · STILL MISSING"
+  },
+  {
+   "id": "9.05",
+   "p": "P09",
+   "w": 1.4,
+   "layer": "B",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "THE ANSWER CAME NOT FROM A SPEECH,",
+      {
+       "t": "BUT FROM YEARS OF TESTING.",
+       "col": "accent"
+      }
+     ],
+     "size": 70,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "THE ANSWER CAME NOT FROM A SPEECH,",
+      {
+       "t": "BUT FROM YEARS OF TESTING.",
+       "col": "accent"
+      }
+     ],
+     "size": 70,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.9 · STILL MISSING"
+  },
+  {
+   "id": "10.01",
+   "p": "P10",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "A NATION DOES NOT BECOME CAPABLE",
+      "BECAUSE IT DECLARES ITSELF CAPABLE."
+     ],
+     "size": 60,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "A NATION DOES NOT BECOME CAPABLE",
+      "BECAUSE IT DECLARES ITSELF CAPABLE."
+     ],
+     "size": 60,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · THE ANSWER"
+  },
+  {
+   "id": "10.02",
+   "p": "P10",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "IT BECOMES CAPABLE WHEN AN ENGINE WORKS",
+      "UNDER CONDITIONS THAT CANNOT BE NEGOTIATED."
+     ],
+     "size": 56,
+     "align": "center",
+     "hero": null
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "IT BECOMES CAPABLE WHEN AN ENGINE WORKS",
+      "UNDER CONDITIONS THAT CANNOT BE NEGOTIATED."
+     ],
+     "size": 56,
+     "align": "center",
+     "hero": null
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · THE ANSWER"
+  },
+  {
+   "id": "10.03",
+   "p": "P10",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "title": "THE ENGINE WORKS",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "flows": [
+      {
+       "a": [
+        0.85,
+        0.95
+       ],
+       "b": [
+        0.85,
+        0.05
+       ]
+      }
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "UPPER STAGE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "rocket-stack",
+     "opts": {
+      "flame": 1
+     },
+     "title": "THE ENGINE WORKS",
+     "tag": "CONCEPTUAL, NOT TO SCALE",
+     "flows": [
+      {
+       "a": [
+        0.85,
+        0.95
+       ],
+       "b": [
+        0.85,
+        0.05
+       ]
+      }
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "UPPER STAGE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 14,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.10 · THE ANSWER"
+  },
+  {
+   "id": "10.04",
+   "p": "P10",
+   "w": 1.6,
+   "layer": "B",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "A CLOSED DOOR IS NOT",
+      {
+       "t": "A FINISHED STORY.",
+       "col": "accent"
+      }
+     ],
+     "size": 104,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "A CLOSED DOOR IS NOT",
+      {
+       "t": "A FINISHED STORY.",
+       "col": "accent"
+      }
+     ],
+     "size": 104,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · THE ANSWER"
+  },
+  {
+   "id": "10.05",
+   "p": "P10",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "INDIA BUILT IT ANYWAY"
+     ],
+     "sub": "S02 · E01 · THE ROCKET ENGINE THEY WOULDN'T TRANSFER",
+     "size": 100,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "INDIA BUILT IT ANYWAY"
+     ],
+     "sub": "S02 · E01 · THE ROCKET ENGINE THEY WOULDN'T TRANSFER",
+     "size": 100,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · THE ANSWER"
+  }
+ ]
 }

@@ -21,3 +21,6 @@ Do not render (outside the S02 authorization above), regenerate voice, delete or
 
 ## Roles
 Claude designs (specs in `docs/design/`, start at `docs/design/README.md`) and reviews. OpenCode implements the tickets in `docs/design/07_TICKETS.md`, one at a time, and does not redesign: unclear spec means a question in `docs/design/QUESTIONS.md`, not a guess. The user decides, listens to voices and clicks upload. First task for any new builder: write `docs/design/UNDERSTANDING_CHECK.md` and stop.
+
+## Standing authorization (user, 2026-11-14), Series 3
+Claude may build, voice (Deepgram Aura-2 Jupiter, about US$0.11 per episode), render and QC S03 episodes itself on this laptop, working from `S03_India-Megaprojects/STATUS.md`. Same limits as S02: no posting, no deletion of existing work, no ElevenLabs, no system settings.

@@ -1,0 +1,59 @@
+name: Render Series 3 (silent video)
+
+# Renders the silent 1080p video of S03 episodes on GitHub-hosted runners, one runner per episode.
+# The narration is NOT in this repo (audio is ignored); mux it locally afterwards with
+# _shared/kit-v2/tools/s03-mux.mjs. Run from the Actions tab: choose episode folders or "all".
+on:
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: 'Episode folders under S03_India-Megaprojects, space separated, or "all"'
+        default: 'E03_Atal-Setu'
+        required: true
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        env:
+          EPS: ${{ github.event.inputs.episodes }}
+        run: |
+          if [ "$EPS" = "all" ]; then EPS="E01_Chenab-Bridge E02_Atal-Tunnel E03_Atal-Setu E04_Pamban-Bridge E05_Vizhinjam-Port E06_Freight-Corridor"; fi
+          json=$(printf '%s\n' $EPS | python3 -c 'import sys,json; print(json.dumps({"episode":[l.strip() for l in sys.stdin if l.strip()]}))')
+          echo "matrix=$json" >> "$GITHUB_OUTPUT"
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install ffmpeg
+        run: sudo apt-get update -y && sudo apt-get install -y ffmpeg
+      - name: Install HyperFrames (pinned, same version as the local build)
+        run: npm install --no-save hyperframes@0.9.9
+      - name: Install headless Chrome
+        run: npx hyperframes browser --install
+      - name: Render (software WebGL, silent)
+        run: |
+          mkdir -p out
+          cd "S03_India-Megaprojects/${{ matrix.episode }}"
+          START=$(date +%s)
+          node "$GITHUB_WORKSPACE/node_modules/hyperframes/bin/hyperframes.mjs" render . -o "$GITHUB_WORKSPACE/out/${{ matrix.episode }}-silent.mp4" -q standard -w 3 --no-browser-gpu --quiet
+          echo "render took $(( $(date +%s) - START )) s" | tee "$GITHUB_WORKSPACE/out/${{ matrix.episode }}-time.txt"
+      - name: Probe the result
+        run: ffprobe -v error -show_entries stream=width,height,r_frame_rate -show_entries format=duration -of default=nw=1 "out/${{ matrix.episode }}-silent.mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.episode }}-silent
+          path: out/
+          retention-days: 7

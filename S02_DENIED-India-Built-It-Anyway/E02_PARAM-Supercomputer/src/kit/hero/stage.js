@@ -53,6 +53,7 @@
       Math.cos(az) * Math.cos(el) * r + (c.x || 0));
     camera.lookAt(0, 0, 0);
     if (target) { camera.lookAt(target.x || 0, target.y || 0, target.z || 0); }
+    camera.updateMatrixWorld(true); // projections (bbox) must use this pose, not last frame's
   };
 
   S.render = function () {

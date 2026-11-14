@@ -204,7 +204,7 @@ for (const b of timeline.beats) {
       // the beat may be showing the hero only because a transition is running: look at
       // the authored scene of the beat that introduces this hero
       const intro = (episode.beats || []).find((bb) => (bb.scene || []).some((o) => o.op === 'x:hero' && o.kind === key));
-      const introTagged = intro && (intro.scene || []).some((o) => o.op === 'tag' || (o.op === 'x:hero' && o.tag));
+      const introTagged = (intro && (intro.scene || []).some((o) => o.op === 'tag' || (o.op === 'x:hero' && o.tag))) || (b.scene || []).some((o) => /CONCEPTUAL|SCHEMATIC/i.test(String(o.tag || '')));
       if (!introTagged) fail('B10', b.id, `the hero "${key}" appears on its first beat without a CONCEPTUAL/SCHEMATIC tag`);
     }
   }

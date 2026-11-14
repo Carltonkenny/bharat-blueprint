@@ -1,0 +1,1057 @@
+[
+ {
+  "id": "1.01",
+  "p": "P01",
+  "w": 1.1,
+  "sc": "SC.1 · THE PART INSIDE EVERYTHING",
+  "k": "hook",
+  "tpl": "hero",
+  "kind": "package-chip",
+  "title": "A COMPONENT SMALLER THAN YOUR FINGERNAIL",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.35,
+    "t": "THE CHIP"
+   }
+  ],
+  "camAz": 24
+ },
+ {
+  "id": "1.02",
+  "p": "P01",
+  "w": 1.3,
+  "tpl": "flow",
+  "title": "ALL OF THEM DEPEND ON CHIPS",
+  "nodes": [
+   "THE CHIP",
+   "A CAR",
+   "A PHONE",
+   "A HOSPITAL SCANNER",
+   "A POWER GRID",
+   "A FACTORY"
+  ],
+  "layout": "radial",
+  "links": "star"
+ },
+ {
+  "id": "1.03",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A CAR CAN BE STOPPED",
+   "BY A COMPONENT SMALLER",
+   "THAN YOUR FINGERNAIL."
+  ],
+  "size": 62,
+  "hero": "package-chip",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "1.04",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "CHIPS THAT MOST PEOPLE",
+   "WILL NEVER SEE."
+  ],
+  "prop": "chip",
+  "pscale": 8
+ },
+ {
+  "id": "2.01",
+  "p": "P02",
+  "w": 1,
+  "sc": "SC.2 · DEPENDENCE",
+  "tpl": "statement",
+  "lines": [
+   "NOW IMAGINE NEEDING",
+   "THOSE CHIPS..."
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "2.02",
+  "p": "P02",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "THE FACTORIES ARE FAR AWAY",
+  "nodes": [
+   "FACTORIES THAT MAKE THEM",
+   {
+    "t": "FAR BEYOND YOUR BORDERS",
+    "hot": true
+   },
+   "YOU"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "2.03",
+  "p": "P02",
+  "w": 1.1,
+  "tpl": "hero",
+  "kind": "wafer-die",
+  "title": "A GLOBAL MANUFACTURING SYSTEM",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.45,
+    "t": "AN EXTRAORDINARILY COMPLEX SYSTEM"
+   }
+  ],
+  "camAz": 22,
+  "camEl": 30
+ },
+ {
+  "id": "2.04",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE UNCOMFORTABLE REALITY",
+   "BEHIND INDIA'S SEMICONDUCTOR",
+   "AMBITIONS."
+  ],
+  "size": 58,
+  "align": "center"
+ },
+ {
+  "id": "2.05",
+  "p": "P02",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "A DIFFERENT STORY",
+  "nodes": [
+   {
+    "t": "NOT",
+    "sub": "ONE COUNTRY REFUSING TO SELL A CHIP"
+   },
+   {
+    "t": "BUT",
+    "sub": "DEPENDENCE ON A COMPLEX GLOBAL SYSTEM",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "2.06",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A STORY OF DEPENDENCE",
+   "ON AN EXTRAORDINARILY",
+   "COMPLEX SYSTEM."
+  ],
+  "size": 62,
+  "hero": "layer-city",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "2.07",
+  "p": "P02",
+  "w": 1.4,
+  "k": "hook",
+  "tpl": "statement",
+  "lines": [
+   "SO WHAT DOES IT TAKE",
+   "TO MAKE ONE?"
+  ],
+  "size": 100,
+  "align": "center"
+ },
+ {
+  "id": "3.01",
+  "p": "P03",
+  "w": 1,
+  "sc": "SC.3 · A PATTERN ON A WAFER",
+  "tpl": "statement",
+  "lines": [
+   "IT BEGINS WITH SOMETHING",
+   "ALMOST IMPOSSIBLE TO SEE."
+  ],
+  "size": 64,
+  "hero": "wafer-die",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camEl": 30
+ },
+ {
+  "id": "3.02",
+  "p": "P03",
+  "w": 1.1,
+  "tpl": "figure",
+  "title": "TAKE A BLANK SHEET OF PAPER",
+  "pose": "sort",
+  "poseTo": "sortB",
+  "hz": 0.6,
+  "figX": 580,
+  "props": [
+   {
+    "prop": "desk",
+    "x": 1060,
+    "y": 690,
+    "scale": 3.2
+   },
+   {
+    "prop": "papers",
+    "x": 1000,
+    "y": 690,
+    "scale": 6,
+    "opts": {
+     "n": 3
+    }
+   }
+  ],
+  "callouts": [
+   {
+    "t": "DRAW A CIRCUIT ON IT",
+    "prop": 1,
+    "dy": -50
+   }
+  ]
+ },
+ {
+  "id": "3.03",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "DRAW A CIRCUIT ON IT.",
+   "EASY ENOUGH."
+  ],
+  "prop": "papers",
+  "pscale": 6.5,
+  "propOpts": {
+   "n": 2
+  }
+ },
+ {
+  "id": "3.04",
+  "p": "P03",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "NOW SHRINK THE DRAWING",
+  "nodes": [
+   {
+    "t": "THE DRAWING",
+    "sub": "SHRINKS"
+   },
+   {
+    "t": "FAR SMALLER THAN A HUMAN HAIR",
+    "hot": true
+   },
+   "A PENCIL IS USELESS"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "3.05",
+  "p": "P03",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "wafer-die",
+  "title": "INTRICATE PATTERNS ON A WAFER",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "THE WAFER"
+   },
+   {
+    "fx": 0.8,
+    "fy": 0.6,
+    "t": "INTRICATE PATTERNS"
+   }
+  ],
+  "camAz": -24,
+  "camEl": 30
+ },
+ {
+  "id": "3.06",
+  "p": "P03",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "WHAT IT TAKES",
+  "nodes": [
+   "PRECISELY CONTROLLED PROCESSES",
+   "A PATTERN ON A WAFER",
+   "FEATURES SMALLER THAN A HAIR"
+  ],
+  "layout": "col"
+ },
+ {
+  "id": "3.07",
+  "p": "P03",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "PRECISELY CONTROLLED",
+   "PROCESSES FORM INTRICATE",
+   "PATTERNS ON A WAFER."
+  ],
+  "size": 60,
+  "hero": "wafer-die",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camEl": 30
+ },
+ {
+  "id": "4.01",
+  "p": "P04",
+  "w": 1.1,
+  "sc": "SC.4 · IDEA 1 · THE STENCIL",
+  "tpl": "hero",
+  "kind": "litho-stack",
+  "title": "PHOTOLITHOGRAPHY",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.1,
+    "t": "LIGHT"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "A STENCIL"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.8,
+    "t": "A LIGHT-SENSITIVE COATING"
+   }
+  ],
+  "camAz": 20
+ },
+ {
+  "id": "4.02",
+  "p": "P04",
+  "w": 1,
+  "tpl": "flow",
+  "title": "LIGHT THROUGH A STENCIL",
+  "nodes": [
+   "LIGHT",
+   {
+    "t": "A STENCIL",
+    "hot": true
+   },
+   "A COATED SURFACE"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.03",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "litho-stack",
+  "title": "THE EXPOSED PATTERN GUIDES LATER STEPS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "explode": {
+   "at": 0.1,
+   "dur": 0.45,
+   "amt": 0.8
+  },
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.6,
+    "t": "THE PATTERN GUIDES LATER STEPS"
+   }
+  ],
+  "camAz": -26
+ },
+ {
+  "id": "4.04",
+  "p": "P04",
+  "w": 1.3,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "REPEATED WITH",
+   "EXTRAORDINARY ALIGNMENT",
+   "AND CONTROL."
+  ],
+  "size": 66,
+  "hero": "litho-stack",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "5.01",
+  "p": "P05",
+  "w": 1,
+  "sc": "SC.5 · IDEA 2 · CLEANROOMS",
+  "tpl": "statement",
+  "lines": [
+   "THE PATTERN IS ONLY",
+   "PART OF THE CHALLENGE."
+  ],
+  "size": 70,
+  "align": "center"
+ },
+ {
+  "id": "5.02",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "figure",
+  "title": "PAINT A WALL IN A ROOM FILLED WITH FLOATING SAND",
+  "pose": "reach",
+  "poseTo": "stand",
+  "hz": 0.5,
+  "figX": 600,
+  "props": [
+   {
+    "prop": "palette",
+    "x": 1150,
+    "scale": 7
+   }
+  ],
+  "motion": {
+   "x1": 900,
+   "y1": 380,
+   "x2": 1250,
+   "y2": 600
+  },
+  "callouts": [
+   {
+    "t": "EVERY GRAIN THAT LANDS COULD SPOIL THE FINISH",
+    "prop": 0,
+    "dy": -60
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "EVERY GRAIN THAT LANDS",
+   "COULD SPOIL THE FINISH."
+  ],
+  "size": 64,
+  "hero": "wafer-die",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camEl": 30
+ },
+ {
+  "id": "5.04",
+  "p": "P05",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "NOW MAKE THE FEATURES MICROSCOPIC",
+  "nodes": [
+   "A GRAIN OF DUST",
+   {
+    "t": "SPOILS A MICROSCOPIC FEATURE",
+    "hot": true
+   },
+   "THE DEVICE FAILS"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "5.05",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "wafer-die",
+  "title": "THAT IS WHY CLEANROOMS MATTER",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "A CLEAN ENVIRONMENT"
+   }
+  ],
+  "flows": [
+   {
+    "a": [
+     0.1,
+     0.05
+    ],
+    "b": [
+     0.1,
+     0.9
+    ],
+    "col": "cyan"
+   },
+   {
+    "a": [
+     0.9,
+     0.05
+    ],
+    "b": [
+     0.9,
+     0.9
+    ],
+    "col": "cyan"
+   }
+  ],
+  "camAz": 24,
+  "camEl": 30
+ },
+ {
+  "id": "5.06",
+  "p": "P05",
+  "w": 1.2,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "CONTAMINATION THAT LOOKS",
+   "INSIGNIFICANT TO US CAN",
+   "RUIN AN ELECTRONIC STRUCTURE."
+  ],
+  "size": 56,
+  "align": "center"
+ },
+ {
+  "id": "6.01",
+  "p": "P06",
+  "w": 1,
+  "sc": "SC.6 · IDEA 3 · LAYERS",
+  "tpl": "statement",
+  "lines": [
+   "NEXT COMES",
+   "LAYERING."
+  ],
+  "size": 96,
+  "hero": "layer-city",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "6.02",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "layer-city",
+  "title": "A CHIP IS NOT ONE FLAT DRAWING",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.2,
+    "t": "MANY LEVELS"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.8,
+    "t": "BUILT BY REPEATED PROCESSES"
+   }
+  ],
+  "camAz": 24
+ },
+ {
+  "id": "6.03",
+  "p": "P06",
+  "w": 1,
+  "tpl": "flow",
+  "title": "A CITY OF LEVELS",
+  "nodes": [
+   "ROADS",
+   "TUNNELS",
+   "WIRES",
+   "JUNCTIONS"
+  ],
+  "layout": "grid:2",
+  "links": []
+ },
+ {
+  "id": "6.04",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "layer-city",
+  "title": "THEY MUST LINE UP ACROSS MANY LEVELS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "explode": {
+   "at": 0.1,
+   "dur": 0.45,
+   "amt": 0.8
+  },
+  "camAz": -28
+ },
+ {
+  "id": "6.05",
+  "p": "P06",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "ONE CRITICAL CONNECTION",
+  "nodes": [
+   "ONE CRITICAL CONNECTION",
+   {
+    "t": "FAILS",
+    "hot": true
+   },
+   "THE DEVICE MAY NOT WORK"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "6.06",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "statement",
+  "k": "payoff",
+  "lines": [
+   "IF ONE CRITICAL CONNECTION FAILS,",
+   "THE FINISHED DEVICE",
+   "MAY NOT WORK."
+  ],
+  "size": 58,
+  "align": "center"
+ },
+ {
+  "id": "7.01",
+  "p": "P07",
+  "w": 1,
+  "sc": "SC.7 · AFTER THE WAFER",
+  "tpl": "statement",
+  "lines": [
+   "EVEN A COMPLETED WAFER",
+   "IS NOT THE END."
+  ],
+  "size": 66,
+  "hero": "wafer-die",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camEl": 30
+ },
+ {
+  "id": "7.02",
+  "p": "P07",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "WHAT COMES NEXT",
+  "nodes": [
+   "SEPARATED",
+   "CONNECTED",
+   "PACKAGED",
+   "TESTED"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "7.03",
+  "p": "P07",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "package-chip",
+  "title": "PACKAGING",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "PROTECTS THE DEVICE"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.9,
+    "t": "CONNECTIONS TO THE OUTSIDE WORLD"
+   }
+  ],
+  "camAz": -24
+ },
+ {
+  "id": "7.04",
+  "p": "P07",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "TWO DIFFERENT PROCESSES",
+  "nodes": [
+   {
+    "t": "FABRICATING TRANSISTORS",
+    "sub": "ON A WAFER"
+   },
+   {
+    "t": "PACKAGING",
+    "sub": "NOT THE SAME PROCESS",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "7.05",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "TECHNICALLY DEMANDING,",
+   "BUT NOT THE SAME PROCESS."
+  ],
+  "size": 64,
+  "align": "center"
+ },
+ {
+  "id": "8.01",
+  "p": "P08",
+  "w": 1,
+  "sc": "SC.8 · INDIA'S CHAIN",
+  "tpl": "statement",
+  "lines": [
+   "INDIA IS TRYING TO STRENGTHEN",
+   "SEVERAL PARTS OF THIS CHAIN."
+  ],
+  "size": 60,
+  "align": "center"
+ },
+ {
+  "id": "8.02",
+  "p": "P08",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "THE CHAIN",
+  "nodes": [
+   "DESIGN",
+   "FABRICATION",
+   "ASSEMBLY",
+   "TESTING",
+   "PACKAGING"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "8.03",
+  "p": "P08",
+  "w": 1.4,
+  "k": "number",
+  "tpl": "number",
+  "title": "THE HONEST NUMBER",
+  "value": "12",
+  "unit": "MANUFACTURING UNITS APPROVED",
+  "note": "9 FOR ASSEMBLY, TEST AND PACKAGING · 3 FABRICATION",
+  "chain": "ACCORDING TO A GOVERNMENT PRESS NOTE",
+  "source": "PIB PRESS NOTE, 2026"
+ },
+ {
+  "id": "8.04",
+  "p": "P08",
+  "w": 1.3,
+  "tpl": "grid",
+  "title": "TWELVE UNITS, TWO KINDS",
+  "slots": [
+   {
+    "n": 9,
+    "col": "cyan",
+    "cell": "PACKAGING"
+   },
+   {
+    "n": 3,
+    "col": "accent",
+    "cell": "FAB"
+   }
+  ],
+  "cols": 6,
+  "legend": [
+   {
+    "t": "9 FOR ASSEMBLY, TEST AND PACKAGING",
+    "col": "cyan"
+   },
+   {
+    "t": "3 FABRICATION UNITS",
+    "col": "accent"
+   }
+  ],
+  "source": "PIB PRESS NOTE, 2026"
+ },
+ {
+  "id": "8.05",
+  "p": "P08",
+  "w": 1.1,
+  "tpl": "statement",
+  "lines": [
+   "FIVE UNITS HAVE BEGUN",
+   "COMMERCIAL PRODUCTION."
+  ],
+  "size": 70,
+  "hero": "package-chip",
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "8.06",
+  "p": "P08",
+  "w": 1,
+  "tpl": "statement",
+  "k": "missing",
+  "lines": [
+   "OTHER MAJOR PROJECTS",
+   "REMAIN UNDER DEVELOPMENT."
+  ],
+  "size": 66,
+  "align": "center"
+ },
+ {
+  "id": "9.01",
+  "p": "P09",
+  "w": 1,
+  "sc": "SC.9 · WHAT IF",
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "A FACTORY RECEIVES",
+   "A PERFECT CHIP DESIGN."
+  ],
+  "prop": "chip",
+  "pscale": 8
+ },
+ {
+  "id": "9.02",
+  "p": "P09",
+  "w": 1.1,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "A CRITICAL TOOL IS UNAVAILABLE",
+  "nodes": [
+   "A PERFECT DESIGN",
+   {
+    "t": "A CRITICAL TOOL IS UNAVAILABLE",
+    "hot": true
+   },
+   "NO WORKING WAFER"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "9.03",
+  "p": "P09",
+  "w": 1.2,
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "litho-stack",
+  "title": "THE FABRICATION STEP",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "THE MISSING TOOL"
+   }
+  ],
+  "camAz": -22
+ },
+ {
+  "id": "9.04",
+  "p": "P09",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "package-chip",
+  "title": "ANOTHER FACTORY CAN PACKAGE CHIPS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "PACKAGING"
+   }
+  ],
+  "camAz": 22
+ },
+ {
+  "id": "9.05",
+  "p": "P09",
+  "w": 1.1,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "IT CANNOT REPLACE THE MISSING STEP",
+  "nodes": [
+   {
+    "t": "PACKAGING",
+    "sub": "CANNOT AUTOMATICALLY REPLACE"
+   },
+   {
+    "t": "THE MISSING FABRICATION STEP",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "9.06",
+  "p": "P09",
+  "w": 1.3,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "THE CHAIN IS ONLY AS STRONG",
+   "AS THE CAPABILITY IT LACKS."
+  ],
+  "size": 62,
+  "align": "center"
+ },
+ {
+  "id": "10.01",
+  "p": "P10",
+  "w": 1.4,
+  "sc": "SC.10 · THE HARD PART",
+  "k": "missing",
+  "tpl": "flow",
+  "title": "THESE TAKE YEARS TO BUILD",
+  "nodes": [
+   "ADVANCED EQUIPMENT",
+   "MATERIALS",
+   "PROCESS EXPERTISE",
+   "YIELDS",
+   "A RELIABLE SUPPLIER ECOSYSTEM"
+  ],
+  "layout": "grid:3"
+ },
+ {
+  "id": "10.02",
+  "p": "P10",
+  "w": 1.2,
+  "k": "missing",
+  "tpl": "statement",
+  "lines": [
+   "ANNOUNCING A PLANT IS NOT",
+   "THE SAME AS MASTERING",
+   "EVERY GENERATION OF CHIP",
+   "TECHNOLOGY."
+  ],
+  "size": 58,
+  "align": "center"
+ },
+ {
+  "id": "10.03",
+  "p": "P10",
+  "w": 1,
+  "k": "missing",
+  "tpl": "statement",
+  "lines": [
+   "IT TAKES YEARS."
+  ],
+  "size": 110,
+  "align": "center"
+ },
+ {
+  "id": "11.01",
+  "p": "P11",
+  "w": 1,
+  "sc": "SC.11 · SELF-RELIANCE",
+  "tpl": "statement",
+  "lines": [
+   "BUILDING CAPABILITY CHANGES",
+   "THE CHOICES AVAILABLE."
+  ],
+  "size": 62,
+  "align": "center"
+ },
+ {
+  "id": "11.02",
+  "p": "P11",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "MORE CHOICES FOR BOTH",
+  "nodes": [
+   "A COUNTRY",
+   {
+    "t": "THE COMPANIES THAT DEPEND ON IT",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    "AND"
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "11.03",
+  "p": "P11",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "SELF-RELIANCE MUST BE",
+   "USED CAREFULLY."
+  ],
+  "size": 72,
+  "align": "center"
+ },
+ {
+  "id": "11.04",
+  "p": "P11",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "A SERIES OF CAPABILITIES",
+  "nodes": [
+   "A SWITCH THAT TURNS ON",
+   {
+    "t": "CAPABILITIES THAT MUST BE EARNED",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    "NOT"
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "11.05",
+  "p": "P11",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "package-chip",
+  "title": "THE SMALLEST PART",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "CAN CARRY A BIG DEPENDENCY"
+   }
+  ],
+  "camAz": -20
+ },
+ {
+  "id": "11.06",
+  "p": "P11",
+  "w": 1.6,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "THE SMALLEST PARTS CAN CARRY",
+   {
+    "t": "THE BIGGEST DEPENDENCIES.",
+    "col": "accent"
+   }
+  ],
+  "size": 70,
+  "align": "center"
+ },
+ {
+  "id": "11.07",
+  "p": "P11",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA BUILT IT ANYWAY"
+  ],
+  "sub": "S02 · E05 · INDIA WANTS TO BUILD THE CHIPS INSIDE EVERYTHING",
+  "size": 100,
+  "align": "center"
+ }
+]

@@ -1,0 +1,3205 @@
+{
+  "duration": 292.1666666666667,
+  "beats": [
+    {
+      "id": "1.01",
+      "p": "P01",
+      "kind": "hook",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "gap"
+          },
+          "title": "A GORGE IN REASI, JAMMU AND KASHMIR",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.9,
+              "t": "THE RIVER"
+            },
+            {
+              "fx": 0.12,
+              "fy": 0.12,
+              "t": "ROCK"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "gap"
+          },
+          "title": "A GORGE IN REASI, JAMMU AND KASHMIR",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.9,
+              "t": "THE RIVER"
+            },
+            {
+              "fx": 0.12,
+              "fy": 0.12,
+              "t": "ROCK"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE GAP",
+      "t0": 0.8,
+      "t1": 4.8958,
+      "dur": 4.0958,
+      "passageStart": 0.8
+    },
+    {
+      "id": "1.02",
+      "p": "P01",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "gap"
+          },
+          "title": "THE RIVER IS A THIN LINE, FAR BELOW",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.86,
+              "t": "FAR BELOW"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "gap"
+          },
+          "title": "THE RIVER IS A THIN LINE, FAR BELOW",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.86,
+              "t": "FAR BELOW"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 18,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE GAP",
+      "t0": 4.8958,
+      "t1": 8.9915,
+      "dur": 4.0958,
+      "passageStart": 4.8958
+    },
+    {
+      "id": "1.03",
+      "p": "P01",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "NOW ASK THE",
+            "ENGINEER'S QUESTION"
+          ],
+          "size": 70,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "gap"
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "NOW ASK THE",
+            "ENGINEER'S QUESTION"
+          ],
+          "size": 70,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "gap"
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE GAP",
+      "t0": 8.9915,
+      "t1": 11.5514,
+      "dur": 2.5599,
+      "passageStart": 8.9915
+    },
+    {
+      "id": "1.04",
+      "p": "P01",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "HOLD A RAILWAY LINE IN EMPTY AIR",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.16,
+              "t": "RAILWAY DECK"
+            },
+            {
+              "fx": 0.5,
+              "fy": 0.56,
+              "t": "STEEL ARCH"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "HOLD A RAILWAY LINE IN EMPTY AIR",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.16,
+              "t": "RAILWAY DECK"
+            },
+            {
+              "fx": 0.5,
+              "fy": 0.56,
+              "t": "STEEL ARCH"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE GAP",
+      "t0": 11.5514,
+      "t1": 15.6472,
+      "dur": 4.0958,
+      "passageStart": 11.5514
+    },
+    {
+      "id": "1.05",
+      "p": "P01",
+      "kind": "hook",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "ACROSS A GAP THAT WIDE,",
+            "FOR DECADES?"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "ACROSS A GAP THAT WIDE,",
+            "FOR DECADES?"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE GAP",
+      "t0": 15.6472,
+      "t1": 18.975,
+      "dur": 3.3278,
+      "passageStart": 15.6472
+    },
+    {
+      "id": "2.01",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "timeline",
+          "title": "THE CHENAB RAIL BRIDGE",
+          "items": [
+            {
+              "t": "JUNE 2025",
+              "sub": "INAUGURATED",
+              "hot": true,
+              "at": 0.5,
+              "size": 84
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "timeline",
+          "title": "THE CHENAB RAIL BRIDGE",
+          "items": [
+            {
+              "t": "JUNE 2025",
+              "sub": "INAUGURATED",
+              "hot": true,
+              "at": 0.5,
+              "size": 84
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · TWO NUMBERS",
+      "t0": 18.975,
+      "t1": 22.2308,
+      "dur": 3.2558,
+      "passageStart": 18.975
+    },
+    {
+      "id": "2.02",
+      "p": "P02",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "A STEEL ARCH BRIDGE",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "chain": "1,315 METRES LONG (PIB)",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.15,
+              "t": "DECK"
+            },
+            {
+              "fx": 0.5,
+              "fy": 0.55,
+              "t": "ARCH"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "A STEEL ARCH BRIDGE",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "chain": "1,315 METRES LONG (PIB)",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.15,
+              "t": "DECK"
+            },
+            {
+              "fx": 0.5,
+              "fy": 0.55,
+              "t": "ARCH"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · TWO NUMBERS",
+      "t0": 22.2308,
+      "t1": 29.4661,
+      "dur": 7.2352,
+      "passageStart": 22.2308
+    },
+    {
+      "id": "2.03",
+      "p": "P02",
+      "kind": "number",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "number",
+          "title": "HOW HIGH IT STANDS",
+          "value": "359",
+          "unit": "METRES ABOVE THE RIVERBED",
+          "note": "PIB: HIGHER THAN THE EIFFEL TOWER",
+          "size": 150,
+          "chain": "359 M HIGH",
+          "source": "PIB, 4 JUN 2025"
+        },
+        {
+          "op": "cs",
+          "tpl": "number",
+          "title": "HOW HIGH IT STANDS",
+          "value": "359",
+          "unit": "METRES ABOVE THE RIVERBED",
+          "note": "PIB: HIGHER THAN THE EIFFEL TOWER",
+          "size": 150,
+          "chain": "359 M HIGH",
+          "source": "PIB, 4 JUN 2025"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · TWO NUMBERS",
+      "t0": 29.4661,
+      "t1": 32.7219,
+      "dur": 3.2558,
+      "passageStart": 29.4661
+    },
+    {
+      "id": "2.04",
+      "p": "P02",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "COST: ABOUT",
+            "1,486 CRORE RUPEES"
+          ],
+          "size": 70,
+          "sub": "PIB FEATURES, BRIDGES OF INDIA",
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full"
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "COST: ABOUT",
+            "1,486 CRORE RUPEES"
+          ],
+          "size": 70,
+          "sub": "PIB FEATURES, BRIDGES OF INDIA",
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full"
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": -18,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · TWO NUMBERS",
+      "t0": 32.7219,
+      "t1": 37.2439,
+      "dur": 4.522,
+      "passageStart": 32.7219
+    },
+    {
+      "id": "2.05",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "TWO NUMBERS",
+          "nodes": [
+            {
+              "t": "359 M",
+              "sub": "HOW HIGH IT STANDS"
+            },
+            {
+              "t": "VS"
+            },
+            {
+              "t": "467 M",
+              "sub": "HOW WIDE THE ARCH SPANS",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "TWO NUMBERS",
+          "nodes": [
+            {
+              "t": "359 M",
+              "sub": "HOW HIGH IT STANDS"
+            },
+            {
+              "t": "VS"
+            },
+            {
+              "t": "467 M",
+              "sub": "HOW WIDE THE ARCH SPANS",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · TWO NUMBERS",
+      "t0": 37.2439,
+      "t1": 40.0476,
+      "dur": 2.8036,
+      "passageStart": 37.2439
+    },
+    {
+      "id": "2.06",
+      "p": "P02",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "load": true
+          },
+          "title": "HOW HIGH, ABOVE THE RIVER",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "load": true
+          },
+          "title": "HOW HIGH, ABOVE THE RIVER",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 44,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · TWO NUMBERS",
+      "t0": 40.0476,
+      "t1": 47.2828,
+      "dur": 7.2352,
+      "passageStart": 40.0476
+    },
+    {
+      "id": "2.07",
+      "p": "P02",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true
+          },
+          "title": "HOW WIDE, ACROSS THE ARCH",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true
+          },
+          "title": "HOW WIDE, ACROSS THE ARCH",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 44,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · TWO NUMBERS",
+      "t0": 47.2828,
+      "t1": 54.518,
+      "dur": 7.2352,
+      "passageStart": 47.2828
+    },
+    {
+      "id": "2.08",
+      "p": "P02",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "TWO NUMBERS.",
+            "TWO DIFFERENT PROBLEMS."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "TWO NUMBERS.",
+            "TWO DIFFERENT PROBLEMS."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · TWO NUMBERS",
+      "t0": 54.518,
+      "t1": 59.04,
+      "dur": 4.522,
+      "passageStart": 54.518
+    },
+    {
+      "id": "3.01",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "route",
+          "title": "THE UDHAMPUR-SRINAGAR-BARAMULLA RAIL LINK",
+          "pts": [
+            {
+              "t": "KATRA",
+              "x": 0
+            },
+            {
+              "t": "SRINAGAR",
+              "x": 1
+            }
+          ],
+          "segs": [
+            {
+              "from": 0.38,
+              "to": 0.62,
+              "t": "CHENAB BRIDGE",
+              "hot": true
+            }
+          ],
+          "source": "PIB, 4 JUN 2025"
+        },
+        {
+          "op": "cs",
+          "tpl": "route",
+          "title": "THE UDHAMPUR-SRINAGAR-BARAMULLA RAIL LINK",
+          "pts": [
+            {
+              "t": "KATRA",
+              "x": 0
+            },
+            {
+              "t": "SRINAGAR",
+              "x": 1
+            }
+          ],
+          "segs": [
+            {
+              "from": 0.38,
+              "to": 0.62,
+              "t": "CHENAB BRIDGE",
+              "hot": true
+            }
+          ],
+          "source": "PIB, 4 JUN 2025"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · WHY IT MATTERS",
+      "t0": 59.04,
+      "t1": 62.3377,
+      "dur": 3.2977,
+      "passageStart": 59.04
+    },
+    {
+      "id": "3.02",
+      "p": "P03",
+      "kind": "number",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "number",
+          "title": "KATRA TO SRINAGAR BY VANDE BHARAT",
+          "value": "3",
+          "unit": "HOURS, ABOUT",
+          "note": "2 TO 3 HOURS LESS THAN BEFORE",
+          "size": 150,
+          "chain": "ABOUT 3 H",
+          "source": "PIB, 4 JUN 2025"
+        },
+        {
+          "op": "cs",
+          "tpl": "number",
+          "title": "KATRA TO SRINAGAR BY VANDE BHARAT",
+          "value": "3",
+          "unit": "HOURS, ABOUT",
+          "note": "2 TO 3 HOURS LESS THAN BEFORE",
+          "size": 150,
+          "chain": "ABOUT 3 H",
+          "source": "PIB, 4 JUN 2025"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · WHY IT MATTERS",
+      "t0": 62.3377,
+      "t1": 65.6355,
+      "dur": 3.2977,
+      "passageStart": 62.3377
+    },
+    {
+      "id": "3.03",
+      "p": "P03",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A REASON TO CARE",
+            "THAT IS NOT ABOUT HEIGHT"
+          ],
+          "size": 70,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full"
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A REASON TO CARE",
+            "THAT IS NOT ABOUT HEIGHT"
+          ],
+          "size": 70,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full"
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 20,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · WHY IT MATTERS",
+      "t0": 65.6355,
+      "t1": 70.2157,
+      "dur": 4.5802,
+      "passageStart": 65.6355
+    },
+    {
+      "id": "3.04",
+      "p": "P03",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "THE BRIDGE IS ONE LINK IN THE LINE",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "chain": "USBRL",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.15,
+              "t": "THE RAILWAY"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "THE BRIDGE IS ONE LINK IN THE LINE",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "chain": "USBRL",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.15,
+              "t": "THE RAILWAY"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · WHY IT MATTERS",
+      "t0": 70.2157,
+      "t1": 77.544,
+      "dur": 7.3283,
+      "passageStart": 70.2157
+    },
+    {
+      "id": "4.01",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IDEA ONE:",
+            "THE ARCH"
+          ],
+          "size": 86,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full"
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IDEA ONE:",
+            "THE ARCH"
+          ],
+          "size": 86,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full"
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · THE ARCH",
+      "t0": 77.544,
+      "t1": 81.4688,
+      "dur": 3.9248,
+      "passageStart": 77.544
+    },
+    {
+      "id": "4.02",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "figure",
+          "title": "TWO PEOPLE, PALMS TOGETHER",
+          "pose": "push",
+          "fig2": {
+            "pose": "push",
+            "x": 1090,
+            "flip": true
+          },
+          "figX": 800,
+          "callouts": [
+            {
+              "t": "EACH PUSHES SIDEWAYS",
+              "dx": 0,
+              "dy": -60
+            }
+          ],
+          "ground": 840
+        },
+        {
+          "op": "cs",
+          "tpl": "figure",
+          "title": "TWO PEOPLE, PALMS TOGETHER",
+          "pose": "push",
+          "fig2": {
+            "pose": "push",
+            "x": 1090,
+            "flip": true
+          },
+          "figX": 800,
+          "callouts": [
+            {
+              "t": "EACH PUSHES SIDEWAYS",
+              "dx": 0,
+              "dy": -60
+            }
+          ],
+          "ground": 840
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · THE ARCH",
+      "t0": 81.4688,
+      "t1": 86.1787,
+      "dur": 4.7098,
+      "passageStart": 81.4688
+    },
+    {
+      "id": "4.03",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "figure",
+          "title": "THE SIDEWAYS PUSH KEEPS BOTH UP",
+          "pose": "push",
+          "poseTo": "stand",
+          "hz": 0.5,
+          "fig2": {
+            "pose": "push",
+            "poseTo": "stand",
+            "x": 1090,
+            "flip": true
+          },
+          "figX": 800,
+          "callouts": [
+            {
+              "t": "BOTH STAY UP",
+              "dx": 0,
+              "dy": -60
+            }
+          ],
+          "ground": 840
+        },
+        {
+          "op": "cs",
+          "tpl": "figure",
+          "title": "THE SIDEWAYS PUSH KEEPS BOTH UP",
+          "pose": "push",
+          "poseTo": "stand",
+          "hz": 0.5,
+          "fig2": {
+            "pose": "push",
+            "poseTo": "stand",
+            "x": 1090,
+            "flip": true
+          },
+          "figX": 800,
+          "callouts": [
+            {
+              "t": "BOTH STAY UP",
+              "dx": 0,
+              "dy": -60
+            }
+          ],
+          "ground": 840
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · THE ARCH",
+      "t0": 86.1787,
+      "t1": 90.1035,
+      "dur": 3.9248,
+      "passageStart": 86.1787
+    },
+    {
+      "id": "4.04",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "load": true
+          },
+          "title": "AN ARCH WORKS THE SAME WAY",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.04,
+              "t": "WEIGHT PRESSES DOWN"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "load": true
+          },
+          "title": "AN ARCH WORKS THE SAME WAY",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.04,
+              "t": "WEIGHT PRESSES DOWN"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · THE ARCH",
+      "t0": 90.1035,
+      "t1": 96.3833,
+      "dur": 6.2798,
+      "passageStart": 90.1035
+    },
+    {
+      "id": "4.05",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true
+          },
+          "title": "THE PUSH RUNS ALONG THE CURVE",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE CURVE"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true
+          },
+          "title": "THE PUSH RUNS ALONG THE CURVE",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE CURVE"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · THE ARCH",
+      "t0": 96.3833,
+      "t1": 102.663,
+      "dur": 6.2798,
+      "passageStart": 96.3833
+    },
+    {
+      "id": "4.06",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true
+          },
+          "title": "AT THE TWO ENDS, THE PUSH GOES SIDEWAYS",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.14,
+              "fy": 0.62,
+              "t": "INTO THE LEFT HILLSIDE"
+            },
+            {
+              "fx": 0.86,
+              "fy": 0.62,
+              "t": "INTO THE RIGHT HILLSIDE"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true
+          },
+          "title": "AT THE TWO ENDS, THE PUSH GOES SIDEWAYS",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.14,
+              "fy": 0.62,
+              "t": "INTO THE LEFT HILLSIDE"
+            },
+            {
+              "fx": 0.86,
+              "fy": 0.62,
+              "t": "INTO THE RIGHT HILLSIDE"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · THE ARCH",
+      "t0": 102.663,
+      "t1": 108.9428,
+      "dur": 6.2798,
+      "passageStart": 102.663
+    },
+    {
+      "id": "4.07",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE ROCK HAS TO PUSH BACK.",
+            "THE GORGE WALLS BECOME",
+            "PART OF THE BRIDGE."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE ROCK HAS TO PUSH BACK.",
+            "THE GORGE WALLS BECOME",
+            "PART OF THE BRIDGE."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · THE ARCH",
+      "t0": 108.9428,
+      "t1": 112.8676,
+      "dur": 3.9248,
+      "passageStart": 108.9428
+    },
+    {
+      "id": "4.08",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "BEFORE THE ARCH, AFTER IT",
+          "nodes": [
+            {
+              "t": "BEFORE",
+              "sub": "A GAP IS ONLY A GAP"
+            },
+            {
+              "t": "AFTER",
+              "sub": "THE HILLS CARRY THE LOAD",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "BEFORE THE ARCH, AFTER IT",
+          "nodes": [
+            {
+              "t": "BEFORE",
+              "sub": "A GAP IS ONLY A GAP"
+            },
+            {
+              "t": "AFTER",
+              "sub": "THE HILLS CARRY THE LOAD",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · THE ARCH",
+      "t0": 112.8676,
+      "t1": 115.301,
+      "dur": 2.4334,
+      "passageStart": 112.8676
+    },
+    {
+      "id": "5.01",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IDEA TWO:",
+            "BUILDING ACROSS EMPTY AIR"
+          ],
+          "size": 72,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "gap"
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IDEA TWO:",
+            "BUILDING ACROSS EMPTY AIR"
+          ],
+          "size": 72,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "gap"
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · FROM BOTH SIDES",
+      "t0": 115.301,
+      "t1": 118.8737,
+      "dur": 3.5727,
+      "passageStart": 115.301
+    },
+    {
+      "id": "5.02",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "gap"
+          },
+          "title": "NO SCAFFOLDING ON THE GORGE FLOOR",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.75,
+              "t": "TOO DEEP"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "gap"
+          },
+          "title": "NO SCAFFOLDING ON THE GORGE FLOOR",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.75,
+              "t": "TOO DEEP"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · FROM BOTH SIDES",
+      "t0": 118.8737,
+      "t1": 124.59,
+      "dur": 5.7163,
+      "passageStart": 118.8737
+    },
+    {
+      "id": "5.03",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "halves",
+            "growDur": 4.2
+          },
+          "title": "LONG ARCHES: BUILT FROM BOTH SIDES",
+          "tag": "A COMMON METHOD, CONCEPTUAL"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "halves",
+            "growDur": 4.2
+          },
+          "title": "LONG ARCHES: BUILT FROM BOTH SIDES",
+          "tag": "A COMMON METHOD, CONCEPTUAL"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · FROM BOTH SIDES",
+      "t0": 124.59,
+      "t1": 129.5918,
+      "dur": 5.0018,
+      "passageStart": 124.59
+    },
+    {
+      "id": "5.04",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "halves",
+            "growDur": 4.8
+          },
+          "title": "EACH HALF IS HELD UNTIL THEY MEET",
+          "tag": "A COMMON METHOD, CONCEPTUAL",
+          "callouts": [
+            {
+              "fx": 0.1,
+              "fy": 0.12,
+              "t": "HELD FROM BEHIND"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "halves",
+            "growDur": 4.8
+          },
+          "title": "EACH HALF IS HELD UNTIL THEY MEET",
+          "tag": "A COMMON METHOD, CONCEPTUAL",
+          "callouts": [
+            {
+              "fx": 0.1,
+              "fy": 0.12,
+              "t": "HELD FROM BEHIND"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · FROM BOTH SIDES",
+      "t0": 129.5918,
+      "t1": 134.2363,
+      "dur": 4.6445,
+      "passageStart": 129.5918
+    },
+    {
+      "id": "5.05",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "figure",
+          "title": "TWO PEOPLE REACHING ACROSS A STREAM",
+          "pose": "reach",
+          "fig2": {
+            "pose": "reach",
+            "x": 1330,
+            "flip": true
+          },
+          "figX": 590,
+          "callouts": [
+            {
+              "t": "EACH REACHES AS FAR AS THEY CAN",
+              "dx": 0,
+              "dy": -60
+            }
+          ],
+          "ground": 840
+        },
+        {
+          "op": "cs",
+          "tpl": "figure",
+          "title": "TWO PEOPLE REACHING ACROSS A STREAM",
+          "pose": "reach",
+          "fig2": {
+            "pose": "reach",
+            "x": 1330,
+            "flip": true
+          },
+          "figX": 590,
+          "callouts": [
+            {
+              "t": "EACH REACHES AS FAR AS THEY CAN",
+              "dx": 0,
+              "dy": -60
+            }
+          ],
+          "ground": 840
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · FROM BOTH SIDES",
+      "t0": 134.2363,
+      "t1": 137.809,
+      "dur": 3.5727,
+      "passageStart": 134.2363
+    },
+    {
+      "id": "5.06",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "WHEN THE HANDS MEET, THE ARCH HOLDS",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.48,
+              "t": "THE MIDDLE"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "WHEN THE HANDS MEET, THE ARCH HOLDS",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.48,
+              "t": "THE MIDDLE"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · FROM BOTH SIDES",
+      "t0": 137.809,
+      "t1": 142.0963,
+      "dur": 4.2872,
+      "passageStart": 137.809
+    },
+    {
+      "id": "5.07",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A COMMON METHOD",
+            "FOR LONG ARCHES"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A COMMON METHOD",
+            "FOR LONG ARCHES"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · FROM BOTH SIDES",
+      "t0": 142.0963,
+      "t1": 145.669,
+      "dur": 3.5727,
+      "passageStart": 142.0963
+    },
+    {
+      "id": "6.01",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IDEA THREE:",
+            "STANDING STILL IN THE WIND"
+          ],
+          "size": 72,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "wind": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IDEA THREE:",
+            "STANDING STILL IN THE WIND"
+          ],
+          "size": 72,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "wind": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 18,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · WIND",
+      "t0": 145.669,
+      "t1": 151.2169,
+      "dur": 5.5479,
+      "passageStart": 145.669
+    },
+    {
+      "id": "6.02",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "wind": true,
+            "sway": true
+          },
+          "title": "A TALL, SLIM STRUCTURE MOVES A LITTLE",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "wind": true,
+            "sway": true
+          },
+          "title": "A TALL, SLIM STRUCTURE MOVES A LITTLE",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · WIND",
+      "t0": 151.2169,
+      "t1": 158.4293,
+      "dur": 7.2123,
+      "passageStart": 151.2169
+    },
+    {
+      "id": "6.03",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THE TREE IN A STORM",
+          "nodes": [
+            "A TREE IN A STORM",
+            {
+              "t": "IT BENDS",
+              "sub": "AND COMES BACK",
+              "hot": true
+            },
+            "IT SURVIVES"
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THE TREE IN A STORM",
+          "nodes": [
+            "A TREE IN A STORM",
+            {
+              "t": "IT BENDS",
+              "sub": "AND COMES BACK",
+              "hot": true
+            },
+            "IT SURVIVES"
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · WIND",
+      "t0": 158.4293,
+      "t1": 161.869,
+      "dur": 3.4397,
+      "passageStart": 158.4293
+    },
+    {
+      "id": "6.04",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "wind": true
+          },
+          "title": "DESIGNED FOR WIND AND EARTHQUAKES",
+          "tag": "PIB: ENGINEERED FOR WIND AND QUAKES",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.16,
+              "t": "WIND"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "wind": true
+          },
+          "title": "DESIGNED FOR WIND AND EARTHQUAKES",
+          "tag": "PIB: ENGINEERED FOR WIND AND QUAKES",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.16,
+              "t": "WIND"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · WIND",
+      "t0": 161.869,
+      "t1": 169.0813,
+      "dur": 7.2123,
+      "passageStart": 161.869
+    },
+    {
+      "id": "6.05",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "BEFORE THE DESIGN, AFTER IT",
+          "nodes": [
+            {
+              "t": "BEFORE THE DESIGN",
+              "sub": "THE FORCES ARE GUESSES"
+            },
+            {
+              "t": "AFTER IT",
+              "sub": "NUMBERS THE STEEL CARRIES EVERY DAY",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "BEFORE THE DESIGN, AFTER IT",
+          "nodes": [
+            {
+              "t": "BEFORE THE DESIGN",
+              "sub": "THE FORCES ARE GUESSES"
+            },
+            {
+              "t": "AFTER IT",
+              "sub": "NUMBERS THE STEEL CARRIES EVERY DAY",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · WIND",
+      "t0": 169.0813,
+      "t1": 172.5211,
+      "dur": 3.4397,
+      "passageStart": 169.0813
+    },
+    {
+      "id": "6.06",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "STEEL THAT FLEXES",
+            "AND COMES BACK"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "STEEL THAT FLEXES",
+            "AND COMES BACK"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · WIND",
+      "t0": 172.5211,
+      "t1": 178.069,
+      "dur": 5.5479,
+      "passageStart": 172.5211
+    },
+    {
+      "id": "7.01",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "route",
+          "title": "ONE CRUCIAL SEGMENT OF THE RAIL LINK",
+          "pts": [
+            {
+              "t": "KATRA",
+              "x": 0
+            },
+            {
+              "t": "SRINAGAR",
+              "x": 1
+            }
+          ],
+          "segs": [
+            {
+              "from": 0.28,
+              "to": 0.46,
+              "t": "CHENAB BRIDGE",
+              "hot": true
+            }
+          ],
+          "source": "PIB, 4 JUN 2025"
+        },
+        {
+          "op": "cs",
+          "tpl": "route",
+          "title": "ONE CRUCIAL SEGMENT OF THE RAIL LINK",
+          "pts": [
+            {
+              "t": "KATRA",
+              "x": 0
+            },
+            {
+              "t": "SRINAGAR",
+              "x": 1
+            }
+          ],
+          "segs": [
+            {
+              "from": 0.28,
+              "to": 0.46,
+              "t": "CHENAB BRIDGE",
+              "hot": true
+            }
+          ],
+          "source": "PIB, 4 JUN 2025"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 178.069,
+      "t1": 183.5832,
+      "dur": 5.5142,
+      "passageStart": 178.069
+    },
+    {
+      "id": "7.02",
+      "p": "P07",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "ANJI KHAD BRIDGE:",
+            "INDIA'S FIRST CABLE-STAYED",
+            "RAILWAY BRIDGE"
+          ],
+          "size": 62,
+          "sub": "INAUGURATED JUNE 2025 (PIB)",
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "ANJI KHAD BRIDGE:",
+            "INDIA'S FIRST CABLE-STAYED",
+            "RAILWAY BRIDGE"
+          ],
+          "size": 62,
+          "sub": "INAUGURATED JUNE 2025 (PIB)",
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 183.5832,
+      "t1": 190.976,
+      "dur": 7.3928,
+      "passageStart": 183.5832
+    },
+    {
+      "id": "7.03",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "ONE BRIDGE IS NOT A RAILWAY",
+          "nodes": [
+            "ONE BRIDGE",
+            {
+              "t": "IS NOT",
+              "hot": true
+            },
+            "A RAILWAY"
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "ONE BRIDGE IS NOT A RAILWAY",
+          "nodes": [
+            "ONE BRIDGE",
+            {
+              "t": "IS NOT",
+              "hot": true
+            },
+            "A RAILWAY"
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 190.976,
+      "t1": 195.8192,
+      "dur": 4.8433,
+      "passageStart": 190.976
+    },
+    {
+      "id": "7.04",
+      "p": "P07",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A ROUTE IS ONLY AS STRONG",
+            "AS ITS HARDEST LINK."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A ROUTE IS ONLY AS STRONG",
+            "AS ITS HARDEST LINK."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 195.8192,
+      "t1": 203.212,
+      "dur": 7.3928,
+      "passageStart": 195.8192
+    },
+    {
+      "id": "7.05",
+      "p": "P07",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "THIS WAS ONE OF THE HARDEST",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE HARDEST LINK"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full"
+          },
+          "title": "THIS WAS ONE OF THE HARDEST",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE HARDEST LINK"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 203.212,
+      "t1": 211.212,
+      "dur": 8,
+      "passageStart": 203.212
+    },
+    {
+      "id": "8.01",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "BRIDGES ARE NOT RANKED BY HEIGHT ALONE",
+          "nodes": [
+            "HIGH",
+            "LONG",
+            "WIDE SPAN",
+            "HEAVY LOAD"
+          ],
+          "links": [],
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "BRIDGES ARE NOT RANKED BY HEIGHT ALONE",
+          "nodes": [
+            "HIGH",
+            "LONG",
+            "WIDE SPAN",
+            "HEAVY LOAD"
+          ],
+          "links": [],
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 211.212,
+      "t1": 215.0327,
+      "dur": 3.8207,
+      "passageStart": 211.212
+    },
+    {
+      "id": "8.02",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "EACH SOLVES A DIFFERENT PROBLEM",
+          "nodes": [
+            {
+              "t": "HIGH",
+              "sub": "THE CHENAB BRIDGE",
+              "hot": true
+            },
+            "LONG",
+            "WIDE SPAN",
+            "HEAVY LOAD"
+          ],
+          "links": [],
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "EACH SOLVES A DIFFERENT PROBLEM",
+          "nodes": [
+            {
+              "t": "HIGH",
+              "sub": "THE CHENAB BRIDGE",
+              "hot": true
+            },
+            "LONG",
+            "WIDE SPAN",
+            "HEAVY LOAD"
+          ],
+          "links": [],
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 215.0327,
+      "t1": 218.8534,
+      "dur": 3.8207,
+      "passageStart": 215.0327
+    },
+    {
+      "id": "8.03",
+      "p": "P08",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE CHENAB BRIDGE IS HIGH,",
+            "WITH A LONG ARCH."
+          ],
+          "size": 62,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full"
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE CHENAB BRIDGE IS HIGH,",
+            "WITH A LONG ARCH."
+          ],
+          "size": 62,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full"
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 20,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 218.8534,
+      "t1": 225.0159,
+      "dur": 6.1624,
+      "passageStart": 218.8534
+    },
+    {
+      "id": "8.04",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "A DIFFERENT PROBLEM, LATER IN THIS SERIES",
+          "nodes": [
+            {
+              "t": "THE CHENAB BRIDGE",
+              "sub": "HIGH"
+            },
+            {
+              "t": "A BRIDGE ACROSS THE SEA",
+              "sub": "LONG"
+            }
+          ],
+          "links": [
+            [
+              0,
+              1,
+              "VS"
+            ]
+          ],
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "A DIFFERENT PROBLEM, LATER IN THIS SERIES",
+          "nodes": [
+            {
+              "t": "THE CHENAB BRIDGE",
+              "sub": "HIGH"
+            },
+            {
+              "t": "A BRIDGE ACROSS THE SEA",
+              "sub": "LONG"
+            }
+          ],
+          "links": [
+            [
+              0,
+              1,
+              "VS"
+            ]
+          ],
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 225.0159,
+      "t1": 228.8366,
+      "dur": 3.8207,
+      "passageStart": 225.0159
+    },
+    {
+      "id": "8.05",
+      "p": "P08",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "MEASURES,",
+            "NOT A LEAGUE TABLE."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "MEASURES,",
+            "NOT A LEAGUE TABLE."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 228.8366,
+      "t1": 234.999,
+      "dur": 6.1624,
+      "passageStart": 228.8366
+    },
+    {
+      "id": "9.01",
+      "p": "P09",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "WIND IS BUILDING",
+            "IN THE GORGE"
+          ],
+          "size": 70,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "wind": true,
+            "sway": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "WIND IS BUILDING",
+            "IN THE GORGE"
+          ],
+          "size": 70,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "wind": true,
+            "sway": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 24,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.9 · WHAT IF",
+      "t0": 234.999,
+      "t1": 238.9843,
+      "dur": 3.9853,
+      "passageStart": 234.999
+    },
+    {
+      "id": "9.02",
+      "p": "P09",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "wind": true,
+            "sway": true
+          },
+          "title": "A TRAIN IS ON ITS WAY",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "wind": true,
+            "sway": true
+          },
+          "title": "A TRAIN IS ON ITS WAY",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": -14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.9 · WHAT IF",
+      "t0": 238.9843,
+      "t1": 245.3608,
+      "dur": 6.3765,
+      "passageStart": 238.9843
+    },
+    {
+      "id": "9.03",
+      "p": "P09",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "A RULE MUST SAY WHEN",
+          "nodes": [
+            {
+              "t": "STRONG WIND"
+            },
+            {
+              "t": "A RULE",
+              "sub": "SLOW OR STOP",
+              "hot": true
+            },
+            {
+              "t": "THE TRAIN"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "A RULE MUST SAY WHEN",
+          "nodes": [
+            {
+              "t": "STRONG WIND"
+            },
+            {
+              "t": "A RULE",
+              "sub": "SLOW OR STOP",
+              "hot": true
+            },
+            {
+              "t": "THE TRAIN"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.9 · WHAT IF",
+      "t0": 245.3608,
+      "t1": 247.8316,
+      "dur": 2.4709,
+      "passageStart": 245.3608
+    },
+    {
+      "id": "9.04",
+      "p": "P09",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A BRIDGE IS STEEL.",
+            "IT IS ALSO A SET OF RULES."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A BRIDGE IS STEEL.",
+            "IT IS ALSO A SET OF RULES."
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.9 · WHAT IF",
+      "t0": 247.8316,
+      "t1": 252.614,
+      "dur": 4.7824,
+      "passageStart": 247.8316
+    },
+    {
+      "id": "10.01",
+      "p": "P10",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "ONE IDEA ABOUT PEOPLE:",
+            "ANCHORING"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "ONE IDEA ABOUT PEOPLE:",
+            "ANCHORING"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 252.614,
+      "t1": 257.3848,
+      "dur": 4.7708,
+      "passageStart": 252.614
+    },
+    {
+      "id": "10.02",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "'TALLER THAN THE EIFFEL TOWER'",
+          "nodes": [
+            {
+              "t": "A NUMBER YOU KNOW",
+              "sub": "THE EIFFEL TOWER"
+            },
+            {
+              "t": "ANCHORS",
+              "hot": true
+            },
+            {
+              "t": "YOUR JUDGEMENT"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "'TALLER THAN THE EIFFEL TOWER'",
+          "nodes": [
+            {
+              "t": "A NUMBER YOU KNOW",
+              "sub": "THE EIFFEL TOWER"
+            },
+            {
+              "t": "ANCHORS",
+              "hot": true
+            },
+            {
+              "t": "YOUR JUDGEMENT"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 257.3848,
+      "t1": 260.3428,
+      "dur": 2.9579,
+      "passageStart": 257.3848
+    },
+    {
+      "id": "10.03",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "A COMPARISON IS A SHORTCUT",
+          "nodes": [
+            {
+              "t": "HOW HIGH",
+              "sub": "WHAT THE COMPARISON TELLS YOU"
+            },
+            {
+              "t": "NOT",
+              "hot": true
+            },
+            {
+              "t": "HOW HARD",
+              "sub": "THE ARCH, THE GORGE, THE WIND"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "A COMPARISON IS A SHORTCUT",
+          "nodes": [
+            {
+              "t": "HOW HIGH",
+              "sub": "WHAT THE COMPARISON TELLS YOU"
+            },
+            {
+              "t": "NOT",
+              "hot": true
+            },
+            {
+              "t": "HOW HARD",
+              "sub": "THE ARCH, THE GORGE, THE WIND"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 260.3428,
+      "t1": 263.3007,
+      "dur": 2.9579,
+      "passageStart": 260.3428
+    },
+    {
+      "id": "10.04",
+      "p": "P10",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true,
+            "wind": true
+          },
+          "title": "THE HARD PART: ARCH, GORGE, WIND",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE ARCH"
+            },
+            {
+              "fx": 0.5,
+              "fy": 0.9,
+              "t": "THE GORGE"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true,
+            "wind": true
+          },
+          "title": "THE HARD PART: ARCH, GORGE, WIND",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE ARCH"
+            },
+            {
+              "fx": 0.5,
+              "fy": 0.9,
+              "t": "THE GORGE"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 263.3007,
+      "t1": 270.934,
+      "dur": 7.6333,
+      "passageStart": 263.3007
+    },
+    {
+      "id": "11.01",
+      "p": "P11",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THREE THINGS",
+            "TO REMEMBER"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THREE THINGS",
+            "TO REMEMBER"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 270.934,
+      "t1": 274.713,
+      "dur": 3.779,
+      "passageStart": 270.934
+    },
+    {
+      "id": "11.02",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THREE THINGS",
+          "nodes": [
+            {
+              "t": "1",
+              "sub": "AN ARCH TURNS A DOWNWARD PUSH SIDEWAYS"
+            },
+            {
+              "t": "2",
+              "sub": "LONG ARCHES ARE OFTEN BUILT FROM BOTH SIDES"
+            },
+            {
+              "t": "3",
+              "sub": "A ROUTE IS ONLY AS STRONG AS ITS HARDEST LINK"
+            }
+          ],
+          "links": [],
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THREE THINGS",
+          "nodes": [
+            {
+              "t": "1",
+              "sub": "AN ARCH TURNS A DOWNWARD PUSH SIDEWAYS"
+            },
+            {
+              "t": "2",
+              "sub": "LONG ARCHES ARE OFTEN BUILT FROM BOTH SIDES"
+            },
+            {
+              "t": "3",
+              "sub": "A ROUTE IS ONLY AS STRONG AS ITS HARDEST LINK"
+            }
+          ],
+          "links": [],
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 274.713,
+      "t1": 277.056,
+      "dur": 2.343,
+      "passageStart": 274.713
+    },
+    {
+      "id": "11.03",
+      "p": "P11",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true
+          },
+          "title": "THE HILLS PUSH BACK",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE ARCH"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "arch-gorge",
+          "opts": {
+            "stage": "full",
+            "thrust": true
+          },
+          "title": "THE HILLS PUSH BACK",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE ARCH"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 277.056,
+      "t1": 283.1024,
+      "dur": 6.0464,
+      "passageStart": 277.056
+    },
+    {
+      "id": "11.04",
+      "p": "P11",
+      "kind": "hook",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "INDIA BUILT THE BRIDGE.",
+            "WHERE IS THE NEXT GORGE?"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "INDIA BUILT THE BRIDGE.",
+            "WHERE IS THE NEXT GORGE?"
+          ],
+          "size": 64,
+          "hero": "arch-gorge",
+          "heroOpts": {
+            "stage": "full",
+            "thrust": true
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 40,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 283.1024,
+      "t1": 288.393,
+      "dur": 5.2906,
+      "passageStart": 283.1024
+    },
+    {
+      "id": "11.05",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "INDIA MEGAPROJECTS"
+          ],
+          "size": 100,
+          "sub": "THE RAILWAY BRIDGE ABOVE A GORGE",
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "INDIA MEGAPROJECTS"
+          ],
+          "size": 100,
+          "sub": "THE RAILWAY BRIDGE ABOVE A GORGE",
+          "align": "center"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 288.393,
+      "t1": 292.172,
+      "dur": 3.779,
+      "passageStart": 288.393
+    }
+  ],
+  "clampReport": [
+    {
+      "beat": "7.05",
+      "from": 10.735,
+      "to": 8,
+      "reason": "too long"
+    }
+  ],
+  "bpm": 12.53,
+  "leadIn": 0.8
+}

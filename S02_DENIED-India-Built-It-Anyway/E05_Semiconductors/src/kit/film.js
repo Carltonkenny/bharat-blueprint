@@ -20,7 +20,7 @@
   // progress inside a beat: ink-in over the first `frac` of the beat, then hold
   function beatProgress(b, t) {
     const dur = b.t1 - b.t0;
-    const frac = b.frac == null ? 0.72 : b.frac;
+    const frac = b.frac == null ? 0.4 : b.frac; // R13: everything is fully drawn by about 36% of the beat
     const u = clamp((t - b.t0) / (dur * frac));
     return 1 - Math.pow(1 - u, 1.5);
   }
@@ -44,7 +44,7 @@
 
   // Which ops are drawn in screen space (text must never leave the safe area, so the
   // camera never moves it). Everything else is world and moves with the camera.
-  const SCREEN_OPS = new Set(['text', 'stack', 'railLabel', 'numberCard', 'titleCard', 'stamp', 'tag', 'sourceChip', 'leader', 'panel', 'chart', 'map']);
+  const SCREEN_OPS = new Set(['text', 'stack', 'railLabel', 'numberCard', 'titleCard', 'stamp', 'tag', 'sourceChip', 'leader', 'panel', 'chart', 'map', 'cs']);
 
   function beatCtx(b, t, p, alpha) {
     return {
@@ -106,15 +106,25 @@
     // camera for this beat (at most one move per beat)
     const u = clamp((t - b.t0) / Math.max(1e-6, b.t1 - b.t0));
     const cam = b.camStart && b.camEnd ? BB.camera.lerp(b.camStart, b.camEnd, u) : BB.camera.for(b.cam || 'hold', u, { amount: b.camAmount, az: b.camAz, el: b.camEl });
+    // Round 2: beats without a 3D hero drift slowly the whole beat (push-in on even beats,
+    // pull-back on odd ones, so the scale is continuous across every cut). Both layers share it.
+    const isHeroBeat = b.layer === 'H';
+    let driftScale = 1;
+    if (!isHeroBeat) {
+      const amt = 0.05, idx = bs.indexOf(b);
+      driftScale = idx % 2 === 0 ? 1 + amt * ease.inOut(u) : 1 + amt * (1 - ease.inOut(u));
+      cam.scale = driftScale;
+    }
     BB.currentCamera = cam;
 
     // the 3D stage
     BB.stage.clearScene();
     const c3 = b.camStart && b.camEnd ? { az: cam.az, el: cam.el, dist: (b.camDist == null ? 1 : b.camDist) * cam.dist } : BB.camera.for3d(b.cam || 'hold', u, { amount: b.camAmount, az: b.camAz, el: b.camEl, base: b.camDist });
+    BB.currentCam3d = c3;
     BB.stage.setCamera3d(c3);
 
     // transition: fade or wipe into the next beat
-    const trDur = b.tr === 'wipe' ? (b.trDur || 0.9) : (b.trDur || 0.55);
+    const trDur = b.tr === 'wipe' ? (b.trDur || 0.9) : (b.trDur || 0.42);
     const intoNext = nb && t >= nb.t0 - trDur && t < nb.t0 + 0.001;
     let trP = 0;
 
@@ -141,7 +151,9 @@
     // screen pass: never moved by the camera. During a fade the outgoing text fades
     // out and the incoming text fades in, so two label boxes never overlap.
     BB.currentCamera = null;
-    x2.setTransform(scale, 0, 0, scale, 0, 0); // the screen layer is never transformed
+    x2.save();
+    x2.setTransform(scale, 0, 0, scale, 0, 0);
+    if (driftScale !== 1) { x2.translate(T.BASE_W / 2, T.BASE_H / 2); x2.scale(driftScale, driftScale); x2.translate(-T.BASE_W / 2, -T.BASE_H / 2); }
     if (intoNext) {
       if (b.tr === 'wipe') {
         drawScreen(b, t, { alpha: 1 });
@@ -155,6 +167,7 @@
       drawScreen(b, t, {});
     }
 
+    x2.restore();
     // HUD (screen space, never moved by the camera)
     x2.setTransform(scale, 0, 0, scale, 0, 0);
     // the FICTIONAL SCENARIO stamp covers the whole flagged passage

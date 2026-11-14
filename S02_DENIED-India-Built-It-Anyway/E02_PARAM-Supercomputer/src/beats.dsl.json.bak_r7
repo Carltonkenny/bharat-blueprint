@@ -1,0 +1,1055 @@
+[
+ {
+  "id": "1.01",
+  "p": "P01",
+  "w": 1,
+  "sc": "SC.1 · THE LOCKED MACHINE",
+  "k": "hook",
+  "tpl": "hero",
+  "kind": "rack-node-mesh",
+  "title": "A COMPUTER FOR YOUR RESEARCH",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "POWERFUL ENOUGH FOR THE WORK"
+   }
+  ],
+  "camAz": 20,
+  "camEl": 34
+ },
+ {
+  "id": "1.02",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "YOU ARE TOLD",
+   "IT IS NOT AVAILABLE."
+  ],
+  "prop": "lockedCabinet",
+  "pscale": 4.2,
+  "propOpts": {
+   "locked": 1
+  }
+ },
+ {
+  "id": "1.03",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "NOT A LAPTOP.",
+   "NOT A MACHINE FOR",
+   "TYPING REPORTS."
+  ],
+  "hero": "rack-node-mesh",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 34,
+  "camAz": 16
+ },
+ {
+  "id": "1.04",
+  "p": "P01",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "A MACHINE FOR BIG PROBLEMS",
+  "nodes": [
+   "WEATHER",
+   "MATERIALS",
+   "ENORMOUS SCIENTIFIC PROBLEMS"
+  ],
+  "layout": "row",
+  "links": []
+ },
+ {
+  "id": "1.05",
+  "p": "P01",
+  "w": 1.3,
+  "k": "hook",
+  "tpl": "statement",
+  "lines": [
+   "WHAT DO YOU DO",
+   "NEXT?"
+  ],
+  "size": 110,
+  "align": "center"
+ },
+ {
+  "id": "2.01",
+  "p": "P02",
+  "w": 1,
+  "sc": "SC.2 · THE OBSTACLE",
+  "tpl": "timeline",
+  "title": "A SERIOUS OBSTACLE",
+  "items": [
+   {
+    "t": "THE 1980s",
+    "sub": "ACCESS TO ADVANCED IMPORTED SUPERCOMPUTERS",
+    "hot": true,
+    "at": 0.5,
+    "size": 96
+   }
+  ]
+ },
+ {
+  "id": "2.02",
+  "p": "P02",
+  "w": 1,
+  "tpl": "flow",
+  "title": "IMPORTS BECAME AN OBSTACLE",
+  "nodes": [
+   "INDIA",
+   {
+    "t": "IMPORTED SUPERCOMPUTERS",
+    "sub": "A SERIOUS OBSTACLE",
+    "hot": true
+   },
+   "RESEARCH"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "2.03",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE EASY RESPONSE:",
+   "WAIT FOR PERMISSION."
+  ],
+  "prop": "door",
+  "pscale": 3.6,
+  "propOpts": {
+   "closed": 1
+  }
+ },
+ {
+  "id": "2.04",
+  "p": "P02",
+  "w": 1,
+  "tpl": "flow",
+  "title": "TWO CHOICES",
+  "nodes": [
+   {
+    "t": "WAIT",
+    "sub": "FOR SOMEBODY ELSE'S MACHINE"
+   },
+   {
+    "t": "BUILD",
+    "sub": "THE CAPABILITY",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "2.05",
+  "p": "P02",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "A COUNTRY THAT NEEDS ANSWERS",
+   "CANNOT ALWAYS WAIT."
+  ],
+  "size": 62,
+  "align": "center"
+ },
+ {
+  "id": "3.01",
+  "p": "P03",
+  "w": 1.1,
+  "sc": "SC.3 · C-DAC AND PARAM",
+  "tpl": "timeline",
+  "title": "THE CENTRE FOR DEVELOPMENT|OF ADVANCED COMPUTING",
+  "items": [
+   {
+    "t": "1988",
+    "sub": "C-DAC ESTABLISHED",
+    "hot": true,
+    "at": 0.5,
+    "size": 120
+   }
+  ]
+ },
+ {
+  "id": "3.02",
+  "p": "P03",
+  "w": 1,
+  "tpl": "flow",
+  "title": "ITS ANSWER",
+  "nodes": [
+   {
+    "t": "DENIED SUPERCOMPUTER IMPORTS"
+   },
+   {
+    "t": "C-DAC",
+    "sub": "ESTABLISHED 1988",
+    "hot": true
+   },
+   {
+    "t": "THE PARAM FAMILY"
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "3.03",
+  "p": "P03",
+  "w": 1.3,
+  "k": "number",
+  "tpl": "number",
+  "title": "THE HONEST NUMBER",
+  "value": "1988",
+  "unit": "C-DAC ESTABLISHED",
+  "note": "AGAINST THE BACKGROUND OF DENIED SUPERCOMPUTER IMPORTS",
+  "chain": "SET UP IN MARCH 1988",
+  "source": "C-DAC"
+ },
+ {
+  "id": "3.04",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "FORGET COMPUTERS",
+   "FOR A MOMENT."
+  ],
+  "prop": "papers",
+  "pscale": 4.4,
+  "propOpts": {
+   "n": 9
+  }
+ },
+ {
+  "id": "3.05",
+  "p": "P03",
+  "w": 1.1,
+  "tpl": "figure",
+  "title": "A MOUNTAIN OF EXAMINATION PAPERS",
+  "pose": "sort",
+  "figX": 600,
+  "props": [
+   {
+    "prop": "desk",
+    "x": 1060,
+    "y": 690,
+    "scale": 3.2
+   },
+   {
+    "prop": "papers",
+    "x": 1000,
+    "y": 690,
+    "scale": 4.4,
+    "opts": {
+     "n": 10
+    }
+   }
+  ],
+  "callouts": [
+   {
+    "t": "ONE TEACHER, ONE STUDENT",
+    "prop": 1,
+    "dy": -40
+   }
+  ]
+ },
+ {
+  "id": "3.06",
+  "p": "P03",
+  "w": 1,
+  "tpl": "figure",
+  "title": "EVEN A BRILLIANT STUDENT NEEDS TIME",
+  "pose": "sort",
+  "poseTo": "sortB",
+  "hz": 0.7,
+  "figX": 600,
+  "props": [
+   {
+    "prop": "desk",
+    "x": 1060,
+    "y": 690,
+    "scale": 3.2
+   },
+   {
+    "prop": "papers",
+    "x": 1000,
+    "y": 690,
+    "scale": 4.4,
+    "opts": {
+     "n": 10
+    }
+   }
+  ],
+  "motion": {
+   "x1": 720,
+   "y1": 520,
+   "x2": 960,
+   "y2": 600
+  }
+ },
+ {
+  "id": "3.07",
+  "p": "P03",
+  "w": 1.1,
+  "tpl": "figure",
+  "title": "NOW SPLIT THE PAPERS ACROSS A WHOLE CLASSROOM",
+  "pose": "sort",
+  "poseTo": "sortB",
+  "hz": 0.7,
+  "fig2": {
+   "pose": "sort",
+   "poseTo": "sortB",
+   "hz": 0.7,
+   "phase": 0.4,
+   "x": 1300
+  },
+  "figX": 560,
+  "props": [
+   {
+    "prop": "papers",
+    "x": 820,
+    "y": 690,
+    "scale": 3.2,
+    "opts": {
+     "n": 5
+    }
+   },
+   {
+    "prop": "papers",
+    "x": 1560,
+    "y": 690,
+    "scale": 3.2,
+    "opts": {
+     "n": 5
+    }
+   }
+  ]
+ },
+ {
+  "id": "3.08",
+  "p": "P03",
+  "w": 1,
+  "tpl": "flow",
+  "title": "EVERYONE KNOWS WHICH PILE IS THEIRS",
+  "nodes": [
+   "PILE 1",
+   "PILE 2",
+   "PILE 3",
+   "PILE 4"
+  ],
+  "layout": "row",
+  "links": []
+ },
+ {
+  "id": "3.09",
+  "p": "P03",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "THE WORK FINISHES FASTER.",
+   "BUT ONLY IF EVERYONE KNOWS",
+   "WHICH PILE IS THEIRS."
+  ],
+  "size": 60,
+  "hero": "rack-node-mesh",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 34,
+  "camAz": 16
+ },
+ {
+  "id": "4.01",
+  "p": "P04",
+  "w": 1.1,
+  "sc": "SC.4 · PARALLEL COMPUTING",
+  "tpl": "flow",
+  "title": "THAT IS PARALLEL COMPUTING",
+  "nodes": [
+   "ONE PROCESSOR",
+   {
+    "t": "MANY PROCESSORS",
+    "hot": true
+   },
+   "RESULTS BROUGHT TOGETHER"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.02",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "rack-node-mesh",
+  "title": "WORK DISTRIBUTED ACROSS MANY PROCESSORS",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.3,
+    "fy": 0.5,
+    "t": "EACH HANDLES A PORTION"
+   },
+   {
+    "fx": 0.8,
+    "fy": 0.5,
+    "t": "THEN THE RESULTS ARE BROUGHT TOGETHER"
+   }
+  ],
+  "camAz": 22,
+  "camEl": 34
+ },
+ {
+  "id": "4.03",
+  "p": "P04",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "SIMPLE?",
+   "NOT QUITE."
+  ],
+  "size": 120,
+  "align": "center"
+ },
+ {
+  "id": "4.04",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "figure",
+  "title": "A RESTAURANT KITCHEN, ONE SHARED KNIFE",
+  "pose": "reach",
+  "poseTo": "stand",
+  "hz": 0.5,
+  "fig2": {
+   "pose": "reach",
+   "poseTo": "stand",
+   "hz": 0.5,
+   "phase": 0.5,
+   "x": 1330
+  },
+  "figX": 520,
+  "props": [
+   {
+    "prop": "desk",
+    "x": 930,
+    "y": 690,
+    "scale": 3.4
+   },
+   {
+    "prop": "knife",
+    "x": 880,
+    "y": 662,
+    "scale": 3.4
+   }
+  ],
+  "callouts": [
+   {
+    "t": "EVERY COOK NEEDS THE SAME KNIFE",
+    "prop": 1,
+    "dy": -90
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "p": "P04",
+  "w": 1,
+  "tpl": "flow",
+  "title": "MORE COOKS, NO FASTER DINNER",
+  "nodes": [
+   "EVERY COOK",
+   {
+    "t": "NEEDS THE SAME KNIFE",
+    "hot": true
+   },
+   "DINNER IS NO FASTER"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.06",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "rack-node-mesh",
+  "title": "PROCESSORS MUST EXCHANGE INFORMATION",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "flows": [
+   {
+    "a": [
+     0.2,
+     0.6
+    ],
+    "b": [
+     0.8,
+     0.4
+    ],
+    "col": "accent"
+   }
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "THE CONNECTIONS BETWEEN PROCESSORS"
+   }
+  ],
+  "camAz": -24,
+  "camEl": 34
+ },
+ {
+  "id": "4.07",
+  "p": "P04",
+  "w": 1,
+  "tpl": "flow",
+  "title": "SLOW CONNECTIONS",
+  "nodes": [
+   {
+    "t": "SLOW CONNECTIONS",
+    "hot": true
+   },
+   {
+    "t": "PROCESSORS WAIT",
+    "sub": "INSTEAD OF CALCULATING"
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "4.08",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "THE NETWORK MATTERS",
+  "nodes": [
+   {
+    "t": "SLOW LINK",
+    "sub": "NODES IDLE"
+   },
+   {
+    "t": "FAST LINK",
+    "sub": "NODES BUSY",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "4.09",
+  "p": "P04",
+  "w": 1.4,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "THE NETWORK MATTERS",
+   "ALMOST AS MUCH",
+   "AS THE PROCESSORS."
+  ],
+  "size": 66,
+  "hero": "rack-node-mesh",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 34,
+  "camAz": 16
+ },
+ {
+  "id": "5.01",
+  "p": "P05",
+  "w": 1,
+  "sc": "SC.5 · COORDINATION",
+  "tpl": "statement",
+  "lines": [
+   "AND THERE IS",
+   "A THIRD PROBLEM."
+  ],
+  "prop": "baton",
+  "pscale": 5,
+  "propY": 700
+ },
+ {
+  "id": "5.02",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "figure",
+  "title": "A RELAY RACE",
+  "pose": "pass",
+  "fig2": {
+   "pose": "reach",
+   "x": 1250
+  },
+  "figX": 640,
+  "props": [
+   {
+    "prop": "baton",
+    "x": 960,
+    "y": 520,
+    "scale": 3.4
+   }
+  ],
+  "callouts": [
+   {
+    "t": "A FAST RUNNER NEEDS THE BATON",
+    "prop": 0,
+    "dy": -30
+   }
+  ]
+ },
+ {
+  "id": "5.03",
+  "p": "P05",
+  "w": 1,
+  "tpl": "flow",
+  "title": "A DROPPED BATON",
+  "nodes": [
+   "A FAST RUNNER",
+   {
+    "t": "THE BATON IS DROPPED",
+    "hot": true
+   },
+   "THE RACE IS NOT FINISHED"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "5.04",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "SOFTWARE DECIDES",
+  "nodes": [
+   "HOW WORK IS DIVIDED",
+   "HOW TASKS COMMUNICATE",
+   "WHEN PARTIAL ANSWERS ARE COMBINED"
+  ],
+  "layout": "col"
+ },
+ {
+  "id": "5.05",
+  "p": "P05",
+  "w": 1.3,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "POOR COORDINATION CAN ERASE",
+   "THE ADVANTAGE OF",
+   "ALL THAT HARDWARE."
+  ],
+  "size": 64,
+  "hero": "rack-node-mesh",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 34,
+  "camAz": 16
+ },
+ {
+  "id": "6.01",
+  "p": "P06",
+  "w": 1.1,
+  "sc": "SC.6 · THE COMPLETE SYSTEM",
+  "tpl": "statement",
+  "lines": [
+   "A SUPERCOMPUTER IS NOT SIMPLY",
+   "A ROOM FILLED WITH COMPUTERS."
+  ],
+  "size": 60,
+  "align": "center"
+ },
+ {
+  "id": "6.02",
+  "p": "P06",
+  "w": 1.3,
+  "tpl": "flow",
+  "title": "AN AGREEMENT BETWEEN",
+  "nodes": [
+   "A SUPERCOMPUTER",
+   "HARDWARE",
+   "NETWORKS",
+   "MEMORY",
+   "SOFTWARE",
+   "COOLING",
+   "PEOPLE"
+  ],
+  "layout": "radial",
+  "links": "star"
+ },
+ {
+  "id": "6.03",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "rack-node-mesh",
+  "title": "THE COMPLETE SYSTEM",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.2,
+    "fy": 0.4,
+    "t": "HARDWARE"
+   },
+   {
+    "fx": 0.8,
+    "fy": 0.4,
+    "t": "NETWORKS"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.9,
+    "t": "COOLING"
+   }
+  ],
+  "camAz": 26,
+  "camEl": 34
+ },
+ {
+  "id": "6.04",
+  "p": "P06",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "PEOPLE WHO UNDERSTAND",
+   "THE PROBLEMS",
+   "BEING SOLVED."
+  ],
+  "size": 64,
+  "hero": "rack-node-mesh",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 34,
+  "camAz": 16
+ },
+ {
+  "id": "6.05",
+  "p": "P06",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE PARAM PROGRAMME",
+  "nodes": [
+   "C-DAC'S PARAM PROGRAMME",
+   {
+    "t": "EXPERTISE IN THE COMPLETE SYSTEM",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "6.06",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "IT DID NOT MEAN",
+   "EVERY PART WAS",
+   "MADE AT HOME."
+  ],
+  "size": 72,
+  "align": "center"
+ },
+ {
+  "id": "6.07",
+  "p": "P06",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "WHAT IT DID MEAN",
+  "nodes": [
+   "INDIAN ENGINEERS",
+   {
+    "t": "BUILDING AND INTEGRATING",
+    "hot": true
+   },
+   "MACHINES FOR DEMANDING WORK"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "6.08",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "NOT RELYING ONLY ON",
+   "IMPORTED FINISHED SYSTEMS."
+  ],
+  "size": 62,
+  "align": "center"
+ },
+ {
+  "id": "7.01",
+  "p": "P07",
+  "w": 1.1,
+  "sc": "SC.7 · WHAT IF",
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "rack-node-mesh",
+  "title": "A WEATHER MODEL, DIVIDED AMONG PROCESSORS",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "MANY PROCESSORS"
+   }
+  ],
+  "camAz": -20,
+  "camEl": 34
+ },
+ {
+  "id": "7.02",
+  "p": "P07",
+  "w": 1.1,
+  "k": "fiction",
+  "tpl": "grid",
+  "title": "THE WORK IS SPLIT INTO TASKS",
+  "slots": [
+   {
+    "n": 12,
+    "col": "cyan",
+    "cell": "TASK"
+   }
+  ],
+  "lit": 12,
+  "cols": 6
+ },
+ {
+  "id": "7.03",
+  "p": "P07",
+  "w": 1.2,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "THE WHOLE SYSTEM MUST MANAGE THE IMBALANCE",
+  "nodes": [
+   {
+    "t": "ONE PROCESSOR",
+    "sub": "FINISHES EARLY"
+   },
+   {
+    "t": "ANOTHER",
+    "sub": "STILL CALCULATING",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "7.04",
+  "p": "P07",
+  "w": 1.1,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "ADDING MORE PROCESSORS",
+   "MAY BARELY IMPROVE",
+   "THE RESULT."
+  ],
+  "size": 62,
+  "hero": "rack-node-mesh",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 34,
+  "camAz": 16
+ },
+ {
+  "id": "7.05",
+  "p": "P07",
+  "w": 1.1,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "THE HIDDEN ART",
+   "BEHIND THE MACHINE."
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "8.01",
+  "p": "P08",
+  "w": 1,
+  "sc": "SC.8 · THE FRONTIER",
+  "k": "missing",
+  "tpl": "statement",
+  "lines": [
+   "TODAY'S FRONTIER",
+   "IS DIFFERENT."
+  ],
+  "hero": "rack-node-mesh",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 34,
+  "camAz": 16
+ },
+ {
+  "id": "8.02",
+  "p": "P08",
+  "w": 1.3,
+  "k": "missing",
+  "tpl": "flow",
+  "title": "SUPERCOMPUTING NOW DEPENDS ON",
+  "nodes": [
+   "ACCELERATORS",
+   "HIGH-SPEED NETWORKS",
+   "ENERGY EFFICIENCY",
+   "SOFTWARE TUNED TO NEW ARCHITECTURES"
+  ],
+  "layout": "grid:2"
+ },
+ {
+  "id": "8.03",
+  "p": "P08",
+  "w": 1,
+  "k": "missing",
+  "tpl": "flow",
+  "title": "GLOBAL SUPPLY CHAINS",
+  "nodes": [
+   "GLOBAL SUPPLY CHAINS",
+   {
+    "t": "STILL MATTER",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "8.04",
+  "p": "P08",
+  "w": 1,
+  "k": "missing",
+  "tpl": "statement",
+  "lines": [
+   "INDEPENDENCE IS",
+   "A MOVING TARGET."
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "8.05",
+  "p": "P08",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "THE COMPUTER THAT COULD NOT BE BOUGHT",
+   "BECAME A LESSON IN BUILDING CAPABILITY."
+  ],
+  "size": 52,
+  "align": "center"
+ },
+ {
+  "id": "8.06",
+  "p": "P08",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "rack-node-mesh",
+  "title": "MANY MINDS, MANY MACHINES",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "flows": [
+   {
+    "a": [
+     0.1,
+     0.5
+    ],
+    "b": [
+     0.9,
+     0.5
+    ],
+    "col": "accent"
+   }
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "WORKING AS ONE"
+   }
+  ],
+  "camAz": 20,
+  "camEl": 34
+ },
+ {
+  "id": "8.07",
+  "p": "P08",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "MANY MINDS.",
+   "MANY MACHINES.",
+   "ONE."
+  ],
+  "size": 86,
+  "align": "center"
+ },
+ {
+  "id": "9.01",
+  "p": "P09",
+  "w": 1,
+  "sc": "SC.9 · THE ANSWER",
+  "tpl": "statement",
+  "lines": [
+   "THE BARRIER WAS NOT DEFEATED",
+   "BY PRETENDING IT DID NOT EXIST."
+  ],
+  "size": 56,
+  "align": "center"
+ },
+ {
+  "id": "9.02",
+  "p": "P09",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IT WAS ANSWERED BY LEARNING",
+   "HOW THE ENTIRE SYSTEM WORKED."
+  ],
+  "size": 56,
+  "align": "center"
+ },
+ {
+  "id": "9.03",
+  "p": "P09",
+  "w": 1.5,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "THE ANSWER WAS NEVER",
+   {
+    "t": "ONE GIANT COMPUTER.",
+    "col": "accent"
+   }
+  ],
+  "size": 96,
+  "align": "center"
+ },
+ {
+  "id": "9.04",
+  "p": "P09",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA BUILT IT ANYWAY"
+  ],
+  "sub": "S02 · E02 · THE SUPERCOMPUTER INDIA COULDN'T BUY",
+  "size": 100,
+  "align": "center"
+ }
+]

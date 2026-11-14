@@ -53,7 +53,7 @@
     const n = noise(seed), out = [];
     for (let i = 0; i < pts.length - 1; i++) {
       const [x1, y1] = pts[i], [x2, y2] = pts[i + 1];
-      const len = Math.hypot(x2 - x1, y2 - y1), k = Math.max(1, Math.round(len / 26));
+      const len = Math.hypot(x2 - x1, y2 - y1), k = Math.min(300, Math.max(1, Math.round(len / 26)));
       const nx = -(y2 - y1) / (len || 1), ny = (x2 - x1) / (len || 1);
       for (let j = 0; j < k; j++) {
         const t = j / k, x = x1 + (x2 - x1) * t, y = y1 + (y2 - y1) * t;
@@ -131,6 +131,7 @@
   D.poly = function (ctx, pts, o = {}) {
     const p = o.p == null ? 1 : o.p;
     if (p <= 0) return null;
+    for (let i = 0; i < pts.length; i++) { if (!isFinite(pts[i][0]) || !isFinite(pts[i][1]) || Math.abs(pts[i][0]) > 20000 || Math.abs(pts[i][1]) > 20000) return null; }
     const closed = o.close ? pts.concat([pts[0]]) : pts;
     const q = o.j === 0 ? closed : wobble(closed, o.seed || 1, o.j == null ? 0.8 : o.j);
     const part = partial(q, p);
@@ -292,11 +293,51 @@
   };
 
   // ---------- frame furniture ----------
-  D.paper = function (ctx, W, H, T) {
-    ctx.save();
+  // Series 1 look: blueprint paper with a fixed fine grain and a soft vignette.
+  // The grain is a deterministic tile (no randomness at render time) and it does not move,
+  // so it adds richness without faking motion.
+  let grainTile = null;
+  function makeGrain() {
+    const c = document.createElement('canvas');
+    c.width = 256; c.height = 256;
+    const g = c.getContext('2d');
+    const img = g.createImageData(256, 256);
+    let a = 0x9e3779b9;
+    const r = () => { a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+    for (let i = 0; i < 256 * 256; i++) {
+      const v = 128 + Math.floor((r() - 0.5) * 70);
+      img.data[i * 4] = v; img.data[i * 4 + 1] = v; img.data[i * 4 + 2] = v; img.data[i * 4 + 3] = 255;
+    }
+    g.putImageData(img, 0, 0);
+    return c;
+  }
+  // The paper is identical every frame, so it is baked once into an offscreen canvas.
+  let paperCache = null;
+  function bakePaper(W, H, T) {
+    const c = document.createElement('canvas');
+    c.width = Math.round(W); c.height = Math.round(H);
+    const ctx = c.getContext('2d');
     ctx.fillStyle = T.paper;
     ctx.fillRect(0, 0, W, H);
-    ctx.restore();
+    if (!grainTile) grainTile = makeGrain();
+    ctx.globalAlpha = 0.07;
+    ctx.globalCompositeOperation = 'overlay';
+    ctx.fillStyle = ctx.createPattern(grainTile, 'repeat');
+    ctx.fillRect(0, 0, W, H);
+    ctx.globalCompositeOperation = 'source-over';
+    const g = ctx.createRadialGradient(W * 0.5, H * 0.46, H * 0.12, W * 0.5, H * 0.5, H * 0.95);
+    g.addColorStop(0, 'rgba(255,255,255,0.045)');
+    g.addColorStop(1, 'rgba(0,0,0,0.30)');
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+    return c;
+  }
+  D.paper = function (ctx, W, H, T) {
+    if (!paperCache || paperCache.w !== W || paperCache.h !== H || paperCache.col !== T.paper) {
+      paperCache = { canvas: bakePaper(W, H, T), w: W, h: H, col: T.paper };
+    }
+    ctx.drawImage(paperCache.canvas, 0, 0, W, H);
   };
 
   // the blueprint grid, drawn inside the camera transform so a camera move is visible
@@ -337,20 +378,37 @@
       ctx.moveTo(x, y + sy * len); ctx.lineTo(x, y); ctx.lineTo(x + sx * len, y);
       ctx.stroke();
     });
-    // the marching construction border
-    const inset = 22 * S;
-    ctx.strokeStyle = T.dim;
-    ctx.lineWidth = T.hair * 1.2;
-    ctx.setLineDash([16 * S, 12 * S]);
-    ctx.lineDashOffset = -((o.t || 0) * 46 * S) % (28 * S);
-    ctx.strokeRect(inset, inset, W - inset * 2, H - inset * 2);
-    ctx.setLineDash([]);
+    // double construction border (Series 1 frame)
+    ctx.strokeStyle = T.cyan; ctx.globalAlpha = 0.55;
+    ctx.lineWidth = T.line * 1.1;
+    ctx.strokeRect(22 * S, 22 * S, W - 44 * S, H - 44 * S);
+    ctx.globalAlpha = 0.30; ctx.lineWidth = T.hair * 1.2;
+    ctx.strokeRect(34 * S, 34 * S, W - 68 * S, H - 68 * S);
+    ctx.globalAlpha = 1;
+    // scene tag: boxed, top-left, in the safe area (e.g. "SC.3 - THE PUMP")
     if (o.scene) {
-      D.text(ctx, o.scene, W * 0.05, H * 0.94 - T.type.micro * 0.18, T.type.micro, { col: T.cyan, a: 0.85, layer: 'HUD' });
+      const size = T.type.micro;
+      ctx.font = `400 ${size}px ${T.font}`;
+      const w = ctx.measureText(o.scene).width + size * 1.1;
+      const x = W * 0.05, y = H * 0.06;
+      ctx.fillStyle = 'rgba(4,20,44,0.55)';
+      ctx.fillRect(x, y, w, size * 1.5);
+      ctx.strokeStyle = T.cyan; ctx.globalAlpha = 0.7; ctx.lineWidth = T.hair * 1.4;
+      ctx.strokeRect(x, y, w, size * 1.5);
+      ctx.globalAlpha = 1;
+      D.text(ctx, o.scene, x + size * 0.55, y + size * 1.08, size, { col: T.cyan, a: 0.95, layer: 'HUD' });
     }
     if (o.block) {
-      // right aligned, and inside the safe area
-      D.text(ctx, o.block, W * 0.95, H * 0.94 - T.type.micro * 0.18, T.type.micro, { col: T.cyan, a: 0.85, align: 'right', layer: 'HUD' });
+      const size = T.type.micro;
+      ctx.font = `400 ${size}px ${T.font}`;
+      const w = ctx.measureText(o.block).width + size * 1.1;
+      const x = W * 0.95 - w, y = H * 0.94 - size * 1.5;
+      ctx.fillStyle = 'rgba(4,20,44,0.55)';
+      ctx.fillRect(x, y, w, size * 1.5);
+      ctx.strokeStyle = T.cyan; ctx.globalAlpha = 0.7; ctx.lineWidth = T.hair * 1.4;
+      ctx.strokeRect(x, y, w, size * 1.5);
+      ctx.globalAlpha = 1;
+      D.text(ctx, o.block, x + size * 0.55, y + size * 1.08, size, { col: T.cyan, a: 0.95, layer: 'HUD' });
     }
     ctx.restore();
   };
@@ -362,8 +420,9 @@
     ctx.save();
     ctx.globalAlpha = alpha;
     ctx.strokeStyle = T.accent2; ctx.lineWidth = T.line;
-    const x = z.x0, y = z.y0 + size * 1.05;
     const w = size * 0.62 * 22;
+    const x = (W - w) / 2, y = z.y0 + size * 1.05;
+    ctx.fillStyle = 'rgba(40,18,4,0.55)'; ctx.fillRect(x, y - size * 0.86, w, size * 1.14);
     ctx.strokeRect(x, y - size * 0.86, w, size * 1.14);
     D.text(ctx, 'FICTIONAL SCENARIO', x + w / 2, y, size, { col: T.ink, align: 'center', layer: 'HUD' });
     ctx.restore();

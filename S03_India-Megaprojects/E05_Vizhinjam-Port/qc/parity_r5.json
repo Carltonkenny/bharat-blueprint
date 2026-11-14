@@ -1,0 +1,16 @@
+{
+  "video": "E05-r5.mp4",
+  "frames": 7241,
+  "seconds": 241.4,
+  "meanYDIF": 0.218,
+  "motionFrames": 0.0689,
+  "emptyFrames": 0.0884,
+  "longestEmpty": 3.47,
+  "pass": false,
+  "thresholds": {
+    "meanYDIF": 0.2,
+    "motionFrames": 0.08,
+    "emptyFrames": 0.12,
+    "longestEmpty": 4.0
+  }
+}

@@ -9,7 +9,13 @@
 - OpenCode has been told to read the design set and write `docs/design/UNDERSTANDING_CHECK.md` (no code). **Next: read that file, answer its questions by fixing the specs (log in CHANGELOG.md), then tell the user to say "go" for ticket T0.**
 - No further renders, voice generation or deletion have been approved.
 
-## Update 2026-11-07 (late): S02 is READY TO RUN
+## Update 2026-11-14: S02 voiced finals confirmed; S03 drafted
+S02: six `*_JUPITER-VOICE.mp4` finals exist in `S02_*/FINAL/` (1080p30, about -16.5 LUFS, 3:40 to 4:19), not checked by ear; E04 motion just under its bar; E03 NVS-03 status is date-sensitive. S03 ("India Megaprojects", six films: Chenab bridge, Atal Tunnel, Atal Setu, Pamban bridge, Vizhinjam port, freight corridors): scripts, briefs, passages and ledgers written by Claude, NOT approved and NOT audited by anyone else. Start at `S03_India-Megaprojects/00_SERIES/SERIES_PLAN_S03.md` and `AUDIT_S03.md`; OpenCode prompts in `OPENCODE_PROMPT_S03.md`.
+
+## Update 2026-11-08: S02 run 1 REJECTED, round 2 specified
+All six films from the first unattended run fail review (sparse, repeated or cropped heroes, broken figures, dim slow text, 36 to 56% near-empty frames against 6 to 7% in Series 1). Read `S02_*/00_SERIES/REVIEW_R1_S02.md`, then `REDO_SPEC_R2.md` and `REDO_RUN.md`. Round 2 prompt is at the top of `00_SERIES/OPENCODE_PROMPT_S02.md`. OpenCode rebuilds E01 and stops (`WAITING_FOR_CLAUDE.md`); Claude reviews (sheets, `parity_check.py`, frames) and writes either `E01_Cryogenic-Engine/R2_APPROVED.txt` or `R2_FIXES.md`; after approval OpenCode rebuilds E03, E02, E06, E05, E04 and notifies once (`DONE_S02_R2.md`).
+
+## Update 2026-11-07 (late): S02 is READY TO RUN (superseded by the entry above)
 Series name: "India Built It Anyway". All six scripts final and approved; the user authorised one unattended OpenCode run (renders on the RTX 3050, loop until QC passes, notify once). Prompt: `S02_*/00_SERIES/OPENCODE_PROMPT_S02.md`; instructions: `00_SERIES/MASTER_RUN.md`; progress: `S02_*/STATUS.md`; end marker: `DONE_S02.md` or `BLOCKED.md`. Claude's job after the run: final check of QC reports, contact sheets and frames, then tell the user. The older paragraph below describes the earlier state (before approval).
 
 ## Update 2026-11-07 (Series 2)

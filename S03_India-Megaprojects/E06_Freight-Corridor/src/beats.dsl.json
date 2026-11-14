@@ -1,0 +1,895 @@
+[
+ {
+  "id": "1.01",
+  "p": "P01",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 1,
+   "second": true
+  },
+  "title": "A LANE ONLY FOR GOODS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 40,
+  "sc": "SC.1 · THE LANE",
+  "k": "hook"
+ },
+ {
+  "id": "1.02",
+  "p": "P01",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "ONE LANE FOR EVERYONE",
+  "nodes": [
+   "TRUCKS",
+   "BUSES",
+   "SCOOTERS"
+  ],
+  "links": [],
+  "layout": "row"
+ },
+ {
+  "id": "1.03",
+  "p": "P01",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 1,
+   "second": true
+  },
+  "title": "EVERYONE MOVES AT THE SLOWEST SPEED",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "1.04",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "NOW IMAGINE A LANE",
+   "BUILT ONLY FOR TRUCKS."
+  ],
+  "size": 62,
+  "k": "hook",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "1.05",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA'S DEDICATED",
+   "FREIGHT CORRIDORS"
+  ],
+  "size": 64,
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "2.01",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "RAILWAY LINES BUILT",
+   "ONLY FOR GOODS TRAINS"
+  ],
+  "size": 62,
+  "sc": "SC.2 · THE NUMBERS",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "2.02",
+  "p": "P02",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "WHAT THE CORRIDORS ENABLE (RAILWAYS)",
+  "nodes": [
+   "DOUBLE-STACK CONTAINER TRAINS",
+   "HIGHER AXLE LOAD",
+   "FASTER ACCESS FROM WESTERN PORTS"
+  ],
+  "links": [],
+  "layout": "row"
+ },
+ {
+  "id": "2.03",
+  "p": "P02",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "THE EASTERN CORRIDOR",
+  "value": "1,337",
+  "unit": "KM: LUDHIANA TO SONNAGAR",
+  "note": "COMMISSIONED",
+  "size": 130,
+  "source": "PIB, 2026"
+ },
+ {
+  "id": "2.04",
+  "p": "P02",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "THE WESTERN CORRIDOR",
+  "value": "1,506",
+  "unit": "KM: DADRI TO JNPT",
+  "note": "COMMISSIONED",
+  "size": 130,
+  "source": "PIB, 2026"
+ },
+ {
+  "id": "2.05",
+  "p": "P02",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 2
+  },
+  "title": "TWO CORRIDORS, ONE IDEA",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 46
+ },
+ {
+  "id": "3.01",
+  "p": "P03",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 1,
+   "second": true
+  },
+  "title": "GOODS AND PASSENGERS, SHARING",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 46,
+  "sc": "SC.3 · WHY IT MATTERS"
+ },
+ {
+  "id": "3.02",
+  "p": "P03",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "GOODS TRAINS MOVED OVER",
+  "nodes": [
+   {
+    "t": "GOODS TRAINS",
+    "sub": "MOVE TO THE NEW LINES"
+   },
+   {
+    "t": "NEW PATHS",
+    "sub": "OPEN ON THE OLD TRACKS",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "3.03",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "RAILWAYS: ADDITIONAL PATHS",
+   "ON THE OLD NETWORK"
+  ],
+  "size": 58,
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "3.04",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "MORE GOODS AND PASSENGER",
+   "SERVICES COULD GROW."
+  ],
+  "size": 58,
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "4.01",
+  "p": "P04",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IDEA ONE:",
+   "SEPARATE LANES"
+  ],
+  "size": 74,
+  "sc": "SC.4 · IDEA 1 · SEPARATE LANES",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 1,
+   "second": true
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "4.02",
+  "p": "P04",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "THE TRUCK-ONLY LANE",
+  "nodes": [
+   {
+    "t": "THE TRUCKS",
+    "sub": "STOP SLOWING THE BUSES"
+   },
+   {
+    "t": "THE BUSES",
+    "sub": "STOP SLOWING THE TRUCKS",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.03",
+  "p": "P04",
+  "w": 1.3,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 1,
+   "second": true
+  },
+  "title": "EACH KIND OF TRAIN, ITS OWN TRACK",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 14,
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.55,
+    "t": "GOODS TRACK"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.78,
+    "t": "PASSENGER TRACK"
+   }
+  ]
+ },
+ {
+  "id": "4.04",
+  "p": "P04",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "BEFORE A DEDICATED LINE, AFTER IT",
+  "nodes": [
+   {
+    "t": "BEFORE",
+    "sub": "A GOODS TRAIN WAITS FOR AN EXPRESS"
+   },
+   {
+    "t": "AFTER",
+    "sub": "EACH HAS ITS OWN TRACK",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.05",
+  "p": "P04",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 1,
+   "second": true
+  },
+  "title": "NO MORE WAITING TO PASS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "5.01",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IDEA TWO:",
+   "DOUBLE-STACK"
+  ],
+  "size": 74,
+  "sc": "SC.5 · IDEA 2 · DOUBLE-STACK",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "5.02",
+  "p": "P05",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "TWO BOOKS, NOT ONE",
+  "nodes": [
+   "ONE BOOK",
+   {
+    "t": "TWO BOOKS",
+    "sub": "THE SAME TRAIN, TWICE THE BOXES",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "5.03",
+  "p": "P05",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 1
+  },
+  "title": "ONE LAYER OF BOXES",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 46
+ },
+ {
+  "id": "5.04",
+  "p": "P05",
+  "w": 1.3,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 2
+  },
+  "title": "TWO LAYERS, IF THE WIRES LEAVE ROOM",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 14,
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.2,
+    "t": "THE WIRE"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "TWO LAYERS"
+   }
+  ]
+ },
+ {
+  "id": "5.05",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "RAILWAYS, 2019: SUCH A TRAIN",
+   "CAN CARRY FOUR TIMES",
+   "THE CONTAINER UNITS"
+  ],
+  "size": 54,
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "6.01",
+  "p": "P06",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IDEA THREE:",
+   "WEIGHT"
+  ],
+  "size": 86,
+  "sc": "SC.6 · IDEA 3 · WEIGHT",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "axle": true,
+   "layers": 2
+  },
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "6.02",
+  "p": "P06",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "ONE FOOT, THEN TWO",
+  "nodes": [
+   "ONE FOOT",
+   {
+    "t": "PRESSES HARDER",
+    "hot": true
+   },
+   "THAN TWO"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "6.03",
+  "p": "P06",
+  "w": 1.3,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "axle": true,
+   "layers": 2
+  },
+  "title": "A HEAVIER AXLE PRESSES HARDER",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 14,
+  "callouts": [
+   {
+    "fx": 0.4,
+    "fy": 0.45,
+    "t": "AXLE LOAD"
+   }
+  ]
+ },
+ {
+  "id": "6.04",
+  "p": "P06",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "CORRIDOR WAGONS ARE DESIGNED FOR",
+  "value": "25",
+  "unit": "TONNES ON EACH AXLE",
+  "note": "SO THE TRACK MUST BE STRONGER",
+  "size": 150,
+  "source": "PIB, 2019"
+ },
+ {
+  "id": "6.05",
+  "p": "P06",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "OLD WAGONS, NEW WAGONS (2019)",
+  "nodes": [
+   {
+    "t": "OLD WAGONS",
+    "sub": "SIXTY-ONE TO SEVENTY-ONE TONNES"
+   },
+   {
+    "t": "NEW WAGONS",
+    "sub": "UP TO EIGHTY-ONE TONNES, FASTER",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "6.06",
+  "p": "P06",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A STRONGER TRACK",
+   "FOR A HEAVIER TRAIN."
+  ],
+  "size": 64,
+  "k": "payoff",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "7.01",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "BOTH CORRIDORS",
+   "HAVE BEEN COMMISSIONED"
+  ],
+  "size": 62,
+  "sc": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "7.02",
+  "p": "P07",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "TRAINS EACH DAY ON AVERAGE",
+  "value": "443",
+  "unit": "ON THE CORRIDORS",
+  "note": "THE MINISTRY SAYS",
+  "size": 150,
+  "source": "PIB, 2026"
+ },
+ {
+  "id": "7.03",
+  "p": "P07",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "A NEW CORRIDOR, ONLY ANNOUNCED",
+  "nodes": [
+   {
+    "t": "DANKUNI",
+    "sub": "IN THE EAST"
+   },
+   {
+    "t": "ANNOUNCED",
+    "sub": "UNION BUDGET 2026",
+    "hot": true
+   },
+   {
+    "t": "SURAT",
+    "sub": "IN THE WEST"
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "7.04",
+  "p": "P07",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 2
+  },
+  "title": "WORK ON THE PROJECT REPORT HAS BEGUN",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 46
+ },
+ {
+  "id": "7.05",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "AN ANNOUNCEMENT",
+   "IS NOT A RAILWAY."
+  ],
+  "size": 64,
+  "k": "payoff",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "8.01",
+  "p": "P08",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "A FREIGHT CORRIDOR IS NOT A PASSENGER LINE",
+  "nodes": [
+   "A FREIGHT CORRIDOR",
+   "A PASSENGER LINE",
+   "A HIGHWAY"
+  ],
+  "links": [],
+  "layout": "row",
+  "sc": "SC.8 · THE FIELD"
+ },
+ {
+  "id": "8.02",
+  "p": "P08",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "EACH CARRIES A DIFFERENT THING",
+  "nodes": [
+   {
+    "t": "GOODS",
+    "sub": "AT ONE SPEED"
+   },
+   {
+    "t": "PEOPLE",
+    "sub": "AT ANOTHER"
+   },
+   {
+    "t": "VEHICLES",
+    "sub": "AT A THIRD"
+   }
+  ],
+  "links": [],
+  "layout": "row"
+ },
+ {
+  "id": "8.03",
+  "p": "P08",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 1,
+   "second": true
+  },
+  "title": "TOOLS, NOT RANKS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "8.04",
+  "p": "P08",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "TOOLS,",
+   "NOT RANKS."
+  ],
+  "size": 64,
+  "k": "payoff",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "9.01",
+  "p": "P09",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A CONTAINER LEAVES A PORT",
+   "AT NIGHT"
+  ],
+  "size": 62,
+  "sc": "SC.9 · WHAT IF",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "9.02",
+  "p": "P09",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 2
+  },
+  "title": "IT RIDES THE CORRIDOR",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "9.03",
+  "p": "P09",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "NO EXPRESS TO WAIT FOR",
+  "nodes": [
+   {
+    "t": "THE PORT"
+   },
+   {
+    "t": "NO WAITING",
+    "sub": "FOR A PASSENGER EXPRESS",
+    "hot": true
+   },
+   {
+    "t": "THE INLAND TERMINAL"
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "9.04",
+  "p": "P09",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE CORRIDOR DID NOT",
+   "MAKE THE TRAIN FLY.",
+   "IT STOPPED IT WAITING."
+  ],
+  "size": 58,
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "10.01",
+  "p": "P10",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "ONE IDEA ABOUT PEOPLE:",
+   "AVERAGES HIDE BOTTLENECKS"
+  ],
+  "size": 56,
+  "sc": "SC.10 · THE HABIT",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "10.02",
+  "p": "P10",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "ONE SLOW SECTION",
+  "nodes": [
+   {
+    "t": "A GOOD AVERAGE SPEED"
+   },
+   {
+    "t": "ONE SLOW SECTION",
+    "sub": "LOSES THE TIME",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "10.03",
+  "p": "P10",
+  "w": 0.72,
+  "tpl": "number",
+  "k": "number",
+  "title": "A TRADE PUBLICATION REPORTED",
+  "value": "70",
+  "unit": "KM/H: THE EXPECTED AVERAGE",
+  "note": "UP FROM ABOUT 26: AN EXPECTATION, NOT A MEASUREMENT",
+  "size": 130,
+  "source": "MARITIME GATEWAY"
+ },
+ {
+  "id": "10.04",
+  "p": "P10",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "AN EXPECTATION",
+   "IS NOT A MEASUREMENT."
+  ],
+  "size": 64,
+  "k": "payoff",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "11.01",
+  "p": "P11",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THREE THINGS",
+   "TO REMEMBER"
+  ],
+  "size": 64,
+  "sc": "SC.11 · THE CLOSE",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "11.02",
+  "p": "P11",
+  "w": 0.62,
+  "tpl": "flow",
+  "title": "THREE THINGS",
+  "nodes": [
+   {
+    "t": "ONE",
+    "sub": "A SEPARATE LANE STOPS EVERYONE SLOWING EVERYONE"
+   },
+   {
+    "t": "TWO",
+    "sub": "A DOUBLE STACK AND A HEAVIER AXLE CARRY MORE"
+   },
+   {
+    "t": "THREE",
+    "sub": "AN ANNOUNCEMENT IS NOT A RAILWAY"
+   }
+  ],
+  "links": [],
+  "layout": "row"
+ },
+ {
+  "id": "11.03",
+  "p": "P11",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 2,
+   "axle": true
+  },
+  "title": "THE CORRIDOR",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 48
+ },
+ {
+  "id": "11.04",
+  "p": "P11",
+  "w": 1.4,
+  "tpl": "statement",
+  "lines": [
+   "INDIA BUILT THE CORRIDORS.",
+   "HOW WILL THE FREIGHT",
+   "REACH THEM?"
+  ],
+  "size": 58,
+  "k": "hook",
+  "hero": "rail-corridor",
+  "heroOpts": {
+   "layers": 2
+  },
+  "camAz": 40,
+  "tag": "CONCEPTUAL, NOT TO SCALE"
+ },
+ {
+  "id": "11.05",
+  "p": "P11",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA MEGAPROJECTS"
+  ],
+  "size": 100,
+  "sub": "THE RAILWAY BUILT ONLY FOR FREIGHT",
+  "align": "center"
+ }
+]

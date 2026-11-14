@@ -1,0 +1,2791 @@
+{
+  "duration": 261.6666666666667,
+  "beats": [
+    {
+      "id": "1.01",
+      "p": "P01",
+      "kind": "hook",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "snow": true,
+            "noTunnel": true,
+            "growDur": 3
+          },
+          "title": "ROHTANG PASS, IN THE HIMALAYAS",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.08,
+              "t": "THE PASS"
+            },
+            {
+              "fx": 0.12,
+              "fy": 0.55,
+              "t": "MANALI SIDE"
+            },
+            {
+              "fx": 0.88,
+              "fy": 0.55,
+              "t": "LAHAUL AND SPITI SIDE"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "snow": true,
+            "noTunnel": true,
+            "growDur": 3
+          },
+          "title": "ROHTANG PASS, IN THE HIMALAYAS",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.08,
+              "t": "THE PASS"
+            },
+            {
+              "fx": 0.12,
+              "fy": 0.55,
+              "t": "MANALI SIDE"
+            },
+            {
+              "fx": 0.88,
+              "fy": 0.55,
+              "t": "LAHAUL AND SPITI SIDE"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 9,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE PASS",
+      "t0": 0.8,
+      "t1": 5.437,
+      "dur": 4.637,
+      "passageStart": 0.8
+    },
+    {
+      "id": "1.02",
+      "p": "P01",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "snow": true,
+            "noTunnel": true,
+            "growDur": 4
+          },
+          "title": "SNOW CLOSED THE ROAD FOR MONTHS",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "snow": true,
+            "noTunnel": true,
+            "growDur": 4
+          },
+          "title": "SNOW CLOSED THE ROAD FOR MONTHS",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE PASS",
+      "t0": 5.437,
+      "t1": 8.9147,
+      "dur": 3.4777,
+      "passageStart": 5.437
+    },
+    {
+      "id": "1.03",
+      "p": "P01",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "A VALLEY CUT OFF",
+          "nodes": [
+            "MANALI",
+            {
+              "t": "CLOSED",
+              "sub": "ABOUT SIX MONTHS EACH WINTER (PIB)",
+              "hot": true
+            },
+            "LAHAUL AND SPITI"
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "A VALLEY CUT OFF",
+          "nodes": [
+            "MANALI",
+            {
+              "t": "CLOSED",
+              "sub": "ABOUT SIX MONTHS EACH WINTER (PIB)",
+              "hot": true
+            },
+            "LAHAUL AND SPITI"
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE PASS",
+      "t0": 8.9147,
+      "t1": 10.7116,
+      "dur": 1.7968,
+      "passageStart": 8.9147
+    },
+    {
+      "id": "1.04",
+      "p": "P01",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "SO ENGINEERS ASKED",
+            "A DIFFERENT QUESTION"
+          ],
+          "size": 70,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "snow": true,
+            "noTunnel": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "SO ENGINEERS ASKED",
+            "A DIFFERENT QUESTION"
+          ],
+          "size": 70,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "snow": true,
+            "noTunnel": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 12,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE PASS",
+      "t0": 10.7116,
+      "t1": 13.6097,
+      "dur": 2.8981,
+      "passageStart": 10.7116
+    },
+    {
+      "id": "1.05",
+      "p": "P01",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 4.5
+          },
+          "title": "NOT HOW TO CLEAR THE SNOW",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.7,
+              "t": "UNDERNEATH"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 4.5
+          },
+          "title": "NOT HOW TO CLEAR THE SNOW",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.7,
+              "t": "UNDERNEATH"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 9,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE PASS",
+      "t0": 13.6097,
+      "t1": 17.3773,
+      "dur": 3.7676,
+      "passageStart": 13.6097
+    },
+    {
+      "id": "1.06",
+      "p": "P01",
+      "kind": "hook",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "BUT HOW TO GO",
+            "UNDERNEATH IT."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "BUT HOW TO GO",
+            "UNDERNEATH IT."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.1 · THE PASS",
+      "t0": 17.3773,
+      "t1": 20.855,
+      "dur": 3.4777,
+      "passageStart": 17.3773
+    },
+    {
+      "id": "2.01",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "timeline",
+          "title": "THE ATAL TUNNEL",
+          "items": [
+            {
+              "t": "2022",
+              "sub": "RECOGNISED AS THE WORLD'S LONGEST HIGHWAY TUNNEL ABOVE 10,000 FEET (PIB)",
+              "hot": true,
+              "at": 0.5,
+              "size": 84
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "timeline",
+          "title": "THE ATAL TUNNEL",
+          "items": [
+            {
+              "t": "2022",
+              "sub": "RECOGNISED AS THE WORLD'S LONGEST HIGHWAY TUNNEL ABOVE 10,000 FEET (PIB)",
+              "hot": true,
+              "at": 0.5,
+              "size": 84
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · THE NUMBERS",
+      "t0": 20.855,
+      "t1": 24.7518,
+      "dur": 3.8968,
+      "passageStart": 20.855
+    },
+    {
+      "id": "2.02",
+      "p": "P02",
+      "kind": "number",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "number",
+          "title": "HOW LONG",
+          "value": "9.02",
+          "unit": "KILOMETRES",
+          "note": "THE ATAL TUNNEL",
+          "size": 150,
+          "source": "PIB"
+        },
+        {
+          "op": "cs",
+          "tpl": "number",
+          "title": "HOW LONG",
+          "value": "9.02",
+          "unit": "KILOMETRES",
+          "note": "THE ATAL TUNNEL",
+          "size": 150,
+          "source": "PIB"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · THE NUMBERS",
+      "t0": 24.7518,
+      "t1": 28.6486,
+      "dur": 3.8968,
+      "passageStart": 24.7518
+    },
+    {
+      "id": "2.03",
+      "p": "P02",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 2
+          },
+          "title": "A STRAIGHT LINE UNDER THE PASS",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "chain": "9.02 KM (PIB)"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 2
+          },
+          "title": "A STRAIGHT LINE UNDER THE PASS",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "chain": "9.02 KM (PIB)"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 12,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · THE NUMBERS",
+      "t0": 28.6486,
+      "t1": 35.1434,
+      "dur": 6.4947,
+      "passageStart": 28.6486
+    },
+    {
+      "id": "2.04",
+      "p": "P02",
+      "kind": "number",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "number",
+          "title": "MANALI TO SARCHU",
+          "value": "46",
+          "unit": "KILOMETRES SHORTER",
+          "note": "A SHORTER ROAD",
+          "size": 150,
+          "source": "PIB"
+        },
+        {
+          "op": "cs",
+          "tpl": "number",
+          "title": "MANALI TO SARCHU",
+          "value": "46",
+          "unit": "KILOMETRES SHORTER",
+          "note": "A SHORTER ROAD",
+          "size": 150,
+          "source": "PIB"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · THE NUMBERS",
+      "t0": 35.1434,
+      "t1": 39.0402,
+      "dur": 3.8968,
+      "passageStart": 35.1434
+    },
+    {
+      "id": "2.05",
+      "p": "P02",
+      "kind": "number",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "number",
+          "title": "AND THE TRAVEL TIME",
+          "value": "4 TO 5",
+          "unit": "HOURS SAVED",
+          "note": "THE JOURNEY IS SHORTER",
+          "size": 120,
+          "source": "PIB"
+        },
+        {
+          "op": "cs",
+          "tpl": "number",
+          "title": "AND THE TRAVEL TIME",
+          "value": "4 TO 5",
+          "unit": "HOURS SAVED",
+          "note": "THE JOURNEY IS SHORTER",
+          "size": 120,
+          "source": "PIB"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · THE NUMBERS",
+      "t0": 39.0402,
+      "t1": 42.937,
+      "dur": 3.8968,
+      "passageStart": 39.0402
+    },
+    {
+      "id": "3.01",
+      "p": "P03",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "timeline",
+          "title": "FROM DECISION TO DEDICATION",
+          "items": [
+            {
+              "t": "JUN 2000",
+              "sub": "DECISION TO BUILD",
+              "at": 0.08
+            },
+            {
+              "t": "MAY 2002",
+              "sub": "ACCESS ROAD STARTED",
+              "at": 0.36
+            },
+            {
+              "t": "OCT 2017",
+              "sub": "THE TWO ENDS MEET",
+              "at": 0.66
+            },
+            {
+              "t": "OCT 2020",
+              "sub": "DEDICATED TO THE NATION",
+              "hot": true,
+              "at": 0.94
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "timeline",
+          "title": "FROM DECISION TO DEDICATION",
+          "items": [
+            {
+              "t": "JUN 2000",
+              "sub": "DECISION TO BUILD",
+              "at": 0.08
+            },
+            {
+              "t": "MAY 2002",
+              "sub": "ACCESS ROAD STARTED",
+              "at": 0.36
+            },
+            {
+              "t": "OCT 2017",
+              "sub": "THE TWO ENDS MEET",
+              "at": 0.66
+            },
+            {
+              "t": "OCT 2020",
+              "sub": "DEDICATED TO THE NATION",
+              "hot": true,
+              "at": 0.94
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · TWENTY YEARS",
+      "t0": 42.937,
+      "t1": 46.538,
+      "dur": 3.601,
+      "passageStart": 42.937
+    },
+    {
+      "id": "3.02",
+      "p": "P03",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "TWENTY YEARS,",
+            "FOR NINE KILOMETRES."
+          ],
+          "size": 66,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "TWENTY YEARS,",
+            "FOR NINE KILOMETRES."
+          ],
+          "size": 66,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · TWENTY YEARS",
+      "t0": 46.538,
+      "t1": 52.5396,
+      "dur": 6.0016,
+      "passageStart": 46.538
+    },
+    {
+      "id": "3.03",
+      "p": "P03",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "ROCK DOES NOT HURRY."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "ROCK DOES NOT HURRY."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · TWENTY YEARS",
+      "t0": 52.5396,
+      "t1": 57.541,
+      "dur": 5.0014,
+      "passageStart": 52.5396
+    },
+    {
+      "id": "4.01",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IDEA ONE:",
+            "READING THE ROCK"
+          ],
+          "size": 76,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "layers": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IDEA ONE:",
+            "READING THE ROCK"
+          ],
+          "size": 76,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "layers": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · READING THE ROCK",
+      "t0": 57.541,
+      "t1": 63.4426,
+      "dur": 5.9016,
+      "passageStart": 57.541
+    },
+    {
+      "id": "4.02",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THINK OF CUTTING A CAKE",
+          "nodes": [
+            "A CAKE YOU CANNOT SEE INSIDE",
+            {
+              "t": "HERE, A SOFT LAYER"
+            },
+            {
+              "t": "THERE, A NUT",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THINK OF CUTTING A CAKE",
+          "nodes": [
+            "A CAKE YOU CANNOT SEE INSIDE",
+            {
+              "t": "HERE, A SOFT LAYER"
+            },
+            {
+              "t": "THERE, A NUT",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · READING THE ROCK",
+      "t0": 63.4426,
+      "t1": 67.1015,
+      "dur": 3.659,
+      "passageStart": 63.4426
+    },
+    {
+      "id": "4.03",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "layers": true
+          },
+          "title": "A MOUNTAIN IS NOT ONE MATERIAL",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.28,
+              "fy": 0.8,
+              "t": "SOFT LAYER"
+            },
+            {
+              "fx": 0.62,
+              "fy": 0.74,
+              "t": "HARD NUGGET"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "layers": true
+          },
+          "title": "A MOUNTAIN IS NOT ONE MATERIAL",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.28,
+              "fy": 0.8,
+              "t": "SOFT LAYER"
+            },
+            {
+              "fx": 0.62,
+              "fy": 0.74,
+              "t": "HARD NUGGET"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 9,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · READING THE ROCK",
+      "t0": 67.1015,
+      "t1": 74.7735,
+      "dur": 7.672,
+      "passageStart": 67.1015
+    },
+    {
+      "id": "4.04",
+      "p": "P04",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "YOU CANNOT PLAN",
+            "EVERY CUT IN ADVANCE."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "YOU CANNOT PLAN",
+            "EVERY CUT IN ADVANCE."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · READING THE ROCK",
+      "t0": 74.7735,
+      "t1": 80.6751,
+      "dur": 5.9016,
+      "passageStart": 74.7735
+    },
+    {
+      "id": "4.05",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "SUPPORT FOLLOWS THE ROCK",
+          "nodes": [
+            {
+              "t": "DRILL AND BLAST",
+              "sub": "THE BUILDERS' CHOICE"
+            },
+            {
+              "t": "CHANGE THE SUPPORT",
+              "sub": "AS THE DIGGING GOES",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "SUPPORT FOLLOWS THE ROCK",
+          "nodes": [
+            {
+              "t": "DRILL AND BLAST",
+              "sub": "THE BUILDERS' CHOICE"
+            },
+            {
+              "t": "CHANGE THE SUPPORT",
+              "sub": "AS THE DIGGING GOES",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · READING THE ROCK",
+      "t0": 80.6751,
+      "t1": 84.334,
+      "dur": 3.659,
+      "passageStart": 80.6751
+    },
+    {
+      "id": "4.06",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "BEFORE EACH BLAST, AFTER IT",
+          "nodes": [
+            {
+              "t": "BEFORE EACH BLAST",
+              "sub": "THE ROCK IS A GUESS"
+            },
+            {
+              "t": "AFTER IT",
+              "sub": "THE ROCK TELLS YOU WHAT IT NEEDS",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "BEFORE EACH BLAST, AFTER IT",
+          "nodes": [
+            {
+              "t": "BEFORE EACH BLAST",
+              "sub": "THE ROCK IS A GUESS"
+            },
+            {
+              "t": "AFTER IT",
+              "sub": "THE ROCK TELLS YOU WHAT IT NEEDS",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · IDEA 1 · READING THE ROCK",
+      "t0": 84.334,
+      "t1": 87.993,
+      "dur": 3.659,
+      "passageStart": 84.334
+    },
+    {
+      "id": "5.01",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IDEA TWO:",
+            "AIR"
+          ],
+          "size": 86,
+          "hero": "tunnel-section",
+          "heroOpts": {
+            "air": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IDEA TWO:",
+            "AIR"
+          ],
+          "size": 86,
+          "hero": "tunnel-section",
+          "heroOpts": {
+            "air": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · AIR",
+      "t0": 87.993,
+      "t1": 92.9231,
+      "dur": 4.9301,
+      "passageStart": 87.993
+    },
+    {
+      "id": "5.02",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "A ROOM WITH NO WINDOWS",
+          "nodes": [
+            "A ROOM WITH NO WINDOWS",
+            {
+              "t": "A CAR ENGINE RUNNING",
+              "hot": true
+            },
+            "THE AIR TURNS BAD"
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "A ROOM WITH NO WINDOWS",
+          "nodes": [
+            "A ROOM WITH NO WINDOWS",
+            {
+              "t": "A CAR ENGINE RUNNING",
+              "hot": true
+            },
+            "THE AIR TURNS BAD"
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · AIR",
+      "t0": 92.9231,
+      "t1": 95.9798,
+      "dur": 3.0567,
+      "passageStart": 92.9231
+    },
+    {
+      "id": "5.03",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "tunnel-section",
+          "opts": {
+            "air": true
+          },
+          "title": "FANS MOVE THE AIR IN AND OUT",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.08,
+              "t": "FANS IN THE CROWN"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "tunnel-section",
+          "opts": {
+            "air": true
+          },
+          "title": "FANS MOVE THE AIR IN AND OUT",
+          "tag": "CONCEPTUAL, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.08,
+              "t": "FANS IN THE CROWN"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 9,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · AIR",
+      "t0": 95.9798,
+      "t1": 102.389,
+      "dur": 6.4092,
+      "passageStart": 95.9798
+    },
+    {
+      "id": "5.04",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A SEMI-TRANSVERSE SYSTEM:",
+            "LARGE FANS CIRCULATE AIR",
+            "ALONG THE TUNNEL"
+          ],
+          "size": 56,
+          "hero": "tunnel-section",
+          "heroOpts": {
+            "air": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A SEMI-TRANSVERSE SYSTEM:",
+            "LARGE FANS CIRCULATE AIR",
+            "ALONG THE TUNNEL"
+          ],
+          "size": 56,
+          "hero": "tunnel-section",
+          "heroOpts": {
+            "air": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 18,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · AIR",
+      "t0": 102.389,
+      "t1": 107.3192,
+      "dur": 4.9301,
+      "passageStart": 102.389
+    },
+    {
+      "id": "5.05",
+      "p": "P05",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "DIFFERENT PRESSURE AT EACH END",
+          "nodes": [
+            {
+              "t": "ONE PORTAL",
+              "sub": "ONE AIR PRESSURE"
+            },
+            {
+              "t": "THE OTHER",
+              "sub": "ANOTHER AIR PRESSURE",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "DIFFERENT PRESSURE AT EACH END",
+          "nodes": [
+            {
+              "t": "ONE PORTAL",
+              "sub": "ONE AIR PRESSURE"
+            },
+            {
+              "t": "THE OTHER",
+              "sub": "ANOTHER AIR PRESSURE",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · AIR",
+      "t0": 107.3192,
+      "t1": 110.3759,
+      "dur": 3.0567,
+      "passageStart": 107.3192
+    },
+    {
+      "id": "5.06",
+      "p": "P05",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "AND DIFFERENT AGAIN",
+            "THROUGH THE SEASONS"
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "AND DIFFERENT AGAIN",
+            "THROUGH THE SEASONS"
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.5 · IDEA 2 · AIR",
+      "t0": 110.3759,
+      "t1": 115.306,
+      "dur": 4.9301,
+      "passageStart": 110.3759
+    },
+    {
+      "id": "6.01",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IDEA THREE:",
+            "A WAY OUT,",
+            "A WAY TO KNOW"
+          ],
+          "size": 70,
+          "hero": "tunnel-section",
+          "heroOpts": {
+            "signs": true,
+            "services": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IDEA THREE:",
+            "A WAY OUT,",
+            "A WAY TO KNOW"
+          ],
+          "size": 70,
+          "hero": "tunnel-section",
+          "heroOpts": {
+            "signs": true,
+            "services": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · A WAY OUT",
+      "t0": 115.306,
+      "t1": 120.9685,
+      "dur": 5.6625,
+      "passageStart": 115.306
+    },
+    {
+      "id": "6.02",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A TUNNEL THIS LONG",
+            "CANNOT RELY ON",
+            "ONE SAFEGUARD."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A TUNNEL THIS LONG",
+            "CANNOT RELY ON",
+            "ONE SAFEGUARD."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · A WAY OUT",
+      "t0": 120.9685,
+      "t1": 126.631,
+      "dur": 5.6625,
+      "passageStart": 120.9685
+    },
+    {
+      "id": "6.03",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "tunnel-section",
+          "opts": {
+            "signs": true
+          },
+          "title": "EXIT SIGNS EVERY TWENTY-FIVE METRES",
+          "tag": "CONCEPTUAL, PIB FACTSHEET",
+          "callouts": [
+            {
+              "fx": 0.12,
+              "fy": 0.45,
+              "t": "EXIT SIGN"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "tunnel-section",
+          "opts": {
+            "signs": true
+          },
+          "title": "EXIT SIGNS EVERY TWENTY-FIVE METRES",
+          "tag": "CONCEPTUAL, PIB FACTSHEET",
+          "callouts": [
+            {
+              "fx": 0.12,
+              "fy": 0.45,
+              "t": "EXIT SIGN"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 9,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · A WAY OUT",
+      "t0": 126.631,
+      "t1": 134.631,
+      "dur": 8,
+      "passageStart": 126.631
+    },
+    {
+      "id": "6.04",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "tunnel-section",
+          "opts": {
+            "services": true
+          },
+          "title": "A TELEPHONE, A HYDRANT, A CAMERA",
+          "tag": "CONCEPTUAL, PIB FACTSHEET",
+          "callouts": [
+            {
+              "fx": 0.88,
+              "fy": 0.5,
+              "t": "SERVICE POINTS"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "tunnel-section",
+          "opts": {
+            "services": true
+          },
+          "title": "A TELEPHONE, A HYDRANT, A CAMERA",
+          "tag": "CONCEPTUAL, PIB FACTSHEET",
+          "callouts": [
+            {
+              "fx": 0.88,
+              "fy": 0.5,
+              "t": "SERVICE POINTS"
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 9,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · A WAY OUT",
+      "t0": 134.631,
+      "t1": 141.9441,
+      "dur": 7.3131,
+      "passageStart": 134.631
+    },
+    {
+      "id": "6.05",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "AIR QUALITY, WATCHED EVERY KILOMETRE",
+          "nodes": [
+            {
+              "t": "CAMERAS",
+              "sub": "DETECT INCIDENTS"
+            },
+            {
+              "t": "SENSORS",
+              "sub": "WATCH THE AIR",
+              "hot": true
+            },
+            {
+              "t": "SIGNS",
+              "sub": "SHOW THE WAY"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "AIR QUALITY, WATCHED EVERY KILOMETRE",
+          "nodes": [
+            {
+              "t": "CAMERAS",
+              "sub": "DETECT INCIDENTS"
+            },
+            {
+              "t": "SENSORS",
+              "sub": "WATCH THE AIR",
+              "hot": true
+            },
+            {
+              "t": "SIGNS",
+              "sub": "SHOW THE WAY"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · A WAY OUT",
+      "t0": 141.9441,
+      "t1": 145.5159,
+      "dur": 3.5718,
+      "passageStart": 141.9441
+    },
+    {
+      "id": "6.06",
+      "p": "P06",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE EXIT SIGNS",
+            "ARE NOT FOR THE SHOW.",
+            "THEY ARE FOR THE WORST NIGHT."
+          ],
+          "size": 60,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE EXIT SIGNS",
+            "ARE NOT FOR THE SHOW.",
+            "THEY ARE FOR THE WORST NIGHT."
+          ],
+          "size": 60,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · IDEA 3 · A WAY OUT",
+      "t0": 145.5159,
+      "t1": 152.829,
+      "dur": 7.3131,
+      "passageStart": 145.5159
+    },
+    {
+      "id": "7.01",
+      "p": "P07",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "layers": true,
+            "dig": true,
+            "growDur": 4
+          },
+          "title": "THE BORDER ROADS ORGANISATION BUILT IT",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "layers": true,
+            "dig": true,
+            "growDur": 4
+          },
+          "title": "THE BORDER ROADS ORGANISATION BUILT IT",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 12,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 152.829,
+      "t1": 160.829,
+      "dur": 8,
+      "passageStart": 152.829
+    },
+    {
+      "id": "7.02",
+      "p": "P07",
+      "kind": "number",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "number",
+          "title": "THE HARDEST STRETCH",
+          "value": "587",
+          "unit": "METRES OF WEAK ROCK",
+          "note": "THE SERI NALAH FAULT ZONE",
+          "size": 150,
+          "source": "PIB FACTSHEET, 24 MAR 2022"
+        },
+        {
+          "op": "cs",
+          "tpl": "number",
+          "title": "THE HARDEST STRETCH",
+          "value": "587",
+          "unit": "METRES OF WEAK ROCK",
+          "note": "THE SERI NALAH FAULT ZONE",
+          "size": 150,
+          "source": "PIB FACTSHEET, 24 MAR 2022"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 160.829,
+      "t1": 166.7799,
+      "dur": 5.9509,
+      "passageStart": 160.829
+    },
+    {
+      "id": "7.03",
+      "p": "P07",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "timeline",
+          "title": "THE TWO ENDS MET",
+          "items": [
+            {
+              "t": "15 OCT 2017",
+              "sub": "BREAKTHROUGH FROM BOTH ENDS (PIB)",
+              "hot": true,
+              "at": 0.5,
+              "size": 80
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "timeline",
+          "title": "THE TWO ENDS MET",
+          "items": [
+            {
+              "t": "15 OCT 2017",
+              "sub": "BREAKTHROUGH FROM BOTH ENDS (PIB)",
+              "hot": true,
+              "at": 0.5,
+              "size": 80
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 166.7799,
+      "t1": 172.7309,
+      "dur": 5.9509,
+      "passageStart": 166.7799
+    },
+    {
+      "id": "7.04",
+      "p": "P07",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IT REMOVES ONE BARRIER.",
+            "IT IS NOT THE WHOLE ROUTE."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IT REMOVES ONE BARRIER.",
+            "IT IS NOT THE WHOLE ROUTE."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.7 · WHAT IS BUILT, WHAT IS NOT",
+      "t0": 172.7309,
+      "t1": 180.607,
+      "dur": 7.8761,
+      "passageStart": 172.7309
+    },
+    {
+      "id": "8.01",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "TUNNELS ARE MEASURED MANY WAYS",
+          "nodes": [
+            "LENGTH",
+            "ALTITUDE",
+            "WIDTH",
+            "TUBES"
+          ],
+          "links": [],
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "TUNNELS ARE MEASURED MANY WAYS",
+          "nodes": [
+            "LENGTH",
+            "ALTITUDE",
+            "WIDTH",
+            "TUBES"
+          ],
+          "links": [],
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 180.607,
+      "t1": 183.6576,
+      "dur": 3.0506,
+      "passageStart": 180.607
+    },
+    {
+      "id": "8.02",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THE RECORD IS ONE MEASURE",
+          "nodes": [
+            "LENGTH",
+            {
+              "t": "ALTITUDE",
+              "sub": "ABOVE TEN THOUSAND FEET",
+              "hot": true
+            },
+            "WIDTH",
+            "TUBES"
+          ],
+          "links": [],
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THE RECORD IS ONE MEASURE",
+          "nodes": [
+            "LENGTH",
+            {
+              "t": "ALTITUDE",
+              "sub": "ABOVE TEN THOUSAND FEET",
+              "hot": true
+            },
+            "WIDTH",
+            "TUBES"
+          ],
+          "links": [],
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 183.6576,
+      "t1": 186.7082,
+      "dur": 3.0506,
+      "passageStart": 183.6576
+    },
+    {
+      "id": "8.03",
+      "p": "P08",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A HIGHWAY TUNNEL,",
+            "ABOVE TEN THOUSAND FEET."
+          ],
+          "size": 66,
+          "hero": "pass-profile",
+          "heroOpts": {},
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A HIGHWAY TUNNEL,",
+            "ABOVE TEN THOUSAND FEET."
+          ],
+          "size": 66,
+          "hero": "pass-profile",
+          "heroOpts": {},
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 12,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 186.7082,
+      "t1": 191.6284,
+      "dur": 4.9203,
+      "passageStart": 186.7082
+    },
+    {
+      "id": "8.04",
+      "p": "P08",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "CHANGE THE MEASURE,",
+            "AND THE LIST CHANGES."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "CHANGE THE MEASURE,",
+            "AND THE LIST CHANGES."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 191.6284,
+      "t1": 196.5487,
+      "dur": 4.9203,
+      "passageStart": 191.6284
+    },
+    {
+      "id": "8.05",
+      "p": "P08",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "MEASURES,",
+            "NOT A LEAGUE TABLE."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "MEASURES,",
+            "NOT A LEAGUE TABLE."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FIELD",
+      "t0": 196.5487,
+      "t1": 201.469,
+      "dur": 4.9203,
+      "passageStart": 196.5487
+    },
+    {
+      "id": "9.01",
+      "p": "P09",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "SNOW IS FALLING",
+            "AT ONE END"
+          ],
+          "size": 72,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "snow": true,
+            "noTunnel": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "SNOW IS FALLING",
+            "AT ONE END"
+          ],
+          "size": 72,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "snow": true,
+            "noTunnel": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.9 · WHAT IF",
+      "t0": 201.469,
+      "t1": 204.852,
+      "dur": 3.383,
+      "passageStart": 201.469
+    },
+    {
+      "id": "9.02",
+      "p": "P09",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "tunnel-section",
+          "opts": {
+            "air": true
+          },
+          "title": "A DRIVER ENTERS THE TUNNEL",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "tunnel-section",
+          "opts": {
+            "air": true
+          },
+          "title": "A DRIVER ENTERS THE TUNNEL",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.9 · WHAT IF",
+      "t0": 204.852,
+      "t1": 208.9115,
+      "dur": 4.0595,
+      "passageStart": 204.852
+    },
+    {
+      "id": "9.03",
+      "p": "P09",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 3.5
+          },
+          "title": "NINE KILOMETRES, WITHOUT THE WEATHER",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 3.5
+          },
+          "title": "NINE KILOMETRES, WITHOUT THE WEATHER",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 12,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.9 · WHAT IF",
+      "t0": 208.9115,
+      "t1": 212.971,
+      "dur": 4.0595,
+      "passageStart": 208.9115
+    },
+    {
+      "id": "9.04",
+      "p": "P09",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A TUNNEL DOES NOT REMOVE WINTER.",
+            "IT MOVES THE ROAD OUT OF IT."
+          ],
+          "size": 62,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A TUNNEL DOES NOT REMOVE WINTER.",
+            "IT MOVES THE ROAD OUT OF IT."
+          ],
+          "size": 62,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.9 · WHAT IF",
+      "t0": 212.971,
+      "t1": 216.354,
+      "dur": 3.383,
+      "passageStart": 212.971
+    },
+    {
+      "id": "10.01",
+      "p": "P10",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "ONE IDEA ABOUT PEOPLE:",
+            "THE PLANNING FALLACY"
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "ONE IDEA ABOUT PEOPLE:",
+            "THE PLANNING FALLACY"
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 216.354,
+      "t1": 219.5158,
+      "dur": 3.1618,
+      "passageStart": 216.354
+    },
+    {
+      "id": "10.02",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "WE EXPECT LESS TIME",
+          "nodes": [
+            {
+              "t": "WE EXPECT",
+              "sub": "A HARD JOB TO TAKE LESS TIME"
+            },
+            {
+              "t": "IT TAKES",
+              "sub": "MORE",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "WE EXPECT LESS TIME",
+          "nodes": [
+            {
+              "t": "WE EXPECT",
+              "sub": "A HARD JOB TO TAKE LESS TIME"
+            },
+            {
+              "t": "IT TAKES",
+              "sub": "MORE",
+              "hot": true
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 219.5158,
+      "t1": 221.4761,
+      "dur": 1.9603,
+      "passageStart": 219.5158
+    },
+    {
+      "id": "10.03",
+      "p": "P10",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 4
+          },
+          "title": "EVERY SECTION HAD ITS SURPRISE",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 4
+          },
+          "title": "EVERY SECTION HAD ITS SURPRISE",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 44,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 221.4761,
+      "t1": 226.5349,
+      "dur": 5.0588,
+      "passageStart": 221.4761
+    },
+    {
+      "id": "10.04",
+      "p": "P10",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "timeline",
+          "title": "THE PLAN AND THE ROCK",
+          "items": [
+            {
+              "t": "2000",
+              "sub": "THE DECISION",
+              "at": 0.12
+            },
+            {
+              "t": "2017",
+              "sub": "THE TWO ENDS MEET",
+              "hot": true,
+              "at": 0.62
+            },
+            {
+              "t": "2020",
+              "sub": "DEDICATED",
+              "at": 0.92
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "timeline",
+          "title": "THE PLAN AND THE ROCK",
+          "items": [
+            {
+              "t": "2000",
+              "sub": "THE DECISION",
+              "at": 0.12
+            },
+            {
+              "t": "2017",
+              "sub": "THE TWO ENDS MEET",
+              "hot": true,
+              "at": 0.62
+            },
+            {
+              "t": "2020",
+              "sub": "DEDICATED",
+              "at": 0.92
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 226.5349,
+      "t1": 228.8114,
+      "dur": 2.2765,
+      "passageStart": 226.5349
+    },
+    {
+      "id": "10.05",
+      "p": "P10",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "layers": true,
+            "dig": true,
+            "growDur": 4
+          },
+          "title": "THE ROCK DECIDES THE SCHEDULE",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "layers": true,
+            "dig": true,
+            "growDur": 4
+          },
+          "title": "THE ROCK DECIDES THE SCHEDULE",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 44,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 228.8114,
+      "t1": 233.8702,
+      "dur": 5.0588,
+      "passageStart": 228.8114
+    },
+    {
+      "id": "10.06",
+      "p": "P10",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "ROCK IS A",
+            "SURPRISE GENERATOR."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "ROCK IS A",
+            "SURPRISE GENERATOR."
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 233.8702,
+      "t1": 237.032,
+      "dur": 3.1618,
+      "passageStart": 233.8702
+    },
+    {
+      "id": "11.01",
+      "p": "P11",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THREE THINGS",
+            "TO REMEMBER"
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THREE THINGS",
+            "TO REMEMBER"
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 237.032,
+      "t1": 241.414,
+      "dur": 4.382,
+      "passageStart": 237.032
+    },
+    {
+      "id": "11.02",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THREE THINGS",
+          "nodes": [
+            {
+              "t": "ONE",
+              "sub": "READ THE ROCK AS YOU CUT IT"
+            },
+            {
+              "t": "TWO",
+              "sub": "A LONG TUNNEL NEEDS AIR AND A WAY OUT"
+            },
+            {
+              "t": "THREE",
+              "sub": "A BARRIER REMOVED IS NOT THE WHOLE ROUTE"
+            }
+          ],
+          "links": [],
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THREE THINGS",
+          "nodes": [
+            {
+              "t": "ONE",
+              "sub": "READ THE ROCK AS YOU CUT IT"
+            },
+            {
+              "t": "TWO",
+              "sub": "A LONG TUNNEL NEEDS AIR AND A WAY OUT"
+            },
+            {
+              "t": "THREE",
+              "sub": "A BARRIER REMOVED IS NOT THE WHOLE ROUTE"
+            }
+          ],
+          "links": [],
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 241.414,
+      "t1": 244.1309,
+      "dur": 2.7169,
+      "passageStart": 241.414
+    },
+    {
+      "id": "11.03",
+      "p": "P11",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 4
+          },
+          "title": "ONE PASS, ONE TUNNEL",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "pass-profile",
+          "opts": {
+            "dig": true,
+            "growDur": 4
+          },
+          "title": "ONE PASS, ONE TUNNEL",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 14,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 244.1309,
+      "t1": 251.1421,
+      "dur": 7.0112,
+      "passageStart": 244.1309
+    },
+    {
+      "id": "11.04",
+      "p": "P11",
+      "kind": "hook",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "INDIA BUILT THE TUNNEL.",
+            "WHICH PASS IS NEXT?"
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "INDIA BUILT THE TUNNEL.",
+            "WHICH PASS IS NEXT?"
+          ],
+          "size": 64,
+          "hero": "pass-profile",
+          "heroOpts": {
+            "dig": true
+          },
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 251.1421,
+      "t1": 257.277,
+      "dur": 6.1348,
+      "passageStart": 251.1421
+    },
+    {
+      "id": "11.05",
+      "p": "P11",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "INDIA MEGAPROJECTS"
+          ],
+          "size": 100,
+          "sub": "THE TUNNEL UNDER A HIMALAYAN PASS",
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "INDIA MEGAPROJECTS"
+          ],
+          "size": 100,
+          "sub": "THE TUNNEL UNDER A HIMALAYAN PASS",
+          "align": "center"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.11 · THE CLOSE",
+      "t0": 257.277,
+      "t1": 261.659,
+      "dur": 4.382,
+      "passageStart": 257.277
+    }
+  ],
+  "clampReport": [
+    {
+      "beat": "6.03",
+      "from": 8.803,
+      "to": 8,
+      "reason": "too long"
+    },
+    {
+      "beat": "7.01",
+      "from": 11.001,
+      "to": 8,
+      "reason": "too long"
+    }
+  ],
+  "bpm": 12.84,
+  "leadIn": 0.8
+}

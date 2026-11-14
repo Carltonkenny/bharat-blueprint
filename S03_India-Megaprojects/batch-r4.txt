@@ -1,0 +1,7 @@
+E01 render 475 s | parity {"video":"E01-r4.mp4","frames":8765,"seconds":292.2,"meanYDIF":0.3861,"motionFrames":0.2041,"emptyFrames":0.0763,"longestEmpty":5.87,"pass":false,"thresholds":{"meanYDIF":0.2,"motionFrames" | all frame gates pass
+E02 render 410 s | parity {"video":"E02-r4.mp4","frames":7850,"seconds":261.7,"meanYDIF":0.3213,"motionFrames":0.1289,"emptyFrames":0.0665,"longestEmpty":4.93,"pass":false,"thresholds":{"meanYDIF":0.2,"motionFrames" | all frame gates pass
+E03 render 437 s | parity {"video":"E03-r4.mp4","frames":7907,"seconds":263.6,"meanYDIF":0.333,"motionFrames":0.0932,"emptyFrames":0.0912,"longestEmpty":4.0,"pass":true,"thresholds":{"meanYDIF":0.2,"motionFrames":0. | all frame gates pass
+E04 render 401 s | parity {"video":"E04-r4.mp4","frames":7392,"seconds":246.4,"meanYDIF":0.2438,"motionFrames":0.0559,"emptyFrames":0.1127,"longestEmpty":5.23,"pass":false,"thresholds":{"meanYDIF":0.2,"motionFrames" | all frame gates pass
+E05 render 372 s | parity {"video":"E05-r4.mp4","frames":7241,"seconds":241.4,"meanYDIF":0.2001,"motionFrames":0.0552,"emptyFrames":0.0913,"longestEmpty":4.13,"pass":false,"thresholds":{"meanYDIF":0.2,"motionFrames" | all frame gates pass
+E06 render 562 s | parity {"video":"E06-r4.mp4","frames":7515,"seconds":250.5,"meanYDIF":0.2066,"motionFrames":0.0609,"emptyFrames":0.0997,"longestEmpty":4.83,"pass":false,"thresholds":{"meanYDIF":0.2,"motionFrames" | all frame gates pass
+BATCH DONE 14:34

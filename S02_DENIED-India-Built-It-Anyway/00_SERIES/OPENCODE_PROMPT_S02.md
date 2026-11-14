@@ -1,4 +1,14 @@
-# OpenCode prompt for Series 2 (one prompt for the whole run)
+# ROUND 2 (current): paste this instead of the prompt below
+
+```
+You are the implementer on the Bharat Blueprint workspace. Claude (designer/reviewer) rejected all six films from your first run after measuring every frame and viewing every beat. Open and follow, completely and in order:
+
+S02_DENIED-India-Built-It-Anyway/00_SERIES/REDO_RUN.md
+
+Read first, as it says: REVIEW_R1_S02.md, REDO_SPEC_R2.md, REVIEWER_NOTES.md. The R gates in REDO_SPEC_R2 are binding, and your own yes/no self-review no longer counts as evidence: run 00_SERIES/tools/parity_check.py on every render and fix until it passes. Rebuild E01 first, to the Series 1 look, then STOP and wait for Claude's review as REDO_RUN step 4 says. After Claude approves, rebuild E03, E02, E06, E05, E04 without stopping and tell me once at the end. Do not touch Series 1 (you may copy its engine source as REDO_SPEC_R2 section A allows), do not use ElevenLabs, do not post anything, do not change system settings, do not edit scripts, ledgers, briefs or approval files.
+```
+
+# (Round 1, superseded) OpenCode prompt for Series 2 (one prompt for the whole run)
 
 Paste this into OpenCode, opened at the workspace root `BHARAT-BLUEPRINT/`:
 

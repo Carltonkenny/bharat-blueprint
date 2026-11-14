@@ -1,5 +1,5 @@
 {
-  "duration": 284,
+  "duration": 228.03333333333333,
   "beats": [
     {
       "id": "1.01",
@@ -8,38 +8,46 @@
       "layer": "H",
       "scene": [
         {
-          "op": "x:hero",
+          "op": "cw",
+          "tpl": "hero",
           "kind": "rack-node-mesh",
-          "scale": 1.6,
-          "nodes": 12
+          "title": "A COMPUTER FOR YOUR RESEARCH",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.3,
+              "t": "POWERFUL ENOUGH FOR THE WORK"
+            }
+          ]
         },
         {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "rack-node-mesh",
+          "title": "A COMPUTER FOR YOUR RESEARCH",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.3,
+              "t": "POWERFUL ENOUGH FOR THE WORK"
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "locked cabinet, padlock closes, push-in",
-      "cam": "push-in",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 20,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
+      "sceneTag": "SC.1 · THE LOCKED MACHINE",
       "t0": 0.8,
-      "t1": 4.3663,
-      "dur": 3.5663,
-      "passageStart": 0.8,
-      "camStart": {
-        "scale": 0.8474576271186441,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "t1": 4.4402,
+      "dur": 3.6402,
+      "passageStart": 0.8
     },
     {
       "id": "1.02",
@@ -48,306 +56,164 @@
       "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 700,
-              "y": 300,
-              "w": 520,
-              "h": 460,
-              "w2": 2.4,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 470,
-              "r": 34,
-              "w2": 2.6,
-              "col": "#5ce1e6",
-              "at": 0.35,
-              "dur": 0.25
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 470,
-              "x2": 960,
-              "y2": 396,
-              "w": 2.6,
-              "col": "#5ce1e6",
-              "at": 0.45,
-              "dur": 0.2
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "YOU ARE TOLD",
+            "IT IS NOT AVAILABLE."
+          ],
+          "prop": "lockedCabinet",
+          "pscale": 4.2,
+          "propOpts": {
+            "locked": 1
+          }
         },
         {
-          "op": "railLabel",
-          "text": "LOCKED",
-          "side": "R"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "YOU ARE TOLD",
+            "IT IS NOT AVAILABLE."
+          ],
+          "prop": "lockedCabinet",
+          "pscale": 4.2,
+          "propOpts": {
+            "locked": 1
+          }
         }
       ],
       "labels": [],
-      "notes": "research symbols draw beside it: WEATHER · MATERIALS · BIG PROBLEMS",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 4.3663,
-      "t1": 9.3592,
-      "dur": 4.9929,
-      "passageStart": 4.3663,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.1 · THE LOCKED MACHINE",
+      "t0": 4.4402,
+      "t1": 8.0804,
+      "dur": 3.6402,
+      "passageStart": 4.4402
     },
     {
       "id": "1.03",
       "p": "P01",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "H",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 620,
-              "y": 380,
-              "w": 680,
-              "h": 300,
-              "w2": 1.6,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "line",
-              "x1": 700,
-              "y1": 470,
-              "x2": 860,
-              "y2": 470,
-              "w": 2.4,
-              "col": "#5ce1e6",
-              "at": 0.3,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 1060,
-              "y1": 470,
-              "x2": 1220,
-              "y2": 470,
-              "w": 2.4,
-              "col": "#5ce1e6",
-              "at": 0.4,
-              "dur": 0.3
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "NOT A LAPTOP.",
+            "NOT A MACHINE FOR",
+            "TYPING REPORTS."
+          ],
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         },
         {
-          "op": "railLabel",
-          "text": "NOT A LAPTOP",
-          "side": "L"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "NOT A LAPTOP.",
+            "NOT A MACHINE FOR",
+            "TYPING REPORTS."
+          ],
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         }
       ],
       "labels": [],
-      "notes": "laptop icon crossed lightly: NOT A LAPTOP",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 9.3592,
-      "t1": 13.401,
-      "dur": 4.0418,
-      "passageStart": 9.3592,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.1 · THE LOCKED MACHINE",
+      "t0": 8.0804,
+      "t1": 11.7205,
+      "dur": 3.6402,
+      "passageStart": 8.0804
     },
     {
       "id": "1.04",
       "p": "P01",
       "kind": "hold",
-      "layer": "H",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 700,
-              "y": 300,
-              "w": 520,
-              "h": 460,
-              "w2": 2.4,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 470,
-              "r": 34,
-              "w2": 2.6,
-              "col": "#5ce1e6",
-              "at": 0.35,
-              "dur": 0.25
-            }
-          ]
+          "op": "cw",
+          "tpl": "flow",
+          "title": "A MACHINE FOR BIG PROBLEMS",
+          "nodes": [
+            "WEATHER",
+            "MATERIALS",
+            "ENORMOUS SCIENTIFIC PROBLEMS"
+          ],
+          "layout": "row",
+          "links": []
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "A MACHINE FOR BIG PROBLEMS",
+          "nodes": [
+            "WEATHER",
+            "MATERIALS",
+            "ENORMOUS SCIENTIFIC PROBLEMS"
+          ],
+          "layout": "row",
+          "links": []
         }
       ],
       "labels": [],
-      "notes": "cabinet pulses, still locked",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 13.401,
-      "t1": 16.7296,
-      "dur": 3.3286,
-      "passageStart": 13.401,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.1 · THE LOCKED MACHINE",
+      "t0": 11.7205,
+      "t1": 16.0888,
+      "dur": 4.3682,
+      "passageStart": 11.7205
     },
     {
       "id": "1.05",
       "p": "P01",
-      "kind": "hold",
+      "kind": "hook",
       "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 700,
-              "y": 300,
-              "w": 520,
-              "h": 460,
-              "w2": 2.4,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 470,
-              "r": 34,
-              "w2": 2.6,
-              "col": "#5ce1e6",
-              "at": 0.35,
-              "dur": 0.25
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "WHAT DO YOU DO",
+            "NEXT?"
+          ],
+          "size": 110,
+          "align": "center"
         },
         {
-          "op": "text",
-          "text": "?",
-          "x": 960,
-          "y": 490,
-          "size": 90,
-          "col": "#5ce1e6",
-          "pulse": true,
-          "rate": 2.6
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "WHAT DO YOU DO",
+            "NEXT?"
+          ],
+          "size": 110,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "hold on padlock",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 16.7296,
-      "t1": 19.8204,
-      "dur": 3.0908,
-      "passageStart": 16.7296,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "1.06",
-      "p": "P01",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
-        {
-          "op": "panel",
-          "name": "question",
-          "params": {
-            "lines": [
-              "WHAT DO YOU DO NEXT?"
-            ],
-            "y": 540,
-            "size": 58
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "question draws on: WHAT DO YOU DO NEXT?",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 19.8204,
-      "t1": 24.1,
-      "dur": 4.2796,
-      "passageStart": 19.8204,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.1 · THE LOCKED MACHINE",
+      "t0": 16.0888,
+      "t1": 20.821,
+      "dur": 4.7322,
+      "passageStart": 16.0888
     },
     {
       "id": "2.01",
@@ -356,41 +222,44 @@
       "layer": "B",
       "scene": [
         {
-          "op": "panel",
-          "name": "timeline",
-          "params": {
-            "y": 560,
-            "ticks": [
-              {
-                "label": "THE 1980s",
-                "note": "SUPERCOMPUTER IMPORTS WERE DENIED (C-DAC)"
-              }
-            ]
-          }
+          "op": "cw",
+          "tpl": "timeline",
+          "title": "A SERIOUS OBSTACLE",
+          "items": [
+            {
+              "t": "THE 1980s",
+              "sub": "ACCESS TO ADVANCED IMPORTED SUPERCOMPUTERS",
+              "hot": true,
+              "at": 0.5,
+              "size": 96
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "timeline",
+          "title": "A SERIOUS OBSTACLE",
+          "items": [
+            {
+              "t": "THE 1980s",
+              "sub": "ACCESS TO ADVANCED IMPORTED SUPERCOMPUTERS",
+              "hot": true,
+              "at": 0.5,
+              "size": 96
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "tick: 1980s",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 24.1,
-      "t1": 27.0442,
-      "dur": 2.9442,
-      "passageStart": 24.1,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.2 · THE OBSTACLE",
+      "t0": 20.821,
+      "t1": 24.0366,
+      "dur": 3.2156,
+      "passageStart": 20.821
     },
     {
       "id": "2.02",
@@ -399,167 +268,186 @@
       "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
+          "op": "cw",
+          "tpl": "flow",
+          "title": "IMPORTS BECAME AN OBSTACLE",
+          "nodes": [
+            "INDIA",
             {
-              "k": "line",
-              "x1": 380,
-              "y1": 500,
-              "x2": 1540,
-              "y2": 500,
-              "w": 3,
-              "at": 0.05,
-              "dur": 0.35
+              "t": "IMPORTED SUPERCOMPUTERS",
+              "sub": "A SERIOUS OBSTACLE",
+              "hot": true
             },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 380,
-              "x2": 960,
-              "y2": 620,
-              "w": 5,
-              "col": "#ff9b3d",
-              "at": 0.3,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 400,
-              "x2": 918,
-              "y2": 378,
-              "w": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.25
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 400,
-              "x2": 1002,
-              "y2": 378,
-              "w": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.5,
-              "dur": 0.25
-            }
-          ]
+            "RESEARCH"
+          ],
+          "links": "chain",
+          "layout": "row"
         },
         {
-          "op": "railLabel",
-          "text": "ACCESS DENIED",
-          "side": "R"
+          "op": "cs",
+          "tpl": "flow",
+          "title": "IMPORTS BECAME AN OBSTACLE",
+          "nodes": [
+            "INDIA",
+            {
+              "t": "IMPORTED SUPERCOMPUTERS",
+              "sub": "A SERIOUS OBSTACLE",
+              "hot": true
+            },
+            "RESEARCH"
+          ],
+          "links": "chain",
+          "layout": "row"
         }
       ],
       "labels": [],
-      "notes": "shelf of imported machines, one slot sealed: ACCESS DENIED (no country marks)",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 27.0442,
-      "t1": 32.4419,
-      "dur": 5.3977,
-      "passageStart": 27.0442,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.2 · THE OBSTACLE",
+      "t0": 24.0366,
+      "t1": 27.2522,
+      "dur": 3.2156,
+      "passageStart": 24.0366
     },
     {
       "id": "2.03",
       "p": "P02",
       "kind": "hold",
-      "layer": "C",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "stand",
-              "x": 960,
-              "y": 840,
-              "scale": 3,
-              "phase": 0,
-              "at": 0.05,
-              "dur": 0.35
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE EASY RESPONSE:",
+            "WAIT FOR PERMISSION."
+          ],
+          "prop": "door",
+          "pscale": 3.6,
+          "propOpts": {
+            "closed": 1
+          }
         },
         {
-          "op": "railLabel",
-          "text": "WAITING FOR PERMISSION",
-          "side": "L"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE EASY RESPONSE:",
+            "WAIT FOR PERMISSION."
+          ],
+          "prop": "door",
+          "pscale": 3.6,
+          "propOpts": {
+            "closed": 1
+          }
         }
       ],
       "labels": [],
-      "notes": "a figure waits at a door, checks a watch",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 32.4419,
-      "t1": 37.1035,
-      "dur": 4.6616,
-      "passageStart": 32.4419,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.2 · THE OBSTACLE",
+      "t0": 27.2522,
+      "t1": 30.4677,
+      "dur": 3.2156,
+      "passageStart": 27.2522
     },
     {
-      "id": "2.04",
+      "id": "2.04a",
       "p": "P02",
       "kind": "hold",
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "WAIT FOR PERMISSION?",
-          "x": 960,
-          "y": 520,
-          "size": 54
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            {
+              "t": "TWO CHOICES",
+              "col": "accent"
+            }
+          ],
+          "size": 84,
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            {
+              "t": "TWO CHOICES",
+              "col": "accent"
+            }
+          ],
+          "size": 84,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "text: WAIT FOR PERMISSION?",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 37.1035,
-      "t1": 40.5384,
-      "dur": 3.4349,
-      "passageStart": 37.1035,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.2 · THE OBSTACLE",
+      "t0": 30.4677,
+      "t1": 31.754,
+      "dur": 1.2862,
+      "passageStart": 30.4677
+    },
+    {
+      "id": "2.04b",
+      "p": "P02",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "TWO CHOICES",
+          "nodes": [
+            {
+              "t": "WAIT",
+              "sub": "FOR SOMEBODY ELSE'S MACHINE"
+            },
+            {
+              "t": "BUILD",
+              "sub": "THE CAPABILITY",
+              "hot": true
+            }
+          ],
+          "layout": "two"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "TWO CHOICES",
+          "nodes": [
+            {
+              "t": "WAIT",
+              "sub": "FOR SOMEBODY ELSE'S MACHINE"
+            },
+            {
+              "t": "BUILD",
+              "sub": "THE CAPABILITY",
+              "hot": true
+            }
+          ],
+          "layout": "two"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.2 · THE OBSTACLE",
+      "t0": 31.754,
+      "t1": 33.6833,
+      "dur": 1.9293,
+      "passageStart": 31.754
     },
     {
       "id": "2.05",
@@ -568,79 +456,82 @@
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "A COUNTRY THAT NEEDS ANSWERS",
-          "x": 960,
-          "y": 480,
-          "size": 50
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A COUNTRY THAT NEEDS ANSWERS",
+            "CANNOT ALWAYS WAIT."
+          ],
+          "size": 62,
+          "align": "center"
         },
         {
-          "op": "text",
-          "text": "CANNOT ALWAYS WAIT",
-          "x": 960,
-          "y": 570,
-          "size": 50,
-          "col": "#5ce1e6"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A COUNTRY THAT NEEDS ANSWERS",
+            "CANNOT ALWAYS WAIT."
+          ],
+          "size": 62,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "text: A COUNTRY THAT NEEDS ANSWERS CANNOT ALWAYS WAIT",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 40.5384,
-      "t1": 45.2,
-      "dur": 4.6616,
-      "passageStart": 40.5384,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.2 · THE OBSTACLE",
+      "t0": 33.6833,
+      "t1": 37.542,
+      "dur": 3.8587,
+      "passageStart": 33.6833
     },
     {
       "id": "3.01",
       "p": "P03",
-      "kind": "number",
+      "kind": "hold",
       "layer": "B",
       "scene": [
         {
-          "op": "numberCard",
-          "value": "1988",
-          "sub": "C-DAC SET UP",
-          "source": "C-DAC"
+          "op": "cw",
+          "tpl": "timeline",
+          "title": "THE CENTRE FOR DEVELOPMENT|OF ADVANCED COMPUTING",
+          "items": [
+            {
+              "t": "1988",
+              "sub": "C-DAC ESTABLISHED",
+              "hot": true,
+              "at": 0.5,
+              "size": 120
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "timeline",
+          "title": "THE CENTRE FOR DEVELOPMENT|OF ADVANCED COMPUTING",
+          "items": [
+            {
+              "t": "1988",
+              "sub": "C-DAC ESTABLISHED",
+              "hot": true,
+              "at": 0.5,
+              "size": 120
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "1988 card, source chip \"C-DAC\", C-DAC drawn as a building line-icon",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 45.2,
-      "t1": 52.6592,
-      "dur": 7.4592,
-      "passageStart": 45.2,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 37.542,
+      "t1": 41.2202,
+      "dur": 3.6782,
+      "passageStart": 37.542
     },
     {
       "id": "3.02",
@@ -649,576 +540,714 @@
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "THE PARAM FAMILY",
-          "x": 960,
-          "y": 520,
-          "size": 58,
-          "col": "#5ce1e6"
+          "op": "cw",
+          "tpl": "flow",
+          "title": "ITS ANSWER",
+          "nodes": [
+            {
+              "t": "DENIED SUPERCOMPUTER IMPORTS"
+            },
+            {
+              "t": "C-DAC",
+              "sub": "ESTABLISHED 1988",
+              "hot": true
+            },
+            {
+              "t": "THE PARAM FAMILY"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "ITS ANSWER",
+          "nodes": [
+            {
+              "t": "DENIED SUPERCOMPUTER IMPORTS"
+            },
+            {
+              "t": "C-DAC",
+              "sub": "ESTABLISHED 1988",
+              "hot": true
+            },
+            {
+              "t": "THE PARAM FAMILY"
+            }
+          ],
+          "links": "chain",
+          "layout": "row"
         }
       ],
       "labels": [],
-      "notes": "title draws: PARAM FAMILY",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 52.6592,
-      "t1": 57.632,
-      "dur": 4.9728,
-      "passageStart": 52.6592,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 41.2202,
+      "t1": 44.5639,
+      "dur": 3.3438,
+      "passageStart": 41.2202
     },
     {
       "id": "3.03",
       "p": "P03",
-      "kind": "mech",
-      "layer": "C",
+      "kind": "number",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "sort",
-              "x": 760,
-              "y": 850,
-              "scale": 3,
-              "accentPart": "armR",
-              "phase": 0,
-              "prop": "desk",
-              "propX": 1060,
-              "propScale": 2.4,
-              "at": 0.05,
-              "dur": 0.35
-            }
-          ]
+          "op": "cw",
+          "tpl": "number",
+          "title": "THE HONEST NUMBER",
+          "value": "1988",
+          "unit": "C-DAC ESTABLISHED",
+          "note": "AGAINST THE BACKGROUND OF DENIED SUPERCOMPUTER IMPORTS",
+          "chain": "SET UP IN MARCH 1988",
+          "source": "C-DAC"
+        },
+        {
+          "op": "cs",
+          "tpl": "number",
+          "title": "THE HONEST NUMBER",
+          "value": "1988",
+          "unit": "C-DAC ESTABLISHED",
+          "note": "AGAINST THE BACKGROUND OF DENIED SUPERCOMPUTER IMPORTS",
+          "chain": "SET UP IN MARCH 1988",
+          "source": "C-DAC"
         }
       ],
       "labels": [],
-      "notes": "teacher at a desk, mountain of exam papers",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 57.632,
-      "t1": 64.0256,
-      "dur": 6.3936,
-      "passageStart": 57.632,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 44.5639,
+      "t1": 48.9108,
+      "dur": 4.3469,
+      "passageStart": 44.5639
     },
     {
       "id": "3.04",
       "p": "P03",
       "kind": "hold",
-      "layer": "C",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "sort",
-              "x": 620,
-              "y": 850,
-              "scale": 2.8,
-              "accentPart": "armR",
-              "phase": 0,
-              "prop": "papers",
-              "propX": 700,
-              "propScale": 2.2,
-              "n": 9,
-              "at": 0.05,
-              "dur": 0.3
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "FORGET COMPUTERS",
+            "FOR A MOMENT."
+          ],
+          "prop": "papers",
+          "pscale": 4.4,
+          "propOpts": {
+            "n": 9
+          }
         },
         {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "stand",
-              "x": 1320,
-              "y": 850,
-              "scale": 2.8,
-              "phase": 1.4,
-              "at": 0.25,
-              "dur": 0.3
-            }
-          ]
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "FORGET COMPUTERS",
+            "FOR A MOMENT."
+          ],
+          "prop": "papers",
+          "pscale": 4.4,
+          "propOpts": {
+            "n": 9
+          }
         }
       ],
       "labels": [],
-      "notes": "one student sorts alone, clock spins",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 64.0256,
-      "t1": 69.7088,
-      "dur": 5.6832,
-      "passageStart": 64.0256,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 48.9108,
+      "t1": 52.2546,
+      "dur": 3.3438,
+      "passageStart": 48.9108
     },
     {
       "id": "3.05",
       "p": "P03",
-      "kind": "hold",
+      "kind": "mech",
       "layer": "C",
       "scene": [
         {
-          "op": "x:people",
-          "people": [
+          "op": "cw",
+          "tpl": "figure",
+          "title": "A MOUNTAIN OF EXAMINATION PAPERS",
+          "pose": "sort",
+          "figX": 600,
+          "props": [
             {
-              "pose": "sort",
-              "x": 700,
-              "y": 850,
-              "scale": 2.8,
-              "accentPart": "armR",
-              "phase": 0,
-              "prop": "papers",
-              "propX": 780,
-              "propScale": 2.2,
-              "n": 4,
-              "at": 0.05,
-              "dur": 0.3
+              "prop": "desk",
+              "x": 1060,
+              "y": 690,
+              "scale": 3.2
             },
             {
-              "pose": "sort",
+              "prop": "papers",
               "x": 1000,
-              "y": 850,
-              "scale": 2.8,
-              "accentPart": "armR",
-              "phase": 0.8,
-              "prop": "papers",
-              "propX": 1080,
-              "propScale": 2.2,
-              "n": 4,
-              "at": 0.25,
-              "dur": 0.3
-            },
+              "y": 690,
+              "scale": 4.4,
+              "opts": {
+                "n": 10
+              }
+            }
+          ],
+          "callouts": [
             {
-              "pose": "sort",
-              "x": 1300,
-              "y": 850,
-              "scale": 2.8,
-              "accentPart": "armR",
-              "phase": 1.6,
-              "prop": "papers",
-              "propX": 1380,
-              "propScale": 2.2,
-              "n": 4,
-              "at": 0.45,
-              "dur": 0.3
+              "t": "ONE TEACHER, ONE STUDENT",
+              "prop": 1,
+              "dy": -40
             }
           ]
         },
         {
-          "op": "railLabel",
-          "text": "KNOW YOUR PILE",
-          "side": "R"
+          "op": "cs",
+          "tpl": "figure",
+          "title": "A MOUNTAIN OF EXAMINATION PAPERS",
+          "pose": "sort",
+          "figX": 600,
+          "props": [
+            {
+              "prop": "desk",
+              "x": 1060,
+              "y": 690,
+              "scale": 3.2
+            },
+            {
+              "prop": "papers",
+              "x": 1000,
+              "y": 690,
+              "scale": 4.4,
+              "opts": {
+                "n": 10
+              }
+            }
+          ],
+          "callouts": [
+            {
+              "t": "ONE TEACHER, ONE STUDENT",
+              "prop": 1,
+              "dy": -40
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "classroom splits the piles, all sort at once",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 69.7088,
-      "t1": 76.1024,
-      "dur": 6.3936,
-      "passageStart": 69.7088,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 52.2546,
+      "t1": 55.9328,
+      "dur": 3.6782,
+      "passageStart": 52.2546
     },
     {
       "id": "3.06",
+      "p": "P03",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "figure",
+          "title": "EVEN A BRILLIANT STUDENT NEEDS TIME",
+          "pose": "sort",
+          "poseTo": "sortB",
+          "hz": 0.7,
+          "figX": 600,
+          "props": [
+            {
+              "prop": "desk",
+              "x": 1060,
+              "y": 690,
+              "scale": 3.2
+            },
+            {
+              "prop": "papers",
+              "x": 1000,
+              "y": 690,
+              "scale": 4.4,
+              "opts": {
+                "n": 10
+              }
+            }
+          ],
+          "motion": {
+            "x1": 720,
+            "y1": 520,
+            "x2": 960,
+            "y2": 600
+          }
+        },
+        {
+          "op": "cs",
+          "tpl": "figure",
+          "title": "EVEN A BRILLIANT STUDENT NEEDS TIME",
+          "pose": "sort",
+          "poseTo": "sortB",
+          "hz": 0.7,
+          "figX": 600,
+          "props": [
+            {
+              "prop": "desk",
+              "x": 1060,
+              "y": 690,
+              "scale": 3.2
+            },
+            {
+              "prop": "papers",
+              "x": 1000,
+              "y": 690,
+              "scale": 4.4,
+              "opts": {
+                "n": 10
+              }
+            }
+          ],
+          "motion": {
+            "x1": 720,
+            "y1": 520,
+            "x2": 960,
+            "y2": 600
+          }
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 55.9328,
+      "t1": 59.2765,
+      "dur": 3.3438,
+      "passageStart": 55.9328
+    },
+    {
+      "id": "3.07",
+      "p": "P03",
+      "kind": "mech",
+      "layer": "C",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "figure",
+          "title": "NOW SPLIT THE PAPERS ACROSS A WHOLE CLASSROOM",
+          "pose": "sort",
+          "poseTo": "sortB",
+          "hz": 0.7,
+          "fig2": {
+            "pose": "sort",
+            "poseTo": "sortB",
+            "hz": 0.7,
+            "phase": 0.4,
+            "x": 1300
+          },
+          "figX": 560,
+          "props": [
+            {
+              "prop": "papers",
+              "x": 820,
+              "y": 690,
+              "scale": 3.2,
+              "opts": {
+                "n": 5
+              }
+            },
+            {
+              "prop": "papers",
+              "x": 1560,
+              "y": 690,
+              "scale": 3.2,
+              "opts": {
+                "n": 5
+              }
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "figure",
+          "title": "NOW SPLIT THE PAPERS ACROSS A WHOLE CLASSROOM",
+          "pose": "sort",
+          "poseTo": "sortB",
+          "hz": 0.7,
+          "fig2": {
+            "pose": "sort",
+            "poseTo": "sortB",
+            "hz": 0.7,
+            "phase": 0.4,
+            "x": 1300
+          },
+          "figX": 560,
+          "props": [
+            {
+              "prop": "papers",
+              "x": 820,
+              "y": 690,
+              "scale": 3.2,
+              "opts": {
+                "n": 5
+              }
+            },
+            {
+              "prop": "papers",
+              "x": 1560,
+              "y": 690,
+              "scale": 3.2,
+              "opts": {
+                "n": 5
+              }
+            }
+          ]
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 59.2765,
+      "t1": 62.9547,
+      "dur": 3.6782,
+      "passageStart": 59.2765
+    },
+    {
+      "id": "3.08",
       "p": "P03",
       "kind": "hold",
       "layer": "B",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.6,
-          "nodes": 12
+          "op": "cw",
+          "tpl": "flow",
+          "title": "EVERYONE KNOWS WHICH PILE IS THEIRS",
+          "nodes": [
+            "PILE 1",
+            "PILE 2",
+            "PILE 3",
+            "PILE 4"
+          ],
+          "layout": "row",
+          "links": []
         },
         {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "flow",
+          "title": "EVERYONE KNOWS WHICH PILE IS THEIRS",
+          "nodes": [
+            "PILE 1",
+            "PILE 2",
+            "PILE 3",
+            "PILE 4"
+          ],
+          "layout": "row",
+          "links": []
         }
       ],
       "labels": [],
-      "notes": "each student gets a labelled pile: \"KNOW YOUR PILE\"",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 76.1024,
-      "t1": 82.8512,
-      "dur": 6.7488,
-      "passageStart": 76.1024,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 62.9547,
+      "t1": 66.2985,
+      "dur": 3.3438,
+      "passageStart": 62.9547
     },
     {
-      "id": "3.07",
+      "id": "3.09",
       "p": "P03",
-      "kind": "hold",
+      "kind": "mech",
       "layer": "H",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.7,
-          "nodes": 16
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE WORK FINISHES FASTER.",
+            "BUT ONLY IF EVERYONE KNOWS",
+            "WHICH PILE IS THEIRS."
+          ],
+          "size": 60,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         },
         {
-          "op": "railLabel",
-          "text": "THE MACHINE",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE WORK FINISHES FASTER.",
+            "BUT ONLY IF EVERYONE KNOWS",
+            "WHICH PILE IS THEIRS."
+          ],
+          "size": 60,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         }
       ],
       "labels": [],
-      "notes": "the pile becomes processor nodes lighting in a grid",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 82.8512,
-      "t1": 89.6,
-      "dur": 6.7488,
-      "passageStart": 82.8512,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.3 · C-DAC AND PARAM",
+      "t0": 66.2985,
+      "t1": 70.311,
+      "dur": 4.0125,
+      "passageStart": 66.2985
     },
     {
       "id": "4.01",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THAT IS PARALLEL COMPUTING",
+          "nodes": [
+            "ONE PROCESSOR",
+            {
+              "t": "MANY PROCESSORS",
+              "hot": true
+            },
+            "RESULTS BROUGHT TOGETHER"
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THAT IS PARALLEL COMPUTING",
+          "nodes": [
+            "ONE PROCESSOR",
+            {
+              "t": "MANY PROCESSORS",
+              "hot": true
+            },
+            "RESULTS BROUGHT TOGETHER"
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 70.311,
+      "t1": 74.6502,
+      "dur": 4.3392,
+      "passageStart": 70.311
+    },
+    {
+      "id": "4.02",
       "p": "P04",
       "kind": "mech",
       "layer": "H",
       "scene": [
         {
-          "op": "x:hero",
+          "op": "cw",
+          "tpl": "hero",
           "kind": "rack-node-mesh",
-          "scale": 1.8,
-          "nodes": 12
-        },
-        {
-          "op": "x:draw",
-          "prims": [
+          "title": "WORK DISTRIBUTED ACROSS MANY PROCESSORS",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "callouts": [
             {
-              "k": "rect",
-              "x": 700,
-              "y": 520,
-              "w": 520,
-              "h": 26,
-              "w2": 2.4,
-              "col": "#5ce1e6",
-              "at": 0.35,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "one processor, one calculation bar",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 89.6,
-      "t1": 94.7655,
-      "dur": 5.1655,
-      "passageStart": 89.6,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "4.02",
-      "p": "P04",
-      "kind": "hold",
-      "layer": "H",
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.8,
-          "nodes": 12
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 700,
-              "y": 520,
-              "w": 520,
-              "h": 26,
-              "w2": 2.4,
-              "col": "#5ce1e6",
-              "at": 0.35,
-              "dur": 0.3
+              "fx": 0.3,
+              "fy": 0.5,
+              "t": "EACH HANDLES A PORTION"
             },
             {
-              "k": "rect",
-              "x": 700,
-              "y": 500,
-              "w": 240,
-              "h": 26,
-              "w2": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.55,
-              "dur": 0.25
+              "fx": 0.8,
+              "fy": 0.5,
+              "t": "THEN THE RESULTS ARE BROUGHT TOGETHER"
             }
           ]
         },
         {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "rack-node-mesh",
+          "title": "WORK DISTRIBUTED ACROSS MANY PROCESSORS",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.3,
+              "fy": 0.5,
+              "t": "EACH HANDLES A PORTION"
+            },
+            {
+              "fx": 0.8,
+              "fy": 0.5,
+              "t": "THEN THE RESULTS ARE BROUGHT TOGETHER"
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "bar splits into many small bars across nodes",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 22,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 94.7655,
-      "t1": 100.9641,
-      "dur": 6.1986,
-      "passageStart": 94.7655,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 74.6502,
+      "t1": 79.3839,
+      "dur": 4.7337,
+      "passageStart": 74.6502
     },
     {
       "id": "4.03",
       "p": "P04",
       "kind": "hold",
-      "layer": "H",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.8,
-          "nodes": 12
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "SIMPLE?",
+            "NOT QUITE."
+          ],
+          "size": 120,
+          "align": "center"
         },
         {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  820,
-                  520
-                ],
-                [
-                  960,
-                  470
-                ],
-                [
-                  1100,
-                  520
-                ]
-              ],
-              "r": 9,
-              "speed": 0.6,
-              "col": "#5ce1e6",
-              "at": 0.3,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "COMBINE",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "SIMPLE?",
+            "NOT QUITE."
+          ],
+          "size": 120,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "results flow back and merge, label COMBINE",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 100.9641,
-      "t1": 106.8183,
-      "dur": 5.8542,
-      "passageStart": 100.9641,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 79.3839,
+      "t1": 83.3287,
+      "dur": 3.9448,
+      "passageStart": 79.3839
     },
     {
       "id": "4.04",
       "p": "P04",
-      "kind": "hold",
+      "kind": "mech",
       "layer": "C",
       "scene": [
         {
-          "op": "x:people",
-          "people": [
+          "op": "cw",
+          "tpl": "figure",
+          "title": "A RESTAURANT KITCHEN, ONE SHARED KNIFE",
+          "pose": "reach",
+          "poseTo": "stand",
+          "hz": 0.5,
+          "fig2": {
+            "pose": "reach",
+            "poseTo": "stand",
+            "hz": 0.5,
+            "phase": 0.5,
+            "x": 1330
+          },
+          "figX": 520,
+          "props": [
             {
-              "pose": "reach",
-              "x": 700,
-              "y": 850,
-              "scale": 3,
-              "accentPart": "armR",
-              "phase": 0,
+              "prop": "desk",
+              "x": 930,
+              "y": 690,
+              "scale": 3.4
+            },
+            {
               "prop": "knife",
-              "propX": 880,
-              "propScale": 2.4,
-              "at": 0.05,
-              "dur": 0.35
+              "x": 880,
+              "y": 662,
+              "scale": 3.4
             }
-          ]
-        },
-        {
-          "op": "x:people",
-          "people": [
+          ],
+          "callouts": [
             {
-              "pose": "stand",
-              "x": 1180,
-              "y": 850,
-              "scale": 3,
-              "phase": 1,
-              "at": 0.2,
-              "dur": 0.3
+              "t": "EVERY COOK NEEDS THE SAME KNIFE",
+              "prop": 1,
+              "dy": -90
             }
           ]
         },
         {
-          "op": "railLabel",
-          "text": "ONE SHARED KNIFE",
-          "side": "L"
+          "op": "cs",
+          "tpl": "figure",
+          "title": "A RESTAURANT KITCHEN, ONE SHARED KNIFE",
+          "pose": "reach",
+          "poseTo": "stand",
+          "hz": 0.5,
+          "fig2": {
+            "pose": "reach",
+            "poseTo": "stand",
+            "hz": 0.5,
+            "phase": 0.5,
+            "x": 1330
+          },
+          "figX": 520,
+          "props": [
+            {
+              "prop": "desk",
+              "x": 930,
+              "y": 690,
+              "scale": 3.4
+            },
+            {
+              "prop": "knife",
+              "x": 880,
+              "y": 662,
+              "scale": 3.4
+            }
+          ],
+          "callouts": [
+            {
+              "t": "EVERY COOK NEEDS THE SAME KNIFE",
+              "prop": 1,
+              "dy": -90
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "kitchen: five cooks, one knife, queue forms",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 106.8183,
-      "t1": 112.6725,
-      "dur": 5.8542,
-      "passageStart": 106.8183,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 83.3287,
+      "t1": 88.0624,
+      "dur": 4.7337,
+      "passageStart": 83.3287
     },
     {
       "id": "4.05",
@@ -1227,328 +1256,432 @@
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "SHARED RESOURCE = WAITING",
-          "x": 960,
-          "y": 540,
-          "size": 52,
-          "col": "#ff9b3d"
+          "op": "cw",
+          "tpl": "flow",
+          "title": "MORE COOKS, NO FASTER DINNER",
+          "nodes": [
+            "EVERY COOK",
+            {
+              "t": "NEEDS THE SAME KNIFE",
+              "hot": true
+            },
+            "DINNER IS NO FASTER"
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "MORE COOKS, NO FASTER DINNER",
+          "nodes": [
+            "EVERY COOK",
+            {
+              "t": "NEEDS THE SAME KNIFE",
+              "hot": true
+            },
+            "DINNER IS NO FASTER"
+          ],
+          "links": "chain",
+          "layout": "row"
         }
       ],
       "labels": [],
-      "notes": "label SHARED RESOURCE = WAITING",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 112.6725,
-      "t1": 117.838,
-      "dur": 5.1655,
-      "passageStart": 112.6725,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 88.0624,
+      "t1": 92.0072,
+      "dur": 3.9448,
+      "passageStart": 88.0624
     },
     {
       "id": "4.06",
       "p": "P04",
-      "kind": "hold",
+      "kind": "mech",
       "layer": "H",
       "scene": [
         {
-          "op": "x:hero",
+          "op": "cw",
+          "tpl": "hero",
           "kind": "rack-node-mesh",
-          "scale": 1.8,
-          "nodes": 12,
-          "slowLink": 3
+          "title": "PROCESSORS MUST EXCHANGE INFORMATION",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "flows": [
+            {
+              "a": [
+                0.2,
+                0.6
+              ],
+              "b": [
+                0.8,
+                0.4
+              ],
+              "col": "accent"
+            }
+          ],
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE CONNECTIONS BETWEEN PROCESSORS"
+            }
+          ]
         },
         {
-          "op": "railLabel",
-          "text": "THE SLOW LINK",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "rack-node-mesh",
+          "title": "PROCESSORS MUST EXCHANGE INFORMATION",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "flows": [
+            {
+              "a": [
+                0.2,
+                0.6
+              ],
+              "b": [
+                0.8,
+                0.4
+              ],
+              "col": "accent"
+            }
+          ],
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.5,
+              "t": "THE CONNECTIONS BETWEEN PROCESSORS"
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "network links between nodes drawn; slow link glows red-amber, nodes idle (greyed)",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": -24,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 117.838,
-      "t1": 125.4141,
-      "dur": 7.5761,
-      "passageStart": 117.838,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 92.0072,
+      "t1": 96.7409,
+      "dur": 4.7337,
+      "passageStart": 92.0072
     },
     {
       "id": "4.07",
       "p": "P04",
       "kind": "hold",
-      "layer": "H",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.8,
-          "nodes": 12
-        },
-        {
-          "op": "x:draw",
-          "prims": [
+          "op": "cw",
+          "tpl": "flow",
+          "title": "SLOW CONNECTIONS",
+          "nodes": [
             {
-              "k": "rect",
-              "x": 700,
-              "y": 520,
-              "w": 520,
-              "h": 26,
-              "w2": 2.4,
-              "col": "#5ce1e6",
-              "at": 0.35,
-              "dur": 0.3
+              "t": "SLOW CONNECTIONS",
+              "hot": true
             },
             {
-              "k": "rect",
-              "x": 700,
-              "y": 500,
-              "w": 240,
-              "h": 26,
-              "w2": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.55,
-              "dur": 0.25
+              "t": "PROCESSORS WAIT",
+              "sub": "INSTEAD OF CALCULATING"
             }
-          ]
+          ],
+          "links": [
+            [
+              0,
+              1,
+              ""
+            ]
+          ],
+          "layout": "row"
         },
         {
-          "op": "railLabel",
-          "text": "NODES STAY BUSY",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "flow",
+          "title": "SLOW CONNECTIONS",
+          "nodes": [
+            {
+              "t": "SLOW CONNECTIONS",
+              "hot": true
+            },
+            {
+              "t": "PROCESSORS WAIT",
+              "sub": "INSTEAD OF CALCULATING"
+            }
+          ],
+          "links": [
+            [
+              0,
+              1,
+              ""
+            ]
+          ],
+          "layout": "row"
         }
       ],
       "labels": [],
-      "notes": "fast links: nodes stay busy, utilisation bars full",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 125.4141,
-      "t1": 131.6127,
-      "dur": 6.1986,
-      "passageStart": 125.4141,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 96.7409,
+      "t1": 100.6856,
+      "dur": 3.9448,
+      "passageStart": 96.7409
     },
     {
-      "id": "4.08",
+      "id": "4.08a",
       "p": "P04",
       "kind": "hold",
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "THE NETWORK MATTERS ALMOST",
-          "x": 960,
-          "y": 480,
-          "size": 50
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            {
+              "t": "THE NETWORK MATTERS",
+              "col": "accent"
+            }
+          ],
+          "size": 84,
+          "align": "center"
         },
         {
-          "op": "text",
-          "text": "AS MUCH AS THE PROCESSORS",
-          "x": 960,
-          "y": 570,
-          "size": 50,
-          "col": "#5ce1e6"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            {
+              "t": "THE NETWORK MATTERS",
+              "col": "accent"
+            }
+          ],
+          "size": 84,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "text: THE NETWORK MATTERS ALMOST AS MUCH AS THE PROCESSORS",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 131.6127,
-      "t1": 138.5,
-      "dur": 6.8873,
-      "passageStart": 131.6127,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 100.6856,
+      "t1": 102.5791,
+      "dur": 1.8935,
+      "passageStart": 100.6856
+    },
+    {
+      "id": "4.08b",
+      "p": "P04",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THE NETWORK MATTERS",
+          "nodes": [
+            {
+              "t": "SLOW LINK",
+              "sub": "NODES IDLE"
+            },
+            {
+              "t": "FAST LINK",
+              "sub": "NODES BUSY",
+              "hot": true
+            }
+          ],
+          "layout": "two"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THE NETWORK MATTERS",
+          "nodes": [
+            {
+              "t": "SLOW LINK",
+              "sub": "NODES IDLE"
+            },
+            {
+              "t": "FAST LINK",
+              "sub": "NODES BUSY",
+              "hot": true
+            }
+          ],
+          "layout": "two"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 102.5791,
+      "t1": 105.4193,
+      "dur": 2.8402,
+      "passageStart": 102.5791
+    },
+    {
+      "id": "4.09",
+      "p": "P04",
+      "kind": "payoff",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE NETWORK MATTERS",
+            "ALMOST AS MUCH",
+            "AS THE PROCESSORS."
+          ],
+          "size": 66,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE NETWORK MATTERS",
+            "ALMOST AS MUCH",
+            "AS THE PROCESSORS."
+          ],
+          "size": 66,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 34,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.4 · PARALLEL COMPUTING",
+      "t0": 105.4193,
+      "t1": 110.942,
+      "dur": 5.5227,
+      "passageStart": 105.4193
     },
     {
       "id": "5.01",
       "p": "P05",
       "kind": "hold",
-      "layer": "C",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "run",
-              "x": 700,
-              "y": 850,
-              "scale": 3,
-              "accentPart": "armR",
-              "phase": 0,
-              "amp": 20,
-              "speed": 3,
-              "prop": "baton",
-              "propX": 800,
-              "propScale": 2,
-              "at": 0.05,
-              "dur": 0.3
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "AND THERE IS",
+            "A THIRD PROBLEM."
+          ],
+          "prop": "baton",
+          "pscale": 5,
+          "propY": 700
         },
         {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "pass",
-              "x": 1180,
-              "y": 850,
-              "scale": 3,
-              "accentPart": "armR",
-              "phase": 1.2,
-              "prop": "baton",
-              "propX": 1090,
-              "propScale": 2,
-              "at": 0.25,
-              "dur": 0.3
-            }
-          ]
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "AND THERE IS",
+            "A THIRD PROBLEM."
+          ],
+          "prop": "baton",
+          "pscale": 5,
+          "propY": 700
         }
       ],
       "labels": [],
-      "notes": "relay runners, baton passes, a baton drops",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 138.5,
-      "t1": 144.5137,
-      "dur": 6.0137,
-      "passageStart": 138.5,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.5 · COORDINATION",
+      "t0": 110.942,
+      "t1": 114.9073,
+      "dur": 3.9653,
+      "passageStart": 110.942
     },
     {
       "id": "5.02",
       "p": "P05",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "C",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
+          "op": "cw",
+          "tpl": "figure",
+          "title": "A RELAY RACE",
+          "pose": "pass",
+          "fig2": {
+            "pose": "reach",
+            "x": 1250
+          },
+          "figX": 640,
+          "props": [
             {
-              "k": "line",
-              "x1": 760,
-              "y1": 800,
-              "x2": 1160,
-              "y2": 800,
-              "w": 3.4,
-              "at": 0.05,
-              "dur": 0.35
-            },
+              "prop": "baton",
+              "x": 960,
+              "y": 520,
+              "scale": 3.4
+            }
+          ],
+          "callouts": [
             {
-              "k": "line",
-              "x1": 940,
-              "y1": 790,
-              "x2": 990,
-              "y2": 810,
-              "w": 2.6,
-              "col": "#ff9b3d",
-              "at": 0.4,
-              "dur": 0.25
+              "t": "A FAST RUNNER NEEDS THE BATON",
+              "prop": 0,
+              "dy": -30
             }
           ]
         },
         {
-          "op": "railLabel",
-          "text": "DROPPED BATON",
-          "side": "R"
+          "op": "cs",
+          "tpl": "figure",
+          "title": "A RELAY RACE",
+          "pose": "pass",
+          "fig2": {
+            "pose": "reach",
+            "x": 1250
+          },
+          "figX": 640,
+          "props": [
+            {
+              "prop": "baton",
+              "x": 960,
+              "y": 520,
+              "scale": 3.4
+            }
+          ],
+          "callouts": [
+            {
+              "t": "A FAST RUNNER NEEDS THE BATON",
+              "prop": 0,
+              "dy": -30
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "race stops: label DROPPED BATON",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 144.5137,
-      "t1": 149.82,
-      "dur": 5.3063,
-      "passageStart": 144.5137,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.5 · COORDINATION",
+      "t0": 114.9073,
+      "t1": 119.6656,
+      "dur": 4.7583,
+      "passageStart": 114.9073
     },
     {
       "id": "5.03",
@@ -1557,101 +1690,46 @@
       "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
+          "op": "cw",
+          "tpl": "flow",
+          "title": "A DROPPED BATON",
+          "nodes": [
+            "A FAST RUNNER",
             {
-              "k": "circle",
-              "x": 700,
-              "y": 620,
-              "r": 54,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.3
+              "t": "THE BATON IS DROPPED",
+              "hot": true
             },
-            {
-              "k": "circle",
-              "x": 1220,
-              "y": 620,
-              "r": 54,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.2,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 754,
-              "y1": 620,
-              "x2": 1166,
-              "y2": 620,
-              "w": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.35,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 700,
-              "y1": 620,
-              "x2": 900,
-              "y2": 420,
-              "w": 2,
-              "col": "#5ce1e6",
-              "dash": [
-                10,
-                10
-              ],
-              "march": 20,
-              "at": 0.5,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 1220,
-              "y1": 620,
-              "x2": 1020,
-              "y2": 420,
-              "w": 2,
-              "col": "#5ce1e6",
-              "dash": [
-                10,
-                10
-              ],
-              "march": 20,
-              "at": 0.5,
-              "dur": 0.3
-            }
-          ]
+            "THE RACE IS NOT FINISHED"
+          ],
+          "links": "chain",
+          "layout": "row"
         },
         {
-          "op": "railLabel",
-          "text": "TASKS AND MESSAGES",
-          "side": "L"
+          "op": "cs",
+          "tpl": "flow",
+          "title": "A DROPPED BATON",
+          "nodes": [
+            "A FAST RUNNER",
+            {
+              "t": "THE BATON IS DROPPED",
+              "hot": true
+            },
+            "THE RACE IS NOT FINISHED"
+          ],
+          "links": "chain",
+          "layout": "row"
         }
       ],
       "labels": [],
-      "notes": "task graph: tasks, arrows, partial answers",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 149.82,
-      "t1": 155.48,
-      "dur": 5.66,
-      "passageStart": 149.82,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.5 · COORDINATION",
+      "t0": 119.6656,
+      "t1": 123.6308,
+      "dur": 3.9653,
+      "passageStart": 119.6656
     },
     {
       "id": "5.04",
@@ -1660,1388 +1738,1144 @@
       "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 640,
-              "y": 380,
-              "w": 640,
-              "h": 260,
-              "w2": 1.8,
-              "col": "#5ce1e6",
-              "dash": [
-                12,
-                10
-              ],
-              "march": 18,
-              "at": 0.05,
-              "dur": 0.4
-            }
-          ]
+          "op": "cw",
+          "tpl": "flow",
+          "title": "SOFTWARE DECIDES",
+          "nodes": [
+            "HOW WORK IS DIVIDED",
+            "HOW TASKS COMMUNICATE",
+            "WHEN PARTIAL ANSWERS ARE COMBINED"
+          ],
+          "layout": "col"
         },
         {
-          "op": "railLabel",
-          "text": "THE SCHEDULER",
-          "side": "R"
+          "op": "cs",
+          "tpl": "flow",
+          "title": "SOFTWARE DECIDES",
+          "nodes": [
+            "HOW WORK IS DIVIDED",
+            "HOW TASKS COMMUNICATE",
+            "WHEN PARTIAL ANSWERS ARE COMBINED"
+          ],
+          "layout": "col"
         }
       ],
       "labels": [],
-      "notes": "scheduler highlights who talks to whom, when",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 155.48,
-      "t1": 161.4937,
-      "dur": 6.0137,
-      "passageStart": 155.48,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.5 · COORDINATION",
+      "t0": 123.6308,
+      "t1": 128.3892,
+      "dur": 4.7583,
+      "passageStart": 123.6308
     },
     {
       "id": "5.05",
       "p": "P05",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "payoff",
+      "layer": "H",
       "scene": [
         {
-          "op": "text",
-          "text": "POOR COORDINATION ERASES HARDWARE",
-          "x": 960,
-          "y": 540,
-          "size": 52,
-          "col": "#ff9b3d"
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "POOR COORDINATION CAN ERASE",
+            "THE ADVANTAGE OF",
+            "ALL THAT HARDWARE."
+          ],
+          "size": 64,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "POOR COORDINATION CAN ERASE",
+            "THE ADVANTAGE OF",
+            "ALL THAT HARDWARE."
+          ],
+          "size": 64,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         }
       ],
       "labels": [],
-      "notes": "text: POOR COORDINATION ERASES HARDWARE",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 161.4937,
-      "t1": 166.8,
-      "dur": 5.3063,
-      "passageStart": 161.4937,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.5 · COORDINATION",
+      "t0": 128.3892,
+      "t1": 133.544,
+      "dur": 5.1548,
+      "passageStart": 128.3892
     },
     {
-      "id": "6.01a",
+      "id": "6.01",
       "p": "P06",
       "kind": "hold",
       "layer": "B",
       "scene": [
         {
-          "op": "panel",
-          "name": "spokes",
-          "params": {
-            "cy": 540,
-            "r": 190,
-            "items": [
-              "HARDWARE",
-              "NETWORK",
-              "MEMORY",
-              "SOFTWARE",
-              "COOLING",
-              "PEOPLE"
-            ]
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "six spokes draw around a hub: HARDWARE · NETWORK · MEMORY · SOFTWARE · COOLING · PEOPLE",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 166.8,
-      "t1": 171.6248,
-      "dur": 4.8248,
-      "passageStart": 166.8,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "6.01b",
-      "p": "P06",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "A SUPERCOMPUTER IS NOT SIMPLY",
+            "A ROOM FILLED WITH COMPUTERS."
+          ],
+          "size": 60,
+          "align": "center"
+        },
         {
-          "op": "panel",
-          "name": "spokes",
-          "params": {
-            "cy": 540,
-            "r": 190,
-            "items": [
-              "HARDWARE",
-              "NETWORK",
-              "MEMORY",
-              "SOFTWARE",
-              "COOLING",
-              "PEOPLE"
-            ]
-          }
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "A SUPERCOMPUTER IS NOT SIMPLY",
+            "A ROOM FILLED WITH COMPUTERS."
+          ],
+          "size": 60,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "six spokes draw around a hub: HARDWARE · NETWORK · MEMORY · SOFTWARE · COOLING · PEOPLE",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 171.6248,
-      "t1": 176.4496,
-      "dur": 4.8248,
-      "passageStart": 171.6248,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.6 · THE COMPLETE SYSTEM",
+      "t0": 133.544,
+      "t1": 137.8409,
+      "dur": 4.2969,
+      "passageStart": 133.544
     },
     {
       "id": "6.02",
       "p": "P06",
       "kind": "hold",
-      "layer": "H",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.7,
-          "nodes": 16
+          "op": "cw",
+          "tpl": "flow",
+          "title": "AN AGREEMENT BETWEEN",
+          "nodes": [
+            "A SUPERCOMPUTER",
+            "HARDWARE",
+            "NETWORKS",
+            "MEMORY",
+            "SOFTWARE",
+            "COOLING",
+            "PEOPLE"
+          ],
+          "layout": "radial",
+          "links": "star"
         },
         {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  900,
-                  300
-                ],
-                [
-                  960,
-                  520
-                ],
-                [
-                  1020,
-                  700
-                ]
-              ],
-              "r": 8,
-              "speed": 0.7,
-              "col": "#5ce1e6",
-              "at": 0.2,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "flow",
+          "title": "AN AGREEMENT BETWEEN",
+          "nodes": [
+            "A SUPERCOMPUTER",
+            "HARDWARE",
+            "NETWORKS",
+            "MEMORY",
+            "SOFTWARE",
+            "COOLING",
+            "PEOPLE"
+          ],
+          "layout": "radial",
+          "links": "star"
         }
       ],
       "labels": [],
-      "notes": "spokes become a machine: rack, cables, airflow arrows",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 176.4496,
-      "t1": 182.8826,
-      "dur": 6.433,
-      "passageStart": 176.4496,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.6 · THE COMPLETE SYSTEM",
+      "t0": 137.8409,
+      "t1": 142.919,
+      "dur": 5.0781,
+      "passageStart": 137.8409
     },
     {
       "id": "6.03",
       "p": "P06",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "H",
       "scene": [
         {
-          "op": "text",
-          "text": "A SYSTEM, NOT A ROOM OF COMPUTERS",
-          "x": 960,
-          "y": 540,
-          "size": 48,
-          "col": "#5ce1e6"
-        }
-      ],
-      "labels": [],
-      "notes": "label A SYSTEM, NOT A ROOM OF COMPUTERS",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 182.8826,
-      "t1": 189.3157,
-      "dur": 6.433,
-      "passageStart": 182.8826,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "6.04",
-      "p": "P06",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "rack-node-mesh",
+          "title": "THE COMPLETE SYSTEM",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "callouts": [
             {
-              "k": "circle",
-              "x": 960,
-              "y": 520,
-              "r": 110,
-              "w2": 2.6,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.35
+              "fx": 0.2,
+              "fy": 0.4,
+              "t": "HARDWARE"
             },
             {
-              "k": "text",
-              "x": 960,
-              "y": 540,
-              "s": "C-DAC",
-              "size": 44,
-              "align": "center",
-              "at": 0.4,
-              "dur": 0.2
+              "fx": 0.8,
+              "fy": 0.4,
+              "t": "NETWORKS"
+            },
+            {
+              "fx": 0.5,
+              "fy": 0.9,
+              "t": "COOLING"
             }
           ]
         },
         {
-          "op": "railLabel",
-          "text": "BUILD AND INTEGRATE",
-          "side": "R"
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "rack-node-mesh",
+          "title": "THE COMPLETE SYSTEM",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.2,
+              "fy": 0.4,
+              "t": "HARDWARE"
+            },
+            {
+              "fx": 0.8,
+              "fy": 0.4,
+              "t": "NETWORKS"
+            },
+            {
+              "fx": 0.5,
+              "fy": 0.9,
+              "t": "COOLING"
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "C-DAC badge: BUILD AND INTEGRATE",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 26,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 189.3157,
-      "t1": 194.6765,
-      "dur": 5.3609,
-      "passageStart": 189.3157,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.6 · THE COMPLETE SYSTEM",
+      "t0": 142.919,
+      "t1": 147.6065,
+      "dur": 4.6875,
+      "passageStart": 142.919
     },
     {
-      "id": "6.05a",
+      "id": "6.04",
+      "p": "P06",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "PEOPLE WHO UNDERSTAND",
+            "THE PROBLEMS",
+            "BEING SOLVED."
+          ],
+          "size": 64,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "PEOPLE WHO UNDERSTAND",
+            "THE PROBLEMS",
+            "BEING SOLVED."
+          ],
+          "size": 64,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 34,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · THE COMPLETE SYSTEM",
+      "t0": 147.6065,
+      "t1": 151.5128,
+      "dur": 3.9063,
+      "passageStart": 147.6065
+    },
+    {
+      "id": "6.05",
       "p": "P06",
       "kind": "hold",
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "NOT EVERY PART MADE AT HOME",
-          "x": 960,
-          "y": 520,
-          "size": 50
-        }
-      ],
-      "labels": [],
-      "notes": "text: NOT EVERY PART MADE AT HOME (ledger F06 wording once fixed)",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 194.6765,
-      "t1": 198.6078,
-      "dur": 3.9313,
-      "passageStart": 194.6765,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "6.05b",
-      "p": "P06",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THE PARAM PROGRAMME",
+          "nodes": [
+            "C-DAC'S PARAM PROGRAMME",
+            {
+              "t": "EXPERTISE IN THE COMPLETE SYSTEM",
+              "hot": true
+            }
+          ],
+          "links": [
+            [
+              0,
+              1,
+              ""
+            ]
+          ],
+          "layout": "row"
+        },
         {
-          "op": "text",
-          "text": "NOT EVERY PART MADE AT HOME",
-          "x": 960,
-          "y": 520,
-          "size": 50
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THE PARAM PROGRAMME",
+          "nodes": [
+            "C-DAC'S PARAM PROGRAMME",
+            {
+              "t": "EXPERTISE IN THE COMPLETE SYSTEM",
+              "hot": true
+            }
+          ],
+          "links": [
+            [
+              0,
+              1,
+              ""
+            ]
+          ],
+          "layout": "row"
         }
       ],
       "labels": [],
-      "notes": "text: NOT EVERY PART MADE AT HOME (ledger F06 wording once fixed)",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 198.6078,
-      "t1": 202.5391,
-      "dur": 3.9313,
-      "passageStart": 198.6078,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.6 · THE COMPLETE SYSTEM",
+      "t0": 151.5128,
+      "t1": 155.4191,
+      "dur": 3.9063,
+      "passageStart": 151.5128
     },
     {
       "id": "6.06",
       "p": "P06",
       "kind": "hold",
-      "layer": "H",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.7,
-          "nodes": 16
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IT DID NOT MEAN",
+            "EVERY PART WAS",
+            "MADE AT HOME."
+          ],
+          "size": 72,
+          "align": "center"
         },
         {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  900,
-                  300
-                ],
-                [
-                  960,
-                  520
-                ],
-                [
-                  1020,
-                  700
-                ]
-              ],
-              "r": 9,
-              "speed": 0.9,
-              "col": "#5ce1e6",
-              "at": 0.15,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IT DID NOT MEAN",
+            "EVERY PART WAS",
+            "MADE AT HOME."
+          ],
+          "size": 72,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "machine comes alive, packets flow",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 202.5391,
-      "t1": 207.9,
-      "dur": 5.3609,
-      "passageStart": 202.5391,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.6 · THE COMPLETE SYSTEM",
+      "t0": 155.4191,
+      "t1": 160.1066,
+      "dur": 4.6875,
+      "passageStart": 155.4191
+    },
+    {
+      "id": "6.07",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "WHAT IT DID MEAN",
+          "nodes": [
+            "INDIAN ENGINEERS",
+            {
+              "t": "BUILDING AND INTEGRATING",
+              "hot": true
+            },
+            "MACHINES FOR DEMANDING WORK"
+          ],
+          "links": "chain",
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "WHAT IT DID MEAN",
+          "nodes": [
+            "INDIAN ENGINEERS",
+            {
+              "t": "BUILDING AND INTEGRATING",
+              "hot": true
+            },
+            "MACHINES FOR DEMANDING WORK"
+          ],
+          "links": "chain",
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · THE COMPLETE SYSTEM",
+      "t0": 160.1066,
+      "t1": 164.4035,
+      "dur": 4.2969,
+      "passageStart": 160.1066
+    },
+    {
+      "id": "6.08",
+      "p": "P06",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "NOT RELYING ONLY ON",
+            "IMPORTED FINISHED SYSTEMS."
+          ],
+          "size": 62,
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "NOT RELYING ONLY ON",
+            "IMPORTED FINISHED SYSTEMS."
+          ],
+          "size": 62,
+          "align": "center"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.6 · THE COMPLETE SYSTEM",
+      "t0": 164.4035,
+      "t1": 169.091,
+      "dur": 4.6875,
+      "passageStart": 164.4035
     },
     {
       "id": "7.01",
       "p": "P07",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "fiction",
+      "layer": "H",
       "scene": [
         {
-          "op": "text",
-          "text": "A FICTIONAL SCENARIO",
-          "x": 960,
-          "y": 300,
-          "size": 40,
-          "col": "#ff9b3d"
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "rack-node-mesh",
+          "title": "A WEATHER MODEL, DIVIDED AMONG PROCESSORS",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.4,
+              "t": "MANY PROCESSORS"
+            }
+          ]
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "rack-node-mesh",
+          "title": "A WEATHER MODEL, DIVIDED AMONG PROCESSORS",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.4,
+              "t": "MANY PROCESSORS"
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "FICTIONAL SCENARIO stamp for the whole passage",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": -20,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 207.9,
-      "t1": 212.6167,
-      "dur": 4.7167,
-      "passageStart": 207.9,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.7 · WHAT IF",
+      "t0": 169.091,
+      "t1": 173.3818,
+      "dur": 4.2908,
+      "passageStart": 169.091
     },
     {
       "id": "7.02",
       "p": "P07",
-      "kind": "hold",
+      "kind": "fiction",
       "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
+          "op": "cw",
+          "tpl": "grid",
+          "title": "THE WORK IS SPLIT INTO TASKS",
+          "slots": [
             {
-              "k": "rect",
-              "x": 620,
-              "y": 320,
-              "w": 680,
-              "h": 420,
-              "w2": 1.6,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "line",
-              "x1": 640,
-              "y1": 360,
-              "x2": 900,
-              "y2": 360,
-              "w": 1.6,
-              "col": "#5ce1e6",
-              "at": 0.2,
-              "dur": 0.25
-            },
-            {
-              "k": "line",
-              "x1": 640,
-              "y1": 420,
-              "x2": 980,
-              "y2": 420,
-              "w": 1.6,
-              "col": "#5ce1e6",
-              "at": 0.25,
-              "dur": 0.25
-            },
-            {
-              "k": "line",
-              "x1": 640,
-              "y1": 480,
-              "x2": 860,
-              "y2": 480,
-              "w": 1.6,
-              "col": "#5ce1e6",
-              "at": 0.3,
-              "dur": 0.25
+              "n": 12,
+              "col": "cyan",
+              "cell": "TASK"
             }
-          ]
+          ],
+          "lit": 12,
+          "cols": 6
         },
         {
-          "op": "railLabel",
-          "text": "WEATHER GRID",
-          "side": "R"
+          "op": "cs",
+          "tpl": "grid",
+          "title": "THE WORK IS SPLIT INTO TASKS",
+          "slots": [
+            {
+              "n": 12,
+              "col": "cyan",
+              "cell": "TASK"
+            }
+          ],
+          "lit": 12,
+          "cols": 6
         }
       ],
       "labels": [],
-      "notes": "weather grid over a map outline, tiles assigned to processors",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 212.6167,
-      "t1": 218.1657,
-      "dur": 5.549,
-      "passageStart": 212.6167,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.7 · WHAT IF",
+      "t0": 173.3818,
+      "t1": 177.6726,
+      "dur": 4.2908,
+      "passageStart": 173.3818
     },
     {
       "id": "7.03",
       "p": "P07",
-      "kind": "hold",
-      "layer": "H",
+      "kind": "fiction",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.7,
-          "nodes": 16
-        },
-        {
-          "op": "x:draw",
-          "prims": [
+          "op": "cw",
+          "tpl": "flow",
+          "title": "THE WHOLE SYSTEM MUST MANAGE THE IMBALANCE",
+          "nodes": [
             {
-              "k": "circle",
-              "x": 700,
-              "y": 620,
-              "r": 26,
-              "w2": 2.4,
-              "col": "#ff9b3d",
-              "at": 0.3,
-              "dur": 0.25
+              "t": "ONE PROCESSOR",
+              "sub": "FINISHES EARLY"
+            },
+            {
+              "t": "ANOTHER",
+              "sub": "STILL CALCULATING",
+              "hot": true
             }
-          ]
+          ],
+          "layout": "two"
         },
         {
-          "op": "railLabel",
-          "text": "ONE NODE IDLE",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "flow",
+          "title": "THE WHOLE SYSTEM MUST MANAGE THE IMBALANCE",
+          "nodes": [
+            {
+              "t": "ONE PROCESSOR",
+              "sub": "FINISHES EARLY"
+            },
+            {
+              "t": "ANOTHER",
+              "sub": "STILL CALCULATING",
+              "hot": true
+            }
+          ],
+          "layout": "two"
         }
       ],
       "labels": [],
-      "notes": "one node finishes, goes grey; another still working",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 218.1657,
-      "t1": 223.1598,
-      "dur": 4.9941,
-      "passageStart": 218.1657,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.7 · WHAT IF",
+      "t0": 177.6726,
+      "t1": 182.3534,
+      "dur": 4.6809,
+      "passageStart": 177.6726
     },
     {
       "id": "7.04",
       "p": "P07",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "fiction",
+      "layer": "H",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 760,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.1,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 880,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.2,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 1000,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#ff9b3d",
-              "at": 0.3,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 1120,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.4,
-              "dur": 0.25
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "ADDING MORE PROCESSORS",
+            "MAY BARELY IMPROVE",
+            "THE RESULT."
+          ],
+          "size": 62,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         },
         {
-          "op": "railLabel",
-          "text": "UNBALANCED",
-          "side": "R"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "ADDING MORE PROCESSORS",
+            "MAY BARELY IMPROVE",
+            "THE RESULT."
+          ],
+          "size": 62,
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         }
       ],
       "labels": [],
-      "notes": "utilisation bars unbalanced",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 223.1598,
-      "t1": 226.7667,
-      "dur": 3.6069,
-      "passageStart": 223.1598,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.7 · WHAT IF",
+      "t0": 182.3534,
+      "t1": 186.6442,
+      "dur": 4.2908,
+      "passageStart": 182.3534
     },
     {
       "id": "7.05",
       "p": "P07",
-      "kind": "hold",
+      "kind": "fiction",
       "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 760,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.1,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 880,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.2,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 1000,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.3,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 1120,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.4,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 1240,
-              "y": 560,
-              "w": 90,
-              "h": 120,
-              "w2": 2.2,
-              "col": "#5ce1e6",
-              "at": 0.5,
-              "dur": 0.25
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE HIDDEN ART",
+            "BEHIND THE MACHINE."
+          ],
+          "size": 84,
+          "align": "center"
         },
         {
-          "op": "text",
-          "text": "MORE NODES, SAME WAIT",
-          "x": 960,
-          "y": 790,
-          "size": 46,
-          "col": "#ff9b3d"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE HIDDEN ART",
+            "BEHIND THE MACHINE."
+          ],
+          "size": 84,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "adding processors: bar barely moves, label MORE NODES, SAME WAIT",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 226.7667,
-      "t1": 232.3157,
-      "dur": 5.549,
-      "passageStart": 226.7667,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "7.06",
-      "p": "P07",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
-        {
-          "op": "text",
-          "text": "THE HIDDEN ART",
-          "x": 960,
-          "y": 540,
-          "size": 56,
-          "col": "#5ce1e6"
-        }
-      ],
-      "labels": [],
-      "notes": "text: THE HIDDEN ART",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 232.3157,
-      "t1": 236.2,
-      "dur": 3.8843,
-      "passageStart": 232.3157,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.7 · WHAT IF",
+      "t0": 186.6442,
+      "t1": 190.935,
+      "dur": 4.2908,
+      "passageStart": 186.6442
     },
     {
       "id": "8.01",
       "p": "P08",
       "kind": "missing",
-      "layer": "B",
+      "layer": "H",
       "scene": [
         {
-          "op": "text",
-          "text": "TODAY'S FRONTIER",
-          "x": 960,
-          "y": 300,
-          "size": 52,
-          "col": "#5ce1e6"
-        }
-      ],
-      "labels": [],
-      "notes": "heading TODAY'S FRONTIER",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 236.2,
-      "t1": 240.6063,
-      "dur": 4.4063,
-      "passageStart": 236.2,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "8.02a",
-      "p": "P08",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
-        {
-          "op": "panel",
-          "name": "boxes",
-          "params": {
-            "cy": 580,
-            "items": [
-              "ACCELERATORS",
-              "HIGH-SPEED NETWORKS",
-              "ENERGY EFFICIENCY",
-              "TUNED SOFTWARE"
-            ],
-            "bw": 520,
-            "bh": 150,
-            "cols": 2
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "four chips of a list draw: ACCELERATORS · HIGH-SPEED NETWORKS · ENERGY EFFICIENCY · TUNED SOFTWARE",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 240.6063,
-      "t1": 245.0126,
-      "dur": 4.4063,
-      "passageStart": 240.6063,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "8.02b",
-      "p": "P08",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
-        {
-          "op": "panel",
-          "name": "boxes",
-          "params": {
-            "cy": 580,
-            "items": [
-              "ACCELERATORS",
-              "HIGH-SPEED NETWORKS",
-              "ENERGY EFFICIENCY",
-              "TUNED SOFTWARE"
-            ],
-            "bw": 520,
-            "bh": 150,
-            "cols": 2
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "four chips of a list draw: ACCELERATORS · HIGH-SPEED NETWORKS · ENERGY EFFICIENCY · TUNED SOFTWARE",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 245.0126,
-      "t1": 249.4189,
-      "dur": 4.4063,
-      "passageStart": 245.0126,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "8.03a",
-      "p": "P08",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "arrow",
-              "x1": 300,
-              "y1": 400,
-              "x2": 700,
-              "y2": 480,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "arrow",
-              "x1": 300,
-              "y1": 700,
-              "x2": 700,
-              "y2": 560,
-              "col": "#5ce1e6",
-              "at": 0.2,
-              "dur": 0.4
-            }
-          ]
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "TODAY'S FRONTIER",
+            "IS DIFFERENT."
+          ],
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         },
         {
-          "op": "railLabel",
-          "text": "GLOBAL SUPPLY CHAINS STILL MATTER",
-          "side": "L"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "TODAY'S FRONTIER",
+            "IS DIFFERENT."
+          ],
+          "hero": "rack-node-mesh",
+          "tag": "SCHEMATIC, NOT TO SCALE"
         }
       ],
       "labels": [],
-      "notes": "globe-less supply chain arrows enter from the edge: GLOBAL SUPPLY CHAINS STILL MATTER",
-      "cam": "hold",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 16,
+      "camEl": 34,
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 249.4189,
-      "t1": 253.3168,
-      "dur": 3.8979,
-      "passageStart": 249.4189,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.8 · THE FRONTIER",
+      "t0": 190.935,
+      "t1": 194.2182,
+      "dur": 3.2832,
+      "passageStart": 190.935
     },
     {
-      "id": "8.03b",
+      "id": "8.02",
       "p": "P08",
-      "kind": "hold",
+      "kind": "missing",
       "layer": "B",
       "scene": [
         {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "arrow",
-              "x1": 300,
-              "y1": 400,
-              "x2": 700,
-              "y2": 480,
-              "col": "#5ce1e6",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "arrow",
-              "x1": 300,
-              "y1": 700,
-              "x2": 700,
-              "y2": 560,
-              "col": "#5ce1e6",
-              "at": 0.2,
-              "dur": 0.4
-            }
-          ]
+          "op": "cw",
+          "tpl": "flow",
+          "title": "SUPERCOMPUTING NOW DEPENDS ON",
+          "nodes": [
+            "ACCELERATORS",
+            "HIGH-SPEED NETWORKS",
+            "ENERGY EFFICIENCY",
+            "SOFTWARE TUNED TO NEW ARCHITECTURES"
+          ],
+          "layout": "grid:2"
         },
         {
-          "op": "railLabel",
-          "text": "GLOBAL SUPPLY CHAINS STILL MATTER",
-          "side": "L"
+          "op": "cs",
+          "tpl": "flow",
+          "title": "SUPERCOMPUTING NOW DEPENDS ON",
+          "nodes": [
+            "ACCELERATORS",
+            "HIGH-SPEED NETWORKS",
+            "ENERGY EFFICIENCY",
+            "SOFTWARE TUNED TO NEW ARCHITECTURES"
+          ],
+          "layout": "grid:2"
         }
       ],
       "labels": [],
-      "notes": "globe-less supply chain arrows enter from the edge: GLOBAL SUPPLY CHAINS STILL MATTER",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 253.3168,
-      "t1": 257.2147,
-      "dur": 3.8979,
-      "passageStart": 253.3168,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.8 · THE FRONTIER",
+      "t0": 194.2182,
+      "t1": 198.4863,
+      "dur": 4.2681,
+      "passageStart": 194.2182
+    },
+    {
+      "id": "8.03",
+      "p": "P08",
+      "kind": "missing",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "flow",
+          "title": "GLOBAL SUPPLY CHAINS",
+          "nodes": [
+            "GLOBAL SUPPLY CHAINS",
+            {
+              "t": "STILL MATTER",
+              "hot": true
+            }
+          ],
+          "links": [
+            [
+              0,
+              1,
+              ""
+            ]
+          ],
+          "layout": "row"
+        },
+        {
+          "op": "cs",
+          "tpl": "flow",
+          "title": "GLOBAL SUPPLY CHAINS",
+          "nodes": [
+            "GLOBAL SUPPLY CHAINS",
+            {
+              "t": "STILL MATTER",
+              "hot": true
+            }
+          ],
+          "links": [
+            [
+              0,
+              1,
+              ""
+            ]
+          ],
+          "layout": "row"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FRONTIER",
+      "t0": 198.4863,
+      "t1": 201.7694,
+      "dur": 3.2832,
+      "passageStart": 198.4863
     },
     {
       "id": "8.04",
       "p": "P08",
-      "kind": "hold",
+      "kind": "missing",
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "INDEPENDENCE IS A MOVING TARGET",
-          "x": 960,
-          "y": 540,
-          "size": 52
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "INDEPENDENCE IS",
+            "A MOVING TARGET."
+          ],
+          "size": 84,
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "INDEPENDENCE IS",
+            "A MOVING TARGET."
+          ],
+          "size": 84,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "text: INDEPENDENCE IS A MOVING TARGET",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 257.2147,
-      "t1": 262.6379,
-      "dur": 5.4232,
-      "passageStart": 257.2147,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.8 · THE FRONTIER",
+      "t0": 201.7694,
+      "t1": 205.0526,
+      "dur": 3.2832,
+      "passageStart": 201.7694
     },
     {
       "id": "8.05",
       "p": "P08",
       "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE COMPUTER THAT COULD NOT BE BOUGHT",
+            "BECAME A LESSON IN BUILDING CAPABILITY."
+          ],
+          "size": 52,
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE COMPUTER THAT COULD NOT BE BOUGHT",
+            "BECAME A LESSON IN BUILDING CAPABILITY."
+          ],
+          "size": 52,
+          "align": "center"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "hold",
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FRONTIER",
+      "t0": 205.0526,
+      "t1": 208.9924,
+      "dur": 3.9398,
+      "passageStart": 205.0526
+    },
+    {
+      "id": "8.06",
+      "p": "P08",
+      "kind": "mech",
       "layer": "H",
       "scene": [
         {
-          "op": "x:hero",
+          "op": "cw",
+          "tpl": "hero",
           "kind": "rack-node-mesh",
-          "scale": 1.7,
-          "nodes": 16
-        },
-        {
-          "op": "x:flow",
-          "items": [
+          "title": "MANY MINDS, MANY MACHINES",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "flows": [
             {
-              "k": "dot",
-              "path": [
-                [
-                  900,
-                  300
-                ],
-                [
-                  960,
-                  520
-                ],
-                [
-                  1020,
-                  700
-                ]
+              "a": [
+                0.1,
+                0.5
               ],
-              "r": 9,
-              "speed": 1.1,
-              "col": "#5ce1e6",
-              "at": 0.15,
-              "dur": 0.3
+              "b": [
+                0.9,
+                0.5
+              ],
+              "col": "accent"
+            }
+          ],
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.4,
+              "t": "WORKING AS ONE"
             }
           ]
         },
         {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "rack-node-mesh",
+          "title": "MANY MINDS, MANY MACHINES",
+          "tag": "SCHEMATIC, NOT TO SCALE",
+          "flows": [
+            {
+              "a": [
+                0.1,
+                0.5
+              ],
+              "b": [
+                0.9,
+                0.5
+              ],
+              "col": "accent"
+            }
+          ],
+          "callouts": [
+            {
+              "fx": 0.5,
+              "fy": 0.4,
+              "t": "WORKING AS ONE"
+            }
+          ]
         }
       ],
       "labels": [],
-      "notes": "many nodes begin to act as one",
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 20,
+      "camEl": 34,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.8 · THE FRONTIER",
+      "t0": 208.9924,
+      "t1": 212.9322,
+      "dur": 3.9398,
+      "passageStart": 208.9924
+    },
+    {
+      "id": "8.07",
+      "p": "P08",
+      "kind": "hold",
+      "layer": "B",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "MANY MINDS.",
+            "MANY MACHINES.",
+            "ONE."
+          ],
+          "size": 86,
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "MANY MINDS.",
+            "MANY MACHINES.",
+            "ONE."
+          ],
+          "size": 86,
+          "align": "center"
+        }
+      ],
+      "labels": [],
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 262.6379,
-      "t1": 268.4,
-      "dur": 5.7621,
-      "passageStart": 262.6379,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.8 · THE FRONTIER",
+      "t0": 212.9322,
+      "t1": 216.872,
+      "dur": 3.9398,
+      "passageStart": 212.9322
     },
     {
       "id": "9.01",
       "p": "P09",
       "kind": "hold",
-      "layer": "H",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.7,
-          "nodes": 16
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE BARRIER WAS NOT DEFEATED",
+            "BY PRETENDING IT DID NOT EXIST."
+          ],
+          "size": 56,
+          "align": "center"
         },
         {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  900,
-                  300
-                ],
-                [
-                  960,
-                  520
-                ],
-                [
-                  1020,
-                  700
-                ]
-              ],
-              "r": 9,
-              "speed": 1.1,
-              "col": "#5ce1e6",
-              "at": 0.15,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE BARRIER WAS NOT DEFEATED",
+            "BY PRETENDING IT DID NOT EXIST."
+          ],
+          "size": 56,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "cabinet from P01, padlock opens",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 268.4,
-      "t1": 271.2537,
-      "dur": 2.8537,
-      "passageStart": 268.4,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.9 · THE ANSWER",
+      "t0": 216.872,
+      "t1": 219.3513,
+      "dur": 2.4793,
+      "passageStart": 216.872
     },
     {
       "id": "9.02",
       "p": "P09",
       "kind": "hold",
-      "layer": "H",
+      "layer": "B",
       "scene": [
         {
-          "op": "x:hero",
-          "kind": "rack-node-mesh",
-          "scale": 1.7,
-          "nodes": 16,
-          "opts": {}
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "IT WAS ANSWERED BY LEARNING",
+            "HOW THE ENTIRE SYSTEM WORKED."
+          ],
+          "size": 56,
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "IT WAS ANSWERED BY LEARNING",
+            "HOW THE ENTIRE SYSTEM WORKED."
+          ],
+          "size": 56,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "it unfolds into the whole mesh, links shimmer",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 271.2537,
-      "t1": 274.678,
-      "dur": 3.4244,
-      "passageStart": 271.2537,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.9 · THE ANSWER",
+      "t0": 219.3513,
+      "t1": 221.8307,
+      "dur": 2.4793,
+      "passageStart": 219.3513
     },
     {
       "id": "9.03",
       "p": "P09",
-      "kind": "hold",
+      "kind": "payoff",
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "MANY MACHINES. ONE MIND.",
-          "x": 960,
-          "y": 520,
-          "size": 56,
-          "col": "#5ce1e6"
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "THE ANSWER WAS NEVER",
+            {
+              "t": "ONE GIANT COMPUTER.",
+              "col": "accent"
+            }
+          ],
+          "size": 96,
+          "align": "center"
+        },
+        {
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "THE ANSWER WAS NEVER",
+            {
+              "t": "ONE GIANT COMPUTER.",
+              "col": "accent"
+            }
+          ],
+          "size": 96,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "text: MANY MACHINES. ONE MIND.",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 274.678,
-      "t1": 277.5317,
-      "dur": 2.8537,
-      "passageStart": 274.678,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.9 · THE ANSWER",
+      "t0": 221.8307,
+      "t1": 225.5497,
+      "dur": 3.719,
+      "passageStart": 221.8307
     },
     {
       "id": "9.04",
@@ -3050,80 +2884,39 @@
       "layer": "B",
       "scene": [
         {
-          "op": "text",
-          "text": "THE ANSWER WAS NEVER",
-          "x": 960,
-          "y": 480,
-          "size": 50
+          "op": "cw",
+          "tpl": "statement",
+          "lines": [
+            "INDIA BUILT IT ANYWAY"
+          ],
+          "sub": "S02 · E02 · THE SUPERCOMPUTER INDIA COULDN'T BUY",
+          "size": 100,
+          "align": "center"
         },
         {
-          "op": "text",
-          "text": "ONE GIANT COMPUTER.",
-          "x": 960,
-          "y": 570,
-          "size": 50
+          "op": "cs",
+          "tpl": "statement",
+          "lines": [
+            "INDIA BUILT IT ANYWAY"
+          ],
+          "sub": "S02 · E02 · THE SUPERCOMPUTER INDIA COULDN'T BUY",
+          "size": 100,
+          "align": "center"
         }
       ],
       "labels": [],
-      "notes": "final line: THE ANSWER WAS NEVER ONE GIANT COMPUTER.",
+      "notes": "",
       "cam": "hold",
       "fx": [],
       "tr": "fade",
-      "sceneTag": null,
-      "t0": 277.5317,
-      "t1": 281.1463,
-      "dur": 3.6146,
-      "passageStart": 277.5317,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
-    },
-    {
-      "id": "9.05",
-      "p": "P09",
-      "kind": "hold",
-      "layer": "B",
-      "scene": [
-        {
-          "op": "titleCard",
-          "title": "INDIA BUILT IT ANYWAY",
-          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
-        }
-      ],
-      "labels": [],
-      "notes": "series title ≤ 2.5 s",
-      "cam": "hold",
-      "fx": [],
-      "tr": "fade",
-      "sceneTag": null,
-      "t0": 281.1463,
-      "t1": 284,
-      "dur": 2.8537,
-      "passageStart": 281.1463,
-      "camStart": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      },
-      "camEnd": {
-        "scale": 1,
-        "az": -0.55,
-        "el": 0,
-        "dist": 1
-      }
+      "sceneTag": "SC.9 · THE ANSWER",
+      "t0": 225.5497,
+      "t1": 228.029,
+      "dur": 2.4793,
+      "passageStart": 225.5497
     }
   ],
   "clampReport": [],
-  "bpm": 12.04,
+  "bpm": 15.52,
   "leadIn": 0.8
 }

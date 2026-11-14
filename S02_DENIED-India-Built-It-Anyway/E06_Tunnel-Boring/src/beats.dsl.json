@@ -1,0 +1,1084 @@
+[
+ {
+  "id": "1.01",
+  "p": "P01",
+  "w": 1,
+  "sc": "SC.1 · ABOVE AND BELOW",
+  "k": "hook",
+  "tpl": "hero",
+  "kind": "city-slice",
+  "title": "ABOVE GROUND, A CITY KEEPS MOVING",
+  "tag": "EXAGGERATED, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.3,
+    "fy": 0.2,
+    "t": "CARS, BRIDGES, TRAINS"
+   },
+   {
+    "fx": 0.7,
+    "fy": 0.35,
+    "t": "BUILDINGS THAT HAVE STOOD FOR DECADES"
+   }
+  ],
+  "camAz": 14
+ },
+ {
+  "id": "1.02",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "CARS CROSS BRIDGES.",
+   "TRAINS ARRIVE.",
+   "PEOPLE SLEEP."
+  ],
+  "hero": "city-slice",
+  "tag": "EXAGGERATED, NOT TO SCALE"
+ },
+ {
+  "id": "1.03",
+  "p": "P01",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "FAR BELOW, A STEEL MACHINE",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.5,
+    "t": "CUTTERHEAD"
+   },
+   {
+    "fx": 0.7,
+    "fy": 0.5,
+    "t": "THE MACHINE BODY"
+   }
+  ],
+  "camAz": -62,
+  "camEl": 14
+ },
+ {
+  "id": "1.04",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "EATING ITS WAY",
+   "THROUGH THE EARTH."
+  ],
+  "hero": "tbm-slurry",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": -62,
+  "camEl": 14
+ },
+ {
+  "id": "1.05",
+  "p": "P01",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "THE ASTONISHING PART",
+  "nodes": [
+   {
+    "t": "THE MACHINE DIGS"
+   },
+   {
+    "t": "THE GROUND ABOVE",
+    "sub": "MUST NOT MOVE TOO MUCH",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    "WHILE"
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "1.06",
+  "p": "P01",
+  "w": 1.4,
+  "k": "hook",
+  "tpl": "statement",
+  "lines": [
+   "THE GROUND ABOVE MUST NOT",
+   "BE ALLOWED TO MOVE."
+  ],
+  "size": 68,
+  "align": "center"
+ },
+ {
+  "id": "2.01",
+  "p": "P02",
+  "w": 1.1,
+  "sc": "SC.2 · THE MACHINE",
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "A TUNNEL BORING MACHINE: A TBM",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.5,
+    "t": "CUTTERHEAD"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.2,
+    "t": "SLURRY LINES"
+   },
+   {
+    "fx": 0.85,
+    "fy": 0.5,
+    "t": "SEGMENT ERECTOR"
+   }
+  ],
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "2.02",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "ONE OF THE MOST DEMANDING",
+   "TOOLS IN MODERN CONSTRUCTION."
+  ],
+  "size": 58,
+  "align": "center"
+ },
+ {
+  "id": "2.03",
+  "p": "P02",
+  "w": 1,
+  "tpl": "flow",
+  "title": "INDIA IS USING THESE MACHINES",
+  "nodes": [
+   "INDIA",
+   {
+    "t": "MAJOR RAIL PROJECTS",
+    "hot": true
+   },
+   "TUNNEL BORING MACHINES"
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ],
+   [
+    1,
+    2,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "2.04",
+  "p": "P02",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "A COMPLICATED CHAIN",
+  "nodes": [
+   "LARGE SPECIALISED MACHINES",
+   "AND THEIR PARTS",
+   {
+    "t": "INTERNATIONAL SUPPLY CHAINS",
+    "sub": "CAN BE COMPLICATED",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "3.01",
+  "p": "P03",
+  "w": 1,
+  "sc": "SC.3 · DEPENDENCE",
+  "tpl": "statement",
+  "lines": [
+   "NOT A STORY OF",
+   "ONE DOOR SLAMMED SHUT."
+  ],
+  "prop": "door",
+  "pscale": 3.8,
+  "propOpts": {
+   "closed": 1
+  }
+ },
+ {
+  "id": "3.02a",
+  "p": "P03",
+  "w": 0.48,
+  "tpl": "statement",
+  "lines": [
+   {
+    "t": "IT IS A STORY OF",
+    "col": "accent"
+   }
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "3.02b",
+  "p": "P03",
+  "w": 0.72,
+  "tpl": "flow",
+  "title": "IT IS A STORY OF",
+  "nodes": [
+   {
+    "t": "DEPENDENCE",
+    "sub": "ON A FEW SPECIALISED MACHINES",
+    "hot": true
+   },
+   {
+    "t": "THE ENGINEERING",
+    "sub": "NEEDED TO WORK UNDERGROUND"
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "3.03",
+  "p": "P03",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "city-slice",
+  "title": "CAPABILITY, DEPENDENCE, KNOW-HOW",
+  "tag": "EXAGGERATED, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "THE CITY ABOVE"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.85,
+    "t": "THE TUNNEL BELOW"
+   }
+  ],
+  "camAz": -18
+ },
+ {
+  "id": "3.04",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE ENGINEERING NEEDED",
+   "TO WORK UNDERGROUND."
+  ],
+  "size": 62,
+  "hero": "tbm-slurry",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "4.01",
+  "p": "P04",
+  "w": 1.2,
+  "sc": "SC.4 · IDEA 1 · THE GROUND",
+  "tpl": "figure",
+  "title": "A SPOON IN A BOWL OF WET SAND",
+  "pose": "point",
+  "poseTo": "reach",
+  "hz": 0.6,
+  "figX": 560,
+  "props": [
+   {
+    "prop": "spoonBowl",
+    "x": 1180,
+    "scale": 4.4
+   }
+  ],
+  "propOpts": {
+   "scoop": 1
+  },
+  "callouts": [
+   {
+    "t": "THE SPOON REMOVES MATERIAL",
+    "prop": 0,
+    "dy": -60
+   }
+  ]
+ },
+ {
+  "id": "4.02",
+  "p": "P04",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE SAND CAN COLLAPSE",
+   "INTO THE GAP."
+  ],
+  "prop": "spoonBowl",
+  "pscale": 4.4,
+  "propOpts": {
+   "scoop": 1
+  }
+ },
+ {
+  "id": "4.03",
+  "p": "P04",
+  "w": 1.1,
+  "tpl": "hero",
+  "kind": "city-slice",
+  "title": "NOW DO THAT BENEATH ROADS AND BUILDINGS",
+  "tag": "EXAGGERATED, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.2,
+    "t": "ROADS AND BUILDINGS"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.8,
+    "t": "THE EXCAVATION"
+   }
+  ],
+  "camAz": 22
+ },
+ {
+  "id": "4.04a",
+  "p": "P04",
+  "w": 0.4,
+  "tpl": "statement",
+  "lines": [
+   {
+    "t": "TWO HALVES OF THE PROBLEM",
+    "col": "accent"
+   }
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "4.04b",
+  "p": "P04",
+  "w": 0.6,
+  "tpl": "flow",
+  "title": "TWO HALVES OF THE PROBLEM",
+  "nodes": [
+   {
+    "t": "EXCAVATION",
+    "sub": "HALF THE PROBLEM"
+   },
+   {
+    "t": "KEEPING THE GROUND STABLE",
+    "sub": "THE OTHER HALF",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "4.05",
+  "p": "P04",
+  "w": 1.2,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "THE OTHER HALF:",
+   "KEEP THE GROUND STABLE."
+  ],
+  "size": 72,
+  "align": "center"
+ },
+ {
+  "id": "5.01",
+  "p": "P05",
+  "w": 1.1,
+  "sc": "SC.5 · IDEA 2 · THE FACE",
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "A ROTATING CUTTERHEAD",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.12,
+    "fy": 0.5,
+    "t": "CUTTERHEAD"
+   },
+   {
+    "fx": 0.4,
+    "fy": 0.3,
+    "t": "BREAKS OR SCRAPES AWAY THE MATERIAL"
+   }
+  ],
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "5.02",
+  "p": "P05",
+  "w": 1.1,
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "BEHIND IT, SYSTEMS CARRY THE MATERIAL AWAY",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "cut": [
+   0.05,
+   0.5
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "EXCAVATED MATERIAL CARRIED AWAY"
+   }
+  ],
+  "flows": [
+   {
+    "a": [
+     0.3,
+     0.5
+    ],
+    "b": [
+     0.9,
+     0.5
+    ],
+    "col": "accent2"
+   }
+  ],
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "5.03",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A TUNNEL CANNOT BE LEFT",
+   "AS AN UNSUPPORTED HOLE."
+  ],
+  "size": 62,
+  "hero": "tbm-slurry",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": -62,
+  "camEl": 14
+ },
+ {
+  "id": "5.04",
+  "p": "P05",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE FACE MUST BE MANAGED",
+  "nodes": [
+   "PRESSURE AT THE FACE",
+   {
+    "t": "MUST BE CAREFULLY MANAGED",
+    "hot": true
+   },
+   "THE GROUND STAYS STABLE"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "5.05",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "ON THE MUMBAI MACHINES: PRESSURISED SLURRY",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "cut": [
+   0.05,
+   0.5
+  ],
+  "callouts": [
+   {
+    "fx": 0.3,
+    "fy": 0.5,
+    "t": "PRESSURISED SLURRY"
+   },
+   {
+    "fx": 0.1,
+    "fy": 0.5,
+    "t": "THE EXCAVATION FACE"
+   }
+  ],
+  "camAz": -62,
+  "camEl": 14
+ },
+ {
+  "id": "5.06",
+  "p": "P05",
+  "w": 1,
+  "tpl": "flow",
+  "title": "SLURRY DOES THE JOB",
+  "nodes": [
+   "SLURRY UNDER PRESSURE",
+   {
+    "t": "HOLDS THE FACE STEADY",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "5.07",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "PRESSURISED SLURRY",
+   "DOES THAT JOB."
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "6.01",
+  "p": "P06",
+  "w": 1.2,
+  "sc": "SC.6 · IDEA 3 · BALANCE",
+  "tpl": "figure",
+  "title": "A HAND AGAINST A DOOR",
+  "pose": "push",
+  "fig2": {
+   "pose": "push",
+   "x": 1380
+  },
+  "figX": 560,
+  "props": [
+   {
+    "prop": "door",
+    "x": 970,
+    "scale": 4.4
+   }
+  ],
+  "propOpts": {
+   "push": 1
+  },
+  "callouts": [
+   {
+    "t": "SOMEONE PUSHES FROM THE OTHER SIDE",
+    "prop": 0,
+    "dy": -120
+   }
+  ]
+ },
+ {
+  "id": "6.02",
+  "p": "P06",
+  "w": 1,
+  "tpl": "flow",
+  "title": "WHEN THE FORCES ARE UNBALANCED",
+  "nodes": [
+   "OPPOSING FORCES",
+   {
+    "t": "BADLY BALANCED",
+    "hot": true
+   },
+   "THE DOOR MOVES"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "6.03",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "city-slice",
+  "title": "IN TUNNELLING THE GROUND CAN SHIFT",
+  "tag": "EXAGGERATED, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.25,
+    "t": "THE GROUND ABOVE CAN SHIFT"
+   }
+  ],
+  "camAz": -22
+ },
+ {
+  "id": "6.04",
+  "p": "P06",
+  "w": 1,
+  "tpl": "flow",
+  "title": "ENGINEERS MONITOR CONTINUOUSLY",
+  "nodes": [
+   "PRESSURE",
+   "MOVEMENT",
+   "SOIL OR ROCK"
+  ],
+  "layout": "row",
+  "links": []
+ },
+ {
+  "id": "6.05",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "ENGINEERS MONITOR",
+   "PRESSURE, MOVEMENT",
+   "AND THE GROUND."
+  ],
+  "hero": "tbm-slurry",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": -62,
+  "camEl": 14
+ },
+ {
+  "id": "6.06",
+  "p": "P06",
+  "w": 1,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "CONTINUOUSLY."
+  ],
+  "sub": "PRESSURE · MOVEMENT · THE SOIL OR ROCK",
+  "size": 120,
+  "align": "center"
+ },
+ {
+  "id": "7.01",
+  "p": "P07",
+  "w": 1.1,
+  "sc": "SC.7 · IDEA 4 · THE LINING",
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "NOW LOOK BEHIND THE CUTTERHEAD",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.85,
+    "fy": 0.5,
+    "t": "SEGMENT ERECTOR"
+   }
+  ],
+  "camAz": -62,
+  "camEl": 14
+ },
+ {
+  "id": "7.02",
+  "p": "P07",
+  "w": 1.1,
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "PRECAST CONCRETE SEGMENTS",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "explode": {
+   "at": 0.2,
+   "dur": 0.4,
+   "amt": 0.6
+  },
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "SEGMENTS ARE ASSEMBLED INTO RINGS"
+   }
+  ],
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "7.03",
+  "p": "P07",
+  "w": 1,
+  "tpl": "flow",
+  "title": "RINGS BECOME THE TUNNEL LINING",
+  "nodes": [
+   "SEGMENTS",
+   {
+    "t": "ASSEMBLED INTO RINGS",
+    "hot": true
+   },
+   "THE TUNNEL LINING"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "7.04",
+  "p": "P07",
+  "w": 1.4,
+  "k": "number",
+  "tpl": "number",
+  "title": "THE LINING OF THE MUMBAI TUNNEL",
+  "value": "7,700",
+  "unit": "TUNNEL RINGS",
+  "note": "EACH RING WEIGHS ABOUT 100 TONNES",
+  "chain": "77,000 SEGMENTS FORM 7,700 RINGS",
+  "source": "PIB, RAILWAYS"
+ },
+ {
+  "id": "7.05",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "CONSTRUCT THE WALLS",
+   "OF A CORRIDOR RIGHT AFTER",
+   "CARVING OUT THE SPACE."
+  ],
+  "size": 60,
+  "hero": "tbm-slurry",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "7.06",
+  "p": "P07",
+  "w": 1.2,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "NOT JUST DIGGING A HOLE.",
+   "HELPING CREATE",
+   "A SUPPORTED PASSAGE."
+  ],
+  "size": 66,
+  "align": "center"
+ },
+ {
+  "id": "8.01",
+  "p": "P08",
+  "w": 1,
+  "sc": "SC.8 · THE MUMBAI TUNNEL",
+  "tpl": "timeline",
+  "title": "MUMBAI TO AHMEDABAD BULLET TRAIN",
+  "items": [
+   {
+    "t": "JULY 2026",
+    "sub": "THE RAILWAY MINISTRY REPORTED A SECOND TBM STARTING WORK",
+    "hot": true,
+    "at": 0.5,
+    "size": 96
+   }
+  ]
+ },
+ {
+  "id": "8.02",
+  "p": "P08",
+  "w": 1.3,
+  "tpl": "route",
+  "title": "THE TEN KILOMETRE STRETCH",
+  "pts": [
+   {
+    "t": "SAWLI",
+    "x": 0
+   },
+   {
+    "t": "VIKHROLI",
+    "x": 1
+   }
+  ],
+  "segs": [
+   {
+    "from": 0.3,
+    "to": 1,
+    "t": "7 KM UNDER THANE CREEK",
+    "hot": true
+   }
+  ],
+  "source": "PIB, RAILWAYS, 18 JUL 2026"
+ },
+ {
+  "id": "8.03",
+  "p": "P08",
+  "w": 1.4,
+  "k": "number",
+  "tpl": "number",
+  "title": "THE HONEST NUMBER",
+  "value": "7 KM",
+  "unit": "OF THE 10 KM STRETCH RUN UNDER THANE CREEK",
+  "note": "INDIA'S FIRST UNDERSEA TUNNEL FOR ANY RAIL CORRIDOR",
+  "source": "PIB, 18 JUL 2026"
+ },
+ {
+  "id": "8.04",
+  "p": "P08",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "THE SECOND MACHINE STARTS WORK",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.5,
+    "t": "TUNNELLING BEGINS"
+   }
+  ],
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "8.05",
+  "p": "P08",
+  "w": 1.1,
+  "tpl": "statement",
+  "lines": [
+   "THE SCALE IS IMPRESSIVE.",
+   "THE MORE INTERESTING FACT",
+   "IS THE COORDINATION."
+  ],
+  "size": 62,
+  "align": "center"
+ },
+ {
+  "id": "8.06",
+  "p": "P08",
+  "w": 1.4,
+  "tpl": "flow",
+  "title": "ALL HAVE TO WORK TOGETHER",
+  "nodes": [
+   "COORDINATION",
+   "GEOLOGY",
+   "MACHINE CONTROL",
+   "SURVEYING",
+   "SEGMENTS",
+   "TRANSPORT AND SAFETY"
+  ],
+  "layout": "radial",
+  "links": "star"
+ },
+ {
+  "id": "8.07",
+  "p": "P08",
+  "w": 1.1,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "ALL HAVE TO",
+   "WORK TOGETHER."
+  ],
+  "size": 96,
+  "align": "center"
+ },
+ {
+  "id": "9.01",
+  "p": "P09",
+  "w": 1.1,
+  "sc": "SC.9 · WHAT IF",
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "tbm-slurry",
+  "title": "A CUTTERHEAD MEETS DIFFERENT GROUND",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.5,
+    "t": "UNEXPECTEDLY DIFFERENT GROUND"
+   }
+  ],
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "9.02",
+  "p": "P09",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "city-slice",
+  "title": "THE GROUND ABOVE MUST BE PROTECTED",
+  "tag": "EXAGGERATED, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "PROTECT THE GROUND ABOVE"
+   }
+  ],
+  "camAz": -20
+ },
+ {
+  "id": "9.03",
+  "p": "P09",
+  "w": 1.1,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "IT CANNOT SIMPLY PUSH HARDER",
+  "nodes": [
+   "THE MACHINE CANNOT SIMPLY PUSH HARDER",
+   {
+    "t": "IT MUST UNDERSTAND THE CONSEQUENCES",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "9.04",
+  "p": "P09",
+  "w": 1.1,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "OPERATORS RESPOND",
+  "nodes": [
+   "ADJUST THE EXCAVATION",
+   "MONITOR MOVEMENT",
+   "PROTECT THE GROUND ABOVE"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "9.05",
+  "p": "P09",
+  "w": 1.2,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "CONTROL,",
+   "NOT BRUTE FORCE."
+  ],
+  "size": 100,
+  "align": "center"
+ },
+ {
+  "id": "10.01",
+  "p": "P10",
+  "w": 1.1,
+  "sc": "SC.10 · THE NEXT CHALLENGE",
+  "k": "missing",
+  "tpl": "statement",
+  "lines": [
+   "THE NEXT CHALLENGE:",
+   "DEEPEN DOMESTIC CAPABILITY."
+  ],
+  "size": 62,
+  "align": "center"
+ },
+ {
+  "id": "10.02",
+  "p": "P10",
+  "w": 1.4,
+  "k": "missing",
+  "tpl": "flow",
+  "title": "IN HIGH-VALUE MACHINERY",
+  "nodes": [
+   "HIGH-VALUE MACHINERY",
+   "SPECIALISED COMPONENTS",
+   "MANUFACTURING",
+   "MAINTENANCE",
+   "ENGINEERING KNOW-HOW"
+  ],
+  "layout": "grid:3"
+ },
+ {
+  "id": "10.03",
+  "p": "P10",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "city-slice",
+  "title": "THE CITY ABOVE SEES AN ORDINARY ROAD",
+  "tag": "EXAGGERATED, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.2,
+    "t": "AN ORDINARY ROAD"
+   }
+  ],
+  "camAz": 18
+ },
+ {
+  "id": "10.04",
+  "p": "P10",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "BENEATH IT,",
+   "A MACHINE IS NEGOTIATING",
+   "WITH THE EARTH."
+  ],
+  "size": 62,
+  "hero": "tbm-slurry",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 66,
+  "camEl": 14
+ },
+ {
+  "id": "11.01",
+  "p": "P11",
+  "w": 1.1,
+  "sc": "SC.11 · WHAT NEVER MOVES",
+  "tpl": "statement",
+  "lines": [
+   "THE MACHINE MAKES A TUNNEL."
+  ],
+  "sub": "THE INDUSTRY BEHIND IT DETERMINES HOW EASILY THE NEXT ONE CAN BE BUILT.",
+  "size": 66,
+  "align": "center"
+ },
+ {
+  "id": "11.02",
+  "p": "P11",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE NEXT TUNNEL",
+  "nodes": [
+   "BUILT",
+   "REPAIRED",
+   "ADAPTED",
+   "COMPLETED"
+  ],
+  "layout": "row",
+  "links": "chain"
+ },
+ {
+  "id": "11.03",
+  "p": "P11",
+  "w": 1.6,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "THE GREATEST ACHIEVEMENT",
+   {
+    "t": "IS WHAT NEVER MOVES.",
+    "col": "accent"
+   }
+  ],
+  "size": 96,
+  "align": "center"
+ },
+ {
+  "id": "11.04",
+  "p": "P11",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA BUILT IT ANYWAY"
+  ],
+  "sub": "S02 · E06 · THE MACHINE THAT DIGS WITHOUT BRINGING A CITY DOWN",
+  "size": 100,
+  "align": "center"
+ }
+]

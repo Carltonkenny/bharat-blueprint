@@ -65,36 +65,9 @@ export function buildTimeline(episode, passageDurations, opts = {}) {
   const duration = Math.round(t * 30) / 30;
   const bpm = beats.length / (duration / 60);
 
-  // The camera is one continuous track across the film: each beat starts where the
-  // previous one ended, so a move never jumps at a beat boundary.
-  let st = { scale: 1, az: 0, el: 0, dist: 1 };
-  for (const b of beats) {
-    b.camStart = { ...st };
-    const a = b.camAmount == null ? 0.18 : b.camAmount;
-    const n = { ...st };
-    switch (b.cam) {
-      case 'push-in': n.scale = st.scale * (1 + a); break;
-      case 'pull-back': n.scale = st.scale / (1 + a); break;
-      case 'orbit': n.az = st.az + (b.camAz == null ? 30 : b.camAz) * Math.PI / 180; n.el = st.el + (b.camEl == null ? 8 : b.camEl) * Math.PI / 180; break;
-      case 'dolly': n.dist = st.dist / (1 + a); break;
-      default: break;
-    }
-    b.camEnd = n;
-    st = n;
-  }
-
-  // Normalise the track: the camera must stay near its base framing, and the azimuth
-  // must not wind around the whole subject over a long film.
-  const allScales = beats.flatMap((b) => [b.camStart.scale, b.camEnd.scale]);
-  const maxScale = Math.max(...allScales, 1);
-  const allAz = beats.flatMap((b) => [b.camStart.az, b.camEnd.az]);
-  const minAz = Math.min(...allAz), maxAz = Math.max(...allAz);
-  const azSpan = (maxAz - minAz) || 1;
-  const mapAz = (a) => -0.55 + ((a - minAz) / azSpan) * 1.1;
-  for (const b of beats) {
-    b.camStart.scale /= maxScale; b.camEnd.scale /= maxScale;
-    b.camStart.az = mapAz(b.camStart.az); b.camEnd.az = mapAz(b.camEnd.az);
-  }
+  // Round 2: no accumulated camera track. Every beat carries its own explicit camera
+  // (cam, camAz, camEl, camAmount); the old track added +el on every orbit beat and the
+  // camera drifted to a steep top-down view by mid-film.
 
   return { duration, beats, clampReport, bpm: +bpm.toFixed(2), leadIn: LEAD_IN };
 }

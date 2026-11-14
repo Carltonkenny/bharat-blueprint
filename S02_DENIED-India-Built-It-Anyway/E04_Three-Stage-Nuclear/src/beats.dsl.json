@@ -1,0 +1,955 @@
+[
+ {
+  "id": "1.01",
+  "p": "P01",
+  "w": 1.1,
+  "sc": "SC.1 · THE BRIDGE",
+  "k": "hook",
+  "tpl": "timeline",
+  "title": "KALPAKKAM, TAMIL NADU",
+  "items": [
+   {
+    "t": "6 APRIL 2026",
+    "sub": "A REACTOR STARTED A CONTROLLED CHAIN REACTION",
+    "hot": true,
+    "at": 0.5,
+    "size": 92
+   }
+  ]
+ },
+ {
+  "id": "1.02",
+  "p": "P01",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "MORE THAN ELECTRICITY",
+  "nodes": [
+   "A POWER STATION",
+   {
+    "t": "MORE THAN ELECTRICITY",
+    "hot": true
+   },
+   "A BRIDGE TO THE NEXT GENERATION"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "1.03",
+  "p": "P01",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "loop-heat-to-power",
+  "title": "IT MAKES ELECTRICITY",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.5,
+    "t": "HEAT"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "STEAM"
+   },
+   {
+    "fx": 0.85,
+    "fy": 0.5,
+    "t": "TURBINE AND GENERATOR"
+   }
+  ],
+  "camAz": 20
+ },
+ {
+  "id": "1.04",
+  "p": "P01",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "BUT ITS REAL JOB IS TO PREPARE THE NEXT ONE",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.8,
+    "fy": 0.15,
+    "t": "THE NEXT GENERATION"
+   }
+  ],
+  "camAz": -22
+ },
+ {
+  "id": "1.05",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "A BRIDGE TO THE REACTORS",
+   "OF THE NEXT GENERATION."
+  ],
+  "size": 62,
+  "hero": "staged-platform",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN"
+ },
+ {
+  "id": "1.06",
+  "p": "P01",
+  "w": 1.6,
+  "k": "hook",
+  "tpl": "statement",
+  "lines": [
+   "SO WHAT IS A POWER STATION FOR,",
+   "IF ITS REAL JOB IS",
+   "TO PREPARE THE NEXT ONE?"
+  ],
+  "size": 68,
+  "align": "center"
+ },
+ {
+  "id": "2.01",
+  "p": "P02",
+  "w": 1,
+  "sc": "SC.2 · THE PROGRAMME",
+  "tpl": "statement",
+  "lines": [
+   "THE UNUSUAL AMBITION BEHIND",
+   "INDIA'S THREE-STAGE",
+   "NUCLEAR POWER PROGRAMME."
+  ],
+  "size": 58,
+  "hero": "staged-platform",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN"
+ },
+ {
+  "id": "2.02",
+  "p": "P02",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "THE THREE-STAGE PROGRAMME",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.85,
+    "t": "STAGE 1"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "STAGE 2"
+   },
+   {
+    "fx": 0.85,
+    "fy": 0.15,
+    "t": "STAGE 3"
+   }
+  ],
+  "camAz": 24
+ },
+ {
+  "id": "2.03",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE QUESTION WAS NEVER SIMPLY",
+   "HOW TO BUILD A REACTOR."
+  ],
+  "size": 58,
+  "align": "center"
+ },
+ {
+  "id": "2.04",
+  "p": "P02",
+  "w": 1.4,
+  "tpl": "flow",
+  "title": "THREE GOALS",
+  "nodes": [
+   "MAKE BETTER USE OF NUCLEAR RESOURCES",
+   "DEVELOP DIFFICULT TECHNOLOGIES AT HOME",
+   "CREATE OPTIONS FOR THE FUTURE"
+  ],
+  "layout": "row",
+  "links": []
+ },
+ {
+  "id": "2.05",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "LONG-TERM",
+   "ENERGY SECURITY."
+  ],
+  "size": 96,
+  "align": "center"
+ },
+ {
+  "id": "3.01",
+  "p": "P03",
+  "w": 1,
+  "sc": "SC.3 · THE CHALLENGE",
+  "tpl": "statement",
+  "lines": [
+   "THE ENGINEERING",
+   "CHALLENGE WAS REAL."
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "3.02",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "NUCLEAR FUEL IS NOT",
+   "A MAGIC STONE."
+  ],
+  "hero": "loop-heat-to-power",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN"
+ },
+ {
+  "id": "3.03",
+  "p": "P03",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IT DOES NOT PRODUCE",
+   "UNLIMITED POWER."
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "4.01",
+  "p": "P04",
+  "w": 1.2,
+  "sc": "SC.4 · IDEA 1 · HEAT",
+  "tpl": "figure",
+  "title": "START WITH A CAMPFIRE",
+  "pose": "reach",
+  "figX": 620,
+  "props": [
+   {
+    "prop": "log",
+    "x": 1130,
+    "scale": 8
+   }
+  ],
+  "propOpts": {
+   "fire": 1
+  },
+  "callouts": [
+   {
+    "t": "A LOG RELEASES STORED CHEMICAL ENERGY",
+    "prop": 0,
+    "dy": -100
+   }
+  ]
+ },
+ {
+  "id": "4.02",
+  "p": "P04",
+  "w": 1,
+  "tpl": "flow",
+  "title": "A LOG, AND A NUCLEUS",
+  "nodes": [
+   "A LOG BURNS",
+   {
+    "t": "CHEMICAL ENERGY RELEASED",
+    "hot": true
+   },
+   "HEAT"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.03",
+  "p": "P04",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "A NUCLEAR REACTOR",
+  "nodes": [
+   "A NUCLEAR REACTOR",
+   {
+    "t": "CONTROLLED CHANGES INSIDE ATOMIC NUCLEI",
+    "hot": true
+   },
+   "HEAT"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.04",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "loop-heat-to-power",
+  "title": "THE HEAT BECOMES ELECTRICITY",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.5,
+    "t": "HEAT"
+   },
+   {
+    "fx": 0.5,
+    "fy": 0.25,
+    "t": "STEAM"
+   },
+   {
+    "fx": 0.85,
+    "fy": 0.5,
+    "t": "TURBINE"
+   }
+  ],
+  "flows": [
+   {
+    "a": [
+     0.1,
+     0.6
+    ],
+    "b": [
+     0.9,
+     0.6
+    ]
+   }
+  ],
+  "camAz": -24
+ },
+ {
+  "id": "4.05",
+  "p": "P04",
+  "w": 1,
+  "tpl": "flow",
+  "title": "FROM HEAT TO POWER",
+  "nodes": [
+   "HEAT",
+   "STEAM",
+   "TURBINE",
+   "ELECTRICITY"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.06",
+  "p": "P04",
+  "w": 1.3,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "THE TURBINE IS FAMILIAR.",
+   "THE SOURCE OF HEAT IS NOT."
+  ],
+  "size": 64,
+  "hero": "loop-heat-to-power",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN"
+ },
+ {
+  "id": "5.01",
+  "p": "P05",
+  "w": 1.2,
+  "sc": "SC.5 · IDEA 2 · THE FARM",
+  "tpl": "figure",
+  "title": "A FARM THAT ALSO PRODUCES SEEDS",
+  "pose": "carry",
+  "figX": 560,
+  "props": [
+   {
+    "prop": "fieldRows",
+    "x": 1080,
+    "scale": 5.5
+   },
+   {
+    "prop": "seedBag",
+    "x": 1480,
+    "scale": 6.5
+   }
+  ],
+  "callouts": [
+   {
+    "t": "SEEDS FOR THE NEXT SEASON",
+    "prop": 1,
+    "dy": -30
+   }
+  ]
+ },
+ {
+  "id": "5.02",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "ONLY AN ANALOGY, BUT IT",
+   "CAPTURES THE IDEA BEHIND",
+   "A BREEDER REACTOR."
+  ],
+  "size": 56,
+  "align": "center"
+ },
+ {
+  "id": "5.03",
+  "p": "P05",
+  "w": 1.1,
+  "tpl": "flow",
+  "title": "A BREEDER REACTOR",
+  "nodes": [
+   "THE SYSTEM OPERATES",
+   {
+    "t": "CONVERTS SOME MATERIAL",
+    "hot": true
+   },
+   "NEW USABLE NUCLEAR FUEL"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "5.04",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "FUEL FOR THE NEXT SEASON",
+  "nodes": [
+   "FUEL",
+   "POWER",
+   {
+    "t": "NEW FUEL",
+    "hot": true
+   }
+  ],
+  "links": "cycle",
+  "layout": "tri"
+ },
+ {
+  "id": "5.05",
+  "p": "P05",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "NEW FUEL,",
+   "WHILE IT OPERATES."
+  ],
+  "size": 88,
+  "align": "center"
+ },
+ {
+  "id": "6.01",
+  "p": "P06",
+  "w": 1,
+  "sc": "SC.6 · NOT FROM NOTHING",
+  "tpl": "statement",
+  "lines": [
+   "IT DOES NOT CREATE",
+   "ENERGY FROM NOTHING."
+  ],
+  "size": 80,
+  "align": "center"
+ },
+ {
+  "id": "6.02",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "THE FUEL CYCLE",
+  "nodes": [
+   "FUEL CYCLE",
+   "BETTER USE OF MATERIAL",
+   "LESS LEFT UNDERUSED"
+  ],
+  "links": "cycle",
+  "layout": "tri"
+ },
+ {
+  "id": "6.03",
+  "p": "P06",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "MATERIAL THAT WOULD",
+   "OTHERWISE REMAIN",
+   "UNDERUSED."
+  ],
+  "hero": "loop-heat-to-power",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN"
+ },
+ {
+  "id": "6.04",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "FAR MORE COMPLEX THAN THE FARM",
+  "nodes": [
+   "THE SCIENCE",
+   "THE MATERIALS",
+   "THE SAFETY SYSTEMS"
+  ],
+  "layout": "row",
+  "links": []
+ },
+ {
+  "id": "6.05",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "FAR MORE COMPLEX THAN",
+   "THE FARMING ANALOGY."
+  ],
+  "size": 66,
+  "align": "center"
+ },
+ {
+  "id": "7.01",
+  "p": "P07",
+  "w": 1.1,
+  "sc": "SC.7 · THE STAGES",
+  "tpl": "statement",
+  "lines": [
+   "A LONG-TERM PLAN CONNECTING",
+   "DIFFERENT REACTOR TECHNOLOGIES",
+   "IN STAGES."
+  ],
+  "size": 56,
+  "hero": "staged-platform",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN"
+ },
+ {
+  "id": "7.02",
+  "p": "P07",
+  "w": 1.1,
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "STAGE 1: PRESSURISED HEAVY-WATER REACTORS",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.85,
+    "t": "EXPERIENCE ESTABLISHED"
+   }
+  ],
+  "camAz": 26
+ },
+ {
+  "id": "7.03",
+  "p": "P07",
+  "w": 1.1,
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "STAGE 2: FAST BREEDER TECHNOLOGY",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "THE NEXT STAGE"
+   }
+  ],
+  "camAz": -26
+ },
+ {
+  "id": "7.04",
+  "p": "P07",
+  "w": 1.1,
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "STAGE 3: THORIUM UTILISATION",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.85,
+    "fy": 0.15,
+    "t": "THE EVENTUAL AMBITION"
+   }
+  ],
+  "camAz": 20
+ },
+ {
+  "id": "7.05",
+  "p": "P07",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "AND THIS IS WHERE",
+   "THE STORY BECOMES",
+   "TANGIBLE."
+  ],
+  "size": 72,
+  "align": "center"
+ },
+ {
+  "id": "8.01",
+  "p": "P08",
+  "w": 1,
+  "sc": "SC.8 · THE PROTOTYPE",
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "THE PROTOTYPE FAST BREEDER REACTOR",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "INDIGENOUSLY DESIGNED"
+   }
+  ],
+  "camAz": 22
+ },
+ {
+  "id": "8.02",
+  "p": "P08",
+  "w": 1.5,
+  "k": "number",
+  "tpl": "number",
+  "title": "THE HONEST NUMBER",
+  "value": "500",
+  "unit": "MEGAWATTS ELECTRIC",
+  "note": "THE PROTOTYPE FAST BREEDER REACTOR",
+  "chain": "INDIGENOUSLY DESIGNED AND BUILT",
+  "source": "PIB, 7 APR 2026"
+ },
+ {
+  "id": "8.03",
+  "p": "P08",
+  "w": 1.1,
+  "tpl": "timeline",
+  "title": "FIRST CRITICALITY",
+  "items": [
+   {
+    "t": "6 APRIL 2026",
+    "sub": "FIRST CRITICALITY",
+    "hot": true,
+    "at": 0.5,
+    "size": 92
+   }
+  ]
+ },
+ {
+  "id": "8.04",
+  "p": "P08",
+  "w": 1,
+  "tpl": "flow",
+  "title": "WHAT CRITICALITY MEANS",
+  "nodes": [
+   "FIRST CRITICALITY",
+   {
+    "t": "A CONTROLLED CHAIN REACTION",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    "MEANS"
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "8.05",
+  "p": "P08",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "ACCORDING TO THE DEPARTMENT",
+   "OF ATOMIC ENERGY: ENTRY INTO",
+   "THE SECOND STAGE."
+  ],
+  "size": 56,
+  "hero": "staged-platform",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN"
+ },
+ {
+  "id": "8.06",
+  "p": "P08",
+  "w": 1.3,
+  "tpl": "flow",
+  "title": "WHAT IT MEANS, AND WHAT IT DOES NOT",
+  "nodes": [
+   {
+    "t": "FIRST CRITICALITY",
+    "sub": "A CONTROLLED CHAIN REACTION IS ESTABLISHED"
+   },
+   {
+    "t": "NOT YET",
+    "sub": "EVERY STEP FOR SUSTAINED COMMERCIAL ELECTRICITY",
+    "hot": true
+   }
+  ],
+  "layout": "two"
+ },
+ {
+  "id": "8.07",
+  "p": "P08",
+  "w": 1.2,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "IT DOES NOT MEAN",
+   "EVERY STEP IS COMPLETE."
+  ],
+  "size": 78,
+  "align": "center"
+ },
+ {
+  "id": "9.01",
+  "p": "P09",
+  "w": 1.2,
+  "sc": "SC.9 · WHAT IF",
+  "k": "fiction",
+  "tpl": "figure",
+  "title": "AN ENERGY PLANNER IMAGINES A FUTURE FLEET",
+  "pose": "point",
+  "figX": 600,
+  "props": [
+   {
+    "prop": "desk",
+    "x": 1080,
+    "y": 690,
+    "scale": 3.2
+   },
+   {
+    "prop": "papers",
+    "x": 1020,
+    "y": 690,
+    "scale": 4,
+    "opts": {
+     "n": 4
+    }
+   }
+  ],
+  "callouts": [
+   {
+    "t": "A FUTURE FLEET OF REACTORS",
+    "prop": 1,
+    "dy": -60
+   }
+  ]
+ },
+ {
+  "id": "9.02",
+  "p": "P09",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "THE FIRST PLANT IS ONLY THE BEGINNING",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.15,
+    "fy": 0.85,
+    "t": "THE FIRST PLANT"
+   }
+  ],
+  "camAz": -24
+ },
+ {
+  "id": "9.03",
+  "p": "P09",
+  "w": 1.4,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "THE PLANNER MUST ALSO ACCOUNT FOR",
+  "nodes": [
+   "FUEL PREPARATION",
+   "MAINTENANCE",
+   "REGULATION",
+   "WASTE MANAGEMENT",
+   "THE NEXT GENERATION OF FACILITIES"
+  ],
+  "layout": "grid:3"
+ },
+ {
+  "id": "9.04",
+  "p": "P09",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "THE CHALLENGE IS NOT",
+   "ONE MACHINE."
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "9.05",
+  "p": "P09",
+  "w": 1.2,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "IT IS AN ENTIRE SYSTEM",
+   "ACROSS DECADES."
+  ],
+  "size": 84,
+  "align": "center"
+ },
+ {
+  "id": "10.01",
+  "p": "P10",
+  "w": 1,
+  "sc": "SC.10 · MORE WORK AHEAD",
+  "k": "missing",
+  "tpl": "statement",
+  "lines": [
+   "THERE IS MORE",
+   "WORK AHEAD."
+  ],
+  "size": 90,
+  "hero": "staged-platform",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN"
+ },
+ {
+  "id": "10.02",
+  "p": "P10",
+  "w": 1.2,
+  "k": "missing",
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "THE THIRD STAGE: A LONG-TERM OBJECTIVE",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "callouts": [
+   {
+    "fx": 0.85,
+    "fy": 0.15,
+    "t": "NOT YET A FULLY DEPLOYED SYSTEM"
+   }
+  ],
+  "camAz": 22
+ },
+ {
+  "id": "10.03",
+  "p": "P10",
+  "w": 1.4,
+  "k": "missing",
+  "tpl": "flow",
+  "title": "ESSENTIAL QUESTIONS REMAIN",
+  "nodes": [
+   "SAFE OPERATION",
+   "FUEL-CYCLE INFRASTRUCTURE",
+   "COST",
+   "SCALE"
+  ],
+  "layout": "grid:2"
+ },
+ {
+  "id": "10.04",
+  "p": "P10",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "THE WORLD MAY JUDGE A PROGRAMME",
+   "BY A SINGLE CEREMONY."
+  ],
+  "size": 56,
+  "align": "center"
+ },
+ {
+  "id": "10.05",
+  "p": "P10",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "ENGINEERS JUDGE BY",
+  "nodes": [
+   "WHAT WORKS",
+   "WHAT IS SAFE",
+   "WHAT CAN BE REPEATED"
+  ],
+  "layout": "row",
+  "links": []
+ },
+ {
+  "id": "11.01",
+  "p": "P11",
+  "w": 1.2,
+  "sc": "SC.11 · THE NEXT ROAD",
+  "tpl": "statement",
+  "lines": [
+   "THE ACHIEVEMENT DESERVES RESPECT",
+   "BECAUSE THE REMAINING WORK",
+   "IS DIFFICULT."
+  ],
+  "size": 54,
+  "align": "center"
+ },
+ {
+  "id": "11.02",
+  "p": "P11",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "staged-platform",
+  "title": "A MILESTONE IS NOT THE END OF THE ROAD",
+  "tag": "SCHEMATIC, NOT A REACTOR DESIGN",
+  "flows": [
+   {
+    "a": [
+     0.1,
+     0.9
+    ],
+    "b": [
+     0.95,
+     0.05
+    ]
+   }
+  ],
+  "callouts": [
+   {
+    "fx": 0.9,
+    "fy": 0.1,
+    "t": "WHERE THE NEXT ROAD BEGINS"
+   }
+  ],
+  "camAz": 18
+ },
+ {
+  "id": "11.03",
+  "p": "P11",
+  "w": 1.1,
+  "tpl": "statement",
+  "lines": [
+   "IT TELLS ENGINEERS",
+   "WHERE THE NEXT ROAD",
+   "BEGINS."
+  ],
+  "size": 78,
+  "align": "center"
+ },
+ {
+  "id": "11.04",
+  "p": "P11",
+  "w": 1.6,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "SOME VICTORIES TAKE",
+   {
+    "t": "GENERATIONS TO PROVE.",
+    "col": "accent"
+   }
+  ],
+  "size": 96,
+  "align": "center"
+ },
+ {
+  "id": "11.05",
+  "p": "P11",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA BUILT IT ANYWAY"
+  ],
+  "sub": "S02 · E04 · THE REACTOR BUILT FOR THE NEXT GENERATION",
+  "size": 100,
+  "align": "center"
+ }
+]

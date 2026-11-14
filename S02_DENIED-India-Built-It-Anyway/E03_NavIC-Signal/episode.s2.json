@@ -1,2329 +1,2809 @@
 {
-  "id": "E03",
-  "title": "Who Controls the Signal That Finds You?",
-  "world": "orbit",
-  "fps": 30,
-  "seed": "s02",
-  "passages": [
+ "id": "E03",
+ "title": "Who Controls the Signal That Finds You?",
+ "world": "orbit",
+ "fps": 30,
+ "seed": "s02",
+ "passages": [
+  {
+   "id": "P01",
+   "text": "Look at the blue dot on your phone. It knows where you are. It can guide a driver through an unfamiliar city. It can help a ship approach a port. It can keep a clock in a network synchronised.",
+   "estSec": 21.7,
+   "flag": "",
+   "words": 39
+  },
+  {
+   "id": "P02",
+   "text": "But the dot raises a question most people never ask. Who owns the signal that makes it possible?",
+   "estSec": 36.1,
+   "flag": "",
+   "words": 65
+  },
+  {
+   "id": "P03",
+   "text": "India has said the concern plainly: civilian signals from foreign navigation systems can potentially be degraded or denied. That does not prove every dramatic story told about a past shutdown. It explains why an independent system matters.",
+   "estSec": 20.6,
+   "flag": "",
+   "words": 37
+  },
+  {
+   "id": "P04",
+   "text": "So India developed NavIC, Navigation with Indian Constellation, a regional satellite navigation system.",
+   "estSec": 38.3,
+   "flag": "",
+   "words": 69
+  },
+  {
+   "id": "P05",
+   "text": "The satellite broadcasts its position and a precise time reference. Your receiver compares that time with the arrival of the signal. The difference helps estimate distance. But one distance is not enough. It tells you that you could be somewhere on a huge imaginary sphere around the satellite.",
+   "estSec": 26.7,
+   "flag": "",
+   "words": 48
+  },
+  {
+   "id": "P06",
+   "text": "Now add another satellite. Then another. Their distance measurements narrow the possible locations. The receiver's clock is not as precise as the satellites' clocks. So more measurements are needed, to solve for position and clock error together.",
+   "estSec": 20.6,
+   "flag": "",
+   "words": 37
+  },
+  {
+   "id": "P07",
+   "text": "Navigation is also a story about time.",
+   "estSec": 25,
+   "flag": "",
+   "words": 45
+  },
+  {
+   "id": "P08",
+   "text": "NavIC gave India a regional navigation architecture under its own control. Its signals can also work alongside other global navigation systems in compatible receivers.",
+   "estSec": 51.1,
+   "flag": "",
+   "words": 92
+  },
+  {
+   "id": "P09",
+   "text": "Here is a fictional scenario. A fishing vessel receives signals from several navigation systems. One signal becomes unreliable. A compatible receiver can compare the remaining measurements, but only if enough usable signals are available. Resilience comes from both independence and redundancy.",
+   "estSec": 22.8,
+   "flag": "FICTIONAL SCENARIO",
+   "words": 41
+  },
+  {
+   "id": "P10",
+   "text": "The blue dot looked simple. Behind it was a network of clocks, orbits and decisions.",
+   "estSec": 28.3,
+   "flag": "",
+   "words": 51
+  }
+ ],
+ "beats": [
+  {
+   "id": "1.01",
+   "p": "P01",
+   "w": 1,
+   "layer": "H",
+   "kind": "hook",
+   "scene": [
     {
-      "id": "P01",
-      "text": "Look at the blue dot on your phone. It knows where you are. It can guide a driver through an unfamiliar city. It can help a ship approach a port. It can keep a clock in a network synchronised.",
-      "estSec": 21.7,
-      "flag": "",
-      "words": 39
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "phone-dot",
+     "title": "LOOK AT THE BLUE DOT",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.45,
+       "t": "IT KNOWS WHERE YOU ARE"
+      }
+     ]
     },
     {
-      "id": "P02",
-      "text": "But the dot raises a question most people never ask. Who owns the signal that makes it possible?",
-      "estSec": 36.1,
-      "flag": "",
-      "words": 65
-    },
-    {
-      "id": "P03",
-      "text": "India has said the concern plainly: civilian signals from foreign navigation systems can potentially be degraded or denied. That does not prove every dramatic story told about a past shutdown. It explains why an independent system matters.",
-      "estSec": 20.6,
-      "flag": "",
-      "words": 37
-    },
-    {
-      "id": "P04",
-      "text": "So India developed NavIC, Navigation with Indian Constellation, a regional satellite navigation system.",
-      "estSec": 38.3,
-      "flag": "",
-      "words": 69
-    },
-    {
-      "id": "P05",
-      "text": "The satellite broadcasts its position and a precise time reference. Your receiver compares that time with the arrival of the signal. The difference helps estimate distance. But one distance is not enough. It tells you that you could be somewhere on a huge imaginary sphere around the satellite.",
-      "estSec": 26.7,
-      "flag": "",
-      "words": 48
-    },
-    {
-      "id": "P06",
-      "text": "Now add another satellite. Then another. Their distance measurements narrow the possible locations. The receiver's clock is not as precise as the satellites' clocks. So more measurements are needed, to solve for position and clock error together.",
-      "estSec": 20.6,
-      "flag": "",
-      "words": 37
-    },
-    {
-      "id": "P07",
-      "text": "Navigation is also a story about time.",
-      "estSec": 25,
-      "flag": "",
-      "words": 45
-    },
-    {
-      "id": "P08",
-      "text": "NavIC gave India a regional navigation architecture under its own control. Its signals can also work alongside other global navigation systems in compatible receivers.",
-      "estSec": 51.1,
-      "flag": "",
-      "words": 92
-    },
-    {
-      "id": "P09",
-      "text": "Here is a fictional scenario. A fishing vessel receives signals from several navigation systems. One signal becomes unreliable. A compatible receiver can compare the remaining measurements, but only if enough usable signals are available. Resilience comes from both independence and redundancy.",
-      "estSec": 22.8,
-      "flag": "FICTIONAL SCENARIO",
-      "words": 41
-    },
-    {
-      "id": "P10",
-      "text": "The blue dot looked simple. Behind it was a network of clocks, orbits and decisions.",
-      "estSec": 28.3,
-      "flag": "",
-      "words": 51
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "phone-dot",
+     "title": "LOOK AT THE BLUE DOT",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.45,
+       "t": "IT KNOWS WHERE YOU ARE"
+      }
+     ]
     }
-  ],
-  "beats": [
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 14,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE BLUE DOT"
+  },
+  {
+   "id": "1.02",
+   "p": "P01",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
     {
-      "id": "1.01",
-      "p": "P01",
-      "layer": "B",
-      "kind": "hook",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 560,
-              "y": 240,
-              "w": 800,
-              "h": 560,
-              "w2": 1.6,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "line",
-              "x1": 620,
-              "y1": 380,
-              "x2": 1300,
-              "y2": 380,
-              "w2": 1.4,
-              "col": "#8fe4ff",
-              "at": 0.2,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 620,
-              "y1": 660,
-              "x2": 1300,
-              "y2": 660,
-              "w2": 1.4,
-              "col": "#8fe4ff",
-              "at": 0.25,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 760,
-              "y": 380,
-              "r": 16,
-              "w2": 2.6,
-              "col": "#ffcf5c",
-              "at": 0.4,
-              "dur": 0.25
-            }
-          ]
-        },
-        {
-          "op": "text",
-          "text": "?",
-          "x": 760,
-          "y": 396,
-          "size": 44,
-          "col": "#ffcf5c",
-          "pulse": true,
-          "rate": 2.4
-        }
-      ],
-      "labels": [],
-      "notes": "blue location dot on a dark map, pulses",
-      "cam": "hold"
+     "op": "cw",
+     "tpl": "flow",
+     "title": "WHAT THE DOT DOES",
+     "nodes": [
+      {
+       "t": "THE BLUE DOT",
+       "hot": true
+      },
+      {
+       "t": "GUIDES A DRIVER",
+       "sub": "UNFAMILIAR CITY"
+      },
+      {
+       "t": "HELPS A SHIP",
+       "sub": "APPROACH A PORT"
+      },
+      {
+       "t": "KEEPS A CLOCK",
+       "sub": "IN A NETWORK SYNCHRONISED"
+      }
+     ],
+     "layout": "radial",
+     "links": "star"
     },
     {
-      "id": "1.02",
-      "p": "P01",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 560,
-              "y": 240,
-              "w": 800,
-              "h": 560,
-              "w2": 1.6,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "line",
-              "x1": 620,
-              "y1": 380,
-              "x2": 1300,
-              "y2": 380,
-              "w2": 1.4,
-              "col": "#8fe4ff",
-              "at": 0.15,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 900,
-              "y": 380,
-              "r": 16,
-              "w2": 2.6,
-              "col": "#ffcf5c",
-              "at": 0.45,
-              "dur": 0.2
-            },
-            {
-              "k": "circle",
-              "x": 760,
-              "y": 380,
-              "r": 9,
-              "w2": 1.6,
-              "col": "#8fe4ff",
-              "at": 0.1,
-              "dur": 0.2
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "dot moves along a road (driver)",
-      "cam": "hold"
-    },
-    {
-      "id": "1.03",
-      "p": "P01",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 560,
-              "y": 240,
-              "w": 800,
-              "h": 560,
-              "w2": 1.6,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "line",
-              "x1": 620,
-              "y1": 660,
-              "x2": 1300,
-              "y2": 660,
-              "w2": 1.4,
-              "col": "#8fe4ff",
-              "at": 0.15,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 1220,
-              "y": 660,
-              "r": 16,
-              "w2": 2.6,
-              "col": "#ffcf5c",
-              "at": 0.4,
-              "dur": 0.2
-            }
-          ]
-        },
-        {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "stand",
-              "x": 980,
-              "y": 700,
-              "scale": 2.2,
-              "at": 0.3,
-              "dur": 0.3
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "dot approaches a harbour (ship)",
-      "cam": "hold"
-    },
-    {
-      "id": "1.04",
-      "p": "P01",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 520,
-              "r": 170,
-              "w2": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.45
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 520,
-              "x2": 960,
-              "y2": 410,
-              "w2": 3,
-              "col": "#ffcf5c",
-              "at": 0.5,
-              "dur": 0.2
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 520,
-              "x2": 1010,
-              "y2": 540,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.5,
-              "dur": 0.2
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "dot becomes a clock face ticking (network time)",
-      "cam": "hold"
-    },
-    {
-      "id": "1.05",
-      "p": "P01",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "text",
-          "text": "KNOWS WHERE YOU ARE",
-          "x": 960,
-          "y": 560,
-          "size": 56,
-          "col": "#ffcf5c"
-        }
-      ],
-      "labels": [],
-      "notes": "text: KNOWS WHERE YOU ARE",
-      "cam": "hold"
-    },
-    {
-      "id": "2.01",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "text",
-          "text": "WHO OWNS THE SIGNAL?",
-          "x": 960,
-          "y": 540,
-          "size": 58
-        }
-      ],
-      "labels": [],
-      "notes": "text: WHO OWNS THE SIGNAL?",
-      "cam": "hold"
-    },
-    {
-      "id": "2.02a",
-      "p": "P02",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.1,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "phone-dot",
-          "scale": 2.2,
-          "pos": [
-            0,
-            260,
-            0
-          ]
-        },
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.2,
-          "count": 3
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  0,
-                  420
-                ],
-                [
-                  0,
-                  180
-                ],
-                [
-                  0,
-                  -120
-                ]
-              ],
-              "r": 9,
-              "speed": 0.5,
-              "col": "#ffcf5c",
-              "at": 0.2,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "camera pulls from the phone up through the sky to a satellite",
-      "cam": "hold"
-    },
-    {
-      "id": "2.02b",
-      "p": "P02",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.1,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "phone-dot",
-          "scale": 2.2,
-          "pos": [
-            0,
-            260,
-            0
-          ]
-        },
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.2,
-          "count": 3
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  0,
-                  420
-                ],
-                [
-                  0,
-                  180
-                ],
-                [
-                  0,
-                  -120
-                ]
-              ],
-              "r": 9,
-              "speed": 0.5,
-              "col": "#ffcf5c",
-              "at": 0.2,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "camera pulls from the phone up through the sky to a satellite",
-      "cam": "hold"
-    },
-    {
-      "id": "2.03a",
-      "p": "P02",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.15,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "phone-dot",
-          "scale": 2.2,
-          "pos": [
-            0,
-            260,
-            0
-          ]
-        },
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.2,
-          "count": 3
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "arrow",
-              "x1": 0,
-              "y1": 420,
-              "x2": 0,
-              "y2": -120,
-              "col": "#ffcf5c",
-              "at": 0.1,
-              "dur": 0.5
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "INVISIBLE",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "signal line from satellite to phone, \"INVISIBLE\" label dims as the line brightens",
-      "cam": "hold"
-    },
-    {
-      "id": "2.03b",
-      "p": "P02",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.15,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "phone-dot",
-          "scale": 2.2,
-          "pos": [
-            0,
-            260,
-            0
-          ]
-        },
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.2,
-          "count": 3
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "arrow",
-              "x1": 0,
-              "y1": 420,
-              "x2": 0,
-              "y2": -120,
-              "col": "#ffcf5c",
-              "at": 0.1,
-              "dur": 0.5
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "INVISIBLE",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "signal line from satellite to phone, \"INVISIBLE\" label dims as the line brightens",
-      "cam": "hold"
-    },
-    {
-      "id": "2.04",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 480,
-              "y": 300,
-              "r": 54,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.1,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 700,
-              "y": 240,
-              "r": 54,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.25,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 480,
-              "y": 300,
-              "r": 54,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.4,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 700,
-              "y": 240,
-              "r": 54,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.55,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "FAR BEYOND YOUR PHONE",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "institutions icons far from the phone: FAR BEYOND YOUR PHONE",
-      "cam": "hold"
-    },
-    {
-      "id": "2.05",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.1,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 700,
-              "x2": 960,
-              "y2": 220,
-              "w": 3,
-              "col": "#ffcf5c",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "line",
-              "x1": 900,
-              "y1": 300,
-              "x2": 1020,
-              "y2": 380,
-              "w": 3.4,
-              "col": "#ffcf5c",
-              "at": 0.35,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 900,
-              "y1": 380,
-              "x2": 1020,
-              "y2": 300,
-              "w": 3.4,
-              "col": "#ffcf5c",
-              "at": 0.35,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "CAPABILITY OUTSIDE YOUR CONTROL",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "a gate icon on the signal line: CAPABILITY OUTSIDE YOUR CONTROL",
-      "cam": "hold"
-    },
-    {
-      "id": "2.06",
-      "p": "P02",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.1,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 700,
-              "x2": 960,
-              "y2": 220,
-              "w": 3,
-              "col": "#ffcf5c",
-              "at": 0.05,
-              "dur": 0.5
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "hold",
-      "cam": "hold"
-    },
-    {
-      "id": "3.01",
-      "p": "P03",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.2,
-      "scene": [
-        {
-          "op": "text",
-          "text": "DEGRADED OR DENIED",
-          "x": 960,
-          "y": 500,
-          "size": 58
-        },
-        {
-          "op": "railLabel",
-          "text": "AS INDIA HAS SAID",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "text: DEGRADED OR DENIED (attribution chip: \"AS INDIA HAS SAID\", pending F09)",
-      "cam": "hold"
-    },
-    {
-      "id": "3.02",
-      "p": "P03",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 700,
-              "x2": 960,
-              "y2": 220,
-              "w": 3,
-              "col": "#ffcf5c",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 620,
-              "x2": 960,
-              "y2": 380,
-              "w": 1.6,
-              "col": "#ffcf5c",
-              "dash": [
-                10,
-                10
-              ],
-              "march": 20,
-              "at": 0.45,
-              "dur": 0.2
-            }
-          ]
-        },
-        {
-          "op": "text",
-          "text": "?",
-          "x": 960,
-          "y": 420,
-          "size": 90,
-          "col": "#ffcf5c",
-          "pulse": true,
-          "rate": 3.2
-        }
-      ],
-      "labels": [],
-      "notes": "signal line dims, flickers once by design, restores",
-      "cam": "hold"
-    },
-    {
-      "id": "3.03",
-      "p": "P03",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "text",
-          "text": "THAT IS NOT PROOF OF ANY PAST STORY",
-          "x": 960,
-          "y": 520,
-          "size": 50
-        }
-      ],
-      "labels": [],
-      "notes": "text: THAT IS NOT PROOF OF ANY PAST STORY",
-      "cam": "hold"
-    },
-    {
-      "id": "3.04",
-      "p": "P03",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "text",
-          "text": "IT EXPLAINS WHY INDEPENDENCE MATTERS",
-          "x": 960,
-          "y": 520,
-          "size": 50,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "text: IT EXPLAINS WHY INDEPENDENCE MATTERS",
-      "cam": "hold"
-    },
-    {
-      "id": "4.01a",
-      "p": "P04",
-      "layer": "H",
-      "kind": "mech",
-      "w": 2,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "earth-wire",
-          "scale": 1.5
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 500,
-              "r": 330,
-              "w2": 1.6,
-              "col": "#ffcf5c",
-              "dash": [
-                12,
-                10
-              ],
-              "march": 18,
-              "at": 0.3,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "REGIONAL COVERAGE",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "Earth with a soft glow over the region (NO country or state borders anywhere), NavIC drawn as a regional footprint (label REGIONAL, up to 1,500 km beyond the boundary, ISRO)",
-      "cam": "hold"
-    },
-    {
-      "id": "4.01b",
-      "p": "P04",
-      "layer": "H",
-      "kind": "mech",
-      "w": 2,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "earth-wire",
-          "scale": 1.5
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 500,
-              "r": 330,
-              "w2": 1.6,
-              "col": "#ffcf5c",
-              "dash": [
-                12,
-                10
-              ],
-              "march": 18,
-              "at": 0.3,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "REGIONAL COVERAGE",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "Earth with a soft glow over the region (NO country or state borders anywhere), NavIC drawn as a regional footprint (label REGIONAL, up to 1,500 km beyond the boundary, ISRO)",
-      "cam": "hold"
-    },
-    {
-      "id": "4.02",
-      "p": "P04",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.3,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "earth-wire",
-          "scale": 1.5
-        },
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.3,
-          "count": 3
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "constellation appears, schematic",
-      "cam": "hold"
-    },
-    {
-      "id": "4.03",
-      "p": "P04",
-      "layer": "C",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "look-up",
-              "x": 900,
-              "y": 860,
-              "scale": 3,
-              "accentPart": "head",
-              "phase": 0,
-              "prop": "bell",
-              "propX": 1120,
-              "propScale": 2.2,
-              "ring": 0.8,
-              "at": 0.05,
-              "dur": 0.35
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "person in a field hears a bell",
-      "cam": "hold"
-    },
-    {
-      "id": "4.04",
-      "p": "P04",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 520,
-              "y": 520,
-              "r": 54,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.05,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 574,
-              "y1": 520,
-              "x2": 1180,
-              "y2": 520,
-              "w": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.25,
-              "dur": 0.35
-            },
-            {
-              "k": "circle",
-              "x": 1180,
-              "y": 520,
-              "r": 16,
-              "w2": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.6,
-              "dur": 0.2
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "BELL RINGS, SOUND ARRIVES",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "timeline: BELL RINGS ... SOUND ARRIVES, difference = distance",
-      "cam": "hold"
-    },
-    {
-      "id": "4.05",
-      "p": "P04",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2.3,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "line",
-              "x1": 520,
-              "y1": 520,
-              "x2": 1180,
-              "y2": 520,
-              "w": 3.4,
-              "col": "#ffcf5c",
-              "at": 0.05,
-              "dur": 0.3
-            },
-            {
-              "k": "dot",
-              "x": 700,
-              "y": 520,
-              "r": 10,
-              "w2": 0,
-              "col": "#ffcf5c",
-              "at": 0.35,
-              "dur": 0.2
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "SPEED OF LIGHT",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "swap bell for radio pulse at speed of light, label SPEED OF LIGHT",
-      "cam": "hold"
-    },
-    {
-      "id": "4.06",
-      "p": "P04",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.3,
-          "count": 3
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  420,
-                  120
-                ],
-                [
-                  960,
-                  420
-                ],
-                [
-                  1420,
-                  760
-                ]
-              ],
-              "r": 11,
-              "speed": 0.55,
-              "col": "#ffcf5c",
-              "at": 0.1,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "pulse travels satellite to receiver",
-      "cam": "hold"
-    },
-    {
-      "id": "5.01",
-      "p": "P05",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.4,
-          "count": 3
-        },
-        {
-          "op": "railLabel",
-          "text": "POSITION + TIME",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "satellite broadcasts: label POSITION + TIME",
-      "cam": "hold"
-    },
-    {
-      "id": "5.02",
-      "p": "P05",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.4,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.4,
-          "count": 3
-        },
-        {
-          "op": "x:hero",
-          "kind": "phone-dot",
-          "scale": 1.8,
-          "pos": [
-            0,
-            -320,
-            0
-          ]
-        },
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "dot",
-              "path": [
-                [
-                  400,
-                  140
-                ],
-                [
-                  960,
-                  300
-                ],
-                [
-                  960,
-                  -260
-                ]
-              ],
-              "r": 10,
-              "speed": 0.6,
-              "col": "#ffcf5c",
-              "at": 0.15,
-              "dur": 0.4
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "receiver compares arrival time",
-      "cam": "hold"
-    },
-    {
-      "id": "5.03",
-      "p": "P05",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "range-spheres",
-          "scale": 1.1,
-          "count": 1
-        },
-        {
-          "op": "railLabel",
-          "text": "ONE DISTANCE",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "one range sphere grows around the satellite",
-      "cam": "hold"
-    },
-    {
-      "id": "5.04a",
-      "p": "P05",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1,
-      "scene": [
-        {
-          "op": "text",
-          "text": "ONE DISTANCE = A WHOLE SPHERE",
-          "x": 960,
-          "y": 500,
-          "size": 50
-        },
-        {
-          "op": "text",
-          "text": "OF POSSIBLE PLACES",
-          "x": 960,
-          "y": 580,
-          "size": 50,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "text: ONE DISTANCE = A WHOLE SPHERE OF POSSIBLE PLACES",
-      "cam": "hold"
-    },
-    {
-      "id": "5.04b",
-      "p": "P05",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1,
-      "scene": [
-        {
-          "op": "text",
-          "text": "ONE DISTANCE = A WHOLE SPHERE",
-          "x": 960,
-          "y": 500,
-          "size": 50
-        },
-        {
-          "op": "text",
-          "text": "OF POSSIBLE PLACES",
-          "x": 960,
-          "y": 580,
-          "size": 50,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "text: ONE DISTANCE = A WHOLE SPHERE OF POSSIBLE PLACES",
-      "cam": "hold"
-    },
-    {
-      "id": "6.01",
-      "p": "P06",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "range-spheres",
-          "scale": 1,
-          "count": 2
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 480,
-              "r": 120,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.4,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "second satellite, second sphere, intersection ring glows",
-      "cam": "hold"
-    },
-    {
-      "id": "6.02",
-      "p": "P06",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "range-spheres",
-          "scale": 1,
-          "count": 3
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 930,
-              "y": 470,
-              "r": 14,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.45,
-              "dur": 0.25
-            },
-            {
-              "k": "circle",
-              "x": 990,
-              "y": 470,
-              "r": 14,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.55,
-              "dur": 0.25
-            }
-          ]
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "third sphere narrows to two points",
-      "cam": "hold"
-    },
-    {
-      "id": "6.03",
-      "p": "P06",
-      "layer": "H",
-      "kind": "hold",
-      "w": 2.2,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "range-spheres",
-          "scale": 1,
-          "count": 4
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 470,
-              "r": 16,
-              "w2": 2.8,
-              "col": "#ffcf5c",
-              "at": 0.55,
-              "dur": 0.25
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "4 SATELLITES",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "fourth measurement removes the clock error, one point remains, label 4 SATELLITES",
-      "cam": "hold"
-    },
-    {
-      "id": "6.04",
-      "p": "P06",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "text",
-          "text": "POSITION AND CLOCK ERROR TOGETHER",
-          "x": 960,
-          "y": 540,
-          "size": 50
-        }
-      ],
-      "labels": [],
-      "notes": "text: POSITION AND CLOCK ERROR TOGETHER",
-      "cam": "hold"
-    },
-    {
-      "id": "7.01",
-      "p": "P07",
-      "layer": "B",
-      "kind": "mech",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 520,
-              "r": 130,
-              "w2": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 520,
-              "x2": 968,
-              "y2": 470,
-              "w": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.4,
-              "dur": 0.25
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "A TINY ERROR",
-          "side": "L"
-        }
-      ],
-      "labels": [],
-      "notes": "wristwatch with a tiny error",
-      "cam": "hold"
-    },
-    {
-      "id": "7.02a",
-      "p": "P07",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.35,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 560,
-              "y": 240,
-              "w": 800,
-              "h": 560,
-              "w2": 1.6,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "circle",
-              "x": 700,
-              "y": 520,
-              "r": 12,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.3,
-              "dur": 0.2
-            },
-            {
-              "k": "circle",
-              "x": 1180,
-              "y": 520,
-              "r": 12,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.6,
-              "dur": 0.2
-            },
-            {
-              "k": "line",
-              "x1": 700,
-              "y1": 520,
-              "x2": 1180,
-              "y2": 520,
-              "w": 2,
-              "col": "#ffcf5c",
-              "dash": [
-                10,
-                10
-              ],
-              "march": 20,
-              "at": 0.45,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "ILLUSTRATIVE",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "error × speed of light grows into a big location offset on a map (illustrative, labelled ILLUSTRATIVE)",
-      "cam": "hold"
-    },
-    {
-      "id": "7.02b",
-      "p": "P07",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.35,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 560,
-              "y": 240,
-              "w": 800,
-              "h": 560,
-              "w2": 1.6,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "circle",
-              "x": 700,
-              "y": 520,
-              "r": 12,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.3,
-              "dur": 0.2
-            },
-            {
-              "k": "circle",
-              "x": 1180,
-              "y": 520,
-              "r": 12,
-              "w2": 2.4,
-              "col": "#ffcf5c",
-              "at": 0.6,
-              "dur": 0.2
-            },
-            {
-              "k": "line",
-              "x1": 700,
-              "y1": 520,
-              "x2": 1180,
-              "y2": 520,
-              "w": 2,
-              "col": "#ffcf5c",
-              "dash": [
-                10,
-                10
-              ],
-              "march": 20,
-              "at": 0.45,
-              "dur": 0.3
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "ILLUSTRATIVE",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "error × speed of light grows into a big location offset on a map (illustrative, labelled ILLUSTRATIVE)",
-      "cam": "hold"
-    },
-    {
-      "id": "7.03a",
-      "p": "P07",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.2,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 300,
-              "r": 90,
-              "w2": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 300,
-              "x2": 960,
-              "y2": 190,
-              "w": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.2,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 860,
-              "y": 480,
-              "w": 200,
-              "h": 60,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.4,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 700,
-              "r": 50,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.6,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 1160,
-              "y": 700,
-              "r": 40,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.75,
-              "dur": 0.3
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "atomic clock icon, ground station, orbit knowledge, reliable satellite: four parts light in turn",
-      "cam": "orbit"
-    },
-    {
-      "id": "7.03b",
-      "p": "P07",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.2,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 300,
-              "r": 90,
-              "w2": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.3
-            },
-            {
-              "k": "line",
-              "x1": 960,
-              "y1": 300,
-              "x2": 960,
-              "y2": 190,
-              "w": 2.4,
-              "col": "#8fe4ff",
-              "at": 0.2,
-              "dur": 0.25
-            },
-            {
-              "k": "rect",
-              "x": 860,
-              "y": 480,
-              "w": 200,
-              "h": 60,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.4,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 700,
-              "r": 50,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.6,
-              "dur": 0.3
-            },
-            {
-              "k": "circle",
-              "x": 1160,
-              "y": 700,
-              "r": 40,
-              "w2": 2,
-              "col": "#8fe4ff",
-              "at": 0.75,
-              "dur": 0.3
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "atomic clock icon, ground station, orbit knowledge, reliable satellite: four parts light in turn",
-      "cam": "orbit"
-    },
-    {
-      "id": "7.04",
-      "p": "P07",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "text",
-          "text": "NAVIGATION IS A STORY ABOUT TIME",
-          "x": 960,
-          "y": 540,
-          "size": 52,
-          "col": "#ffcf5c"
-        }
-      ],
-      "labels": [],
-      "notes": "text: NAVIGATION IS A STORY ABOUT TIME",
-      "cam": "hold"
-    },
-    {
-      "id": "8.01a",
-      "p": "P08",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.1,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "earth-wire",
-          "scale": 1.4
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 1150,
-              "y": 420,
-              "r": 190,
-              "w2": 1.8,
-              "col": "#8fe4ff",
-              "dash": [
-                12,
-                10
-              ],
-              "march": 18,
-              "at": 0.3,
-              "dur": 0.35
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
-          "side": "L"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "NavIC regional footprint with compatible-receiver glow beside other systems (no country marks)",
-      "cam": "hold"
-    },
-    {
-      "id": "8.01b",
-      "p": "P08",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.1,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "earth-wire",
-          "scale": 1.4
-        },
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "circle",
-              "x": 1150,
-              "y": 420,
-              "r": 190,
-              "w2": 1.8,
-              "col": "#8fe4ff",
-              "dash": [
-                12,
-                10
-              ],
-              "march": 18,
-              "at": 0.3,
-              "dur": 0.35
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
-          "side": "L"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "NavIC regional footprint with compatible-receiver glow beside other systems (no country marks)",
-      "cam": "hold"
-    },
-    {
-      "id": "8.02",
-      "p": "P08",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "text",
-          "text": "SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
-          "x": 960,
-          "y": 520,
-          "size": 48
-        }
-      ],
-      "labels": [],
-      "notes": "text: SIGNALS CAN WORK ALONGSIDE OTHER SYSTEMS",
-      "cam": "hold"
-    },
-    {
-      "id": "8.03",
-      "p": "P08",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "timeline",
-          "params": {
-            "y": 560,
-            "ticks": [
-              {
-                "label": "29 JULY 2026",
-                "note": "PARLIAMENT ANSWER",
-                "accent": true
-              }
-            ]
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "timeline: 29 JULY 2026 PARLIAMENT ANSWER",
-      "cam": "hold"
-    },
-    {
-      "id": "8.04",
-      "p": "P08",
-      "layer": "B",
-      "kind": "number",
-      "w": 1.2,
-      "scene": [
-        {
-          "op": "numberCard",
-          "value": "3 SATELLITES IN THE CONSTELLATION",
-          "sub": "4 NEEDED FOR BASIC POSITIONING",
-          "source": "PIB, 29 JULY 2026"
-        }
-      ],
-      "labels": [],
-      "notes": "3 SATELLITES",
-      "cam": "hold"
-    },
-    {
-      "id": "8.05",
-      "p": "P08",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "panel",
-          "name": "timeline",
-          "params": {
-            "y": 560,
-            "ticks": [
-              {
-                "label": "29 JULY 2026",
-                "note": "PARLIAMENT ANSWER"
-              },
-              {
-                "label": "30 OCTOBER 2026",
-                "note": "NVS-03 LAUNCHED (GSLV-F18)",
-                "accent": true
-              }
-            ]
-          }
-        }
-      ],
-      "labels": [],
-      "notes": "NEEDED, source chip; \"NO STANDALONE POSITIONING; TIMING FUNCTIONAL\"",
-      "cam": "hold"
-    },
-    {
-      "id": "8.06",
-      "p": "P08",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1.5,
-          "count": 3
-        },
-        {
-          "op": "railLabel",
-          "text": "REACHING ITS SLOT",
-          "side": "R"
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "timeline: 30 OCTOBER 2026 NVS-03 LAUNCHED (GSLV-F18)",
-      "cam": "hold"
-    },
-    {
-      "id": "8.07a",
-      "p": "P08",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.4,
-      "scene": [
-        {
-          "op": "text",
-          "text": "A LAUNCH IS NOT RESTORED SERVICE",
-          "x": 960,
-          "y": 540,
-          "size": 52
-        }
-      ],
-      "labels": [],
-      "notes": "NVS-03 climbs through transfer orbit, label REACHING ITS SLOT (status line from the ledger on the recording date)",
-      "cam": "orbit"
-    },
-    {
-      "id": "8.07b",
-      "p": "P08",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.4,
-      "scene": [
-        {
-          "op": "text",
-          "text": "A LAUNCH IS NOT RESTORED SERVICE",
-          "x": 960,
-          "y": 540,
-          "size": 52
-        }
-      ],
-      "labels": [],
-      "notes": "NVS-03 climbs through transfer orbit, label REACHING ITS SLOT (status line from the ledger on the recording date)",
-      "cam": "orbit"
-    },
-    {
-      "id": "8.08",
-      "p": "P08",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "text",
-          "text": "NO STANDALONE POSITIONING. TIMING FUNCTIONAL.",
-          "x": 1350,
-          "y": 700,
-          "size": 34,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "text: A LAUNCH IS NOT RESTORED SERVICE",
-      "cam": "hold"
-    },
-    {
-      "id": "9.01",
-      "p": "P09",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "text",
-          "text": "A FICTIONAL SCENARIO",
-          "x": 960,
-          "y": 300,
-          "size": 40,
-          "col": "#ff9b3d"
-        }
-      ],
-      "labels": [],
-      "notes": "FICTIONAL SCENARIO stamp for the passage",
-      "cam": "hold"
-    },
-    {
-      "id": "9.02",
-      "p": "P09",
-      "layer": "C",
-      "kind": "hold",
-      "w": 1.8,
-      "scene": [
-        {
-          "op": "x:people",
-          "people": [
-            {
-              "pose": "stand",
-              "x": 860,
-              "y": 830,
-              "scale": 3,
-              "prop": "boat",
-              "propX": 1150,
-              "propScale": 2,
-              "receiver": true,
-              "ping": 0.8,
-              "at": 0.05,
-              "dur": 0.35
-            }
-          ]
-        },
-        {
-          "op": "railLabel",
-          "text": "ONE SIGNAL UNRELIABLE",
-          "side": "R"
-        }
-      ],
-      "labels": [],
-      "notes": "fishing boat on a dark sea, receiver icon",
-      "cam": "hold"
-    },
-    {
-      "id": "9.03",
-      "p": "P09",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.6,
-      "scene": [
-        {
-          "op": "x:flow",
-          "items": [
-            {
-              "k": "arrow",
-              "x1": 400,
-              "y1": 300,
-              "x2": 760,
-              "y2": 420,
-              "col": "#ffcf5c",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "arrow",
-              "x1": 400,
-              "y1": 560,
-              "x2": 760,
-              "y2": 480,
-              "col": "#ffcf5c",
-              "at": 0.2,
-              "dur": 0.4
-            },
-            {
-              "k": "arrow",
-              "x1": 400,
-              "y1": 820,
-              "x2": 760,
-              "y2": 540,
-              "col": "#8fe4ff",
-              "at": 0.35,
-              "dur": 0.4
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "several signals arrive; one turns grey",
-      "cam": "hold"
-    },
-    {
-      "id": "9.04",
-      "p": "P09",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "text",
-          "text": "ENOUGH USABLE SIGNALS?",
-          "x": 960,
-          "y": 500,
-          "size": 54
-        }
-      ],
-      "labels": [],
-      "notes": "receiver compares the rest: ENOUGH USABLE SIGNALS?",
-      "cam": "hold"
-    },
-    {
-      "id": "9.05",
-      "p": "P09",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.4,
-      "scene": [
-        {
-          "op": "text",
-          "text": "INDEPENDENCE + REDUNDANCY",
-          "x": 960,
-          "y": 540,
-          "size": 54,
-          "col": "#8fe4ff"
-        }
-      ],
-      "labels": [],
-      "notes": "text: INDEPENDENCE + REDUNDANCY",
-      "cam": "hold"
-    },
-    {
-      "id": "10.01",
-      "p": "P10",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "x:draw",
-          "prims": [
-            {
-              "k": "rect",
-              "x": 560,
-              "y": 240,
-              "w": 800,
-              "h": 560,
-              "w2": 1.6,
-              "col": "#8fe4ff",
-              "at": 0.05,
-              "dur": 0.4
-            },
-            {
-              "k": "circle",
-              "x": 960,
-              "y": 520,
-              "r": 16,
-              "w2": 2.6,
-              "col": "#ffcf5c",
-              "at": 0.4,
-              "dur": 0.2
-            }
-          ]
-        }
-      ],
-      "labels": [],
-      "notes": "blue dot again, now with a map under it",
-      "cam": "hold"
-    },
-    {
-      "id": "10.02",
-      "p": "P10",
-      "layer": "H",
-      "kind": "hold",
-      "w": 1.9,
-      "scene": [
-        {
-          "op": "x:hero",
-          "kind": "earth-wire",
-          "scale": 1.2
-        },
-        {
-          "op": "x:hero",
-          "kind": "sat-constellation",
-          "scale": 1,
-          "count": 3
-        },
-        {
-          "op": "tag",
-          "text": "SCHEMATIC, NOT TO SCALE"
-        }
-      ],
-      "labels": [],
-      "notes": "camera drops back through clocks, orbits, decisions in layers",
-      "cam": "hold"
-    },
-    {
-      "id": "10.03",
-      "p": "P10",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.7,
-      "scene": [
-        {
-          "op": "text",
-          "text": "INDEPENDENCE IS NOT IGNORING THE WORLD",
-          "x": 960,
-          "y": 540,
-          "size": 48
-        }
-      ],
-      "labels": [],
-      "notes": "text: INDEPENDENCE IS NOT IGNORING THE WORLD",
-      "cam": "hold"
-    },
-    {
-      "id": "10.04",
-      "p": "P10",
-      "layer": "B",
-      "kind": "hold",
-      "w": 2,
-      "scene": [
-        {
-          "op": "text",
-          "text": "TO KNOW WHERE YOU ARE,",
-          "x": 960,
-          "y": 500,
-          "size": 54
-        },
-        {
-          "op": "text",
-          "text": "CONTROL THE CLOCK.",
-          "x": 960,
-          "y": 600,
-          "size": 54,
-          "col": "#ffcf5c"
-        }
-      ],
-      "labels": [],
-      "notes": "final line: TO KNOW WHERE YOU ARE, CONTROL THE CLOCK.",
-      "cam": "hold"
-    },
-    {
-      "id": "10.05",
-      "p": "P10",
-      "layer": "B",
-      "kind": "hold",
-      "w": 1.5,
-      "scene": [
-        {
-          "op": "titleCard",
-          "title": "INDIA BUILT IT ANYWAY",
-          "sub": "THE INDIA BUILT IT ANYWAY SERIES"
-        }
-      ],
-      "labels": [],
-      "notes": "series title ≤ 2.5 s",
-      "cam": "hold"
+     "op": "cs",
+     "tpl": "flow",
+     "title": "WHAT THE DOT DOES",
+     "nodes": [
+      {
+       "t": "THE BLUE DOT",
+       "hot": true
+      },
+      {
+       "t": "GUIDES A DRIVER",
+       "sub": "UNFAMILIAR CITY"
+      },
+      {
+       "t": "HELPS A SHIP",
+       "sub": "APPROACH A PORT"
+      },
+      {
+       "t": "KEEPS A CLOCK",
+       "sub": "IN A NETWORK SYNCHRONISED"
+      }
+     ],
+     "layout": "radial",
+     "links": "star"
     }
-  ]
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE BLUE DOT"
+  },
+  {
+   "id": "1.03",
+   "p": "P01",
+   "w": 1,
+   "layer": "C",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "figure",
+     "title": "A DOT ON YOUR PHONE",
+     "pose": "hold",
+     "figX": 640,
+     "props": [
+      {
+       "prop": "phone",
+       "x": 1080,
+       "scale": 6
+      }
+     ],
+     "callouts": [
+      {
+       "t": "KNOWS WHERE YOU ARE",
+       "prop": 0,
+       "dy": -40
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "figure",
+     "title": "A DOT ON YOUR PHONE",
+     "pose": "hold",
+     "figX": 640,
+     "props": [
+      {
+       "prop": "phone",
+       "x": 1080,
+       "scale": 6
+      }
+     ],
+     "callouts": [
+      {
+       "t": "KNOWS WHERE YOU ARE",
+       "prop": 0,
+       "dy": -40
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE BLUE DOT"
+  },
+  {
+   "id": "1.04",
+   "p": "P01",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "IT KNOWS",
+      "WHERE YOU ARE."
+     ],
+     "hero": "phone-dot",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "IT KNOWS",
+      "WHERE YOU ARE."
+     ],
+     "hero": "phone-dot",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE BLUE DOT"
+  },
+  {
+   "id": "1.05",
+   "p": "P01",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "IT KEEPS A CLOCK",
+      "IN A NETWORK",
+      "SYNCHRONISED."
+     ],
+     "prop": "clock",
+     "pscale": 3.6
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "IT KEEPS A CLOCK",
+      "IN A NETWORK",
+      "SYNCHRONISED."
+     ],
+     "prop": "clock",
+     "pscale": 3.6
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.1 · THE BLUE DOT"
+  },
+  {
+   "id": "2.01",
+   "p": "P02",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hook",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "WHO OWNS THE SIGNAL",
+      "THAT MAKES IT POSSIBLE?"
+     ],
+     "size": 80,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "WHO OWNS THE SIGNAL",
+      "THAT MAKES IT POSSIBLE?"
+     ],
+     "size": 80,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · WHO OWNS THE SIGNAL"
+  },
+  {
+   "id": "2.02",
+   "p": "P02",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "earth-wire",
+     "title": "SATELLITE NAVIGATION APPEARS INVISIBLE",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.55,
+       "fy": 0.3,
+       "t": "SPACECRAFT FAR ABOVE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "earth-wire",
+     "title": "SATELLITE NAVIGATION APPEARS INVISIBLE",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.55,
+       "fy": 0.3,
+       "t": "SPACECRAFT FAR ABOVE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 20,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.2 · WHO OWNS THE SIGNAL"
+  },
+  {
+   "id": "2.03",
+   "p": "P02",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "YOU TAP A SCREEN",
+     "nodes": [
+      "YOU TAP A SCREEN",
+      {
+       "t": "YOU RECEIVE A POSITION",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ]
+     ],
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "YOU TAP A SCREEN",
+     "nodes": [
+      "YOU TAP A SCREEN",
+      {
+       "t": "YOU RECEIVE A POSITION",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ]
+     ],
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · WHO OWNS THE SIGNAL"
+  },
+  {
+   "id": "2.04",
+   "p": "P02",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "THE SIGNAL COMES FROM SPACECRAFT",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.3,
+       "fy": 0.35,
+       "t": "OPERATED BY INSTITUTIONS FAR BEYOND YOUR PHONE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "THE SIGNAL COMES FROM SPACECRAFT",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.3,
+       "fy": 0.35,
+       "t": "OPERATED BY INSTITUTIONS FAR BEYOND YOUR PHONE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -24,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.2 · WHO OWNS THE SIGNAL"
+  },
+  {
+   "id": "2.05",
+   "p": "P02",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE SIGNAL TRAVELS",
+     "nodes": [
+      "SPACECRAFT",
+      {
+       "t": "THE SIGNAL",
+       "hot": true
+      },
+      "YOUR PHONE"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE SIGNAL TRAVELS",
+     "nodes": [
+      "SPACECRAFT",
+      {
+       "t": "THE SIGNAL",
+       "hot": true
+      },
+      "YOUR PHONE"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · WHO OWNS THE SIGNAL"
+  },
+  {
+   "id": "2.06",
+   "p": "P02",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "INSTITUTIONS FAR",
+      "BEYOND YOUR PHONE."
+     ],
+     "hero": "earth-wire",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "INSTITUTIONS FAR",
+      "BEYOND YOUR PHONE."
+     ],
+     "hero": "earth-wire",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.2 · WHO OWNS THE SIGNAL"
+  },
+  {
+   "id": "2.07",
+   "p": "P02",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "INDIA RECOGNISED THE RISK",
+     "nodes": [
+      "A FOREIGN SYSTEM",
+      {
+       "t": "A CAPABILITY",
+       "sub": "OUTSIDE ITS CONTROL",
+       "hot": true
+      },
+      "INDIA"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "INDIA RECOGNISED THE RISK",
+     "nodes": [
+      "A FOREIGN SYSTEM",
+      {
+       "t": "A CAPABILITY",
+       "sub": "OUTSIDE ITS CONTROL",
+       "hot": true
+      },
+      "INDIA"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.2 · WHO OWNS THE SIGNAL"
+  },
+  {
+   "id": "2.08",
+   "p": "P02",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "RELYING ENTIRELY",
+      "ON FOREIGN SYSTEMS"
+     ],
+     "sub": "COULD LEAVE AN IMPORTANT CAPABILITY OUTSIDE ITS OWN CONTROL.",
+     "hero": "sat-constellation",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "RELYING ENTIRELY",
+      "ON FOREIGN SYSTEMS"
+     ],
+     "sub": "COULD LEAVE AN IMPORTANT CAPABILITY OUTSIDE ITS OWN CONTROL.",
+     "hero": "sat-constellation",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.2 · WHO OWNS THE SIGNAL"
+  },
+  {
+   "id": "3.01",
+   "p": "P03",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "INDIA HAS SAID",
+      "THE CONCERN PLAINLY:"
+     ],
+     "hero": "earth-wire",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "INDIA HAS SAID",
+      "THE CONCERN PLAINLY:"
+     ],
+     "hero": "earth-wire",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.3 · THE CONCERN"
+  },
+  {
+   "id": "3.02",
+   "p": "P03",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "CIVILIAN SIGNALS FROM FOREIGN SYSTEMS",
+     "nodes": [
+      "A CIVILIAN SIGNAL",
+      {
+       "t": "DEGRADED OR DENIED",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       "POTENTIALLY"
+      ]
+     ],
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "CIVILIAN SIGNALS FROM FOREIGN SYSTEMS",
+     "nodes": [
+      "A CIVILIAN SIGNAL",
+      {
+       "t": "DEGRADED OR DENIED",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       "POTENTIALLY"
+      ]
+     ],
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.3 · THE CONCERN"
+  },
+  {
+   "id": "3.03",
+   "p": "P03",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "THAT DOES NOT PROVE",
+      "EVERY DRAMATIC STORY."
+     ],
+     "size": 72,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "THAT DOES NOT PROVE",
+      "EVERY DRAMATIC STORY."
+     ],
+     "size": 72,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.3 · THE CONCERN"
+  },
+  {
+   "id": "3.04",
+   "p": "P03",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "IT EXPLAINS WHY",
+      "AN INDEPENDENT SYSTEM",
+      "MATTERS."
+     ],
+     "hero": "sat-constellation",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "IT EXPLAINS WHY",
+      "AN INDEPENDENT SYSTEM",
+      "MATTERS."
+     ],
+     "hero": "sat-constellation",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.3 · THE CONCERN"
+  },
+  {
+   "id": "4.01",
+   "p": "P04",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "NAVIC",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.3,
+       "t": "A REGIONAL SATELLITE NAVIGATION SYSTEM"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "NAVIC",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.3,
+       "t": "A REGIONAL SATELLITE NAVIGATION SYSTEM"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 26,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.4 · NAVIC"
+  },
+  {
+   "id": "4.02",
+   "p": "P04",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "NAVIC:",
+      "NAVIGATION WITH",
+      "INDIAN CONSTELLATION."
+     ],
+     "hero": "earth-wire",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "NAVIC:",
+      "NAVIGATION WITH",
+      "INDIAN CONSTELLATION."
+     ],
+     "hero": "earth-wire",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.4 · NAVIC"
+  },
+  {
+   "id": "4.03",
+   "p": "P04",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "HOW DOES A SATELLITE",
+      "TELL A PHONE WHERE IT IS?"
+     ],
+     "size": 76,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "HOW DOES A SATELLITE",
+      "TELL A PHONE WHERE IT IS?"
+     ],
+     "size": 76,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.4 · NAVIC"
+  },
+  {
+   "id": "4.04",
+   "p": "P04",
+   "w": 1.2,
+   "layer": "C",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "figure",
+     "title": "HEARING A BELL ACROSS A FIELD",
+     "pose": "look-up",
+     "figX": 560,
+     "props": [
+      {
+       "prop": "bell",
+       "x": 1350,
+       "scale": 5.5
+      }
+     ],
+     "propOpts": {
+      "ping": 1
+     },
+     "callouts": [
+      {
+       "t": "THE BELL RINGS",
+       "prop": 0,
+       "dy": -30
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "figure",
+     "title": "HEARING A BELL ACROSS A FIELD",
+     "pose": "look-up",
+     "figX": 560,
+     "props": [
+      {
+       "prop": "bell",
+       "x": 1350,
+       "scale": 5.5
+      }
+     ],
+     "propOpts": {
+      "ping": 1
+     },
+     "callouts": [
+      {
+       "t": "THE BELL RINGS",
+       "prop": 0,
+       "dy": -30
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.4 · NAVIC"
+  },
+  {
+   "id": "4.05",
+   "p": "P04",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE TIME REVEALS THE DISTANCE",
+     "nodes": [
+      "THE BELL RINGS",
+      {
+       "t": "THE SOUND ARRIVES",
+       "hot": true
+      },
+      "HOW FAR AWAY"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE TIME REVEALS THE DISTANCE",
+     "nodes": [
+      "THE BELL RINGS",
+      {
+       "t": "THE SOUND ARRIVES",
+       "hot": true
+      },
+      "HOW FAR AWAY"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.4 · NAVIC"
+  },
+  {
+   "id": "4.06",
+   "p": "P04",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "RADIO SIGNALS TRAVEL",
+      "AT THE SPEED OF LIGHT."
+     ],
+     "hero": "sat-constellation",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "RADIO SIGNALS TRAVEL",
+      "AT THE SPEED OF LIGHT."
+     ],
+     "hero": "sat-constellation",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.4 · NAVIC"
+  },
+  {
+   "id": "4.07",
+   "p": "P04",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "A SIGNAL FROM SPACE",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "flows": [
+      {
+       "a": [
+        0.5,
+        0.1
+       ],
+       "b": [
+        0.5,
+        0.95
+       ],
+       "col": "cyan"
+      }
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "SATELLITE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "A SIGNAL FROM SPACE",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "flows": [
+      {
+       "a": [
+        0.5,
+        0.1
+       ],
+       "b": [
+        0.5,
+        0.95
+       ],
+       "col": "cyan"
+      }
+     ],
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.1,
+       "t": "SATELLITE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -20,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.4 · NAVIC"
+  },
+  {
+   "id": "4.08",
+   "p": "P04",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "phone-dot",
+     "title": "THE RECEIVER LISTENS",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.45,
+       "t": "RECEIVER"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "phone-dot",
+     "title": "THE RECEIVER LISTENS",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.45,
+       "t": "RECEIVER"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.4 · NAVIC"
+  },
+  {
+   "id": "5.01",
+   "p": "P05",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE SATELLITE BROADCASTS",
+     "nodes": [
+      "THE SATELLITE",
+      {
+       "t": "ITS POSITION",
+       "hot": true
+      },
+      {
+       "t": "A PRECISE TIME",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ],
+      [
+       0,
+       2,
+       ""
+      ]
+     ],
+     "layout": "tri"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE SATELLITE BROADCASTS",
+     "nodes": [
+      "THE SATELLITE",
+      {
+       "t": "ITS POSITION",
+       "hot": true
+      },
+      {
+       "t": "A PRECISE TIME",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ],
+      [
+       0,
+       2,
+       ""
+      ]
+     ],
+     "layout": "tri"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.5 · ONE DISTANCE"
+  },
+  {
+   "id": "5.02",
+   "p": "P05",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE RECEIVER COMPARES THE TIME",
+     "nodes": [
+      "TIME SENT",
+      "TIME RECEIVED",
+      {
+       "t": "THE DIFFERENCE",
+       "sub": "ESTIMATES DISTANCE",
+       "hot": true
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE RECEIVER COMPARES THE TIME",
+     "nodes": [
+      "TIME SENT",
+      "TIME RECEIVED",
+      {
+       "t": "THE DIFFERENCE",
+       "sub": "ESTIMATES DISTANCE",
+       "hot": true
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.5 · ONE DISTANCE"
+  },
+  {
+   "id": "5.03",
+   "p": "P05",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "range-spheres",
+     "title": "ONE DISTANCE IS NOT ENOUGH",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "ONE SATELLITE"
+      },
+      {
+       "fx": 0.9,
+       "fy": 0.5,
+       "t": "YOU COULD BE ANYWHERE ON THIS SPHERE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "range-spheres",
+     "title": "ONE DISTANCE IS NOT ENOUGH",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "ONE SATELLITE"
+      },
+      {
+       "fx": 0.9,
+       "fy": 0.5,
+       "t": "YOU COULD BE ANYWHERE ON THIS SPHERE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 20,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.5 · ONE DISTANCE"
+  },
+  {
+   "id": "5.04",
+   "p": "P05",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "A HUGE IMAGINARY SPHERE",
+      "OF POSSIBLE PLACES."
+     ],
+     "size": 66,
+     "hero": "range-spheres",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "A HUGE IMAGINARY SPHERE",
+      "OF POSSIBLE PLACES."
+     ],
+     "size": 66,
+     "hero": "range-spheres",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.5 · ONE DISTANCE"
+  },
+  {
+   "id": "5.05",
+   "p": "P05",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "ONE DISTANCE",
+     "nodes": [
+      {
+       "t": "ONE DISTANCE",
+       "hot": true
+      },
+      "A WHOLE SPHERE OF PLACES"
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ]
+     ],
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "ONE DISTANCE",
+     "nodes": [
+      {
+       "t": "ONE DISTANCE",
+       "hot": true
+      },
+      "A WHOLE SPHERE OF PLACES"
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ]
+     ],
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.5 · ONE DISTANCE"
+  },
+  {
+   "id": "6.01",
+   "p": "P06",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "range-spheres",
+     "title": "NOW ADD ANOTHER SATELLITE",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.35,
+       "fy": 0.5,
+       "t": "FIRST SPHERE"
+      },
+      {
+       "fx": 0.65,
+       "fy": 0.5,
+       "t": "SECOND SPHERE"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "range-spheres",
+     "title": "NOW ADD ANOTHER SATELLITE",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.35,
+       "fy": 0.5,
+       "t": "FIRST SPHERE"
+      },
+      {
+       "fx": 0.65,
+       "fy": 0.5,
+       "t": "SECOND SPHERE"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -28,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.6 · MORE SATELLITES"
+  },
+  {
+   "id": "6.02",
+   "p": "P06",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "range-spheres",
+     "title": "THEN ANOTHER",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "THE SPHERES NARROW THE LOCATION"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "range-spheres",
+     "title": "THEN ANOTHER",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.5,
+       "t": "THE SPHERES NARROW THE LOCATION"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 32,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.6 · MORE SATELLITES"
+  },
+  {
+   "id": "6.03",
+   "p": "P06",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "MORE DISTANCES, FEWER PLACES",
+     "nodes": [
+      "MORE MEASUREMENTS",
+      {
+       "t": "NARROWER LOCATIONS",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ]
+     ],
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "MORE DISTANCES, FEWER PLACES",
+     "nodes": [
+      "MORE MEASUREMENTS",
+      {
+       "t": "NARROWER LOCATIONS",
+       "hot": true
+      }
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ]
+     ],
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.6 · MORE SATELLITES"
+  },
+  {
+   "id": "6.04",
+   "p": "P06",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "THE RECEIVER'S CLOCK IS LESS PRECISE",
+     "nodes": [
+      "RECEIVER CLOCK",
+      {
+       "t": "LESS PRECISE",
+       "hot": true
+      },
+      "SATELLITE CLOCKS"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "THE RECEIVER'S CLOCK IS LESS PRECISE",
+     "nodes": [
+      "RECEIVER CLOCK",
+      {
+       "t": "LESS PRECISE",
+       "hot": true
+      },
+      "SATELLITE CLOCKS"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.6 · MORE SATELLITES"
+  },
+  {
+   "id": "6.05",
+   "p": "P06",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "SOLVE FOR BOTH TOGETHER",
+     "nodes": [
+      {
+       "t": "MORE MEASUREMENTS",
+       "hot": true
+      },
+      "POSITION",
+      "CLOCK ERROR"
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ],
+      [
+       0,
+       2,
+       ""
+      ]
+     ],
+     "layout": "tri"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "SOLVE FOR BOTH TOGETHER",
+     "nodes": [
+      {
+       "t": "MORE MEASUREMENTS",
+       "hot": true
+      },
+      "POSITION",
+      "CLOCK ERROR"
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ],
+      [
+       0,
+       2,
+       ""
+      ]
+     ],
+     "layout": "tri"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.6 · MORE SATELLITES"
+  },
+  {
+   "id": "7.01",
+   "p": "P07",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "NAVIGATION IS ALSO",
+      "A STORY ABOUT TIME."
+     ],
+     "prop": "clock",
+     "pscale": 3.6
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "NAVIGATION IS ALSO",
+      "A STORY ABOUT TIME."
+     ],
+     "prop": "clock",
+     "pscale": 3.6
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.7 · A STORY ABOUT TIME"
+  },
+  {
+   "id": "7.02",
+   "p": "P07",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "A TINY ERROR BECOMES A LARGE ONE",
+     "nodes": [
+      "A TINY WRISTWATCH ERROR",
+      {
+       "t": "SIGNALS TRAVEL SO QUICKLY",
+       "hot": true
+      },
+      "A SERIOUS LOCATION ERROR"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "A TINY ERROR BECOMES A LARGE ONE",
+     "nodes": [
+      "A TINY WRISTWATCH ERROR",
+      {
+       "t": "SIGNALS TRAVEL SO QUICKLY",
+       "hot": true
+      },
+      "A SERIOUS LOCATION ERROR"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.7 · A STORY ABOUT TIME"
+  },
+  {
+   "id": "7.03",
+   "p": "P07",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "ALL PART OF THE SYSTEM",
+     "nodes": [
+      "ATOMIC CLOCKS",
+      "GROUND STATIONS",
+      "ORBIT KNOWLEDGE",
+      "RELIABLE SATELLITES"
+     ],
+     "layout": "grid:2"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "ALL PART OF THE SYSTEM",
+     "nodes": [
+      "ATOMIC CLOCKS",
+      "GROUND STATIONS",
+      "ORBIT KNOWLEDGE",
+      "RELIABLE SATELLITES"
+     ],
+     "layout": "grid:2"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.7 · A STORY ABOUT TIME"
+  },
+  {
+   "id": "7.04",
+   "p": "P07",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "CLOCKS.",
+      "STATIONS.",
+      "ORBITS.",
+      "SATELLITES."
+     ],
+     "size": 64,
+     "hero": "sat-constellation",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "CLOCKS.",
+      "STATIONS.",
+      "ORBITS.",
+      "SATELLITES."
+     ],
+     "size": 64,
+     "hero": "sat-constellation",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.7 · A STORY ABOUT TIME"
+  },
+  {
+   "id": "8.01",
+   "p": "P08",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "earth-wire",
+     "title": "A REGIONAL SYSTEM UNDER ITS OWN CONTROL",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.4,
+       "t": "COVERS INDIA AND A REGION UP TO 1,500 KM BEYOND THE BOUNDARY"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "earth-wire",
+     "title": "A REGIONAL SYSTEM UNDER ITS OWN CONTROL",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.4,
+       "t": "COVERS INDIA AND A REGION UP TO 1,500 KM BEYOND THE BOUNDARY"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -18,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.02",
+   "p": "P08",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "ALONGSIDE OTHER SYSTEMS",
+     "nodes": [
+      "NAVIC SIGNALS",
+      {
+       "t": "COMPATIBLE RECEIVERS",
+       "hot": true
+      },
+      "OTHER NAVIGATION SYSTEMS"
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ],
+      [
+       2,
+       1,
+       ""
+      ]
+     ],
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "ALONGSIDE OTHER SYSTEMS",
+     "nodes": [
+      "NAVIC SIGNALS",
+      {
+       "t": "COMPATIBLE RECEIVERS",
+       "hot": true
+      },
+      "OTHER NAVIGATION SYSTEMS"
+     ],
+     "links": [
+      [
+       0,
+       1,
+       ""
+      ],
+      [
+       2,
+       1,
+       ""
+      ]
+     ],
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.03",
+   "p": "P08",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "timeline",
+     "title": "THE HONEST STATUS",
+     "items": [
+      {
+       "t": "29 JULY 2026",
+       "sub": "A PARLIAMENTARY ANSWER",
+       "hot": true,
+       "at": 0.5,
+       "size": 76
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "timeline",
+     "title": "THE HONEST STATUS",
+     "items": [
+      {
+       "t": "29 JULY 2026",
+       "sub": "A PARLIAMENTARY ANSWER",
+       "hot": true,
+       "at": 0.5,
+       "size": 76
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.04",
+   "p": "P08",
+   "w": 1.6,
+   "layer": "B",
+   "kind": "number",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "number",
+     "title": "THE CONSTELLATION TODAY",
+     "value": "3",
+     "unit": "SATELLITES IN THE CONSTELLATION",
+     "note": "4 NEEDED FOR BASIC POSITIONING",
+     "bars": [
+      {
+       "t": "3 IN THE CONSTELLATION",
+       "v": 3
+      },
+      {
+       "t": "4 NEEDED FOR POSITIONING",
+       "v": 4,
+       "hot": true
+      }
+     ],
+     "max": 4,
+     "chain": "NO STANDALONE POSITIONING, TIMING SERVICE FUNCTIONAL",
+     "source": "PIB, 29 JUL 2026"
+    },
+    {
+     "op": "cs",
+     "tpl": "number",
+     "title": "THE CONSTELLATION TODAY",
+     "value": "3",
+     "unit": "SATELLITES IN THE CONSTELLATION",
+     "note": "4 NEEDED FOR BASIC POSITIONING",
+     "bars": [
+      {
+       "t": "3 IN THE CONSTELLATION",
+       "v": 3
+      },
+      {
+       "t": "4 NEEDED FOR POSITIONING",
+       "v": 4,
+       "hot": true
+      }
+     ],
+     "max": 4,
+     "chain": "NO STANDALONE POSITIONING, TIMING SERVICE FUNCTIONAL",
+     "source": "PIB, 29 JUL 2026"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.05",
+   "p": "P08",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "WHAT STILL WORKED",
+     "nodes": [
+      "THREE SATELLITES",
+      {
+       "t": "POSITIONING NEEDS FOUR",
+       "hot": true
+      },
+      {
+       "t": "TIMING SERVICE",
+       "sub": "STILL FUNCTIONAL"
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "WHAT STILL WORKED",
+     "nodes": [
+      "THREE SATELLITES",
+      {
+       "t": "POSITIONING NEEDS FOUR",
+       "hot": true
+      },
+      {
+       "t": "TIMING SERVICE",
+       "sub": "STILL FUNCTIONAL"
+      }
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.06",
+   "p": "P08",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "timeline",
+     "title": "THEN A LAUNCH",
+     "items": [
+      {
+       "t": "30 OCT 2026",
+       "sub": "NVS-03 LAUNCHED",
+       "hot": true,
+       "at": 0.5,
+       "size": 76
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "timeline",
+     "title": "THEN A LAUNCH",
+     "items": [
+      {
+       "t": "30 OCT 2026",
+       "sub": "NVS-03 LAUNCHED",
+       "hot": true,
+       "at": 0.5,
+       "size": 76
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.07",
+   "p": "P08",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "NVS-03 STRENGTHENS THE SYSTEM",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.4,
+       "fy": 0.35,
+       "t": "NVS-03"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "NVS-03 STRENGTHENS THE SYSTEM",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.4,
+       "fy": 0.35,
+       "t": "NVS-03"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 22,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.08",
+   "p": "P08",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "A LAUNCH IS A BEGINNING",
+     "nodes": [
+      "LAUNCH",
+      {
+       "t": "REACH ITS SLOT",
+       "hot": true
+      },
+      "COMMISSIONING"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "A LAUNCH IS A BEGINNING",
+     "nodes": [
+      "LAUNCH",
+      {
+       "t": "REACH ITS SLOT",
+       "hot": true
+      },
+      "COMMISSIONING"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.09",
+   "p": "P08",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "A SUCCESSFUL LAUNCH IS NOT",
+      "THE SAME AS A RESTORED SERVICE."
+     ],
+     "size": 60,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "A SUCCESSFUL LAUNCH IS NOT",
+      "THE SAME AS A RESTORED SERVICE."
+     ],
+     "size": 60,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "8.10",
+   "p": "P08",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "THE SATELLITE STILL HAS TO",
+      "REACH ITS SLOT AND BE COMMISSIONED."
+     ],
+     "size": 56,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "THE SATELLITE STILL HAS TO",
+      "REACH ITS SLOT AND BE COMMISSIONED."
+     ],
+     "size": 56,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.8 · THE HONEST STATUS"
+  },
+  {
+   "id": "9.01",
+   "p": "P09",
+   "w": 1,
+   "layer": "C",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "figure",
+     "title": "A FISHING VESSEL",
+     "pose": "stand",
+     "figX": 600,
+     "props": [
+      {
+       "prop": "boat",
+       "x": 1250,
+       "scale": 5.8
+      }
+     ],
+     "propOpts": {
+      "receiver": 1
+     },
+     "callouts": [
+      {
+       "t": "A COMPATIBLE RECEIVER",
+       "prop": 0,
+       "dy": -40
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "figure",
+     "title": "A FISHING VESSEL",
+     "pose": "stand",
+     "figX": 600,
+     "props": [
+      {
+       "prop": "boat",
+       "x": 1250,
+       "scale": 5.8
+      }
+     ],
+     "propOpts": {
+      "receiver": 1
+     },
+     "callouts": [
+      {
+       "t": "A COMPATIBLE RECEIVER",
+       "prop": 0,
+       "dy": -40
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.9 · WHAT IF"
+  },
+  {
+   "id": "9.02",
+   "p": "P09",
+   "w": 1,
+   "layer": "H",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "SEVERAL NAVIGATION SYSTEMS",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.3,
+       "fy": 0.4,
+       "t": "SIGNALS FROM SEVERAL SYSTEMS"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "sat-constellation",
+     "title": "SEVERAL NAVIGATION SYSTEMS",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.3,
+       "fy": 0.4,
+       "t": "SIGNALS FROM SEVERAL SYSTEMS"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -22,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.9 · WHAT IF"
+  },
+  {
+   "id": "9.03",
+   "p": "P09",
+   "w": 1,
+   "layer": "B",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "ONE SIGNAL BECOMES UNRELIABLE",
+     "nodes": [
+      "SIGNAL A",
+      "SIGNAL B",
+      {
+       "t": "SIGNAL C",
+       "sub": "UNRELIABLE",
+       "hot": true
+      }
+     ],
+     "layout": "row",
+     "links": []
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "ONE SIGNAL BECOMES UNRELIABLE",
+     "nodes": [
+      "SIGNAL A",
+      "SIGNAL B",
+      {
+       "t": "SIGNAL C",
+       "sub": "UNRELIABLE",
+       "hot": true
+      }
+     ],
+     "layout": "row",
+     "links": []
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.9 · WHAT IF"
+  },
+  {
+   "id": "9.04",
+   "p": "P09",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "COMPARE THE REMAINING MEASUREMENTS",
+     "nodes": [
+      "REMAINING SIGNALS",
+      {
+       "t": "ENOUGH USABLE SIGNALS?",
+       "hot": true
+      },
+      "A POSITION"
+     ],
+     "links": "chain",
+     "layout": "row"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "COMPARE THE REMAINING MEASUREMENTS",
+     "nodes": [
+      "REMAINING SIGNALS",
+      {
+       "t": "ENOUGH USABLE SIGNALS?",
+       "hot": true
+      },
+      "A POSITION"
+     ],
+     "links": "chain",
+     "layout": "row"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.9 · WHAT IF"
+  },
+  {
+   "id": "9.05",
+   "p": "P09",
+   "w": 1.2,
+   "layer": "H",
+   "kind": "fiction",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "INDEPENDENCE",
+      "AND REDUNDANCY."
+     ],
+     "hero": "earth-wire",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "INDEPENDENCE",
+      "AND REDUNDANCY."
+     ],
+     "hero": "earth-wire",
+     "tag": "SCHEMATIC, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 16,
+   "camEl": 26,
+   "tr": "fade",
+   "sceneTag": "SC.9 · WHAT IF"
+  },
+  {
+   "id": "10.01",
+   "p": "P10",
+   "w": 1,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "phone-dot",
+     "title": "THE BLUE DOT LOOKED SIMPLE",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.45,
+       "t": "BEHIND IT: A NETWORK"
+      }
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "phone-dot",
+     "title": "THE BLUE DOT LOOKED SIMPLE",
+     "tag": "SCHEMATIC, NOT TO SCALE",
+     "callouts": [
+      {
+       "fx": 0.5,
+       "fy": 0.45,
+       "t": "BEHIND IT: A NETWORK"
+      }
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": -14,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.10 · CONTROL THE CLOCK"
+  },
+  {
+   "id": "10.02",
+   "p": "P10",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "BEHIND IT WAS A NETWORK",
+     "nodes": [
+      "CLOCKS",
+      "ORBITS",
+      "DECISIONS"
+     ],
+     "layout": "row",
+     "links": "chain"
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "BEHIND IT WAS A NETWORK",
+     "nodes": [
+      "CLOCKS",
+      "ORBITS",
+      "DECISIONS"
+     ],
+     "layout": "row",
+     "links": "chain"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · CONTROL THE CLOCK"
+  },
+  {
+   "id": "10.03",
+   "p": "P10",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "INDEPENDENCE DOES NOT MEAN",
+      "IGNORING THE REST OF THE WORLD."
+     ],
+     "size": 58,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "INDEPENDENCE DOES NOT MEAN",
+      "IGNORING THE REST OF THE WORLD."
+     ],
+     "size": 58,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · CONTROL THE CLOCK"
+  },
+  {
+   "id": "10.04",
+   "p": "P10",
+   "w": 1.2,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "flow",
+     "title": "A SYSTEM THAT CONTRIBUTES",
+     "nodes": [
+      "ITS OWN SIGNALS",
+      {
+       "t": "A PLAN FOR KEEPING THEM DEPENDABLE",
+       "hot": true
+      }
+     ],
+     "layout": "row",
+     "links": [
+      [
+       0,
+       1,
+       "AND"
+      ]
+     ]
+    },
+    {
+     "op": "cs",
+     "tpl": "flow",
+     "title": "A SYSTEM THAT CONTRIBUTES",
+     "nodes": [
+      "ITS OWN SIGNALS",
+      {
+       "t": "A PLAN FOR KEEPING THEM DEPENDABLE",
+       "hot": true
+      }
+     ],
+     "layout": "row",
+     "links": [
+      [
+       0,
+       1,
+       "AND"
+      ]
+     ]
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · CONTROL THE CLOCK"
+  },
+  {
+   "id": "10.05",
+   "p": "P10",
+   "w": 1.6,
+   "layer": "B",
+   "kind": "payoff",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "TO KNOW WHERE YOU ARE,",
+      {
+       "t": "CONTROL THE CLOCK.",
+       "col": "accent"
+      }
+     ],
+     "size": 100,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "TO KNOW WHERE YOU ARE,",
+      {
+       "t": "CONTROL THE CLOCK.",
+       "col": "accent"
+      }
+     ],
+     "size": 100,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · CONTROL THE CLOCK"
+  },
+  {
+   "id": "10.06",
+   "p": "P10",
+   "w": 1,
+   "layer": "B",
+   "kind": "hold",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "statement",
+     "lines": [
+      "INDIA BUILT IT ANYWAY"
+     ],
+     "sub": "S02 · E03 · WHO CONTROLS THE SIGNAL THAT FINDS YOU?",
+     "size": 100,
+     "align": "center"
+    },
+    {
+     "op": "cs",
+     "tpl": "statement",
+     "lines": [
+      "INDIA BUILT IT ANYWAY"
+     ],
+     "sub": "S02 · E03 · WHO CONTROLS THE SIGNAL THAT FINDS YOU?",
+     "size": 100,
+     "align": "center"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "hold",
+   "tr": "fade",
+   "sceneTag": "SC.10 · CONTROL THE CLOCK"
+  }
+ ]
 }

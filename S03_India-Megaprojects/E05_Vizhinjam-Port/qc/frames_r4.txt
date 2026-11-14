@@ -1,0 +1,2 @@
+frame gates: 7241 frames, 0 failure(s)
+all frame gates pass

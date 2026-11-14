@@ -1,0 +1,16 @@
+{
+  "video": "E01-r3.mp4",
+  "frames": 8765,
+  "seconds": 292.2,
+  "meanYDIF": 0.3552,
+  "motionFrames": 0.1654,
+  "emptyFrames": 0.0799,
+  "longestEmpty": 7.9,
+  "pass": false,
+  "thresholds": {
+    "meanYDIF": 0.2,
+    "motionFrames": 0.08,
+    "emptyFrames": 0.12,
+    "longestEmpty": 4.0
+  }
+}

@@ -131,6 +131,8 @@
         if (BB.map) BB.map.draw(ctx.ctx, T, op, ctx);
         return;
       }
+      case 'cw': { if (BB.compose) BB.compose.world(ctx, op, p); return; }
+      case 'cs': { if (BB.compose) BB.compose.screen(ctx, op, p); return; }
       default:
         return;
     }

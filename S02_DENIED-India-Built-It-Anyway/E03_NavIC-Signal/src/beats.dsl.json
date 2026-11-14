@@ -1,0 +1,1092 @@
+[
+ {
+  "id": "1.01",
+  "p": "P01",
+  "w": 1,
+  "sc": "SC.1 · THE BLUE DOT",
+  "k": "hook",
+  "tpl": "hero",
+  "kind": "phone-dot",
+  "title": "LOOK AT THE BLUE DOT",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.45,
+    "t": "IT KNOWS WHERE YOU ARE"
+   }
+  ],
+  "camAz": 14
+ },
+ {
+  "id": "1.02",
+  "p": "P01",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "WHAT THE DOT DOES",
+  "nodes": [
+   {
+    "t": "THE BLUE DOT",
+    "hot": true
+   },
+   {
+    "t": "GUIDES A DRIVER",
+    "sub": "UNFAMILIAR CITY"
+   },
+   {
+    "t": "HELPS A SHIP",
+    "sub": "APPROACH A PORT"
+   },
+   {
+    "t": "KEEPS A CLOCK",
+    "sub": "IN A NETWORK SYNCHRONISED"
+   }
+  ],
+  "layout": "radial",
+  "links": "star"
+ },
+ {
+  "id": "1.03",
+  "p": "P01",
+  "w": 1,
+  "tpl": "figure",
+  "title": "A DOT ON YOUR PHONE",
+  "pose": "hold",
+  "figX": 640,
+  "props": [
+   {
+    "prop": "phone",
+    "x": 1080,
+    "scale": 6
+   }
+  ],
+  "callouts": [
+   {
+    "t": "KNOWS WHERE YOU ARE",
+    "prop": 0,
+    "dy": -40
+   }
+  ]
+ },
+ {
+  "id": "1.04",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IT KNOWS",
+   "WHERE YOU ARE."
+  ],
+  "hero": "phone-dot",
+  "tag": "SCHEMATIC, NOT TO SCALE"
+ },
+ {
+  "id": "1.05",
+  "p": "P01",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "IT KEEPS A CLOCK",
+   "IN A NETWORK",
+   "SYNCHRONISED."
+  ],
+  "prop": "clock",
+  "pscale": 3.6
+ },
+ {
+  "id": "2.01",
+  "p": "P02",
+  "w": 1.2,
+  "sc": "SC.2 · WHO OWNS THE SIGNAL",
+  "k": "hook",
+  "tpl": "statement",
+  "lines": [
+   "WHO OWNS THE SIGNAL",
+   "THAT MAKES IT POSSIBLE?"
+  ],
+  "size": 80,
+  "align": "center"
+ },
+ {
+  "id": "2.02",
+  "p": "P02",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "earth-wire",
+  "title": "SATELLITE NAVIGATION APPEARS INVISIBLE",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.55,
+    "fy": 0.3,
+    "t": "SPACECRAFT FAR ABOVE"
+   }
+  ],
+  "camAz": 20,
+  "camEl": 26
+ },
+ {
+  "id": "2.03",
+  "p": "P02",
+  "w": 1,
+  "tpl": "flow",
+  "title": "YOU TAP A SCREEN",
+  "nodes": [
+   "YOU TAP A SCREEN",
+   {
+    "t": "YOU RECEIVE A POSITION",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "2.04",
+  "p": "P02",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "sat-constellation",
+  "title": "THE SIGNAL COMES FROM SPACECRAFT",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.3,
+    "fy": 0.35,
+    "t": "OPERATED BY INSTITUTIONS FAR BEYOND YOUR PHONE"
+   }
+  ],
+  "camAz": -24,
+  "camEl": 26
+ },
+ {
+  "id": "2.05",
+  "p": "P02",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE SIGNAL TRAVELS",
+  "nodes": [
+   "SPACECRAFT",
+   {
+    "t": "THE SIGNAL",
+    "hot": true
+   },
+   "YOUR PHONE"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "2.06",
+  "p": "P02",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INSTITUTIONS FAR",
+   "BEYOND YOUR PHONE."
+  ],
+  "hero": "earth-wire",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 26
+ },
+ {
+  "id": "2.07",
+  "p": "P02",
+  "w": 1,
+  "tpl": "flow",
+  "title": "INDIA RECOGNISED THE RISK",
+  "nodes": [
+   "A FOREIGN SYSTEM",
+   {
+    "t": "A CAPABILITY",
+    "sub": "OUTSIDE ITS CONTROL",
+    "hot": true
+   },
+   "INDIA"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "2.08",
+  "p": "P02",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "RELYING ENTIRELY",
+   "ON FOREIGN SYSTEMS"
+  ],
+  "sub": "COULD LEAVE AN IMPORTANT CAPABILITY OUTSIDE ITS OWN CONTROL.",
+  "hero": "sat-constellation",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 26
+ },
+ {
+  "id": "3.01",
+  "p": "P03",
+  "w": 1,
+  "sc": "SC.3 · THE CONCERN",
+  "tpl": "statement",
+  "lines": [
+   "INDIA HAS SAID",
+   "THE CONCERN PLAINLY:"
+  ],
+  "hero": "earth-wire",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 26
+ },
+ {
+  "id": "3.02",
+  "p": "P03",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "CIVILIAN SIGNALS FROM FOREIGN SYSTEMS",
+  "nodes": [
+   "A CIVILIAN SIGNAL",
+   {
+    "t": "DEGRADED OR DENIED",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    "POTENTIALLY"
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "3.03",
+  "p": "P03",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "THAT DOES NOT PROVE",
+   "EVERY DRAMATIC STORY."
+  ],
+  "size": 72,
+  "align": "center"
+ },
+ {
+  "id": "3.04",
+  "p": "P03",
+  "w": 1.2,
+  "tpl": "statement",
+  "k": "payoff",
+  "lines": [
+   "IT EXPLAINS WHY",
+   "AN INDEPENDENT SYSTEM",
+   "MATTERS."
+  ],
+  "hero": "sat-constellation",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 26
+ },
+ {
+  "id": "4.01",
+  "p": "P04",
+  "w": 1,
+  "sc": "SC.4 · NAVIC",
+  "tpl": "hero",
+  "kind": "sat-constellation",
+  "title": "NAVIC",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.3,
+    "t": "A REGIONAL SATELLITE NAVIGATION SYSTEM"
+   }
+  ],
+  "camAz": 26,
+  "camEl": 26
+ },
+ {
+  "id": "4.02",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "NAVIC:",
+   "NAVIGATION WITH",
+   "INDIAN CONSTELLATION."
+  ],
+  "hero": "earth-wire",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 26
+ },
+ {
+  "id": "4.03",
+  "p": "P04",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "HOW DOES A SATELLITE",
+   "TELL A PHONE WHERE IT IS?"
+  ],
+  "size": 76,
+  "align": "center"
+ },
+ {
+  "id": "4.04",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "figure",
+  "title": "HEARING A BELL ACROSS A FIELD",
+  "pose": "look-up",
+  "figX": 560,
+  "props": [
+   {
+    "prop": "bell",
+    "x": 1350,
+    "scale": 5.5
+   }
+  ],
+  "propOpts": {
+   "ping": 1
+  },
+  "callouts": [
+   {
+    "t": "THE BELL RINGS",
+    "prop": 0,
+    "dy": -30
+   }
+  ]
+ },
+ {
+  "id": "4.05",
+  "p": "P04",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE TIME REVEALS THE DISTANCE",
+  "nodes": [
+   "THE BELL RINGS",
+   {
+    "t": "THE SOUND ARRIVES",
+    "hot": true
+   },
+   "HOW FAR AWAY"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "4.06",
+  "p": "P04",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "RADIO SIGNALS TRAVEL",
+   "AT THE SPEED OF LIGHT."
+  ],
+  "hero": "sat-constellation",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 26
+ },
+ {
+  "id": "4.07",
+  "p": "P04",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "sat-constellation",
+  "title": "A SIGNAL FROM SPACE",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "flows": [
+   {
+    "a": [
+     0.5,
+     0.1
+    ],
+    "b": [
+     0.5,
+     0.95
+    ],
+    "col": "cyan"
+   }
+  ],
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.1,
+    "t": "SATELLITE"
+   }
+  ],
+  "camAz": -20,
+  "camEl": 26
+ },
+ {
+  "id": "4.08",
+  "p": "P04",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "phone-dot",
+  "title": "THE RECEIVER LISTENS",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.45,
+    "t": "RECEIVER"
+   }
+  ],
+  "camAz": 16
+ },
+ {
+  "id": "5.01",
+  "p": "P05",
+  "w": 1,
+  "sc": "SC.5 · ONE DISTANCE",
+  "tpl": "flow",
+  "title": "THE SATELLITE BROADCASTS",
+  "nodes": [
+   "THE SATELLITE",
+   {
+    "t": "ITS POSITION",
+    "hot": true
+   },
+   {
+    "t": "A PRECISE TIME",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ],
+   [
+    0,
+    2,
+    ""
+   ]
+  ],
+  "layout": "tri"
+ },
+ {
+  "id": "5.02",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "THE RECEIVER COMPARES THE TIME",
+  "nodes": [
+   "TIME SENT",
+   "TIME RECEIVED",
+   {
+    "t": "THE DIFFERENCE",
+    "sub": "ESTIMATES DISTANCE",
+    "hot": true
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "5.03",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "hero",
+  "kind": "range-spheres",
+  "title": "ONE DISTANCE IS NOT ENOUGH",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "ONE SATELLITE"
+   },
+   {
+    "fx": 0.9,
+    "fy": 0.5,
+    "t": "YOU COULD BE ANYWHERE ON THIS SPHERE"
+   }
+  ],
+  "camAz": 20
+ },
+ {
+  "id": "5.04",
+  "p": "P05",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "A HUGE IMAGINARY SPHERE",
+   "OF POSSIBLE PLACES."
+  ],
+  "size": 66,
+  "hero": "range-spheres",
+  "tag": "SCHEMATIC, NOT TO SCALE"
+ },
+ {
+  "id": "5.05",
+  "p": "P05",
+  "w": 1,
+  "tpl": "flow",
+  "title": "ONE DISTANCE",
+  "nodes": [
+   {
+    "t": "ONE DISTANCE",
+    "hot": true
+   },
+   "A WHOLE SPHERE OF PLACES"
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "6.01",
+  "p": "P06",
+  "w": 1,
+  "sc": "SC.6 · MORE SATELLITES",
+  "tpl": "hero",
+  "kind": "range-spheres",
+  "title": "NOW ADD ANOTHER SATELLITE",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.35,
+    "fy": 0.5,
+    "t": "FIRST SPHERE"
+   },
+   {
+    "fx": 0.65,
+    "fy": 0.5,
+    "t": "SECOND SPHERE"
+   }
+  ],
+  "camAz": -28
+ },
+ {
+  "id": "6.02",
+  "p": "P06",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "range-spheres",
+  "title": "THEN ANOTHER",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.5,
+    "t": "THE SPHERES NARROW THE LOCATION"
+   }
+  ],
+  "camAz": 32
+ },
+ {
+  "id": "6.03",
+  "p": "P06",
+  "w": 1,
+  "tpl": "flow",
+  "title": "MORE DISTANCES, FEWER PLACES",
+  "nodes": [
+   "MORE MEASUREMENTS",
+   {
+    "t": "NARROWER LOCATIONS",
+    "hot": true
+   }
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "6.04",
+  "p": "P06",
+  "w": 1,
+  "tpl": "flow",
+  "title": "THE RECEIVER'S CLOCK IS LESS PRECISE",
+  "nodes": [
+   "RECEIVER CLOCK",
+   {
+    "t": "LESS PRECISE",
+    "hot": true
+   },
+   "SATELLITE CLOCKS"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "6.05",
+  "p": "P06",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "SOLVE FOR BOTH TOGETHER",
+  "nodes": [
+   {
+    "t": "MORE MEASUREMENTS",
+    "hot": true
+   },
+   "POSITION",
+   "CLOCK ERROR"
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ],
+   [
+    0,
+    2,
+    ""
+   ]
+  ],
+  "layout": "tri"
+ },
+ {
+  "id": "7.01",
+  "p": "P07",
+  "w": 1.2,
+  "sc": "SC.7 · A STORY ABOUT TIME",
+  "tpl": "statement",
+  "lines": [
+   "NAVIGATION IS ALSO",
+   "A STORY ABOUT TIME."
+  ],
+  "prop": "clock",
+  "pscale": 3.6
+ },
+ {
+  "id": "7.02",
+  "p": "P07",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "A TINY ERROR BECOMES A LARGE ONE",
+  "nodes": [
+   "A TINY WRISTWATCH ERROR",
+   {
+    "t": "SIGNALS TRAVEL SO QUICKLY",
+    "hot": true
+   },
+   "A SERIOUS LOCATION ERROR"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "7.03",
+  "p": "P07",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "ALL PART OF THE SYSTEM",
+  "nodes": [
+   "ATOMIC CLOCKS",
+   "GROUND STATIONS",
+   "ORBIT KNOWLEDGE",
+   "RELIABLE SATELLITES"
+  ],
+  "layout": "grid:2"
+ },
+ {
+  "id": "7.04",
+  "p": "P07",
+  "w": 1.2,
+  "tpl": "statement",
+  "k": "payoff",
+  "lines": [
+   "CLOCKS.",
+   "STATIONS.",
+   "ORBITS.",
+   "SATELLITES."
+  ],
+  "size": 64,
+  "hero": "sat-constellation",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 26
+ },
+ {
+  "id": "8.01",
+  "p": "P08",
+  "w": 1,
+  "sc": "SC.8 · THE HONEST STATUS",
+  "tpl": "hero",
+  "kind": "earth-wire",
+  "title": "A REGIONAL SYSTEM UNDER ITS OWN CONTROL",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.4,
+    "t": "COVERS INDIA AND A REGION UP TO 1,500 KM BEYOND THE BOUNDARY"
+   }
+  ],
+  "camAz": -18,
+  "camEl": 26
+ },
+ {
+  "id": "8.02",
+  "p": "P08",
+  "w": 1,
+  "tpl": "flow",
+  "title": "ALONGSIDE OTHER SYSTEMS",
+  "nodes": [
+   "NAVIC SIGNALS",
+   {
+    "t": "COMPATIBLE RECEIVERS",
+    "hot": true
+   },
+   "OTHER NAVIGATION SYSTEMS"
+  ],
+  "links": [
+   [
+    0,
+    1,
+    ""
+   ],
+   [
+    2,
+    1,
+    ""
+   ]
+  ],
+  "layout": "row"
+ },
+ {
+  "id": "8.03",
+  "p": "P08",
+  "w": 1,
+  "tpl": "timeline",
+  "title": "THE HONEST STATUS",
+  "items": [
+   {
+    "t": "29 JULY 2026",
+    "sub": "A PARLIAMENTARY ANSWER",
+    "hot": true,
+    "at": 0.5,
+    "size": 76
+   }
+  ]
+ },
+ {
+  "id": "8.04",
+  "p": "P08",
+  "w": 1.6,
+  "k": "number",
+  "tpl": "number",
+  "title": "THE CONSTELLATION TODAY",
+  "value": "3",
+  "unit": "SATELLITES IN THE CONSTELLATION",
+  "note": "4 NEEDED FOR BASIC POSITIONING",
+  "bars": [
+   {
+    "t": "3 IN THE CONSTELLATION",
+    "v": 3
+   },
+   {
+    "t": "4 NEEDED FOR POSITIONING",
+    "v": 4,
+    "hot": true
+   }
+  ],
+  "max": 4,
+  "chain": "NO STANDALONE POSITIONING, TIMING SERVICE FUNCTIONAL",
+  "source": "PIB, 29 JUL 2026"
+ },
+ {
+  "id": "8.05",
+  "p": "P08",
+  "w": 1,
+  "tpl": "flow",
+  "title": "WHAT STILL WORKED",
+  "nodes": [
+   "THREE SATELLITES",
+   {
+    "t": "POSITIONING NEEDS FOUR",
+    "hot": true
+   },
+   {
+    "t": "TIMING SERVICE",
+    "sub": "STILL FUNCTIONAL"
+   }
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "8.06",
+  "p": "P08",
+  "w": 1,
+  "tpl": "timeline",
+  "title": "THEN A LAUNCH",
+  "items": [
+   {
+    "t": "30 OCT 2026",
+    "sub": "NVS-03 LAUNCHED",
+    "hot": true,
+    "at": 0.5,
+    "size": 76
+   }
+  ]
+ },
+ {
+  "id": "8.07",
+  "p": "P08",
+  "w": 1,
+  "tpl": "hero",
+  "kind": "sat-constellation",
+  "title": "NVS-03 STRENGTHENS THE SYSTEM",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.4,
+    "fy": 0.35,
+    "t": "NVS-03"
+   }
+  ],
+  "camAz": 22,
+  "camEl": 26
+ },
+ {
+  "id": "8.08",
+  "p": "P08",
+  "w": 1,
+  "tpl": "flow",
+  "title": "A LAUNCH IS A BEGINNING",
+  "nodes": [
+   "LAUNCH",
+   {
+    "t": "REACH ITS SLOT",
+    "hot": true
+   },
+   "COMMISSIONING"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "8.09",
+  "p": "P08",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "A SUCCESSFUL LAUNCH IS NOT",
+   "THE SAME AS A RESTORED SERVICE."
+  ],
+  "size": 60,
+  "align": "center"
+ },
+ {
+  "id": "8.10",
+  "p": "P08",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "THE SATELLITE STILL HAS TO",
+   "REACH ITS SLOT AND BE COMMISSIONED."
+  ],
+  "size": 56,
+  "align": "center"
+ },
+ {
+  "id": "9.01",
+  "p": "P09",
+  "w": 1,
+  "sc": "SC.9 · WHAT IF",
+  "k": "fiction",
+  "tpl": "figure",
+  "title": "A FISHING VESSEL",
+  "pose": "stand",
+  "figX": 600,
+  "props": [
+   {
+    "prop": "boat",
+    "x": 1250,
+    "scale": 5.8
+   }
+  ],
+  "propOpts": {
+   "receiver": 1
+  },
+  "callouts": [
+   {
+    "t": "A COMPATIBLE RECEIVER",
+    "prop": 0,
+    "dy": -40
+   }
+  ]
+ },
+ {
+  "id": "9.02",
+  "p": "P09",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "hero",
+  "kind": "sat-constellation",
+  "title": "SEVERAL NAVIGATION SYSTEMS",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.3,
+    "fy": 0.4,
+    "t": "SIGNALS FROM SEVERAL SYSTEMS"
+   }
+  ],
+  "camAz": -22,
+  "camEl": 26
+ },
+ {
+  "id": "9.03",
+  "p": "P09",
+  "w": 1,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "ONE SIGNAL BECOMES UNRELIABLE",
+  "nodes": [
+   "SIGNAL A",
+   "SIGNAL B",
+   {
+    "t": "SIGNAL C",
+    "sub": "UNRELIABLE",
+    "hot": true
+   }
+  ],
+  "layout": "row",
+  "links": []
+ },
+ {
+  "id": "9.04",
+  "p": "P09",
+  "w": 1.2,
+  "k": "fiction",
+  "tpl": "flow",
+  "title": "COMPARE THE REMAINING MEASUREMENTS",
+  "nodes": [
+   "REMAINING SIGNALS",
+   {
+    "t": "ENOUGH USABLE SIGNALS?",
+    "hot": true
+   },
+   "A POSITION"
+  ],
+  "links": "chain",
+  "layout": "row"
+ },
+ {
+  "id": "9.05",
+  "p": "P09",
+  "w": 1.2,
+  "k": "fiction",
+  "tpl": "statement",
+  "lines": [
+   "INDEPENDENCE",
+   "AND REDUNDANCY."
+  ],
+  "hero": "earth-wire",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "camEl": 26
+ },
+ {
+  "id": "10.01",
+  "p": "P10",
+  "w": 1,
+  "sc": "SC.10 · CONTROL THE CLOCK",
+  "tpl": "hero",
+  "kind": "phone-dot",
+  "title": "THE BLUE DOT LOOKED SIMPLE",
+  "tag": "SCHEMATIC, NOT TO SCALE",
+  "callouts": [
+   {
+    "fx": 0.5,
+    "fy": 0.45,
+    "t": "BEHIND IT: A NETWORK"
+   }
+  ],
+  "camAz": -14
+ },
+ {
+  "id": "10.02",
+  "p": "P10",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "BEHIND IT WAS A NETWORK",
+  "nodes": [
+   "CLOCKS",
+   "ORBITS",
+   "DECISIONS"
+  ],
+  "layout": "row",
+  "links": "chain"
+ },
+ {
+  "id": "10.03",
+  "p": "P10",
+  "w": 1.2,
+  "tpl": "statement",
+  "lines": [
+   "INDEPENDENCE DOES NOT MEAN",
+   "IGNORING THE REST OF THE WORLD."
+  ],
+  "size": 58,
+  "align": "center"
+ },
+ {
+  "id": "10.04",
+  "p": "P10",
+  "w": 1.2,
+  "tpl": "flow",
+  "title": "A SYSTEM THAT CONTRIBUTES",
+  "nodes": [
+   "ITS OWN SIGNALS",
+   {
+    "t": "A PLAN FOR KEEPING THEM DEPENDABLE",
+    "hot": true
+   }
+  ],
+  "layout": "row",
+  "links": [
+   [
+    0,
+    1,
+    "AND"
+   ]
+  ]
+ },
+ {
+  "id": "10.05",
+  "p": "P10",
+  "w": 1.6,
+  "k": "payoff",
+  "tpl": "statement",
+  "lines": [
+   "TO KNOW WHERE YOU ARE,",
+   {
+    "t": "CONTROL THE CLOCK.",
+    "col": "accent"
+   }
+  ],
+  "size": 100,
+  "align": "center"
+ },
+ {
+  "id": "10.06",
+  "p": "P10",
+  "w": 1,
+  "tpl": "statement",
+  "lines": [
+   "INDIA BUILT IT ANYWAY"
+  ],
+  "sub": "S02 · E03 · WHO CONTROLS THE SIGNAL THAT FINDS YOU?",
+  "size": 100,
+  "align": "center"
+ }
+]
