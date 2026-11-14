@@ -25,8 +25,15 @@ All paths from the episode folder; `K=../../_shared/kit-v2/tools`.
 - The `number` template: set `size: 150` and no `bars` (bar labels fail contrast; the numeral overlaps the unit at the default size). One `segs` label per `route` beat.
 - Any digit on screen needs a source chip or a ledger entry (B10/B11): avoid "S03 · E01" in the title card.
 
-## Episodes
-| Ep | Status |
-|---|---|
-| E01 Chenab | script, DSL, voice (291 s), scene QC pass; render r1 started 2026-11-14 (see below for the result) |
-| E02 to E06 | not started (scripts, briefs, ledgers and passages exist; heroes `pass-profile`, `tunnel-section`, `sea-bridge`, `deck-plate`, `lift-span`, `port-hub`, `rail-corridor` still to write in `s03.js`) |
+## Episodes (2026-11-14, end of build session)
+All six built, rendered on GitHub Actions (workflow `.github/workflows/render-s03.yml`, 6 to 12 min each, run in parallel), voice mixed locally, and checked:
+| Ep | Parity vs Series 1 | Frame gates | Final |
+|---|---|---|---|
+| E01 Chenab | pass (motion 53%, longest empty 2.8 s) | pass | FINAL/Bharat-Blueprint_S03E01_Chenab-Bridge_JUPITER-VOICE.mp4 |
+| E02 Atal Tunnel | pass (48%, 2.0 s) | pass | ..._S03E02_Atal-Tunnel_... |
+| E03 Atal Setu | pass (58%, 3.7 s) | pass | ..._S03E03_Atal-Setu_... |
+| E04 Pamban | pass (48%, 3.3 s) | pass | ..._S03E04_Pamban-Bridge_... |
+| E05 Vizhinjam | pass (11.6%, 3.5 s) | pass | ..._S03E05_Vizhinjam-Port_... |
+| E06 Freight | pass (16%, 2.8 s) | pass | ..._S03E06_Freight-Corridor_... |
+Loudness -16.6 to -17.2 LUFS. NOT done: listening to the voice by ear; script approval (no APPROVED.txt); the AUDIT_S03 open items (E04 reported timings, two concept citations); visual quality is clean but plainer than Series 1 (one hero per film, small objects in E05 and E06).
+Cloud render: push to GitHub, then `gh workflow run render-s03.yml -f episodes="E04_Pamban-Bridge ..."` (or "all"); download artifacts with `gh run download <id>`; then parity_check, s03-mux, qc-frames locally. Note: `gh` needs `env -u GITHUB_TOKEN` on this PC (the env token is invalid; the stored login works).
