@@ -42,7 +42,7 @@ jobs:
       - name: Install HyperFrames (pinned, same version as the local build)
         run: npm install --no-save hyperframes@0.9.9
       - name: Install headless Chrome
-        run: npx hyperframes browser --install
+        run: node node_modules/hyperframes/bin/hyperframes.mjs browser ensure
       - name: Render (software WebGL, silent)
         run: |
           mkdir -p out
