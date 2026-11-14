@@ -64,7 +64,8 @@ flow('P09', 'A TIMETABLE', [{ t: 'THE SHIP' }, { t: 'WHO GOES FIRST?', hot: true
 stmt('P09', ['A LIFTING BRIDGE IS STEEL.', 'IT IS ALSO A TIMETABLE.'], { size: 62 });
 // P10 habit
 stmt('P10', ['ONE IDEA ABOUT PEOPLE:', 'STATUS QUO BIAS'], { sc: 'SC.10 · THE HABIT', size: 66 });
-flow('P10', 'WE KEEP WHAT WORKS', ['WE KEEP WHAT WORKS', { t: 'UNTIL IT STOPS', hot: true }]);
+hero('P10', LS, { lift: true, growDur: 4 }, 'WE KEEP WHAT WORKS', { camAz: 52 });
+hero('P10', LS, {}, 'UNTIL IT STOPS WORKING', { camAz: 56 });
 timeline('P10', 'A HUNDRED AND TEN YEARS', [{ t: '1914', sub: 'THE OLD BRIDGE BUILT', at: 0.12 }, { t: 'ABOUT 110 YEARS', sub: 'OF SERVICE (PIB)', hot: true, at: 0.6 }]);
 stmt('P10', ['REPLACING WHAT WORKS IS HARD.', 'REPLACING WHAT FAILED', 'IS EASY, AND EXPENSIVE.'], { size: 56 });
 // P11 close

@@ -2,9 +2,9 @@
   "video": "E06_Freight-Corridor-silent.mp4",
   "frames": 7511,
   "seconds": 250.4,
-  "meanYDIF": 0.2594,
-  "motionFrames": 0.0699,
-  "emptyFrames": 0.0925,
+  "meanYDIF": 0.3945,
+  "motionFrames": 0.159,
+  "emptyFrames": 0.0635,
   "longestEmpty": 4.17,
   "pass": false,
   "thresholds": {

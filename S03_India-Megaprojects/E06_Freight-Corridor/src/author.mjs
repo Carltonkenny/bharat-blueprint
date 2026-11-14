@@ -60,7 +60,7 @@ flow('P09', 'NO EXPRESS TO WAIT FOR', [{ t: 'THE PORT' }, { t: 'NO WAITING', sub
 stmt('P09', ['THE CORRIDOR DID NOT', 'MAKE THE TRAIN FLY.', 'IT STOPPED IT WAITING.'], { size: 58 });
 // P10 habit
 stmt('P10', ['ONE IDEA ABOUT PEOPLE:', 'AVERAGES HIDE BOTTLENECKS'], { sc: 'SC.10 · THE HABIT', size: 56 });
-flow('P10', 'ONE SLOW SECTION', [{ t: 'A GOOD AVERAGE SPEED' }, { t: 'ONE SLOW SECTION', sub: 'LOSES THE TIME', hot: true }]);
+hero('P10', RC, { layers: 2 }, 'ONE SLOW SECTION LOSES THE TIME', { camAz: 52 });
 num('P10', 'A TRADE PUBLICATION REPORTED', '70', 'KM/H: THE EXPECTED AVERAGE', 'UP FROM ABOUT 26: AN EXPECTATION, NOT A MEASUREMENT', 'MARITIME GATEWAY', { size: 130, w: 1.3 });
 stmt('P10', ['AN EXPECTATION', 'IS NOT A MEASUREMENT.'], { size: 64, k: 'payoff' });
 // P11 close

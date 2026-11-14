@@ -2130,48 +2130,36 @@
   {
    "id": "10.02",
    "p": "P10",
-   "w": 0.62,
-   "layer": "B",
-   "kind": "hold",
+   "w": 1.6,
+   "layer": "H",
+   "kind": "mech",
    "scene": [
     {
      "op": "cw",
-     "tpl": "flow",
-     "title": "ONE SLOW SECTION",
-     "nodes": [
-      {
-       "t": "A GOOD AVERAGE SPEED"
-      },
-      {
-       "t": "ONE SLOW SECTION",
-       "sub": "LOSES THE TIME",
-       "hot": true
-      }
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tpl": "hero",
+     "kind": "rail-corridor",
+     "opts": {
+      "layers": 2
+     },
+     "title": "ONE SLOW SECTION LOSES THE TIME",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
      "op": "cs",
-     "tpl": "flow",
-     "title": "ONE SLOW SECTION",
-     "nodes": [
-      {
-       "t": "A GOOD AVERAGE SPEED"
-      },
-      {
-       "t": "ONE SLOW SECTION",
-       "sub": "LOSES THE TIME",
-       "hot": true
-      }
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tpl": "hero",
+     "kind": "rail-corridor",
+     "opts": {
+      "layers": 2
+     },
+     "title": "ONE SLOW SECTION LOSES THE TIME",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
-   "cam": "hold",
+   "cam": "orbit",
+   "camAz": 52,
+   "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.10 · THE HABIT"
   },

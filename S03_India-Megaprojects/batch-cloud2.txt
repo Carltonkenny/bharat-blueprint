@@ -1,0 +1,4 @@
+E04 parity {"video":"E04_Pamban-Bridge-silent.mp4","frames":7392,"seconds":246.4,"meanYDIF":0.4859,"motionFrames":0.4393,"emptyFrames":0.1021,"longestEmpty":4.4,"pass":false, | all frame gates pass
+E05 parity {"video":"E05_Vizhinjam-Port-silent.mp4","frames":7241,"seconds":241.4,"meanYDIF":0.3198,"motionFrames":0.1159,"emptyFrames":0.0824,"longestEmpty":3.47,"pass":true, | all frame gates pass
+E06 parity {"video":"E06_Freight-Corridor-silent.mp4","frames":7511,"seconds":250.4,"meanYDIF":0.3945,"motionFrames":0.159,"emptyFrames":0.0635,"longestEmpty":4.17,"pass":false, | all frame gates pass
+POST DONE

@@ -2405,58 +2405,90 @@
       "tr": "fade",
       "sceneTag": "SC.10 · THE HABIT",
       "t0": 203.324,
-      "t1": 210.0749,
-      "dur": 6.7509,
+      "t1": 207.1328,
+      "dur": 3.8088,
       "passageStart": 203.324
     },
     {
       "id": "10.02",
       "p": "P10",
-      "kind": "hold",
-      "layer": "B",
+      "kind": "mech",
+      "layer": "H",
       "scene": [
         {
           "op": "cw",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "lift-span",
+          "opts": {
+            "lift": true,
+            "growDur": 4
+          },
           "title": "WE KEEP WHAT WORKS",
-          "nodes": [
-            "WE KEEP WHAT WORKS",
-            {
-              "t": "UNTIL IT STOPS",
-              "hot": true
-            }
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         },
         {
           "op": "cs",
-          "tpl": "flow",
+          "tpl": "hero",
+          "kind": "lift-span",
+          "opts": {
+            "lift": true,
+            "growDur": 4
+          },
           "title": "WE KEEP WHAT WORKS",
-          "nodes": [
-            "WE KEEP WHAT WORKS",
-            {
-              "t": "UNTIL IT STOPS",
-              "hot": true
-            }
-          ],
-          "links": "chain",
-          "layout": "row"
+          "tag": "CONCEPTUAL, NOT TO SCALE"
         }
       ],
       "labels": [],
       "notes": "",
-      "cam": "hold",
+      "cam": "orbit",
+      "camAz": 52,
+      "camEl": 5,
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.10 · THE HABIT",
-      "t0": 210.0749,
-      "t1": 214.2605,
-      "dur": 4.1856,
-      "passageStart": 210.0749
+      "t0": 207.1328,
+      "t1": 213.2268,
+      "dur": 6.0941,
+      "passageStart": 207.1328
     },
     {
       "id": "10.03",
+      "p": "P10",
+      "kind": "mech",
+      "layer": "H",
+      "scene": [
+        {
+          "op": "cw",
+          "tpl": "hero",
+          "kind": "lift-span",
+          "opts": {},
+          "title": "UNTIL IT STOPS WORKING",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        },
+        {
+          "op": "cs",
+          "tpl": "hero",
+          "kind": "lift-span",
+          "opts": {},
+          "title": "UNTIL IT STOPS WORKING",
+          "tag": "CONCEPTUAL, NOT TO SCALE"
+        }
+      ],
+      "labels": [],
+      "notes": "",
+      "cam": "orbit",
+      "camAz": 56,
+      "camEl": 5,
+      "fx": [],
+      "tr": "fade",
+      "sceneTag": "SC.10 · THE HABIT",
+      "t0": 213.2268,
+      "t1": 219.3209,
+      "dur": 6.0941,
+      "passageStart": 213.2268
+    },
+    {
+      "id": "10.04",
       "p": "P10",
       "kind": "hold",
       "layer": "B",
@@ -2504,13 +2536,13 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.10 · THE HABIT",
-      "t0": 214.2605,
-      "t1": 219.1211,
-      "dur": 4.8606,
-      "passageStart": 214.2605
+      "t0": 219.3209,
+      "t1": 222.0632,
+      "dur": 2.7423,
+      "passageStart": 219.3209
     },
     {
-      "id": "10.04",
+      "id": "10.05",
       "p": "P10",
       "kind": "mech",
       "layer": "H",
@@ -2568,10 +2600,10 @@
       "fx": [],
       "tr": "fade",
       "sceneTag": "SC.10 · THE HABIT",
-      "t0": 219.1211,
+      "t0": 222.0632,
       "t1": 225.872,
-      "dur": 6.7509,
-      "passageStart": 219.1211
+      "dur": 3.8088,
+      "passageStart": 222.0632
     },
     {
       "id": "11.01",
@@ -2843,6 +2875,6 @@
     }
   ],
   "clampReport": [],
-  "bpm": 13.64,
+  "bpm": 13.88,
   "leadIn": 0.8
 }

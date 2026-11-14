@@ -2,9 +2,9 @@
   "video": "E04_Pamban-Bridge-silent.mp4",
   "frames": 7392,
   "seconds": 246.4,
-  "meanYDIF": 0.3616,
-  "motionFrames": 0.1186,
-  "emptyFrames": 0.1112,
+  "meanYDIF": 0.4859,
+  "motionFrames": 0.4393,
+  "emptyFrames": 0.1021,
   "longestEmpty": 4.4,
   "pass": false,
   "thresholds": {

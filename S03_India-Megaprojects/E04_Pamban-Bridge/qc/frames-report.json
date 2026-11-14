@@ -1,5 +1,5 @@
 {
-  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\all\\E04_Pamban-Bridge-silent\\E04_Pamban-Bridge-silent.mp4",
+  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\r2\\E04_Pamban-Bridge-silent\\E04_Pamban-Bridge-silent.mp4",
   "width": 1920,
   "height": 1080,
   "fps": 30,
@@ -7,8 +7,8 @@
   "pixFmt": "yuv420p",
   "duration": 246.4,
   "frames": 7392,
-  "meanLuma": 46.844,
-  "maxDelta": 8.139,
+  "meanLuma": 47.719,
+  "maxDelta": 10.4719,
   "frozenFrames": 1,
   "failures": []
 }

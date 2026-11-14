@@ -817,21 +817,15 @@
  {
   "id": "10.02",
   "p": "P10",
-  "w": 0.62,
-  "tpl": "flow",
-  "title": "ONE SLOW SECTION",
-  "nodes": [
-   {
-    "t": "A GOOD AVERAGE SPEED"
-   },
-   {
-    "t": "ONE SLOW SECTION",
-    "sub": "LOSES THE TIME",
-    "hot": true
-   }
-  ],
-  "links": "chain",
-  "layout": "row"
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "rail-corridor",
+  "opts": {
+   "layers": 2
+  },
+  "title": "ONE SLOW SECTION LOSES THE TIME",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 52
  },
  {
   "id": "10.03",

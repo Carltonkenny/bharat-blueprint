@@ -2,9 +2,9 @@
   "video": "E05_Vizhinjam-Port-silent.mp4",
   "frames": 7241,
   "seconds": 241.4,
-  "meanYDIF": 0.2788,
-  "motionFrames": 0.1148,
-  "emptyFrames": 0.0855,
+  "meanYDIF": 0.3198,
+  "motionFrames": 0.1159,
+  "emptyFrames": 0.0824,
   "longestEmpty": 3.47,
   "pass": true,
   "thresholds": {

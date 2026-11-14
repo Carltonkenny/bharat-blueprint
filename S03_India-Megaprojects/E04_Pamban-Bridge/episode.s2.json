@@ -2304,47 +2304,75 @@
   {
    "id": "10.02",
    "p": "P10",
-   "w": 0.62,
-   "layer": "B",
-   "kind": "hold",
+   "w": 1.6,
+   "layer": "H",
+   "kind": "mech",
    "scene": [
     {
      "op": "cw",
-     "tpl": "flow",
+     "tpl": "hero",
+     "kind": "lift-span",
+     "opts": {
+      "lift": true,
+      "growDur": 4
+     },
      "title": "WE KEEP WHAT WORKS",
-     "nodes": [
-      "WE KEEP WHAT WORKS",
-      {
-       "t": "UNTIL IT STOPS",
-       "hot": true
-      }
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     },
     {
      "op": "cs",
-     "tpl": "flow",
+     "tpl": "hero",
+     "kind": "lift-span",
+     "opts": {
+      "lift": true,
+      "growDur": 4
+     },
      "title": "WE KEEP WHAT WORKS",
-     "nodes": [
-      "WE KEEP WHAT WORKS",
-      {
-       "t": "UNTIL IT STOPS",
-       "hot": true
-      }
-     ],
-     "links": "chain",
-     "layout": "row"
+     "tag": "CONCEPTUAL, NOT TO SCALE"
     }
    ],
    "labels": [],
    "notes": "",
-   "cam": "hold",
+   "cam": "orbit",
+   "camAz": 52,
+   "camEl": 5,
    "tr": "fade",
    "sceneTag": "SC.10 · THE HABIT"
   },
   {
    "id": "10.03",
+   "p": "P10",
+   "w": 1.6,
+   "layer": "H",
+   "kind": "mech",
+   "scene": [
+    {
+     "op": "cw",
+     "tpl": "hero",
+     "kind": "lift-span",
+     "opts": {},
+     "title": "UNTIL IT STOPS WORKING",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    },
+    {
+     "op": "cs",
+     "tpl": "hero",
+     "kind": "lift-span",
+     "opts": {},
+     "title": "UNTIL IT STOPS WORKING",
+     "tag": "CONCEPTUAL, NOT TO SCALE"
+    }
+   ],
+   "labels": [],
+   "notes": "",
+   "cam": "orbit",
+   "camAz": 56,
+   "camEl": 5,
+   "tr": "fade",
+   "sceneTag": "SC.10 · THE HABIT"
+  },
+  {
+   "id": "10.04",
    "p": "P10",
    "w": 0.72,
    "layer": "B",
@@ -2394,7 +2422,7 @@
    "sceneTag": "SC.10 · THE HABIT"
   },
   {
-   "id": "10.04",
+   "id": "10.05",
    "p": "P10",
    "w": 1,
    "layer": "H",

@@ -886,21 +886,30 @@
  {
   "id": "10.02",
   "p": "P10",
-  "w": 0.62,
-  "tpl": "flow",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "lift-span",
+  "opts": {
+   "lift": true,
+   "growDur": 4
+  },
   "title": "WE KEEP WHAT WORKS",
-  "nodes": [
-   "WE KEEP WHAT WORKS",
-   {
-    "t": "UNTIL IT STOPS",
-    "hot": true
-   }
-  ],
-  "links": "chain",
-  "layout": "row"
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 52
  },
  {
   "id": "10.03",
+  "p": "P10",
+  "w": 1.6,
+  "tpl": "hero",
+  "kind": "lift-span",
+  "opts": {},
+  "title": "UNTIL IT STOPS WORKING",
+  "tag": "CONCEPTUAL, NOT TO SCALE",
+  "camAz": 56
+ },
+ {
+  "id": "10.04",
   "p": "P10",
   "w": 0.72,
   "tpl": "timeline",
@@ -920,7 +929,7 @@
   ]
  },
  {
-  "id": "10.04",
+  "id": "10.05",
   "p": "P10",
   "w": 1,
   "tpl": "statement",

@@ -1,5 +1,5 @@
 {
-  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\all\\E05_Vizhinjam-Port-silent\\E05_Vizhinjam-Port-silent.mp4",
+  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\r2\\E05_Vizhinjam-Port-silent\\E05_Vizhinjam-Port-silent.mp4",
   "width": 1920,
   "height": 1080,
   "fps": 30,
@@ -7,8 +7,8 @@
   "pixFmt": "yuv420p",
   "duration": 241.367,
   "frames": 7241,
-  "meanLuma": 47.489,
-  "maxDelta": 14.6161,
+  "meanLuma": 48.916,
+  "maxDelta": 14.6368,
   "frozenFrames": 1,
   "failures": []
 }

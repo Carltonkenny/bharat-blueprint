@@ -1,5 +1,5 @@
 {
-  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\all\\E06_Freight-Corridor-silent\\E06_Freight-Corridor-silent.mp4",
+  "video": "C:\\Users\\user\\AppData\\Local\\BharatBlueprint\\render\\S03\\cloud\\r2\\E06_Freight-Corridor-silent\\E06_Freight-Corridor-silent.mp4",
   "width": 1920,
   "height": 1080,
   "fps": 30,
@@ -7,8 +7,8 @@
   "pixFmt": "yuv420p",
   "duration": 250.367,
   "frames": 7511,
-  "meanLuma": 46.698,
-  "maxDelta": 8.141,
+  "meanLuma": 49.129,
+  "maxDelta": 12.2742,
   "frozenFrames": 1,
   "failures": []
 }
